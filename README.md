@@ -25,7 +25,7 @@ Outputs:
 - `pilot.jsonl`: deterministic score-band sample from the official training partition.
 - `splits.json`: disjoint development/pilot-check essay IDs, seed, and RQ1 purpose.
 
-The v5 and v6 runs contain 1,818 essays and 19,561 recovered spans out of 19,894 annotation rows. Of the 333 unresolved rows, 286 are empty/whitespace annotations, 38 are Unannotated word fragments overlapping a labelled span, 8 are ambiguous repeated text, and 1 is not found; all labelled discourse elements are recovered except one Rebuttal. 19,532 spans are confirmed at their supplied offsets; 45 were located by searching the essay. No two recovered spans overlap. All 1,818 essays join to the holistic file (4 by exact text only, after ID corruption). The v6 pilot has 21 essays: 11 development and 10 pilot-check. E0737CDC1E99 was used to design the argument-graph contract, so it moved to development and C70EE5903373 (score 3) replaced it in pilot-check. Viewers generated before v6 displayed the original pilot-check essays; the v6 viewers and Gephi files contain development essays only, and new ones should too. These are import results, not extraction model scores.
+The v5 and v6 runs contain 1,818 essays and 19,561 recovered spans out of 19,894 annotation rows. Of the 333 unresolved rows, 286 are empty/whitespace annotations, 38 are Unannotated word fragments overlapping a labelled span, 8 are ambiguous repeated text, and 1 is not found; all labelled discourse elements are recovered except one Rebuttal. 19,532 spans are confirmed at their supplied offsets; 45 were located by searching the essay. No two recovered spans overlap. All 1,818 essays join to the holistic file (4 by exact text only, after ID corruption). The v6 pilot has 21 essays: 11 development and 10 pilot-check. E0737CDC1E99 was used to design the argument-graph contract, so it moved to development and C70EE5903373 (score 3) replaced it in pilot-check. Viewers generated before v6 displayed the original pilot-check essays; the v6 viewers contain development essays only, and new ones should too. These are import results, not extraction model scores.
 
 ### Version history
 
@@ -92,7 +92,7 @@ PYTHONPATH=src python3 -m ling_mapper.student_graph \
   --output-dir data/runs/student_graph
 ```
 
-`student_graph.py` produces `argument_graph/0.1` graphs in two validated stages. **Segment:** the model returns units as exact quotes, and code locates them in the unchanged essay and checks that they tile it. **Relate:** the model returns roles, stances, the primary tree, secondary edges and signal quotes, and code locates the signals and runs `validate_graph`. Failed checks are sent back verbatim for up to `--max-attempts` attempts (default 3); a graph that never validates is logged as a failure, never repaired or saved as empty. The model receives only `model_input()` (assignment and essay text), and the system prompt is generated from `graph_schema.py`. It contains no gold graphs, but from v0.2 its rules quote short phrases from development essays as examples, so development scores are optimistic. It defaults to Claude Opus 5 (`claude-opus-5`) with adaptive thinking, effort `high`, structured JSON output, and server-side refusal fallback. It runs the development split by default and refuses pilot-check essays unless `--allow-pilot-check` is given.
+`student_graph.py` produces `argument_graph/0.1` graphs in two validated stages. **Segment:** the model returns units as exact quotes, and code locates them in the unchanged essay and checks that they tile it. **Relate:** the model returns roles, stances, the primary tree, secondary edges and signal quotes, and code locates the signals and runs `validate_graph`. A quote is located exactly if possible; failing that, a whitespace run in the quote may match any whitespace run in the essay, because the model cannot reproduce characters such as non-breaking spaces. The stored unit or signal is always the essay's own slice. This fallback was added after two pilot-check essays failed on `\xa0` (2026-09-26); it leaves every earlier successful segmentation unchanged. Failed checks are sent back verbatim for up to `--max-attempts` attempts (default 3); a graph that never validates is logged as a failure, never repaired or saved as empty. The model receives only `model_input()` (assignment and essay text), and the system prompt is generated from `graph_schema.py`. It contains no gold graphs, but from v0.2 its rules quote short phrases from development essays as examples, so development scores are optimistic. It defaults to Claude Opus 5 (`claude-opus-5`) with adaptive thinking, effort `high`, structured JSON output, and server-side refusal fallback. It runs the development split by default and refuses pilot-check essays unless `--allow-pilot-check` is given.
 
 The prompt version is `PROMPT_VERSION` in `student_graph.py`; the current version, `student_graph/0.3`, is frozen for the pilot-check run. Score the pilot-check essays once, with the frozen prompt:
 
@@ -107,6 +107,15 @@ PYTHONPATH=src python3 -m ling_mapper.student_graph \
 Pilot-check essays are written to the same run folder as the development essays of that configuration, so report them separately (from `per_essay` in `metrics.json`). Score the pilot-check gold graphs with `--gold-dir data/annotations/argument_graphs_pilot_check`; the gold-graph summary then covers only those four essays, while the PERSUADE summary still covers every essay in the folder. Changing the prompt after seeing pilot-check scores makes them development data.
 
 Each run directory is keyed by prompt version, model, effort and a hash of the prompt and schemas. It holds `system_prompt.txt`, `manifest.json` (config, records hash, per-essay status and token usage), and per essay `<id>.graph.json` plus `<id>.log.json` (every attempt's output, errors, stop reason, usage and request ID). Essays already extracted under the same configuration are skipped unless `--force` is given.
+
+## Generate a graph in the browser
+
+```sh
+export ANTHROPIC_API_KEY=...
+PYTHONPATH=src python3 -m ling_mapper.web        # then open http://127.0.0.1:8000
+```
+
+A local page where you paste an essay question and an essay, and get its argument graph in the same viewer as `render_graph_html`. It runs the same extraction as `student_graph.py` (current prompt, validation and retries), so an essay takes one to four minutes and roughly $0.30 to $1 at Opus 5, effort `high`. Every request is saved under `data/runs/web/<time>-<hash>/`: `input.json`, `log.json` (every attempt), `summary.json` (tokens, estimated cost, configuration) and `graph.json` when extraction succeeds. A failed extraction shows the stage and the checks that failed, never a partial graph. The server listens on 127.0.0.1 only. `--port`, `--model`, `--effort` and `--output-dir` change the defaults. The graph is an unreviewed model extraction; the development and pilot-check results above describe how far to trust it.
 
 ## Score extracted graphs
 
@@ -130,6 +139,17 @@ Claude Opus 5, effort `high`, one run per prompt version on the 11 development e
 
 v0.2 added PERSUADE-style role rules, label tests for justify versus cause and for joint-list, and splitting of predicates that share a subject. v0.3 revised only the claim and counterclaim rules. The claim/evidence boundary remains the main role error, and it moved between versions rather than shrinking. v0.1 labelled too much as claim, v0.2 too much as evidence, and v0.3 too much as claim again. Roles do not enter derived support/attack edges, which come from relations and stance, so v0.3 was frozen for its structure scores. These numbers come from essays used to tune the prompt, against gold that Claude wrote and the user reviewed. Each is a single run with no measure of run-to-run variance.
 
+### Pilot-check results (v0.3, frozen)
+
+One run of v0.3 on the 10 pilot-check essays, which had not been used for tuning, scored 2026-09-26 against the four pilot-check gold graphs and against PERSUADE. All 10 were extracted (cost $4.93, plus about $0.40 for two essays that failed before the whitespace fix and were re-run). Development figures for the same run are shown for comparison.
+
+| Split | Exact unit F1 | Boundary F1 | Root | Attachment | Labelled | Stance | Derived F1 | PERSUADE role | PERSUADE element F1 |
+|---|---|---|---|---|---|---|---|---|---|
+| Development (4 gold / 11 essays) | 0.79 | 0.91 | 3/4 | 0.80 | 0.72 | 0.97 | 0.80 | 0.73 | 0.59 |
+| Pilot-check (4 gold / 10 essays) | 0.83 | 0.94 | 3/4 | 0.76 | 0.67 | 0.82 | 0.66 | 0.70 | 0.62 |
+
+Most of the stance gap comes from facts the writer attributes to a source ("According to Source 2, …", "as seen in the article, …"). The model marks them `reported`, following the prompt's definition ("attributed to others"). The gold marks them `endorsed`, because the writer uses them as their own evidence. Counting `reported` as `endorsed` raises pooled stance agreement from 0.83 to 0.90 and leaves derived edges unchanged. This convention is an open decision (plan section 4.1). The drop in derived F1 is structural: explanation-justify was labelled causal-cause or causal-result five times, a confusion v0.2 had removed on the development essays. The root miss (671D0569C835) is the root-choice ambiguity noted for the pilot-check gold. The pilot-check essays have now been used. Any later prompt change needs a new held-out sample drawn from the remaining electoral-college essays.
+
 ## Read essays with their argument tree
 
 ```sh
@@ -139,18 +159,7 @@ PYTHONPATH=src python3 -m ling_mapper.render_html \
   --output data/processed/electoral_college_v6/viewer/development_viewer.html
 ```
 
-A self-contained HTML page: the essay with spans highlighted by role beside its argument graph, built from hierarchy candidate links. The Graph tab draws spans as nodes with arrows child → parent (left-to-right or top-down; scroll to zoom, drag to pan); the Outline tab shows the same tree as nested cards. Hovering either side highlights its counterpart; clicking jumps to it. Arrow keys switch essays. Accepts the same `--essay` and `--include-unannotated` options as the Gephi export.
-
-## Visualise in Gephi
-
-```sh
-PYTHONPATH=src python3 -m ling_mapper.export_gephi \
-  --records data/processed/electoral_college_v6/pilot.jsonl \
-  --essay <development example_id> ... \
-  --output data/processed/electoral_college_v6/gephi/development_argument_graph.gexf
-```
-
-Add `--essay <example_id>` (repeatable) for specific essays and `--include-unannotated` to keep Unannotated spans. Nodes are gold spans coloured by role (Okabe-Ito palette), labelled `ROLE: text…`, and carry `role`, `essay`, full `text`, `start`, `order`, and `holistic_score`. Edges run child → candidate parent from `hierarchy_candidates` and are marked `unverified_candidate`. Each essay is pre-laid out as a tree (roots on top, children below in essay order; essays side by side), so do not run a Gephi layout, which would discard it. Open the file, choose Directed, centre the view, and turn on node labels; read full text in Data Laboratory.
+A self-contained HTML page: the essay with spans highlighted by role beside its argument graph, built from hierarchy candidate links. The Graph tab draws spans as nodes with arrows child → parent (left-to-right or top-down; scroll to zoom, drag to pan); the Outline tab shows the same tree as nested cards. Hovering either side highlights its counterpart; clicking jumps to it. Arrow keys switch essays. Add `--essay <example_id>` (repeatable) for specific essays and `--include-unannotated` to keep Unannotated spans.
 
 ## Test
 

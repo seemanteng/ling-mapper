@@ -14,6 +14,7 @@ no gold annotations, scores or dataset metadata. The contract text is generated 
 import argparse
 import hashlib
 import json
+import re
 import time
 import traceback
 from pathlib import Path
@@ -128,6 +129,21 @@ def config_hash(model, effort):
     return hashlib.sha256(blob.encode()).hexdigest()[:16]
 
 
+def find_quote(text, quote, start=0, end=None):
+    """Offsets of quote in text[start:end], or None. Exact match first; failing that, any whitespace
+    run in the quote may match any whitespace run in the text, because a model cannot reproduce
+    characters such as non-breaking spaces. Callers store the source slice, never the quote."""
+    end = len(text) if end is None else end
+    a = text.find(quote, start, end)
+    if a != -1:
+        return a, a + len(quote)
+    tokens = quote.split()
+    if not tokens:
+        return None
+    m = re.compile(r"\s+".join(map(re.escape, tokens))).search(text, start, end)
+    return (m.start(), m.end()) if m else None
+
+
 def locate_units(text, quotes):
     """Map quotes to offsets in order; report missing quotes and uncovered text."""
     units, errors, pos = [], [], 0
@@ -135,16 +151,17 @@ def locate_units(text, quotes):
         if not quote.strip():
             errors.append(f"unit {i} is empty")
             continue
-        start = text.find(quote, pos)
-        if start == -1:
-            where = "anywhere in the essay" if text.find(quote) == -1 else "after the previous unit"
+        found = find_quote(text, quote, pos)
+        if found is None:
+            where = "anywhere in the essay" if find_quote(text, quote) is None else "after the previous unit"
             errors.append(f"unit {i} {quote[:60]!r} is not an exact quote {where}")
             continue
+        start, stop = found
         gap = text[pos:start]
         if gap.strip():
             errors.append(f"text before unit {i} is not covered by any unit: {gap.strip()[:80]!r}")
-        units.append({"id": f"u{len(units) + 1}", "start": start, "end": start + len(quote), "text": quote})
-        pos = start + len(quote)
+        units.append({"id": f"u{len(units) + 1}", "start": start, "end": stop, "text": text[start:stop]})
+        pos = stop
     if text[pos:].strip():
         errors.append(f"text after the last unit is not covered: {text[pos:].strip()[:80]!r}")
     return units, errors
@@ -170,9 +187,9 @@ def assemble_graph(example_id, text, units, relate):
             for uid in (r["source"], r["target"]):
                 u = by_id.get(uid)
                 if u:
-                    a = text.find(sig["text"], u["start"], u["end"]) if sig["text"] else -1
-                    if a != -1:
-                        found = {"type": sig["type"], "start": a, "end": a + len(sig["text"]), "text": sig["text"]}
+                    span = find_quote(text, sig["text"], u["start"], u["end"]) if sig["text"] else None
+                    if span:
+                        found = {"type": sig["type"], "start": span[0], "end": span[1], "text": text[span[0]:span[1]]}
                         break
             if found:
                 rel["signals"].append(found)

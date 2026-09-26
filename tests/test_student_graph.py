@@ -5,7 +5,7 @@ from pathlib import Path
 
 from ling_mapper.graph_schema import RELATIONS, validate_graph
 from ling_mapper.schemas import ExampleRecord, GoldSpan
-from ling_mapper.student_graph import extract, locate_units, select_records, system_prompt
+from ling_mapper.student_graph import extract, find_quote, locate_units, select_records, system_prompt
 
 TEXT = "I favor keeping the college because it is fair. A dispute is possible, but it is less likely."
 QUOTES = ["I favor keeping the college", "because it is fair.", "A dispute is possible,", "but it is less likely."]
@@ -93,6 +93,18 @@ class ExtractorTests(unittest.TestCase):
         units, errors = locate_units(TEXT, [QUOTES[0], QUOTES[2], QUOTES[3]])
         self.assertEqual(len(units), 3)
         self.assertTrue(any("because it is fair." in e for e in errors))
+
+    def test_quotes_match_across_unreproducible_whitespace(self):
+        text = "Keep it in the Constitution\xa0of the country. So why\xa0 not keep it"
+        units, errors = locate_units(text, ["Keep it in the Constitution of the country.", "So why  not keep it"])
+        self.assertEqual(errors, [])
+        self.assertEqual([u["text"] for u in units], ["Keep it in the Constitution\xa0of the country.", "So why\xa0 not keep it"])
+        self.assertTrue(all(text[u["start"]:u["end"]] == u["text"] for u in units))
+
+    def test_whitespace_tolerance_does_not_invent_breaks_or_words(self):
+        self.assertIsNone(find_quote("the Constitution", "the Consti tution"))
+        self.assertIsNone(find_quote("the Constitution of", "the Constitution tof"))
+        self.assertEqual(find_quote("a\xa0b a b", "a b"), (4, 7))
 
     def test_prompt_lists_every_label_from_the_contract(self):
         prompt = system_prompt()
