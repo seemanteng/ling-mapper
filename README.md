@@ -1,6 +1,6 @@
 # Ling Mapper
 
-Preliminary dataset-independent records and PERSUADE import for RQ1 representation evaluation. Python 3.10+; the current implementation uses only the standard library. Graph extraction and diagnosis are not implemented yet.
+Preliminary dataset-independent records, PERSUADE import, and argument-graph extraction with Claude for RQ1 representation evaluation. Python 3.10+; everything uses only the standard library except extraction, which needs the `anthropic` package. Alignment, hierarchy and diagnosis are not implemented yet.
 
 ## Run the electoral-college pilot
 
@@ -77,7 +77,7 @@ PYTHONPATH=src python3 -m ling_mapper.render_graph_html \
   --output data/processed/electoral_college_v6/viewer/argument_graph_E0737CDC1E99.html
 ```
 
-`data/annotations/argument_graphs/` holds the development gold graphs for four development essays (E0737CDC1E99, C0BA22AD7F2A, 3165FA4998BC, 656C7C849144). Claude wrote them; the user reviewed all four and accepted them without changes (2026-09-25), as recorded in each file's `provenance`. They are reviewed, not independently annotated: report them that way, and prefer an independent second annotation on a subset before treating agreement with them as validity evidence. `viewer/development_graphs.html` shows all four (pass several `--graph` files to get an essay picker).
+`data/annotations/argument_graphs/` holds the development gold graphs for four development essays (E0737CDC1E99, C0BA22AD7F2A, 3165FA4998BC, 656C7C849144). Claude wrote them; the user reviewed all four and accepted them without changes (2026-09-25). Later edits, each confirmed by the user on 2026-09-26, are listed in each file's `provenance.change_log`: four relation labels added to the inventory, one interrupted unit split with `same-unit`, and coordinated predicates re-split to segmentation rule 2 (C0BA22AD7F2A, 656C7C849144, 3165FA4998BC). They are reviewed, not independently annotated: report them that way, and prefer an independent second annotation on a subset before treating agreement with them as validity evidence. `viewer/development_graphs.html` shows all four (pass several `--graph` files to get an essay picker).
 
 ## Extract argument graphs with Claude
 
@@ -90,7 +90,19 @@ PYTHONPATH=src python3 -m ling_mapper.student_graph \
   --output-dir data/runs/student_graph
 ```
 
-`student_graph.py` produces `argument_graph/0.1` graphs in two validated stages. **Segment:** the model returns units as exact quotes, and code locates them in the unchanged essay and checks that they tile it. **Relate:** the model returns roles, stances, the primary tree, secondary edges and signal quotes, and code locates the signals and runs `validate_graph`. Failed checks are sent back verbatim for up to `--max-attempts` attempts (default 3); a graph that never validates is logged as a failure, never repaired or saved as empty. The model receives only `model_input()` (assignment and essay text), and the system prompt is generated from `graph_schema.py` with no gold examples. It defaults to Claude Opus 5 (`claude-opus-5`) with adaptive thinking, effort `high`, structured JSON output, and server-side refusal fallback. It runs the development split by default and refuses pilot-check essays unless `--allow-pilot-check` is given.
+`student_graph.py` produces `argument_graph/0.1` graphs in two validated stages. **Segment:** the model returns units as exact quotes, and code locates them in the unchanged essay and checks that they tile it. **Relate:** the model returns roles, stances, the primary tree, secondary edges and signal quotes, and code locates the signals and runs `validate_graph`. Failed checks are sent back verbatim for up to `--max-attempts` attempts (default 3); a graph that never validates is logged as a failure, never repaired or saved as empty. The model receives only `model_input()` (assignment and essay text), and the system prompt is generated from `graph_schema.py`. It contains no gold graphs, but from v0.2 its rules quote short phrases from development essays as examples, so development scores are optimistic. It defaults to Claude Opus 5 (`claude-opus-5`) with adaptive thinking, effort `high`, structured JSON output, and server-side refusal fallback. It runs the development split by default and refuses pilot-check essays unless `--allow-pilot-check` is given.
+
+The prompt version is `PROMPT_VERSION` in `student_graph.py`; the current version, `student_graph/0.3`, is frozen for the pilot-check run. Score the pilot-check essays once, with the frozen prompt:
+
+```sh
+PYTHONPATH=src python3 -m ling_mapper.student_graph \
+  --records data/processed/electoral_college_v6/pilot.jsonl \
+  --splits data/processed/electoral_college_v6/splits.json \
+  --split pilot_check --allow-pilot-check \
+  --output-dir data/runs/student_graph
+```
+
+Pilot-check essays are written to the same run folder as the development essays of that configuration, so report them separately (from `per_essay` in `metrics.json`). Changing the prompt after seeing pilot-check scores makes them development data.
 
 Each run directory is keyed by prompt version, model, effort and a hash of the prompt and schemas. It holds `system_prompt.txt`, `manifest.json` (config, records hash, per-essay status and token usage), and per essay `<id>.graph.json` plus `<id>.log.json` (every attempt's output, errors, stop reason, usage and request ID). Essays already extracted under the same configuration are skipped unless `--force` is given.
 
@@ -102,7 +114,19 @@ PYTHONPATH=src python3 -m ling_mapper.evaluate \
   --records data/processed/electoral_college_v6/pilot.jsonl
 ```
 
-Writes `metrics.json` into the run folder. Against the development gold graphs it reports exact unit-span and unit-boundary P/R/F1, role and stance agreement, root match, attachment accuracy (plus labelled and coarse-class accuracy), and derived support/attack P/R/F1. Against PERSUADE, for every essay, it reports role agreement, Feedback-Prize-style element F1 (overlap at least half of both spans), and attachment of elements with a unique hierarchy parent. Overlaps count non-whitespace characters. A gold unit's predicted attachment is the edge leaving the predicted units mapped to it, so finer or coarser segmentation alone is not counted as an attachment error.
+Writes `metrics.json` into the run folder. Against the development gold graphs it reports exact unit-span and unit-boundary P/R/F1, role and stance agreement, root match, attachment accuracy (plus labelled and coarse-class accuracy), and derived support/attack P/R/F1. Against PERSUADE, for every essay, it reports role agreement, Feedback-Prize-style element F1 (overlap at least half of both spans), and attachment of elements with a unique hierarchy parent. Overlaps count non-whitespace characters. A gold unit's predicted attachment is the edge leaving the predicted units mapped to it, so finer or coarser segmentation alone is not counted as an attachment error. The summary covers every essay in the run folder. Running the scorer again overwrites `metrics.json`.
+
+### Development results
+
+Claude Opus 5, effort `high`, one run per prompt version on the 11 development essays (4 with gold graphs). Every version extracted all 11 essays. v0.1 is scored against the gold graphs as re-split for v0.2, so all three rows use the same gold.
+
+| Prompt | Exact unit F1 | Boundary F1 | Root | Attachment | Labelled | Role | Stance | Derived F1 | PERSUADE role | PERSUADE element F1 | Cost |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 0.1 | 0.79 | 0.92 | 2/4 | 0.66 | 0.53 | 0.54 | 0.85 | 0.48 | 0.62 | 0.49 | $4.19 |
+| 0.2 | 0.78 | 0.91 | 3/4 | 0.72 | 0.63 | 0.79 | 0.91 | 0.59 | 0.76 | 0.62 | $4.04 |
+| 0.3 | 0.79 | 0.91 | 3/4 | 0.80 | 0.72 | 0.71 | 0.97 | 0.80 | 0.73 | 0.59 | $4.66 |
+
+v0.2 added PERSUADE-style role rules, label tests for justify versus cause and for joint-list, and splitting of predicates that share a subject. v0.3 revised only the claim and counterclaim rules. The claim/evidence boundary remains the main role error, and it moved between versions rather than shrinking. v0.1 labelled too much as claim, v0.2 too much as evidence, and v0.3 too much as claim again. Roles do not enter derived support/attack edges, which come from relations and stance, so v0.3 was frozen for its structure scores. These numbers come from essays used to tune the prompt, against gold that Claude wrote and the user reviewed. Each is a single run with no measure of run-to-run variance.
 
 ## Read essays with their argument tree
 
@@ -132,4 +156,4 @@ Add `--essay <example_id>` (repeatable) for specific essays and `--include-unann
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 
-Tests cover inclusive endpoints, ambiguity, Unicode/whitespace index mapping, invalid spans, repeated raw IDs, missing supplementary joins, unavailable annotations, hierarchy candidates, model-input leakage, a second dataset-shaped fixture, deterministic essay-level splitting, offset-window recovery, order-conflict rejection, and Unannotated overlap removal.
+Tests cover inclusive endpoints, ambiguity, Unicode/whitespace index mapping, invalid spans, repeated raw IDs, missing supplementary joins, unavailable annotations, hierarchy candidates, model-input leakage, a second dataset-shaped fixture, deterministic essay-level splitting, offset-window recovery, order-conflict rejection, and Unannotated overlap removal. Graph tests cover contract validation, derived support/attack edges, extraction with a stubbed model (quote location, retries, failures, pilot-check refusal), and the scorer.
