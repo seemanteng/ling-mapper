@@ -21,16 +21,16 @@ from pathlib import Path
 from .graph_schema import RELATIONS, ROLES, SCHEMA_VERSION, SIGNAL_TYPES, STANCES, argument_edges, validate_graph
 from .schemas import ExampleRecord
 
-PROMPT_VERSION = "student_graph/0.2"
+PROMPT_VERSION = "student_graph/0.3"
 DEFAULT_MODEL = "claude-opus-5"
 
 ROLE_DEFINITIONS = {
     "lead": "everything in the introduction before the position, including the writer's general opinions and questions",
     "position": "the writer's answer to the assignment question (the thesis)",
-    "claim": "the statement of one reason for the position, usually one sentence opening a body paragraph",
-    "counterclaim": "the statement of an opposing view, usually one sentence",
-    "rebuttal": "the statement of the writer's answer to a counterclaim",
-    "evidence": "everything that develops a claim, counterclaim or rebuttal: examples, facts, quotes, explanation, consequences and the writer's commentary",
+    "claim": "a statement of a reason for the position; a paragraph can hold several, anywhere in it",
+    "counterclaim": "a reason or view on the opposing side that the writer states, usually before answering it",
+    "rebuttal": "the writer's answer to a counterclaim",
+    "evidence": "specific support for a claim, counterclaim or rebuttal: examples, facts, statistics, quotes, how something works, and the writer's reactions to that support",
     "concluding_summary": "closing restatement of the position and claims",
     "unannotated": "text that plays none of these roles (greetings, sign-offs, asides)",
 }
@@ -51,8 +51,8 @@ SEGMENTATION_RULES = """\
 7. An aside with its own predicate that interrupts a unit ("induces candidates-as we saw in 2012's election-to focus ...") is its own unit; the interrupted parts are separate units later joined by same-unit. Parenthetical noun phrases stay inside."""
 ROLE_RULES = """\
 - Roles follow the essay's element structure, not the stance of each unit. A conceded, reported or rejected unit can be evidence, and an opinion can be evidence.
-- A body paragraph normally holds one claim (or one counterclaim or rebuttal) and evidence. The claim is the unit or sentence stating the reason; the sentences after it that develop that reason are evidence, even when they are the writer's opinions, evaluations ("that is just evil"), consequences or restatements of the reason.
-- A counterclaim is the statement of the opposing view. The quotes, details and explanation that develop the opposing view are evidence. A concessive clause ("Although ...", "However it could ...") inside a paragraph developing the writer's own claim is evidence, not a counterclaim.
+- Claim or evidence: ask of each sentence whether it adds a reason why the position is right (claim) or supports or reacts to a reason already given (evidence). A claim states the reason in general terms and could head a paragraph of its own. Evidence gives specifics (examples, facts, statistics, quotes, how the system works) or the writer's reaction to them ("that is just evil"), even when that reaction is an opinion. A paragraph can hold several claims, and a claim can come in the middle of a paragraph or after its support. When a reason is stated over consecutive sentences before the support begins, all of them are claim.
+- Counterclaim and rebuttal: an opposing reason or view that the writer states is a counterclaim, and the writer's answer to it is a rebuttal, also when both sit inside a paragraph that develops a claim ("Keeping the Electoral College may make some people mad, | but it's something we are all used to"). The quotes and details that develop the opposing view are evidence. Only a concession that grants a detail within the support, without an answer that argues back, is evidence.
 - The position is the unit that answers the assignment question (for example: keep the Electoral College, or change to the popular vote), and the root is its main clause. General opinions or questions about the topic that come before it are lead, not claims and not the position, even when they sound argumentative."""
 STRUCTURE_RULES = """\
 - Every relation points from satellite (source, the less central unit) to nucleus (target). Multinuclear relations (marked below) chain each later member to the first member.
