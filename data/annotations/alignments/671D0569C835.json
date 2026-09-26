@@ -46,8 +46,23 @@
           }
         ],
         "confirmed_by": null
+      },
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "reason": "R1 consistency: a bare 'not democratic' evaluation is none, as for x17 and x45 (found while annotating held-out essays)",
+        "changes": [
+          {
+            "unit": "x4",
+            "rule": "R1",
+            "from": "paraphrase",
+            "to": "none"
+          }
+        ],
+        "confirmed_by": null
       }
-    ]
+    ],
+    "split": "development"
   },
   "alignments": {
     "x1": {
@@ -69,11 +84,9 @@
       "note": ""
     },
     "x4": {
-      "label": "paraphrase",
-      "source_units": [
-        "q3"
-      ],
-      "note": "Posner concedes this point; the student asserts it."
+      "label": "none",
+      "source_units": [],
+      "note": ""
     },
     "x5": {
       "label": "none",

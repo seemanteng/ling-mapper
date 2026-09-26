@@ -1,0 +1,386 @@
+{
+  "example_id": "persuade:45C70D14F6F3",
+  "student_graph": "data/annotations/alignments/student_graphs/45C70D14F6F3.json",
+  "student_graph_sha256": "79e42e9c16e25964b42af6b77b3c765f7e97428eea114bf5f1d9fe98bebd16b6",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "paraphrase",
+      "source_units": [
+        "p4b"
+      ],
+      "note": ""
+    },
+    "u6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u9": {
+      "label": "related",
+      "source_units": [
+        "q61",
+        "q63"
+      ],
+      "note": ""
+    },
+    "u10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u11": {
+      "label": "paraphrase",
+      "source_units": [
+        "f12"
+      ],
+      "note": ""
+    },
+    "u12": {
+      "label": "distorted",
+      "source_units": [
+        "f13"
+      ],
+      "note": "The Federal Register says electors' responsibilities vary by state law, not by what the party wants."
+    },
+    "u13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u14": {
+      "label": "related",
+      "source_units": [
+        "f12"
+      ],
+      "note": ""
+    },
+    "u15": {
+      "label": "paraphrase",
+      "source_units": [
+        "q5",
+        "f16"
+      ],
+      "note": ""
+    },
+    "u16": {
+      "label": "paraphrase",
+      "source_units": [
+        "p11"
+      ],
+      "note": ""
+    },
+    "u17": {
+      "label": "quote",
+      "source_units": [
+        "q6",
+        "p12"
+      ],
+      "note": ""
+    },
+    "u18": {
+      "label": "related",
+      "source_units": [
+        "f19"
+      ],
+      "note": "Cites Source 1 by title, correctly."
+    },
+    "u19": {
+      "label": "quote",
+      "source_units": [
+        "f19"
+      ],
+      "note": ""
+    },
+    "u20": {
+      "label": "related",
+      "source_units": [
+        "f19"
+      ],
+      "note": ""
+    },
+    "u21": {
+      "label": "related",
+      "source_units": [
+        "f19"
+      ],
+      "note": "Figurative account of winner-take-all."
+    },
+    "u22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u23": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u24": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u25": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u26": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u27": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u28": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u30": {
+      "label": "related",
+      "source_units": [
+        "p5"
+      ],
+      "note": "Cites Plumer by title, correctly."
+    },
+    "u31": {
+      "label": "quote",
+      "source_units": [
+        "p5"
+      ],
+      "note": ""
+    },
+    "u32": {
+      "label": "quote",
+      "source_units": [
+        "p6"
+      ],
+      "note": ""
+    },
+    "u33": {
+      "label": "related",
+      "source_units": [
+        "q7"
+      ],
+      "note": ""
+    },
+    "u34": {
+      "label": "quote",
+      "source_units": [
+        "q7",
+        "q8"
+      ],
+      "note": "Cites Posner by title, correctly."
+    },
+    "u35": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": "Correctly notes that Posner concedes the point."
+    },
+    "u36": {
+      "label": "quote",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u37": {
+      "label": "paraphrase",
+      "source_units": [
+        "q7"
+      ],
+      "note": ""
+    },
+    "u38": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u39": {
+      "label": "related",
+      "source_units": [
+        "p36",
+        "p37"
+      ],
+      "note": ""
+    },
+    "u40": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u41": {
+      "label": "paraphrase",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student adopts it."
+    },
+    "u42": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Builds on Posner's example of Republicans in California."
+    },
+    "u43": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": ""
+    },
+    "u44": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u45": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u46": {
+      "label": "related",
+      "source_units": [
+        "p60"
+      ],
+      "note": "Cites Plumer by title, correctly."
+    },
+    "u47": {
+      "label": "quote",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u48": {
+      "label": "quote",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u49": {
+      "label": "quote",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u50": {
+      "label": "quote",
+      "source_units": [
+        "p61"
+      ],
+      "note": ""
+    },
+    "u51": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u52": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u53": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "u54": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u55": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u56": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u57": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u58": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Summary of the earlier source-based point."
+    },
+    "u59": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u60": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

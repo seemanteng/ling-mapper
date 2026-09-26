@@ -29,7 +29,8 @@
         ],
         "confirmed_by": null
       }
-    ]
+    ],
+    "split": "development"
   },
   "alignments": {
     "w1": {

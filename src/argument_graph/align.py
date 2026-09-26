@@ -228,11 +228,15 @@ def main():
                 if p.exists():
                     systems.setdefault("judge", {}).update({(eid, k): v for k, v in json.loads(p.read_text())["alignments"].items()})
         gold_all = {(eid, k): v for eid, g in golds.items() for k, v in g["alignments"].items()}
+        split = {eid: g["provenance"].get("split", "development") for eid, g in golds.items()}
         report = {}
-        for name, pred in systems.items():  # score each system only on the essays it covers
+        for name, pred in systems.items():  # score each system only on the essays it covers, per split
             essays = {e for e, _ in pred}
-            report[name] = dict(score(pred, {k: v for k, v in gold_all.items() if k[0] in essays}, source_units),
-                                essays=len(essays))
+            for part in sorted(set(split.values())):
+                keep = {e for e in essays if split[e] == part}
+                if keep:
+                    report[f"{name} / {part}"] = dict(score(pred, {k: v for k, v in gold_all.items() if k[0] in keep}, source_units),
+                                                      essays=len(keep))
         print(json.dumps(report, indent=2))
 
 

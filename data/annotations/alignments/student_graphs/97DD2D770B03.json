@@ -1,0 +1,785 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:97DD2D770B03",
+  "root": "u3",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 17,
+      "text": "Dear Mr. Senator,",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 19,
+      "end": 146,
+      "text": "I have decided to express my opinon to you about the Electoral College process for electing the President of the United States.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 147,
+      "end": 199,
+      "text": "This process should be abolished as soon as possible",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 200,
+      "end": 251,
+      "text": "for it is corrosive to the American peoples opinon.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 252,
+      "end": 345,
+      "text": "We should instead switch to a popular vote by eligble American citizens to decide presidency.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 347,
+      "end": 375,
+      "text": "Now some fellows might argue",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 376,
+      "end": 428,
+      "text": "that the Electoral College is favored by the people.",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 429,
+      "end": 488,
+      "text": "When in fact, as Bradford Plumer points out in paragraph 9,",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 489,
+      "end": 567,
+      "text": "\"60 percent of voters would prefer a direct election to the kind we have now\".",
+      "role": "rebuttal",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 568,
+      "end": 592,
+      "text": "Some people may also say",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 593,
+      "end": 664,
+      "text": "that the Electoral college ecourages the president to visit all states,",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 665,
+      "end": 760,
+      "text": "when in fact smaller states still are not treated the same as states with more electoral votes.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u13",
+      "start": 761,
+      "end": 1065,
+      "text": "A president would rather spend their time investing and giving information to a state such as Californa who have 55 electoral votes, who feel more inclined to think about their decision due to their involvement, rather than a state with 3 electoral votes who dont invest as much thought into their votes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1067,
+      "end": 1096,
+      "text": "In grade school we are taught",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1097,
+      "end": 1176,
+      "text": "that popualer votes most accurately represent what a specific population wants,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1177,
+      "end": 1214,
+      "text": "why dont we use it in the real world?",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1215,
+      "end": 1301,
+      "text": "If your princible wanted to figure out what color the students wanted their yearbooks,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1302,
+      "end": 1354,
+      "text": "she would not elect people to decide for each class!",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u19",
+      "start": 1355,
+      "end": 1432,
+      "text": "In the Bush and Gore election, Bush recived less votes by the American people",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u20",
+      "start": 1433,
+      "end": 1451,
+      "text": "but won presidency",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1452,
+      "end": 1503,
+      "text": "because he accuired more Electoral votes than Gore.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1504,
+      "end": 1553,
+      "text": "That means that more American people wanted Gore,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1554,
+      "end": 1625,
+      "text": "but the fate was chosen by 271 people, who selected Bush as the winner!",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u24",
+      "start": 1627,
+      "end": 1681,
+      "text": "The Electoral College also increases the risk of a tie",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u25",
+      "start": 1682,
+      "end": 1701,
+      "text": "and if one occured,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1702,
+      "end": 1814,
+      "text": "the election would be disrupted by the unorderly process of which we would have to take to decide the president.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u27",
+      "start": 1815,
+      "end": 1941,
+      "text": "In 1968, a change of votes from just 41,971 people would have tied the electoral votes due to the even number of 538 Electors.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1943,
+      "end": 2048,
+      "text": "The overall idea im trying to express is that the Electoral College is a poor way to show peoples opinon,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u29",
+      "start": 2049,
+      "end": 2158,
+      "text": "and much rather focuses on that of 270 individuals who in the end, decide the President of the United States.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u30",
+      "start": 2159,
+      "end": 2187,
+      "text": "I hope you can see my points",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2188,
+      "end": 2255,
+      "text": "and I long for the day when the president is decided by the people.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u3",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 0,
+          "end": 17,
+          "text": "Dear Mr. Senator,"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u3",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 37,
+          "end": 54,
+          "text": "express my opinon"
+        },
+        {
+          "type": "reference",
+          "start": 68,
+          "end": 97,
+          "text": "the Electoral College process"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 200,
+          "end": 203,
+          "text": "for"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 262,
+          "end": 269,
+          "text": "instead"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u7",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 351,
+          "end": 375,
+          "text": "some fellows might argue"
+        },
+        {
+          "type": "syntactic",
+          "start": 376,
+          "end": 380,
+          "text": "that"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u9",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 381,
+          "end": 427,
+          "text": "the Electoral College is favored by the people"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u9",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 443,
+          "end": 487,
+          "text": "as Bradford Plumer points out in paragraph 9"
+        },
+        {
+          "type": "graphical",
+          "start": 489,
+          "end": 490,
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u3",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "numerical",
+          "start": 490,
+          "end": 500,
+          "text": "60 percent"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u11",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 568,
+          "end": 592,
+          "text": "Some people may also say"
+        },
+        {
+          "type": "syntactic",
+          "start": 593,
+          "end": 597,
+          "text": "that"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u12",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 665,
+          "end": 677,
+          "text": "when in fact"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u9",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u12",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "numerical",
+          "start": 874,
+          "end": 892,
+          "text": "55 electoral votes"
+        },
+        {
+          "type": "lexical",
+          "start": 973,
+          "end": 1015,
+          "text": "rather than a state with 3 electoral votes"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u14",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 1097,
+          "end": 1101,
+          "text": "that"
+        },
+        {
+          "type": "lexical",
+          "start": 1083,
+          "end": 1096,
+          "text": "we are taught"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u14",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1213,
+          "end": 1214,
+          "text": "?"
+        },
+        {
+          "type": "lexical",
+          "start": 1177,
+          "end": 1213,
+          "text": "why dont we use it in the real world"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u18",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1215,
+          "end": 1217,
+          "text": "If"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u14",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1353,
+          "end": 1354,
+          "text": "!"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u14",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1355,
+          "end": 1384,
+          "text": "In the Bush and Gore election"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u19",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1433,
+          "end": 1436,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u20",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1452,
+          "end": 1459,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u19",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1504,
+          "end": 1514,
+          "text": "That means"
+        },
+        {
+          "type": "reference",
+          "start": 1504,
+          "end": 1508,
+          "text": "That"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u22",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1554,
+          "end": 1557,
+          "text": "but"
+        },
+        {
+          "type": "graphical",
+          "start": 1624,
+          "end": 1625,
+          "text": "!"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1649,
+          "end": 1653,
+          "text": "also"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u26",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1686,
+          "end": 1688,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u24",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u24",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "numerical",
+          "start": 1852,
+          "end": 1858,
+          "text": "41,971"
+        },
+        {
+          "type": "lexical",
+          "start": 1815,
+          "end": 1822,
+          "text": "In 1968"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u3",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1943,
+          "end": 1983,
+          "text": "The overall idea im trying to express is"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u28",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2049,
+          "end": 2052,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u28",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2159,
+          "end": 2187,
+          "text": "I hope you can see my points"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "u31",
+      "target": "u30",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2188,
+          "end": 2191,
+          "text": "and"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude-opus-5 (student_graph/0.3, effort high)",
+    "review_status": "not_human_reviewed",
+    "config_hash": "b20a27b09d459c2a"
+  }
+}

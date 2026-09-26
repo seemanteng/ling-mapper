@@ -1,0 +1,674 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:95A6F680F078",
+  "root": "u2",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 31,
+      "text": "dear who ever this may concern,",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 32,
+      "end": 101,
+      "text": "i foundly belive that we should be able to keep the Electoral Collage",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 102,
+      "end": 216,
+      "text": "because it has haelped this far with fairness and making sure that all the votes have been counted at least twice.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 218,
+      "end": 308,
+      "text": "But i also see that from where you stand the Electral Collage may be just a waste of money",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "negative"
+    },
+    {
+      "id": "u5",
+      "start": 309,
+      "end": 340,
+      "text": "and in some peoples eyes it is.",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "negative"
+    },
+    {
+      "id": "u6",
+      "start": 341,
+      "end": 381,
+      "text": "but that doesnt mean that in alls it is.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u7",
+      "start": 382,
+      "end": 402,
+      "text": "from where is see it",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 403,
+      "end": 417,
+      "text": "if it helps us",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 418,
+      "end": 434,
+      "text": "why  not keep it",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 435,
+      "end": 477,
+      "text": "even if it doesnt always pan out as planed",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "negative"
+    },
+    {
+      "id": "u11",
+      "start": 478,
+      "end": 502,
+      "text": "we all have our problems",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 503,
+      "end": 557,
+      "text": "but that doesnt mean that the government shuts us down",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u13",
+      "start": 558,
+      "end": 668,
+      "text": "it just means that the only reason we have those isssues are because not everything will go according to plan.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 670,
+      "end": 711,
+      "text": "it also doesnt mean let it get outta hand",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u15",
+      "start": 712,
+      "end": 754,
+      "text": "then try to real it in as soon as possible",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 755,
+      "end": 840,
+      "text": "the only way this would work is if we had some one who didnt care who won eaither way",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 841,
+      "end": 869,
+      "text": "so long as eveything is fair",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 870,
+      "end": 890,
+      "text": "and not messed with.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u19",
+      "start": 891,
+      "end": 953,
+      "text": "so what im trying to get at is that we dont always get our way",
+      "role": "claim",
+      "stance": "conceded",
+      "polarity": "negative"
+    },
+    {
+      "id": "u20",
+      "start": 954,
+      "end": 1018,
+      "text": "but that doesnt mean we need to shut down the Electoral Collage.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u21",
+      "start": 1019,
+      "end": 1097,
+      "text": "According to the 23 amendment the district of columbia is allocated 3 electors",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1098,
+      "end": 1156,
+      "text": "and treated like a state for puposes of Electoral Collage.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1157,
+      "end": 1239,
+      "text": "also Richard nixion and Jimmy Carter Bob Dole have agreed on the electoral collage",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 1240,
+      "end": 1260,
+      "text": "and there not alone.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u25",
+      "start": 1262,
+      "end": 1286,
+      "text": "thank you for your time,",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1288,
+      "end": 1299,
+      "text": "PROPER_NAME",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 0,
+          "end": 31,
+          "text": "dear who ever this may concern,"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 102,
+          "end": 109,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u6",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 218,
+          "end": 221,
+          "text": "But"
+        },
+        {
+          "type": "dm",
+          "start": 341,
+          "end": 344,
+          "text": "but"
+        },
+        {
+          "type": "semantic",
+          "start": 222,
+          "end": 258,
+          "text": "i also see that from where you stand"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u4",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 309,
+          "end": 312,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u6",
+      "label": "adversative-concession",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 341,
+          "end": 344,
+          "text": "but"
+        },
+        {
+          "type": "lexical",
+          "start": 313,
+          "end": 339,
+          "text": "in some peoples eyes it is"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u6",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u7",
+      "target": "u9",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 382,
+          "end": 402,
+          "text": "from where is see it"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u8",
+      "target": "u9",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 403,
+          "end": 405,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u9",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 418,
+          "end": 434,
+          "text": "why  not keep it"
+        },
+        {
+          "type": "reference",
+          "start": 432,
+          "end": 434,
+          "text": "it"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "u10",
+      "target": "u11",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 435,
+          "end": 442,
+          "text": "even if"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u11",
+      "target": "u12",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 503,
+          "end": 506,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "u12",
+      "target": "u9",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u13",
+      "target": "u12",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 558,
+          "end": 571,
+          "text": "it just means"
+        },
+        {
+          "type": "reference",
+          "start": 601,
+          "end": 614,
+          "text": "those isssues"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "u14",
+      "target": "u12",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 673,
+          "end": 677,
+          "text": "also"
+        },
+        {
+          "type": "lexical",
+          "start": 678,
+          "end": 689,
+          "text": "doesnt mean"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "u15",
+      "target": "u14",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 712,
+          "end": 716,
+          "text": "then"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "u16",
+      "target": "u14",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 768,
+          "end": 772,
+          "text": "this"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "u17",
+      "target": "u16",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 841,
+          "end": 851,
+          "text": "so long as"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "u18",
+      "target": "u17",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 870,
+          "end": 873,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "u19",
+      "target": "u20",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 954,
+          "end": 957,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u20",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 986,
+          "end": 1017,
+          "text": "shut down the Electoral Collage"
+        },
+        {
+          "type": "lexical",
+          "start": 75,
+          "end": 101,
+          "text": "keep the Electoral Collage"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "u21",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1019,
+          "end": 1048,
+          "text": "According to the 23 amendment"
+        },
+        {
+          "type": "numerical",
+          "start": 1087,
+          "end": 1097,
+          "text": "3 electors"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "u22",
+      "target": "u21",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1098,
+          "end": 1101,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "u23",
+      "target": "u21",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1157,
+          "end": 1161,
+          "text": "also"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "u24",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1240,
+          "end": 1243,
+          "text": "and"
+        },
+        {
+          "type": "reference",
+          "start": 1244,
+          "end": 1249,
+          "text": "there"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "u25",
+      "target": "u2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1262,
+          "end": 1286,
+          "text": "thank you for your time,"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "u26",
+      "target": "u25",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ],
+  "provenance": {
+    "annotator": "claude-opus-5 (student_graph/0.3, effort high)",
+    "review_status": "not_human_reviewed",
+    "config_hash": "b20a27b09d459c2a"
+  }
+}

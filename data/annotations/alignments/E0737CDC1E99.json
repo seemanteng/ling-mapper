@@ -7,7 +7,8 @@
     "annotator": "claude",
     "date": "2026-09-26",
     "review_status": "not_reviewed",
-    "method": "written before any judge run; overlap candidates were shown as a reading aid only"
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only",
+    "split": "development"
   },
   "alignments": {
     "u1": {

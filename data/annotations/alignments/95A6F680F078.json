@@ -1,0 +1,154 @@
+{
+  "example_id": "persuade:95A6F680F078",
+  "student_graph": "data/annotations/alignments/student_graphs/95A6F680F078.json",
+  "student_graph_sha256": "70596b817685ca159e56b1ea8f13342671fd0ff1417f305c232d32cd91fdec04",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u9": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u12": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u14": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u15": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u19": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u20": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u21": {
+      "label": "quote",
+      "source_units": [
+        "f8"
+      ],
+      "note": ""
+    },
+    "u22": {
+      "label": "quote",
+      "source_units": [
+        "f9"
+      ],
+      "note": ""
+    },
+    "u23": {
+      "label": "distorted",
+      "source_units": [
+        "p1",
+        "p2"
+      ],
+      "note": "Plumer says these men agreed on abolishing the Electoral College; the student cites them in support of keeping it."
+    },
+    "u24": {
+      "label": "quote",
+      "source_units": [
+        "p3"
+      ],
+      "note": ""
+    },
+    "u25": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u26": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

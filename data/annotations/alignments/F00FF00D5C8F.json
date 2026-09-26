@@ -1,0 +1,557 @@
+{
+  "example_id": "persuade:F00FF00D5C8F",
+  "student_graph": "data/annotations/alignments/student_graphs/F00FF00D5C8F.json",
+  "student_graph_sha256": "89df6b6e58d24c3bc65826cc834a7460b5f0ec3d64f8b7a5ae6f91ab3b7c138a",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "paraphrase",
+      "source_units": [
+        "f16"
+      ],
+      "note": ""
+    },
+    "u6": {
+      "label": "paraphrase",
+      "source_units": [
+        "f18",
+        "p12"
+      ],
+      "note": "Cites Source 1, which matches f18."
+    },
+    "u7": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u8": {
+      "label": "paraphrase",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u9": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u12": {
+      "label": "distorted",
+      "source_units": [
+        "q24",
+        "q26"
+      ],
+      "note": "Posner says a tie is possible (538 is even) but highly unlikely; the Electoral College does not prevent ties."
+    },
+    "u13": {
+      "label": "paraphrase",
+      "source_units": [
+        "q59"
+      ],
+      "note": ""
+    },
+    "u14": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u15": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u19": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u20": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u21": {
+      "label": "paraphrase",
+      "source_units": [
+        "p6",
+        "q11"
+      ],
+      "note": ""
+    },
+    "u22": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12"
+      ],
+      "note": "'because' presumably means 'although'."
+    },
+    "u23": {
+      "label": "paraphrase",
+      "source_units": [
+        "p6",
+        "q12"
+      ],
+      "note": "Cites Source 2 correctly."
+    },
+    "u24": {
+      "label": "related",
+      "source_units": [
+        "p5"
+      ],
+      "note": ""
+    },
+    "u25": {
+      "label": "related",
+      "source_units": [
+        "p6"
+      ],
+      "note": ""
+    },
+    "u26": {
+      "label": "related",
+      "source_units": [
+        "q12"
+      ],
+      "note": ""
+    },
+    "u27": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u28": {
+      "label": "related",
+      "source_units": [
+        "p5"
+      ],
+      "note": ""
+    },
+    "u29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u31": {
+      "label": "paraphrase",
+      "source_units": [
+        "p7"
+      ],
+      "note": ""
+    },
+    "u32": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u33": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u34": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u35": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u36": {
+      "label": "distorted",
+      "source_units": [
+        "q24",
+        "q26"
+      ],
+      "note": "Posner says a tie is possible (538 is even) but highly unlikely; the Electoral College does not prevent ties."
+    },
+    "u37": {
+      "label": "quote",
+      "source_units": [
+        "q22",
+        "q23"
+      ],
+      "note": "Cites Source 3 correctly."
+    },
+    "u38": {
+      "label": "paraphrase",
+      "source_units": [
+        "q24"
+      ],
+      "note": ""
+    },
+    "u39": {
+      "label": "paraphrase",
+      "source_units": [
+        "q25"
+      ],
+      "note": ""
+    },
+    "u40": {
+      "label": "paraphrase",
+      "source_units": [
+        "q25"
+      ],
+      "note": ""
+    },
+    "u41": {
+      "label": "paraphrase",
+      "source_units": [
+        "q24"
+      ],
+      "note": ""
+    },
+    "u42": {
+      "label": "related",
+      "source_units": [
+        "q23"
+      ],
+      "note": ""
+    },
+    "u43": {
+      "label": "paraphrase",
+      "source_units": [
+        "q23"
+      ],
+      "note": ""
+    },
+    "u44": {
+      "label": "related",
+      "source_units": [
+        "q20",
+        "q23"
+      ],
+      "note": ""
+    },
+    "u45": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u46": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u47": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u48": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u49": {
+      "label": "paraphrase",
+      "source_units": [
+        "q24",
+        "q25"
+      ],
+      "note": ""
+    },
+    "u50": {
+      "label": "quote",
+      "source_units": [
+        "p48",
+        "p49",
+        "p50"
+      ],
+      "note": "Cites Source 2 correctly."
+    },
+    "u51": {
+      "label": "related",
+      "source_units": [
+        "p49"
+      ],
+      "note": "Presumably 'unequally'."
+    },
+    "u52": {
+      "label": "paraphrase",
+      "source_units": [
+        "p49",
+        "p50"
+      ],
+      "note": ""
+    },
+    "u53": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u54": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u55": {
+      "label": "related",
+      "source_units": [
+        "p49"
+      ],
+      "note": ""
+    },
+    "u56": {
+      "label": "related",
+      "source_units": [
+        "p49",
+        "p50"
+      ],
+      "note": "The 34.5 million is the student's own subtraction."
+    },
+    "u57": {
+      "label": "distorted",
+      "source_units": [
+        "f4",
+        "p20"
+      ],
+      "note": "Calls the 538 electors politicians; Plumer ¶10 says electors can be anyone not holding public office."
+    },
+    "u58": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u59": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u60": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u61": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u62": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u63": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u64": {
+      "label": "paraphrase",
+      "source_units": [
+        "q52"
+      ],
+      "note": ""
+    },
+    "u65": {
+      "label": "related",
+      "source_units": [
+        "q56"
+      ],
+      "note": ""
+    },
+    "u66": {
+      "label": "paraphrase",
+      "source_units": [
+        "q26"
+      ],
+      "note": ""
+    },
+    "u67": {
+      "label": "quote",
+      "source_units": [
+        "q53",
+        "q54"
+      ],
+      "note": "Cites Source 3 correctly."
+    },
+    "u68": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u69": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u70": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u71": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u72": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u73": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u74": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u75": {
+      "label": "related",
+      "source_units": [
+        "p37"
+      ],
+      "note": ""
+    },
+    "u76": {
+      "label": "distorted",
+      "source_units": [
+        "p45",
+        "p46"
+      ],
+      "note": "In a tie the House of Representatives chooses the president, not the electors (Plumer ¶12)."
+    },
+    "u77": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u78": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u79": {
+      "label": "related",
+      "source_units": [
+        "p11"
+      ],
+      "note": ""
+    },
+    "u80": {
+      "label": "related",
+      "source_units": [
+        "q9"
+      ],
+      "note": ""
+    },
+    "u81": {
+      "label": "related",
+      "source_units": [
+        "p49"
+      ],
+      "note": ""
+    },
+    "u82": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u83": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u84": {
+      "label": "distorted",
+      "source_units": [
+        "q24",
+        "q26"
+      ],
+      "note": "Posner says a tie is possible (538 is even) but highly unlikely; the Electoral College does not prevent ties."
+    },
+    "u85": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u86": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u87": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u88": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,1376 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:AD0F893FA473",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 73,
+      "text": "We shouldn't have Electoral College for many reasons but a few main ones.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u2",
+      "start": 74,
+      "end": 108,
+      "text": "First off it isn't fiar to voters,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u3",
+      "start": 109,
+      "end": 137,
+      "text": "secondly it may cause riots,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 138,
+      "end": 165,
+      "text": "and finally they are basis.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 167,
+      "end": 199,
+      "text": "If we continue Electoral College",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 200,
+      "end": 253,
+      "text": "it is not going to give the votes a chance to be seen",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u7",
+      "start": 254,
+      "end": 282,
+      "text": "because the college can vote",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 283,
+      "end": 342,
+      "text": "but the Electoral College is the main vote the country sees",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 343,
+      "end": 381,
+      "text": "because the country always miss counts",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 382,
+      "end": 407,
+      "text": "and have a smaller number",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 408,
+      "end": 426,
+      "text": "if they miss count",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 427,
+      "end": 507,
+      "text": "the percentage of votes can be impacted a lot more and with the 60 percent rule.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 508,
+      "end": 565,
+      "text": "and yes the College style of votining is used a lot today",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 566,
+      "end": 594,
+      "text": "if we use one vote per state",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 595,
+      "end": 622,
+      "text": "you see how you state votes",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 623,
+      "end": 656,
+      "text": "and dont have to demand a recount",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u17",
+      "start": 657,
+      "end": 706,
+      "text": "because it was already counted for at state level",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 707,
+      "end": 741,
+      "text": "and isn't needed at national level",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u19",
+      "start": 742,
+      "end": 790,
+      "text": "so we wont have a hard time counting everything.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u20",
+      "start": 792,
+      "end": 845,
+      "text": "This method of voting useing a few people to vote for",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 847,
+      "end": 851,
+      "text": "\"our",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 853,
+      "end": 911,
+      "text": "\" president is not the smartest thing the country has done",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u23",
+      "start": 912,
+      "end": 955,
+      "text": "and they prove to be wrong every four years",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 956,
+      "end": 998,
+      "text": "becuse the amoust of prosteting will go up",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 999,
+      "end": 1039,
+      "text": "the more and more we make these mistakes",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1040,
+      "end": 1058,
+      "text": "when we lose votes",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1059,
+      "end": 1087,
+      "text": "or demand a recount 10 times",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1088,
+      "end": 1148,
+      "text": "or let the college vote for the people in the united states.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 1149,
+      "end": 1185,
+      "text": "So witch is it for the Constitution,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 1186,
+      "end": 1245,
+      "text": "are we for Amendment 1 with the freedom of speech and press",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 1246,
+      "end": 1280,
+      "text": "so we can choose our own president",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 1281,
+      "end": 1332,
+      "text": "or is it that we will all go for the 23rd amendment",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 1333,
+      "end": 1415,
+      "text": "and go to letting the few people choose our countries fait for the next four years",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 1416,
+      "end": 1511,
+      "text": "butr then equals the fait for as long as the United States is around free from other countries.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 1513,
+      "end": 1643,
+      "text": "Finally our system of Electoral College is very basis toward whom ever gives them more money to their state or campains more there",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 1644,
+      "end": 1735,
+      "text": "because we all know that the year leading up to the elections are just a popularity contest",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 1736,
+      "end": 1788,
+      "text": "and they just are like trying to get prom king/queen",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 1789,
+      "end": 1813,
+      "text": "everyone promises a vote",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 1814,
+      "end": 1851,
+      "text": "if you give them something in return,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 1852,
+      "end": 1927,
+      "text": "it just happens to be the people who can run for president are very wealthy",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 1928,
+      "end": 1998,
+      "text": "and can afford to give up a small fortune for a for sure vote to them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 1999,
+      "end": 2051,
+      "text": "But on the other hand if you gave me money like that",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 2052,
+      "end": 2072,
+      "text": "i would vote for you",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 2073,
+      "end": 2093,
+      "text": "if i liked it or not",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u45",
+      "start": 2094,
+      "end": 2194,
+      "text": "and these Electoral College is pressured a little to vote for the person everyone arounf them wants.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u46",
+      "start": 2196,
+      "end": 2251,
+      "text": "If we got rid of the Electoral College system of voting",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u47",
+      "start": 2252,
+      "end": 2297,
+      "text": "i believe that we would have a better economy",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 2298,
+      "end": 2355,
+      "text": "and and the voting system would give more varried results",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u49",
+      "start": 2356,
+      "end": 2388,
+      "text": "so we can get a more acurate way",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 2389,
+      "end": 2446,
+      "text": "because it would be easy to get rid of a system of voting",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u51",
+      "start": 2447,
+      "end": 2493,
+      "text": "but very hard to bring one in to being a thing",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u52",
+      "start": 2494,
+      "end": 2520,
+      "text": "and we can't easly do that",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u53",
+      "start": 2521,
+      "end": 2560,
+      "text": "for the reasons of there is already one",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u54",
+      "start": 2561,
+      "end": 2615,
+      "text": "and that the hoops to jump though for D.C. to pass it.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u55",
+      "start": 2616,
+      "end": 2666,
+      "text": "therefor i am aginst haviong the Electoral College",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u56",
+      "start": 2667,
+      "end": 2709,
+      "text": "and bring use Popular Vote for all states.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 74,
+          "end": 83,
+          "text": "First off"
+        },
+        {
+          "type": "lexical",
+          "start": 36,
+          "end": 52,
+          "text": "for many reasons"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 109,
+          "end": 117,
+          "text": "secondly"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u2",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 138,
+          "end": 149,
+          "text": "and finally"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u6",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 167,
+          "end": 169,
+          "text": "If"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 219,
+          "end": 253,
+          "text": "give the votes a chance to be seen"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u6",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 254,
+          "end": 261,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 283,
+          "end": 286,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u8",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 343,
+          "end": 350,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u9",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 382,
+          "end": 385,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u12",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 408,
+          "end": 410,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 370,
+          "end": 380,
+          "text": "miss count"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u15",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 508,
+          "end": 515,
+          "text": "and yes"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u15",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 566,
+          "end": 568,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u6",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 617,
+          "end": 622,
+          "text": "votes"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u15",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 623,
+          "end": 626,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u16",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 657,
+          "end": 664,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u17",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 707,
+          "end": 710,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u15",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 742,
+          "end": 744,
+          "text": "so"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 792,
+          "end": 813,
+          "text": "This method of voting"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u20",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 847,
+          "end": 848,
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u20",
+      "label": "same-unit",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u20",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 912,
+          "end": 915,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u23",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 956,
+          "end": 962,
+          "text": "becuse"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 999,
+          "end": 1016,
+          "text": "the more and more"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u25",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1040,
+          "end": 1044,
+          "text": "when"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u26",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1059,
+          "end": 1061,
+          "text": "or"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u26",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1088,
+          "end": 1090,
+          "text": "or"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u20",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1149,
+          "end": 1151,
+          "text": "So"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u29",
+      "label": "topic-question",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 1186,
+          "end": 1208,
+          "text": "are we for Amendment 1"
+        },
+        {
+          "type": "lexical",
+          "start": 1152,
+          "end": 1163,
+          "text": "witch is it"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "u31",
+      "target": "u30",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1246,
+          "end": 1248,
+          "text": "so"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "source": "u32",
+      "target": "u30",
+      "label": "joint-other",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1281,
+          "end": 1283,
+          "text": "or"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "source": "u33",
+      "target": "u32",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1333,
+          "end": 1336,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "source": "u34",
+      "target": "u33",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1416,
+          "end": 1425,
+          "text": "butr then"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "source": "u35",
+      "target": "u4",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1513,
+          "end": 1520,
+          "text": "Finally"
+        },
+        {
+          "type": "lexical",
+          "start": 1561,
+          "end": 1566,
+          "text": "basis"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "source": "u36",
+      "target": "u35",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1644,
+          "end": 1651,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "source": "u37",
+      "target": "u36",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1736,
+          "end": 1739,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r37",
+      "source": "u38",
+      "target": "u37",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1798,
+          "end": 1813,
+          "text": "promises a vote"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "source": "u39",
+      "target": "u38",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1814,
+          "end": 1816,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "source": "u40",
+      "target": "u38",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1852,
+          "end": 1873,
+          "text": "it just happens to be"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "source": "u41",
+      "target": "u40",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1928,
+          "end": 1931,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "source": "u42",
+      "target": "u43",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2021,
+          "end": 2023,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r42",
+      "source": "u43",
+      "target": "u35",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "u44",
+      "target": "u43",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2073,
+          "end": 2075,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r44",
+      "source": "u45",
+      "target": "u43",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2094,
+          "end": 2097,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r45",
+      "source": "u46",
+      "target": "u47",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2196,
+          "end": 2198,
+          "text": "If"
+        }
+      ]
+    },
+    {
+      "id": "r46",
+      "source": "u47",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2252,
+          "end": 2261,
+          "text": "i believe"
+        }
+      ]
+    },
+    {
+      "id": "r47",
+      "source": "u48",
+      "target": "u47",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2298,
+          "end": 2305,
+          "text": "and and"
+        }
+      ]
+    },
+    {
+      "id": "r48",
+      "source": "u49",
+      "target": "u48",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2356,
+          "end": 2358,
+          "text": "so"
+        }
+      ]
+    },
+    {
+      "id": "r49",
+      "source": "u50",
+      "target": "u49",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2389,
+          "end": 2396,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r50",
+      "source": "u51",
+      "target": "u50",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2447,
+          "end": 2450,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r51",
+      "source": "u52",
+      "target": "u51",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2494,
+          "end": 2497,
+          "text": "and"
+        },
+        {
+          "type": "lexical",
+          "start": 2501,
+          "end": 2520,
+          "text": "can't easly do that"
+        }
+      ]
+    },
+    {
+      "id": "r52",
+      "source": "u53",
+      "target": "u52",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2521,
+          "end": 2539,
+          "text": "for the reasons of"
+        }
+      ]
+    },
+    {
+      "id": "r53",
+      "source": "u54",
+      "target": "u53",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2561,
+          "end": 2569,
+          "text": "and that"
+        }
+      ]
+    },
+    {
+      "id": "r54",
+      "source": "u55",
+      "target": "u1",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2616,
+          "end": 2624,
+          "text": "therefor"
+        },
+        {
+          "type": "lexical",
+          "start": 2630,
+          "end": 2666,
+          "text": "aginst haviong the Electoral College"
+        }
+      ]
+    },
+    {
+      "id": "r55",
+      "source": "u56",
+      "target": "u55",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2667,
+          "end": 2670,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r56",
+      "source": "u55",
+      "target": "u47",
+      "label": "causal-result",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2616,
+          "end": 2624,
+          "text": "therefor"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude-opus-5 (student_graph/0.3, effort high)",
+    "review_status": "not_human_reviewed",
+    "config_hash": "b20a27b09d459c2a"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "example_id": "persuade:97DD2D770B03",
+  "student_graph": "data/annotations/alignments/student_graphs/97DD2D770B03.json",
+  "student_graph_sha256": "d933e1e57fb62bc24a88e2e2ed09e9d48e9372a3f394e34408c705a1cdcd5f7d",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u8": {
+      "label": "related",
+      "source_units": [
+        "p4"
+      ],
+      "note": "Cites Plumer ¶9 correctly."
+    },
+    "u9": {
+      "label": "quote",
+      "source_units": [
+        "p4b"
+      ],
+      "note": ""
+    },
+    "u10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u11": {
+      "label": "related",
+      "source_units": [
+        "q28"
+      ],
+      "note": "A loose version of Posner's 'everyone's president' argument, attributed to 'some people'."
+    },
+    "u12": {
+      "label": "related",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "u13": {
+      "label": "distorted",
+      "source_units": [
+        "q41",
+        "q49",
+        "q50"
+      ],
+      "note": "Posner attributes closer attention and thought to voters in toss-up states (¶20); the student transfers it to large states. California's 55 electoral votes are not in the sources (Plumer gives 55 representatives)."
+    },
+    "u14": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u15": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u19": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12"
+      ],
+      "note": ""
+    },
+    "u20": {
+      "label": "paraphrase",
+      "source_units": [
+        "p6"
+      ],
+      "note": ""
+    },
+    "u21": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12"
+      ],
+      "note": ""
+    },
+    "u22": {
+      "label": "related",
+      "source_units": [
+        "q12",
+        "p5"
+      ],
+      "note": ""
+    },
+    "u23": {
+      "label": "related",
+      "source_units": [
+        "p12"
+      ],
+      "note": "The 271 is outside knowledge."
+    },
+    "u24": {
+      "label": "related",
+      "source_units": [
+        "q24",
+        "p44"
+      ],
+      "note": "Posner calls a tie highly unlikely; Plumer treats it as a real risk."
+    },
+    "u25": {
+      "label": "related",
+      "source_units": [
+        "p44"
+      ],
+      "note": ""
+    },
+    "u26": {
+      "label": "related",
+      "source_units": [
+        "p45",
+        "p52"
+      ],
+      "note": ""
+    },
+    "u27": {
+      "label": "distorted",
+      "source_units": [
+        "p55",
+        "q25"
+      ],
+      "note": "Plumer says the 1968 election would have been deadlocked; the student makes it a tie caused by the even number of electors, which Posner raises separately."
+    },
+    "u28": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u29": {
+      "label": "related",
+      "source_units": [
+        "f5"
+      ],
+      "note": ""
+    },
+    "u30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,1475 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:45C70D14F6F3",
+  "root": "u5",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 95,
+      "text": "The electoral college was a great attempt to give a reliable system of selecting the president,",
+      "role": "lead",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 96,
+      "end": 164,
+      "text": "but it just does not work the way our founding fathers wanted it to.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u3",
+      "start": 165,
+      "end": 237,
+      "text": "Many people throughout the country have brought this up as a major issue",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 238,
+      "end": 262,
+      "text": "because they also agree.",
+      "role": "lead",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 263,
+      "end": 366,
+      "text": "The other option that people would prefer to have would be selecting the president by the popular vote,",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 367,
+      "end": 393,
+      "text": "which is the smarter path.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 394,
+      "end": 425,
+      "text": "This method is more democratic,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 426,
+      "end": 482,
+      "text": "it has a smaller chance of producing unreliable results,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 483,
+      "end": 586,
+      "text": "and it  encourages voters to still vote in states where there is already a predominant political party.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 588,
+      "end": 628,
+      "text": "The electoral college is not democratic.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u11",
+      "start": 629,
+      "end": 727,
+      "text": "The method of selecting people for it is generally controlled by each candidate's political party,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 728,
+      "end": 787,
+      "text": "and their responsibilities vary based on the party's wants.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 788,
+      "end": 890,
+      "text": "The people who select the candidates for the electoral college are not part of the popular population;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u14",
+      "start": 891,
+      "end": 926,
+      "text": "they are part of a political party.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 927,
+      "end": 974,
+      "text": "Next, when people go to vote for the president,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 975,
+      "end": 1013,
+      "text": "they are not voting for the president,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u17",
+      "start": 1014,
+      "end": 1100,
+      "text": "but actually voting for a slate of electors that in their turn vote for the president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1101,
+      "end": 1181,
+      "text": "And to take this to the next step, as shown in \"What Is the Electoral College?\",",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1182,
+      "end": 1290,
+      "text": "\"Most states have a winner-takes-all system that awards all electors to the winning presidential candidate.\"",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1291,
+      "end": 1344,
+      "text": "If voters vote for the candidate that ends up losing,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1345,
+      "end": 1395,
+      "text": "poof, all their votes are given to the other team.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1396,
+      "end": 1436,
+      "text": "To atleast make this a little more fair,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1437,
+      "end": 1473,
+      "text": "instead of voting for the president,",
+      "role": "claim",
+      "stance": "rejected",
+      "polarity": "negative"
+    },
+    {
+      "id": "u24",
+      "start": 1474,
+      "end": 1567,
+      "text": "voters should cast votes for the electoral college members that are choosing their president.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 1568,
+      "end": 1651,
+      "text": "That way, you can at least do research on the people whom you are really voting for",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1652,
+      "end": 1688,
+      "text": "and make the best decision possible.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1690,
+      "end": 1763,
+      "text": "The popular vote is the most reliable way to get results from the people.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1764,
+      "end": 1857,
+      "text": "It is the most raw, unbreakable way of selecting the highest political figure of the country.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 1858,
+      "end": 1961,
+      "text": "On the other hand, the electoral college's slight stretches have the possibility of unreliable results.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u30",
+      "start": 1962,
+      "end": 2081,
+      "text": "In \"The Indefensible Electoral College: Why even the best-laid defenses of the system are wrong\", it becomes known that",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2082,
+      "end": 2164,
+      "text": "\"...thanks to the quirks of the electoral college - [Al Gore] won the popular vote",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2165,
+      "end": 2190,
+      "text": "but lost the presidency\".",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u33",
+      "start": 2191,
+      "end": 2214,
+      "text": "It is still argued that",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 2215,
+      "end": 2501,
+      "text": "the electoral members chosen are extremely trustworthy :\"each party selects a state of electors trusted to vote for the party's nominee (and that trust is rarely betrayed)\" (from \"In defense of the Electoral College: Five reasons to keep our despised method of choosing the President\").",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 2502,
+      "end": 2603,
+      "text": "However, even in the continuation of the fragment above, even Richard A. Posner (,the author,) admits",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 2604,
+      "end": 2711,
+      "text": "\"[;however,] it is entirely possible that the winner of the electoral vote will not win the national vote.\"",
+      "role": "rebuttal",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u37",
+      "start": 2712,
+      "end": 2791,
+      "text": "The electoral college members are trusted to vote for whom they were voted for,",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 2792,
+      "end": 2855,
+      "text": "but their job is to be a highly knowledgeable political expert;",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 2856,
+      "end": 2911,
+      "text": "and if they see the other president as a better choice,",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 2912,
+      "end": 2943,
+      "text": "then it can become very unfair.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u41",
+      "start": 2945,
+      "end": 3049,
+      "text": "The electoral college discourages people to vote in countries where there is already a dominating party.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u42",
+      "start": 3050,
+      "end": 3198,
+      "text": "For example, California is mostly a democratic country that usually casts a (highly populated) vote for the democratic party's electoral candidates.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 3199,
+      "end": 3254,
+      "text": "So why should republicans consider voting in this area?",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 3255,
+      "end": 3324,
+      "text": "The government has always tried to push out that \"every vote counts\",",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u45",
+      "start": 3325,
+      "end": 3353,
+      "text": "but is this really the case?",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u46",
+      "start": 3354,
+      "end": 3517,
+      "text": "Another good point of this is explained by Bradford Plumer again in \"The Indefensible Electoral College: Why even the best laid defenses of the system are wrong\" :",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u47",
+      "start": 3518,
+      "end": 3571,
+      "text": "\"Because of the winner-take-all system in each state,",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 3572,
+      "end": 3651,
+      "text": "candidates don't spend time in states they know they have no chance of winning,",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u49",
+      "start": 3652,
+      "end": 3703,
+      "text": "focusing only on the tight races of 'swing' states.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 3704,
+      "end": 3826,
+      "text": "During the 2000 campaign, seventeen states didn't see the candidates at all, including Rhode Island and South Carolina...\"",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u51",
+      "start": 3827,
+      "end": 3923,
+      "text": "Swing states, as the're called, are the places where presidential candidates always hang around.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u52",
+      "start": 3924,
+      "end": 3964,
+      "text": "They barely bother with the other states",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u53",
+      "start": 3965,
+      "end": 4032,
+      "text": "because they know they have already got or lost the vote in them...",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u54",
+      "start": 4034,
+      "end": 4068,
+      "text": "Some laws were brilliantly passed,",
+      "role": "concluding_summary",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u55",
+      "start": 4069,
+      "end": 4136,
+      "text": "but had to eventually be deconstructed due to present implications.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u56",
+      "start": 4137,
+      "end": 4177,
+      "text": "The electoral college is not democratic,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u57",
+      "start": 4178,
+      "end": 4210,
+      "text": "doesn't produce reliale results,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u58",
+      "start": 4211,
+      "end": 4234,
+      "text": "and discourages voters.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u59",
+      "start": 4235,
+      "end": 4274,
+      "text": "It is time that we abolish this college",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u60",
+      "start": 4275,
+      "end": 4329,
+      "text": "just at we overturned the eighteenth amendment before.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u2",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 96,
+          "end": 99,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u5",
+      "label": "topic-solutionhood",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 263,
+          "end": 279,
+          "text": "The other option"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 213,
+          "end": 217,
+          "text": "this"
+        },
+        {
+          "type": "lexical",
+          "start": 165,
+          "end": 199,
+          "text": "Many people throughout the country"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u3",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 238,
+          "end": 245,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 367,
+          "end": 375,
+          "text": "which is"
+        },
+        {
+          "type": "lexical",
+          "start": 376,
+          "end": 392,
+          "text": "the smarter path"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 394,
+          "end": 405,
+          "text": "This method"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 426,
+          "end": 432,
+          "text": "it has"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 483,
+          "end": 486,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 617,
+          "end": 627,
+          "text": "democratic"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 664,
+          "end": 666,
+          "text": "it"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u11",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 728,
+          "end": 731,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u11",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 788,
+          "end": 850,
+          "text": "The people who select the candidates for the electoral college"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u13",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 889,
+          "end": 890,
+          "text": ";"
+        },
+        {
+          "type": "syntactic",
+          "start": 891,
+          "end": 907,
+          "text": "they are part of"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u16",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 933,
+          "end": 937,
+          "text": "when"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u11",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u16",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1014,
+          "end": 1017,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u19",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1136,
+          "end": 1147,
+          "text": "as shown in"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u11",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u21",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1291,
+          "end": 1293,
+          "text": "If"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u19",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1351,
+          "end": 1394,
+          "text": "all their votes are given to the other team"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u24",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 1396,
+          "end": 1435,
+          "text": "To atleast make this a little more fair"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u24",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1437,
+          "end": 1447,
+          "text": "instead of"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u10",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1474,
+          "end": 1498,
+          "text": "voters should cast votes"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1568,
+          "end": 1576,
+          "text": "That way"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u25",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1652,
+          "end": 1655,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u8",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1710,
+          "end": 1731,
+          "text": "the most reliable way"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u27",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1764,
+          "end": 1766,
+          "text": "It"
+        },
+        {
+          "type": "lexical",
+          "start": 1770,
+          "end": 1799,
+          "text": "the most raw, unbreakable way"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u27",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1858,
+          "end": 1875,
+          "text": "On the other hand"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u31",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2060,
+          "end": 2081,
+          "text": "it becomes known that"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "u31",
+      "target": "u29",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2086,
+          "end": 2131,
+          "text": "thanks to the quirks of the electoral college"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "source": "u32",
+      "target": "u31",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2165,
+          "end": 2168,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "source": "u33",
+      "target": "u34",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2191,
+          "end": 2214,
+          "text": "It is still argued that"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "source": "u34",
+      "target": "u36",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2605,
+          "end": 2616,
+          "text": "[;however,]"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "source": "u35",
+      "target": "u36",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2559,
+          "end": 2603,
+          "text": "even Richard A. Posner (,the author,) admits"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "source": "u36",
+      "target": "u29",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2617,
+          "end": 2640,
+          "text": "it is entirely possible"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "source": "u37",
+      "target": "u38",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2792,
+          "end": 2795,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r37",
+      "source": "u38",
+      "target": "u40",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2817,
+          "end": 2854,
+          "text": "highly knowledgeable political expert"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "source": "u39",
+      "target": "u40",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2860,
+          "end": 2862,
+          "text": "if"
+        },
+        {
+          "type": "dm",
+          "start": 2912,
+          "end": 2916,
+          "text": "then"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "source": "u40",
+      "target": "u36",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u41",
+      "target": "u9",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2967,
+          "end": 3048,
+          "text": "discourages people to vote in countries where there is already a dominating party"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "source": "u42",
+      "target": "u41",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3050,
+          "end": 3061,
+          "text": "For example"
+        }
+      ]
+    },
+    {
+      "id": "r42",
+      "source": "u43",
+      "target": "u42",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3199,
+          "end": 3201,
+          "text": "So"
+        },
+        {
+          "type": "reference",
+          "start": 3244,
+          "end": 3253,
+          "text": "this area"
+        }
+      ]
+    },
+    {
+      "id": "r43",
+      "source": "u44",
+      "target": "u45",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3325,
+          "end": 3328,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r44",
+      "source": "u45",
+      "target": "u43",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 3332,
+          "end": 3336,
+          "text": "this"
+        }
+      ]
+    },
+    {
+      "id": "r45",
+      "source": "u46",
+      "target": "u47",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 3381,
+          "end": 3412,
+          "text": "is explained by Bradford Plumer"
+        }
+      ]
+    },
+    {
+      "id": "r46",
+      "source": "u47",
+      "target": "u48",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3519,
+          "end": 3529,
+          "text": "Because of"
+        }
+      ]
+    },
+    {
+      "id": "r47",
+      "source": "u48",
+      "target": "u41",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 3603,
+          "end": 3650,
+          "text": "states they know they have no chance of winning"
+        }
+      ]
+    },
+    {
+      "id": "r48",
+      "source": "u49",
+      "target": "u48",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 3652,
+          "end": 3668,
+          "text": "focusing only on"
+        }
+      ]
+    },
+    {
+      "id": "r49",
+      "source": "u50",
+      "target": "u48",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "numerical",
+          "start": 3730,
+          "end": 3746,
+          "text": "seventeen states"
+        },
+        {
+          "type": "lexical",
+          "start": 3704,
+          "end": 3728,
+          "text": "During the 2000 campaign"
+        }
+      ]
+    },
+    {
+      "id": "r50",
+      "source": "u51",
+      "target": "u49",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 3827,
+          "end": 3857,
+          "text": "Swing states, as the're called"
+        }
+      ]
+    },
+    {
+      "id": "r51",
+      "source": "u52",
+      "target": "u51",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 3924,
+          "end": 3928,
+          "text": "They"
+        },
+        {
+          "type": "lexical",
+          "start": 3948,
+          "end": 3964,
+          "text": "the other states"
+        }
+      ]
+    },
+    {
+      "id": "r52",
+      "source": "u53",
+      "target": "u52",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3965,
+          "end": 3972,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r53",
+      "source": "u54",
+      "target": "u55",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 4069,
+          "end": 4072,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r54",
+      "source": "u55",
+      "target": "u59",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 4073,
+          "end": 4107,
+          "text": "had to eventually be deconstructed"
+        }
+      ]
+    },
+    {
+      "id": "r55",
+      "source": "u56",
+      "target": "u59",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 4159,
+          "end": 4176,
+          "text": "is not democratic"
+        }
+      ]
+    },
+    {
+      "id": "r56",
+      "source": "u57",
+      "target": "u56",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 4178,
+          "end": 4193,
+          "text": "doesn't produce"
+        }
+      ]
+    },
+    {
+      "id": "r57",
+      "source": "u58",
+      "target": "u56",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 4211,
+          "end": 4214,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r58",
+      "source": "u59",
+      "target": "u5",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 4254,
+          "end": 4274,
+          "text": "abolish this college"
+        }
+      ]
+    },
+    {
+      "id": "r59",
+      "source": "u60",
+      "target": "u59",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 4275,
+          "end": 4282,
+          "text": "just at"
+        },
+        {
+          "type": "lexical",
+          "start": 4283,
+          "end": 4328,
+          "text": "we overturned the eighteenth amendment before"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude-opus-5 (student_graph/0.3, effort high)",
+    "review_status": "not_human_reviewed",
+    "config_hash": "b20a27b09d459c2a"
+  }
+}

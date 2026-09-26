@@ -1,0 +1,192 @@
+{
+  "example_id": "persuade:6AB345CECE0B",
+  "student_graph": "data/annotations/alignments/student_graphs/6AB345CECE0B.json",
+  "student_graph_sha256": "aa6f8137de05d40bf41645f91c7d5009374ae0c959d3d4c01a1abe72741a8f74",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "quote",
+      "source_units": [
+        "p65"
+      ],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u6": {
+      "label": "related",
+      "source_units": [
+        "p28"
+      ],
+      "note": "Plumer names his best argument 'the disaster factor'; the student uses it as a name for the Electoral College."
+    },
+    "u7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u8": {
+      "label": "related",
+      "source_units": [],
+      "note": "Cites Plumer's article by title; the title is not a unit of the passage."
+    },
+    "u9": {
+      "label": "quote",
+      "source_units": [
+        "p36"
+      ],
+      "note": ""
+    },
+    "u10": {
+      "label": "quote",
+      "source_units": [
+        "p37"
+      ],
+      "note": ""
+    },
+    "u11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u12": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u14": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u15": {
+      "label": "quote",
+      "source_units": [
+        "q5",
+        "q6"
+      ],
+      "note": ""
+    },
+    "u16": {
+      "label": "distorted",
+      "source_units": [
+        "q14",
+        "q15"
+      ],
+      "note": "Posner says his reasons are practical, not liberal or conservative; the student drops the 'not'."
+    },
+    "u17": {
+      "label": "related",
+      "source_units": [
+        "q20"
+      ],
+      "note": "Uses Posner's point that the winner's electoral share exceeds his popular share as a sign of unfairness."
+    },
+    "u18": {
+      "label": "distorted",
+      "source_units": [
+        "p11"
+      ],
+      "note": "Reverses Plumer ¶10 ('voters vote not for the president, but for a slate of electors'), though the student may mean what voters intend."
+    },
+    "u19": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u20": {
+      "label": "related",
+      "source_units": [
+        "q62",
+        "q63"
+      ],
+      "note": ""
+    },
+    "u21": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u23": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u24": {
+      "label": "distorted",
+      "source_units": [
+        "q61",
+        "q63"
+      ],
+      "note": "Overstates the view Posner reports (safe-state voters may be turned off) as whole states no longer voting."
+    },
+    "u25": {
+      "label": "paraphrase",
+      "source_units": [
+        "q62"
+      ],
+      "note": ""
+    },
+    "u26": {
+      "label": "quote",
+      "source_units": [
+        "p68"
+      ],
+      "note": ""
+    },
+    "u27": {
+      "label": "quote",
+      "source_units": [
+        "p69"
+      ],
+      "note": ""
+    },
+    "u28": {
+      "label": "quote",
+      "source_units": [
+        "p70"
+      ],
+      "note": ""
+    },
+    "u29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

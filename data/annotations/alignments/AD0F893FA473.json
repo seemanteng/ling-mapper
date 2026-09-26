@@ -1,0 +1,305 @@
+{
+  "example_id": "persuade:AD0F893FA473",
+  "student_graph": "data/annotations/alignments/student_graphs/AD0F893FA473.json",
+  "student_graph_sha256": "86ea7f5e0b75c9a0fac98388312077c4059c8d18ca300c267c6bc9c1d73d90b5",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "held-out: written under GUIDELINES.md (align/0.2 frozen) before any judge run on this essay; units are the v0.3 model extraction",
+    "split": "held_out"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u9": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u12": {
+      "label": "related",
+      "source_units": [
+        "p4b"
+      ],
+      "note": "Unclear: the '60 percent' is Plumer's poll result, here called a rule."
+    },
+    "u13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u14": {
+      "label": "related",
+      "source_units": [
+        "p48"
+      ],
+      "note": "Proposes one vote per state, the rule Plumer describes for a tie decided in the House."
+    },
+    "u15": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u19": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u20": {
+      "label": "paraphrase",
+      "source_units": [
+        "p12"
+      ],
+      "note": ""
+    },
+    "u21": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u23": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u24": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u25": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u26": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u27": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u28": {
+      "label": "related",
+      "source_units": [
+        "p12"
+      ],
+      "note": ""
+    },
+    "u29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u32": {
+      "label": "distorted",
+      "source_units": [
+        "f8"
+      ],
+      "note": "The 23rd Amendment gives the District of Columbia 3 electors (Federal Register ¶4); the student treats it as the amendment that lets a few people choose the president."
+    },
+    "u33": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u34": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u35": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u36": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u37": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u38": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u39": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u40": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u41": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u42": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u43": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u44": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u45": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u46": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u47": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u48": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u49": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u50": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u51": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u52": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u53": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u54": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u55": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u56": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

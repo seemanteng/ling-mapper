@@ -1,0 +1,707 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:6AB345CECE0B",
+  "root": "u2",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 19,
+      "text": "Dear State Senator,",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 21,
+      "end": 74,
+      "text": "To be honest we should not keep the Electoral College",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u3",
+      "start": 75,
+      "end": 122,
+      "text": "because there unfair, outdated, and irrational.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u4",
+      "start": 123,
+      "end": 172,
+      "text": "There unfair to citizens and the states who vote.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u5",
+      "start": 173,
+      "end": 275,
+      "text": "In my opinon I think all the electors care about is just the winnings from the presidential candidate.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u6",
+      "start": 276,
+      "end": 339,
+      "text": "I would like to call the Electoral College the disaster factor.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u7",
+      "start": 340,
+      "end": 370,
+      "text": "I agree in Mr. Plumber saying.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 371,
+      "end": 502,
+      "text": "Bradford Plumber said in his writing of The Indefensible Electoral College: Why even the best-laid defenses of the system are wong,",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 503,
+      "end": 598,
+      "text": "\"In the vein, \"faithless\" electors have occasionally refused to vote for there party's candiate",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u10",
+      "start": 599,
+      "end": 654,
+      "text": "and caste a deciding vote for whomever they please....\"",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "negative"
+    },
+    {
+      "id": "u11",
+      "start": 655,
+      "end": 679,
+      "text": "I think there heartless.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u12",
+      "start": 680,
+      "end": 724,
+      "text": "That's another reason why I don't like them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u13",
+      "start": 725,
+      "end": 768,
+      "text": "Now look all they care about is themselves.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u14",
+      "start": 769,
+      "end": 831,
+      "text": "I pretty sure most of the voters or the states don't know this",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u15",
+      "start": 832,
+      "end": 950,
+      "text": "but did you know when we the voters \"vote for the presidental canidate\" we're actually voting for a slate of electors?",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u16",
+      "start": 951,
+      "end": 1056,
+      "text": "Electoral College lack democratic pedigree, also there practical reason, liberal and conservative reason.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u17",
+      "start": 1057,
+      "end": 1225,
+      "text": "What I found out that is also not fair is to the citizens and state who vote, is that the winning candiate's share his share of popular vote with the Electoral College.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u18",
+      "start": 1226,
+      "end": 1288,
+      "text": "First of all, we voted for the candiate not for the electoral.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u19",
+      "start": 1289,
+      "end": 1317,
+      "text": "We don't know the electoral.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u20",
+      "start": 1318,
+      "end": 1376,
+      "text": "Knowing this, we the citizens just might not vote anymore.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u21",
+      "start": 1377,
+      "end": 1429,
+      "text": "The electoral is not sharing the presidential house,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u22",
+      "start": 1430,
+      "end": 1466,
+      "text": "we choose one person to look up too.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1467,
+      "end": 1492,
+      "text": "Not the greedy electoral.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u24",
+      "start": 1493,
+      "end": 1528,
+      "text": "Some states don't even vote anymore",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u25",
+      "start": 1529,
+      "end": 1577,
+      "text": "because they know that there vote has no effect.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u26",
+      "start": 1578,
+      "end": 1599,
+      "text": "It's hard to say this",
+      "role": "concluding_summary",
+      "stance": "conceded",
+      "polarity": "negative"
+    },
+    {
+      "id": "u27",
+      "start": 1600,
+      "end": 1623,
+      "text": "but Bob Dole was right:",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1624,
+      "end": 1654,
+      "text": "Abolish the Electoral College!",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "negative"
+    },
+    {
+      "id": "u29",
+      "start": 1656,
+      "end": 1701,
+      "text": "Sincerely, PROPER_NAME, A citizen of Florida.",
+      "role": "unannotated",
+      "stance": "unclear",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 0,
+          "end": 19,
+          "text": "Dear State Senator,"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 75,
+          "end": 82,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 129,
+          "end": 135,
+          "text": "unfair"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 173,
+          "end": 193,
+          "text": "In my opinon I think"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 319,
+          "end": 338,
+          "text": "the disaster factor"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 340,
+          "end": 347,
+          "text": "I agree"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u9",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 371,
+          "end": 392,
+          "text": "Bradford Plumber said"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u7",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 503,
+          "end": 504,
+          "text": "\""
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u9",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 599,
+          "end": 602,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u9",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 655,
+          "end": 662,
+          "text": "I think"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u11",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 680,
+          "end": 686,
+          "text": "That's"
+        },
+        {
+          "type": "lexical",
+          "start": 687,
+          "end": 701,
+          "text": "another reason"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u11",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 734,
+          "end": 767,
+          "text": "all they care about is themselves"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u15",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 827,
+          "end": 831,
+          "text": "this"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u4",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 836,
+          "end": 848,
+          "text": "did you know"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u15",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 995,
+          "end": 999,
+          "text": "also"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u4",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1079,
+          "end": 1133,
+          "text": "is also not fair is to the citizens and state who vote"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u17",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1226,
+          "end": 1238,
+          "text": "First of all"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u18",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1289,
+          "end": 1316,
+          "text": "We don't know the electoral"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u18",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1318,
+          "end": 1330,
+          "text": "Knowing this"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u18",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u21",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 1430,
+          "end": 1465,
+          "text": "we choose one person to look up too"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u22",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1467,
+          "end": 1491,
+          "text": "Not the greedy electoral"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u17",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1493,
+          "end": 1528,
+          "text": "Some states don't even vote anymore"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1529,
+          "end": 1536,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u28",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1578,
+          "end": 1599,
+          "text": "It's hard to say this"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u28",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1604,
+          "end": 1622,
+          "text": "Bob Dole was right"
+        },
+        {
+          "type": "graphical",
+          "start": 1622,
+          "end": 1623,
+          "text": ":"
+        },
+        {
+          "type": "dm",
+          "start": 1600,
+          "end": 1603,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1624,
+          "end": 1653,
+          "text": "Abolish the Electoral College"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1656,
+          "end": 1665,
+          "text": "Sincerely"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude-opus-5 (student_graph/0.3, effort high)",
+    "review_status": "not_human_reviewed",
+    "config_hash": "b20a27b09d459c2a"
+  }
+}
