@@ -1,0 +1,987 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:F3B4F60CE90C",
+  "root": "w7",
+  "units": [
+    {
+      "id": "w1",
+      "start": 0,
+      "end": 138,
+      "text": "The Electoral colleg is a process in which the electors from the state pick the cannidate they want according to who has the popular vote.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w2",
+      "start": 139,
+      "end": 179,
+      "text": "Which can also be a very biased process.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w3",
+      "start": 180,
+      "end": 239,
+      "text": "The Electoral College is not registered or monitered enough",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w4",
+      "start": 240,
+      "end": 312,
+      "text": "because if an elector from the state wanted to pick who they want to win",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w5",
+      "start": 313,
+      "end": 323,
+      "text": "they could",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w6",
+      "start": 324,
+      "end": 383,
+      "text": "and there isn't really anything to stop them from doing so.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w7",
+      "start": 385,
+      "end": 440,
+      "text": "We the people should do away with the Electoral College",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w8",
+      "start": 441,
+      "end": 508,
+      "text": "and instead switch to a more regulated system like majority voting.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w9",
+      "start": 509,
+      "end": 582,
+      "text": "whichever cannidate that gets the most votes from the U.S. takes the win.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w10",
+      "start": 583,
+      "end": 663,
+      "text": "that way we wouldnt have to worry about our electors for the states being sneaky",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w11",
+      "start": 664,
+      "end": 699,
+      "text": "because there wont be any electors.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w12",
+      "start": 700,
+      "end": 757,
+      "text": "State legislature is responsible for picking the electors",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w13",
+      "start": 758,
+      "end": 812,
+      "text": "and the electors sometimes defy the will of the people",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w14",
+      "start": 813,
+      "end": 855,
+      "text": "and cast the vote for who they want to win",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w15",
+      "start": 856,
+      "end": 930,
+      "text": "just like when Richard Nixon only validated his opponets electors in 1960.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w16",
+      "start": 931,
+      "end": 987,
+      "text": "The Electoral College would be a more just way of voting",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "w17",
+      "start": 988,
+      "end": 1023,
+      "text": "if the electors were well monitored",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w18",
+      "start": 1024,
+      "end": 1077,
+      "text": "and if every state shared the same weight in the vote",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w19",
+      "start": 1078,
+      "end": 1115,
+      "text": "but unfortunatley, it's not like that",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w20",
+      "start": 1116,
+      "end": 1149,
+      "text": "so it needs to be done away with.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w21",
+      "start": 1151,
+      "end": 1225,
+      "text": "The Electoral College is a unrestricted and very poorly regulated process,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w22",
+      "start": 1226,
+      "end": 1258,
+      "text": "and it is a very unfair process.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w23",
+      "start": 1259,
+      "end": 1297,
+      "text": "Because of the winner-take-all system.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w24",
+      "start": 1298,
+      "end": 1344,
+      "text": "In 1968, if 41,971 voters voted a diffrent way",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w25",
+      "start": 1345,
+      "end": 1385,
+      "text": "the election would have been deadlocked.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w26",
+      "start": 1386,
+      "end": 1492,
+      "text": "In 1976, if roughkly 5,500 voters in Ohio and about 3,600 voters in Hawaii had voted for a diffrent person",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w27",
+      "start": 1493,
+      "end": 1528,
+      "text": "the election would have been a tie.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w28",
+      "start": 1529,
+      "end": 1609,
+      "text": "And usually the bigger states are the only ones to actually see their cannidates",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w29",
+      "start": 1610,
+      "end": 1692,
+      "text": "because the cannidates dont neccesarily visit states with very few electoral votes",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w30",
+      "start": 1693,
+      "end": 1728,
+      "text": "because they wont help them as much",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w31",
+      "start": 1729,
+      "end": 1835,
+      "text": "instead, they visit the \"swing states\", the states that have a bigger weight in the presidential election.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w32",
+      "start": 1837,
+      "end": 1961,
+      "text": "However, on the other side the people that want to keep it are the ones that look at the few good things not the bad things.",
+      "role": "counterclaim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w33",
+      "start": 1962,
+      "end": 2141,
+      "text": "Of those helpful things that comes with the electoral college is it majorly decreases the chance of a run-off election in which no cannidate receives a majority of the votes cast.",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "w34",
+      "start": 2142,
+      "end": 2200,
+      "text": "The Electoral college also puts out a certainty of outcome",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "w35",
+      "start": 2201,
+      "end": 2327,
+      "text": "because there is less likely to be a dispute over the outcome in a popular vote then a dispute over an Electoral College vote.",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "w36",
+      "start": 2329,
+      "end": 2419,
+      "text": "Of course, in life there is always at least some good in things like the Electoral College",
+      "role": "concluding_summary",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "w37",
+      "start": 2420,
+      "end": 2470,
+      "text": "but in this situation is does more harm then good.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w38",
+      "start": 2471,
+      "end": 2502,
+      "text": "It is an overall unfair process",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w39",
+      "start": 2503,
+      "end": 2539,
+      "text": "because some states are less noticed",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w40",
+      "start": 2540,
+      "end": 2584,
+      "text": "because of how few electoral votes they hold",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w41",
+      "start": 2585,
+      "end": 2676,
+      "text": "and also because of the electors not being monitered on the vote they cast for their state.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w42",
+      "start": 2677,
+      "end": 2723,
+      "text": "The Electoral College should be doen away with",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "w43",
+      "start": 2724,
+      "end": 2833,
+      "text": "and as a united country we shall adopt a more fair, equal , and all together well monitered system of voting.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "w1",
+      "target": "w7",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "w2",
+      "target": "w1",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 139,
+          "end": 144,
+          "text": "Which"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "w3",
+      "target": "w2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "w4",
+      "target": "w5",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 248,
+          "end": 250,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "w5",
+      "target": "w3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Signalled by 'because' at the start of w4, the condition that precedes this unit."
+    },
+    {
+      "id": "r6",
+      "source": "w6",
+      "target": "w5",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 324,
+          "end": 327,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "w8",
+      "target": "w7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 441,
+          "end": 444,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "w9",
+      "target": "w8",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Describes a plurality rule, not a majority."
+    },
+    {
+      "id": "r9",
+      "source": "w10",
+      "target": "w8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 583,
+          "end": 591,
+          "text": "that way"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "w11",
+      "target": "w10",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 664,
+          "end": 671,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "w12",
+      "target": "w13",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "w13",
+      "target": "w10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "w14",
+      "target": "w13",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 813,
+          "end": 816,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "w15",
+      "target": "w13",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 856,
+          "end": 865,
+          "text": "just like"
+        }
+      ],
+      "note": "Misused example: in the source, Nixon as presiding officer validated only his opponent's Hawaii electors; that is not electors defying the voters."
+    },
+    {
+      "id": "r15",
+      "source": "w16",
+      "target": "w19",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1078,
+          "end": 1081,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "w17",
+      "target": "w16",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 988,
+          "end": 990,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "w18",
+      "target": "w17",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1024,
+          "end": 1030,
+          "text": "and if"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "w19",
+      "target": "w20",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1116,
+          "end": 1118,
+          "text": "so"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "w20",
+      "target": "w7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1134,
+          "end": 1148,
+          "text": "done away with"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "w21",
+      "target": "w7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "w22",
+      "target": "w21",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1226,
+          "end": 1229,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "w23",
+      "target": "w22",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1259,
+          "end": 1269,
+          "text": "Because of"
+        }
+      ],
+      "note": "Sentence fragment; its own unit under rule 1."
+    },
+    {
+      "id": "r23",
+      "source": "w24",
+      "target": "w25",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1307,
+          "end": 1309,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "w25",
+      "target": "w22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Near-deadlocks do not show that the process is unfair."
+    },
+    {
+      "id": "r25",
+      "source": "w26",
+      "target": "w27",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1395,
+          "end": 1397,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "w27",
+      "target": "w25",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "w28",
+      "target": "w25",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1529,
+          "end": 1532,
+          "text": "And"
+        }
+      ],
+      "note": "The source says swing states, not bigger states, get the candidates' attention."
+    },
+    {
+      "id": "r28",
+      "source": "w29",
+      "target": "w28",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1610,
+          "end": 1617,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "w30",
+      "target": "w29",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1693,
+          "end": 1700,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "w31",
+      "target": "w29",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1729,
+          "end": 1736,
+          "text": "instead"
+        }
+      ],
+      "note": "Conflates swing states with states that have more electoral votes."
+    },
+    {
+      "id": "r31",
+      "source": "w32",
+      "target": "w33",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1846,
+          "end": 1863,
+          "text": "on the other side"
+        }
+      ],
+      "note": "Introduces the opposing reasons while dismissing them."
+    },
+    {
+      "id": "r32",
+      "source": "w33",
+      "target": "w37",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Answered only in the conclusion (w36-w37)."
+    },
+    {
+      "id": "r33",
+      "source": "w34",
+      "target": "w37",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Answered only in the conclusion (w36-w37)."
+    },
+    {
+      "id": "r34",
+      "source": "w35",
+      "target": "w34",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2201,
+          "end": 2208,
+          "text": "because"
+        }
+      ],
+      "note": "Reverses the source: as written, disputes are less likely under a popular vote, which argues against w34."
+    },
+    {
+      "id": "r35",
+      "source": "w36",
+      "target": "w37",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2420,
+          "end": 2423,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "source": "w37",
+      "target": "w7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Rebuttal to w33-w34."
+    },
+    {
+      "id": "r37",
+      "source": "w38",
+      "target": "w7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "w39",
+      "target": "w38",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2503,
+          "end": 2510,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "source": "w40",
+      "target": "w39",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2540,
+          "end": 2550,
+          "text": "because of"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "source": "w41",
+      "target": "w39",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2585,
+          "end": 2593,
+          "text": "and also"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "source": "w42",
+      "target": "w7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2709,
+          "end": 2723,
+          "text": "doen away with"
+        }
+      ]
+    },
+    {
+      "id": "r42",
+      "source": "w43",
+      "target": "w42",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2724,
+          "end": 2727,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r43",
+      "source": "w38",
+      "target": "w22",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2488,
+          "end": 2502,
+          "text": "unfair process"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-26",
+    "text_sha256": "3df9c3d556f50cbb27a00e89c4a9ad664732059894098492ed96ca82b2ece4c1",
+    "role_source": "PERSUADE element with largest overlap",
+    "polarity": "not annotated (all positive), as in the development gold",
+    "purpose": "pilot-check gold for RQ1 graph extraction (Claude-authored before any extraction of this essay; user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-26",
+    "review_outcome": "accepted_without_changes"
+  }
+}

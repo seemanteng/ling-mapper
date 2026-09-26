@@ -79,6 +79,8 @@ PYTHONPATH=src python3 -m ling_mapper.render_graph_html \
 
 `data/annotations/argument_graphs/` holds the development gold graphs for four development essays (E0737CDC1E99, C0BA22AD7F2A, 3165FA4998BC, 656C7C849144). Claude wrote them; the user reviewed all four and accepted them without changes (2026-09-25). Later edits, each confirmed by the user on 2026-09-26, are listed in each file's `provenance.change_log`: four relation labels added to the inventory, one interrupted unit split with `same-unit`, and coordinated predicates re-split to segmentation rule 2 (C0BA22AD7F2A, 656C7C849144, 3165FA4998BC). They are reviewed, not independently annotated: report them that way, and prefer an independent second annotation on a subset before treating agreement with them as validity evidence. `viewer/development_graphs.html` shows all four (pass several `--graph` files to get an essay picker).
 
+`data/annotations/argument_graphs_pilot_check/` holds pilot-check gold graphs for four of the ten pilot-check essays: the first in split order for scores 1, 3, 4 and 6 (81E51029477E, C70EE5903373, F3B4F60CE90C, 671D0569C835). Claude wrote them on 2026-09-26, before any model had extracted these essays and after prompt v0.3 was frozen. They follow the development conventions: roles come from the PERSUADE element with the largest overlap, polarity is not annotated, and edge notes record weak reasoning and factual errors. The root is the first unit that states the writer's answer to the assignment question. In three of the four essays that unit lies in PERSUADE lead or unannotated text. The user reviewed all four and accepted them without changes (2026-09-26). Like the development gold, they are reviewed rather than independently annotated.
+
 ## Extract argument graphs with Claude
 
 ```sh
@@ -102,7 +104,7 @@ PYTHONPATH=src python3 -m ling_mapper.student_graph \
   --output-dir data/runs/student_graph
 ```
 
-Pilot-check essays are written to the same run folder as the development essays of that configuration, so report them separately (from `per_essay` in `metrics.json`). Changing the prompt after seeing pilot-check scores makes them development data.
+Pilot-check essays are written to the same run folder as the development essays of that configuration, so report them separately (from `per_essay` in `metrics.json`). Score the pilot-check gold graphs with `--gold-dir data/annotations/argument_graphs_pilot_check`; the gold-graph summary then covers only those four essays, while the PERSUADE summary still covers every essay in the folder. Changing the prompt after seeing pilot-check scores makes them development data.
 
 Each run directory is keyed by prompt version, model, effort and a hash of the prompt and schemas. It holds `system_prompt.txt`, `manifest.json` (config, records hash, per-essay status and token usage), and per essay `<id>.graph.json` plus `<id>.log.json` (every attempt's output, errors, stop reason, usage and request ID). Essays already extracted under the same configuration are skipped unless `--force` is given.
 

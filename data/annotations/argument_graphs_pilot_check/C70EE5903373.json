@@ -1,0 +1,913 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:C70EE5903373",
+  "root": "v2",
+  "units": [
+    {
+      "id": "v1",
+      "start": 0,
+      "end": 31,
+      "text": "Dear state senator of Florida ,",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v2",
+      "start": 33,
+      "end": 91,
+      "text": "I beleive that we should get rid of the Electoral College.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v3",
+      "start": 92,
+      "end": 143,
+      "text": "It may have been good and all back in the old days,",
+      "role": "lead",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "v4",
+      "start": 144,
+      "end": 217,
+      "text": "but the Electoral College does not many voters the passion to vote today.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v5",
+      "start": 218,
+      "end": 257,
+      "text": "We should abolish the Electoral College",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v6",
+      "start": 258,
+      "end": 303,
+      "text": "beacuse it will encourage more people to vote",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v7",
+      "start": 304,
+      "end": 342,
+      "text": "and it is on the brink of catastrophe.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v8",
+      "start": 344,
+      "end": 397,
+      "text": "To begin with, if we get rid of the Electoral College",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v9",
+      "start": 398,
+      "end": 452,
+      "text": "it will encourage more people to vote for Presidident.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v10",
+      "start": 453,
+      "end": 555,
+      "text": "For example, as seen in the article, Republicans in California realize that their vote does not matter",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v11",
+      "start": 556,
+      "end": 605,
+      "text": "because Democrats tend to dominate in that state.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v12",
+      "start": 606,
+      "end": 688,
+      "text": "The same can be said for Democrats in Texas who beleive their vote does not matter",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v13",
+      "start": 689,
+      "end": 732,
+      "text": "because Republicans dominate in that state.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v14",
+      "start": 733,
+      "end": 772,
+      "text": "However, if the U.S had a popular vote,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v15",
+      "start": 773,
+      "end": 819,
+      "text": "voters may think that there vote may mean more",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v16",
+      "start": 820,
+      "end": 880,
+      "text": "and will be encouraged to go out and vote for the President.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v17",
+      "start": 882,
+      "end": 914,
+      "text": "On the other hand, you may argue",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v18",
+      "start": 915,
+      "end": 979,
+      "text": "that the Electoral College helps America have a better President",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "v19",
+      "start": 980,
+      "end": 1049,
+      "text": "beacuse in order to win you must do so in all regions of the country.",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v20",
+      "start": 1050,
+      "end": 1126,
+      "text": "For example, Mitt Romney won pretty much the whole south region back in 2012",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v21",
+      "start": 1127,
+      "end": 1155,
+      "text": "but did not become President",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v22",
+      "start": 1156,
+      "end": 1205,
+      "text": "because he did not gather enough Electoral Votes.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v23",
+      "start": 1206,
+      "end": 1255,
+      "text": "Barack Obama had a more widspread tally of votes.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "v24",
+      "start": 1256,
+      "end": 1300,
+      "text": "But he counter to that he did win California",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v25",
+      "start": 1301,
+      "end": 1331,
+      "text": "which gave him 55 extra votes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v26",
+      "start": 1333,
+      "end": 1403,
+      "text": "Secondly, the Electoral College is on the brink of a amjor catastrophe",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v27",
+      "start": 1404,
+      "end": 1442,
+      "text": "and must be changed before it happens.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v28",
+      "start": 1443,
+      "end": 1547,
+      "text": "In paragrah 12, you see that just 5,559 votes that voted the opposite canidate would have made it a tie.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v29",
+      "start": 1548,
+      "end": 1568,
+      "text": "That would be chaos.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v30",
+      "start": 1569,
+      "end": 1672,
+      "text": "Because then the Electors of the Electoral College can then basically choose whoever they for President",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v31",
+      "start": 1673,
+      "end": 1705,
+      "text": "and not by what the people want.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v32",
+      "start": 1707,
+      "end": 1761,
+      "text": "In conclusion, we should abolish the Electoral College",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v33",
+      "start": 1762,
+      "end": 1803,
+      "text": "in order to encourage more people to vote",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v34",
+      "start": 1804,
+      "end": 1859,
+      "text": "and to stop a catastrophe that is bound to happen soon.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v35",
+      "start": 1860,
+      "end": 1968,
+      "text": "Acorrding to a Gallup poll done in 2000, over 60% over the American people would rather have a popular vote.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v36",
+      "start": 1969,
+      "end": 2050,
+      "text": "This just prooves that the Electoral College is unfair, outdated, and irrational.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v37",
+      "start": 2052,
+      "end": 2069,
+      "text": "From your friend,",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "v38",
+      "start": 2071,
+      "end": 2081,
+      "text": "Adam Solis",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "v1",
+      "target": "v2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Salutation."
+    },
+    {
+      "id": "r2",
+      "source": "v3",
+      "target": "v4",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 144,
+          "end": 147,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "v4",
+      "target": "v2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "A verb is missing (presumably 'give')."
+    },
+    {
+      "id": "r4",
+      "source": "v5",
+      "target": "v2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 228,
+          "end": 235,
+          "text": "abolish"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "v6",
+      "target": "v5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 258,
+          "end": 265,
+          "text": "beacuse"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "v7",
+      "target": "v6",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 304,
+          "end": 307,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "v8",
+      "target": "v9",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 359,
+          "end": 361,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "v9",
+      "target": "v2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "First body reason, previewed in v6."
+    },
+    {
+      "id": "r9",
+      "source": "v10",
+      "target": "v9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 453,
+          "end": 464,
+          "text": "For example"
+        }
+      ],
+      "note": "Shows discouraged voters under the Electoral College, not that a popular vote would raise turnout."
+    },
+    {
+      "id": "r10",
+      "source": "v11",
+      "target": "v10",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 556,
+          "end": 563,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "v12",
+      "target": "v10",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 606,
+          "end": 626,
+          "text": "The same can be said"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "v13",
+      "target": "v12",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 689,
+          "end": 696,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "v14",
+      "target": "v15",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 742,
+          "end": 744,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "v15",
+      "target": "v10",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 806,
+          "end": 819,
+          "text": "may mean more"
+        }
+      ],
+      "note": "Contrast signalled by 'However' in v14, the first unit of the sentence."
+    },
+    {
+      "id": "r15",
+      "source": "v16",
+      "target": "v15",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 820,
+          "end": 823,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "v17",
+      "target": "v18",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 909,
+          "end": 914,
+          "text": "argue"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "v18",
+      "target": "v24",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1256,
+          "end": 1259,
+          "text": "But"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "v19",
+      "target": "v18",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 980,
+          "end": 987,
+          "text": "beacuse"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "v20",
+      "target": "v19",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1050,
+          "end": 1061,
+          "text": "For example"
+        }
+      ],
+      "note": "Example offered for the opposing view."
+    },
+    {
+      "id": "r20",
+      "source": "v21",
+      "target": "v20",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1127,
+          "end": 1130,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "v22",
+      "target": "v21",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1156,
+          "end": 1163,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "v23",
+      "target": "v20",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 1225,
+          "end": 1239,
+          "text": "more widspread"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "v24",
+      "target": "v2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Weak rebuttal: winning California does not answer the claim that a candidate needs support across regions."
+    },
+    {
+      "id": "r24",
+      "source": "v25",
+      "target": "v24",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1301,
+          "end": 1306,
+          "text": "which"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "v26",
+      "target": "v2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Second body reason, previewed in v7."
+    },
+    {
+      "id": "r26",
+      "source": "v27",
+      "target": "v26",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1404,
+          "end": 1407,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "v28",
+      "target": "v26",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1443,
+          "end": 1457,
+          "text": "In paragrah 12"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "v29",
+      "target": "v28",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1548,
+          "end": 1552,
+          "text": "That"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "v30",
+      "target": "v29",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1569,
+          "end": 1576,
+          "text": "Because"
+        }
+      ],
+      "note": "Factual error: a tie is decided by the House of Representatives, not by the electors."
+    },
+    {
+      "id": "r30",
+      "source": "v31",
+      "target": "v30",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1673,
+          "end": 1676,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "source": "v32",
+      "target": "v2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1707,
+          "end": 1720,
+          "text": "In conclusion"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "source": "v33",
+      "target": "v32",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1762,
+          "end": 1773,
+          "text": "in order to"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "source": "v34",
+      "target": "v33",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1804,
+          "end": 1807,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "source": "v35",
+      "target": "v36",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1969,
+          "end": 1986,
+          "text": "This just prooves"
+        }
+      ],
+      "note": "A preference poll does not show that the system is unfair, outdated or irrational."
+    },
+    {
+      "id": "r35",
+      "source": "v36",
+      "target": "v32",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "New reasons in the conclusion, not argued in the body."
+    },
+    {
+      "id": "r36",
+      "source": "v37",
+      "target": "v2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Sign-off."
+    },
+    {
+      "id": "r37",
+      "source": "v38",
+      "target": "v37",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Signature."
+    },
+    {
+      "id": "r38",
+      "source": "v9",
+      "target": "v6",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 406,
+          "end": 435,
+          "text": "encourage more people to vote"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "source": "v26",
+      "target": "v7",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1375,
+          "end": 1403,
+          "text": "brink of a amjor catastrophe"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-26",
+    "text_sha256": "8d25b6bb014e24fb05186bda05e6a99d17ce6cd5af74c06ac603bd7d0d44bc4a",
+    "role_source": "PERSUADE element with largest overlap",
+    "polarity": "not annotated (all positive), as in the development gold",
+    "purpose": "pilot-check gold for RQ1 graph extraction (Claude-authored before any extraction of this essay; user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-26",
+    "review_outcome": "accepted_without_changes"
+  }
+}

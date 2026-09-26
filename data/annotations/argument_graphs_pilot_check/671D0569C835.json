@@ -1,0 +1,1372 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:671D0569C835",
+  "root": "x7",
+  "units": [
+    {
+      "id": "x1",
+      "start": 0,
+      "end": 27,
+      "text": "Dear Florida State Senator,",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x2",
+      "start": 29,
+      "end": 129,
+      "text": "Every 4 years, many people vote for a president they think will lead the United States to greatness;",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x3",
+      "start": 130,
+      "end": 227,
+      "text": "some, however, don't know that they are voting for the Electoral College to vote on their choise.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x4",
+      "start": 228,
+      "end": 302,
+      "text": "This act of using the Electoral College is, by definition, not democratic.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x5",
+      "start": 303,
+      "end": 397,
+      "text": "Didn't our founding fathers create this country promising democracy and people representation?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x6",
+      "start": 398,
+      "end": 407,
+      "text": "They did,",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x7",
+      "start": 408,
+      "end": 459,
+      "text": "and that is why the Electoral College must crumble.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x8",
+      "start": 460,
+      "end": 537,
+      "text": "Florida State Senator, we need to change how our country votes on its leader;",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x9",
+      "start": 538,
+      "end": 604,
+      "text": "we need to use popular vote for the president of the United States",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x10",
+      "start": 605,
+      "end": 644,
+      "text": "because this method is more democratic,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x11",
+      "start": 645,
+      "end": 710,
+      "text": "the people representing the  Electoral College are flawed humans,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x12",
+      "start": 711,
+      "end": 784,
+      "text": "and the nature of this type of election forces some states to be ignored.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x13",
+      "start": 785,
+      "end": 866,
+      "text": "Florida State Senator, you must take action against the flawed Electoral College!",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x14",
+      "start": 868,
+      "end": 958,
+      "text": "Because of the function of the Electoral College, the people aren't truly represented for.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x15",
+      "start": 959,
+      "end": 1081,
+      "text": "According to Source 2, the voters--the ones supposedly voting for our new president--vote for a group of electors instead.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x16",
+      "start": 1082,
+      "end": 1160,
+      "text": "Due to the power of the Electoral Colleg, electors can vote for any candidate.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x17",
+      "start": 1161,
+      "end": 1219,
+      "text": "This process we have every 4 years is truly un-democratic.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x18",
+      "start": 1220,
+      "end": 1314,
+      "text": "For example, during the 2000 election, Al Gore was the candidate with the most popular votes--",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x19",
+      "start": 1314,
+      "end": 1397,
+      "text": "this meant that the majority of the citizens of the U.S. wants him to be president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x20",
+      "start": 1398,
+      "end": 1419,
+      "text": "However, Al Gore lost",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x21",
+      "start": 1420,
+      "end": 1488,
+      "text": "since the majority of electors from the Electoral College voted him.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x22",
+      "start": 1489,
+      "end": 1560,
+      "text": "Lastly, in the case of a time, the lection will truly be un-democratic;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x23",
+      "start": 1561,
+      "end": 1628,
+      "text": "the House of Representatives will have to choose the new president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x24",
+      "start": 1629,
+      "end": 1701,
+      "text": "The people may allow continued usage of the imperfect Electoral College,",
+      "role": "claim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "x25",
+      "start": 1702,
+      "end": 1739,
+      "text": "but there is still one major problem:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x26",
+      "start": 1740,
+      "end": 1810,
+      "text": "the Electoral College is made up of flawed, easily manipulated humans.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x27",
+      "start": 1812,
+      "end": 1912,
+      "text": "According to Source 1, the electors are made up of people chosen by the candidate's political party.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x28",
+      "start": 1913,
+      "end": 1987,
+      "text": "Immediately, these electors can easily decide on the candidate to vote on;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x29",
+      "start": 1988,
+      "end": 2054,
+      "text": "it's just the matter of the amount of electors each candidate has.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x30",
+      "start": 2055,
+      "end": 2091,
+      "text": "Also, the electors are human beings,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x31",
+      "start": 2092,
+      "end": 2144,
+      "text": "and everyone knows that humans are flawed creatures.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x32",
+      "start": 2145,
+      "end": 2271,
+      "text": "According to Source 2, electors have been replaced to be against the opposing candidate or wait until the last minute to vote.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x33",
+      "start": 2272,
+      "end": 2328,
+      "text": "Although, according to Source 3, the electors are chosen",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "x33b",
+      "start": 2329,
+      "end": 2349,
+      "text": "and are given trust,",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "x34",
+      "start": 2350,
+      "end": 2382,
+      "text": "others can still influence them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x35",
+      "start": 2383,
+      "end": 2479,
+      "text": "Candidates or even political parties can influence the electors to vote for their chosen person.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x36",
+      "start": 2480,
+      "end": 2580,
+      "text": "Lastly, Florida State Senator, the nature of the Electoral College forces some states to be ignored.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x37",
+      "start": 2582,
+      "end": 2711,
+      "text": "Florida State Senator, as you may know, the candidate for presidency usually go to the \"swing\" states to win \"the people's\" vote.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x38",
+      "start": 2712,
+      "end": 2777,
+      "text": "People, however, from the non-swing states are generally ignored.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x39",
+      "start": 2778,
+      "end": 2894,
+      "text": "During the 2000 election, 17 states weren't even able to see a candidate they are voting for the title of president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x40",
+      "start": 2895,
+      "end": 2979,
+      "text": "Although it is understandable that candidates go to the \"swing\" and populous states,",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "x41",
+      "start": 2980,
+      "end": 3054,
+      "text": "there is no excuse for ignoring thousands of people from the small states.",
+      "role": "counterclaim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x42",
+      "start": 3055,
+      "end": 3154,
+      "text": "The president of the United States is the president for an entire country, not just a region of it.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x43",
+      "start": 3155,
+      "end": 3254,
+      "text": "Voters from the non-swing states will still want to see the candidate to decide on who to vote for,",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x44",
+      "start": 3255,
+      "end": 3311,
+      "text": "even though they aren't voting for the actual candidate.",
+      "role": "rebuttal",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "x45",
+      "start": 3312,
+      "end": 3365,
+      "text": "The Electoral College is imperfect and un-democratic!",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x46",
+      "start": 3367,
+      "end": 3438,
+      "text": "In conclusion, the Electoral College and its electors must be disbanded",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x47",
+      "start": 3439,
+      "end": 3527,
+      "text": "so that popular vote will be used in determining the new president of the United States.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x48",
+      "start": 3528,
+      "end": 3635,
+      "text": "According to both Source 2 and 3, the process of voting a group of people to vote for you is un-democratic.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x49",
+      "start": 3636,
+      "end": 3753,
+      "text": "Electors, the people making up th Electoral College, can be manipulated and coerced into voting a specific candidate.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x50",
+      "start": 3754,
+      "end": 3795,
+      "text": "Lastly, non-swing states will be ignored;",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x51",
+      "start": 3796,
+      "end": 3830,
+      "text": "this will anger and frustrate them",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x52",
+      "start": 3831,
+      "end": 3878,
+      "text": "since not one candidate tried to persuade them.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x53",
+      "start": 3879,
+      "end": 4023,
+      "text": "Florida State Senator, you must, in the best of your ability and then some, try to topple down the un-democratic roots of the Electoral College.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x54",
+      "start": 4024,
+      "end": 4124,
+      "text": "The people, the ones who must truly decide on the president, will be immensely greatful towards you;",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x55",
+      "start": 4125,
+      "end": 4170,
+      "text": "in a 2000 poll, 60% of the voters even stated",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x56",
+      "start": 4171,
+      "end": 4218,
+      "text": "that they want a popular-vote type of election.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x57",
+      "start": 4219,
+      "end": 4325,
+      "text": "Florida State Senator, I implore to you, abolish the Electoral College in the same manner as with slavery.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "x58",
+      "start": 4326,
+      "end": 4353,
+      "text": "Many people will thank you!",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "x1",
+      "target": "x7",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Salutation."
+    },
+    {
+      "id": "r2",
+      "source": "x2",
+      "target": "x4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "x3",
+      "target": "x2",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 136,
+          "end": 143,
+          "text": "however"
+        }
+      ]
+    },
+    {
+      "id": "r4",
+      "source": "x4",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "x5",
+      "target": "x6",
+      "label": "topic-question",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 396,
+          "end": 397,
+          "text": "?"
+        }
+      ],
+      "note": "Rhetorical question, answered by the writer in x6."
+    },
+    {
+      "id": "r6",
+      "source": "x6",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 412,
+          "end": 423,
+          "text": "that is why"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "x8",
+      "target": "x7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 494,
+          "end": 522,
+          "text": "change how our country votes"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "x9",
+      "target": "x8",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 536,
+          "end": 537,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "x10",
+      "target": "x9",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 605,
+          "end": 612,
+          "text": "because"
+        }
+      ],
+      "note": "Previews the first body reason."
+    },
+    {
+      "id": "r10",
+      "source": "x11",
+      "target": "x10",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Previews the second body reason."
+    },
+    {
+      "id": "r11",
+      "source": "x12",
+      "target": "x10",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 711,
+          "end": 714,
+          "text": "and"
+        }
+      ],
+      "note": "Previews the third body reason."
+    },
+    {
+      "id": "r12",
+      "source": "x13",
+      "target": "x7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 817,
+          "end": 836,
+          "text": "take action against"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "x14",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "First body reason."
+    },
+    {
+      "id": "r14",
+      "source": "x15",
+      "target": "x14",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 959,
+          "end": 980,
+          "text": "According to Source 2"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "x16",
+      "target": "x15",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "x17",
+      "target": "x15",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1161,
+          "end": 1173,
+          "text": "This process"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "x18",
+      "target": "x17",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1220,
+          "end": 1231,
+          "text": "For example"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "x19",
+      "target": "x18",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1314,
+          "end": 1324,
+          "text": "this meant"
+        }
+      ],
+      "note": "Most popular votes was a plurality (48.4%), not a majority."
+    },
+    {
+      "id": "r19",
+      "source": "x20",
+      "target": "x18",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1398,
+          "end": 1405,
+          "text": "However"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "x21",
+      "target": "x20",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1420,
+          "end": 1425,
+          "text": "since"
+        }
+      ],
+      "note": "A word is missing (presumably 'against')."
+    },
+    {
+      "id": "r21",
+      "source": "x22",
+      "target": "x18",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1489,
+          "end": 1495,
+          "text": "Lastly"
+        }
+      ],
+      "note": "'time' presumably means 'tie'."
+    },
+    {
+      "id": "r22",
+      "source": "x23",
+      "target": "x22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1559,
+          "end": 1560,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "x24",
+      "target": "x25",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1702,
+          "end": 1705,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "x25",
+      "target": "x26",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1738,
+          "end": 1739,
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "x26",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Second body reason."
+    },
+    {
+      "id": "r26",
+      "source": "x27",
+      "target": "x26",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1812,
+          "end": 1833,
+          "text": "According to Source 1"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "x28",
+      "target": "x27",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1913,
+          "end": 1924,
+          "text": "Immediately"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "x29",
+      "target": "x28",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1986,
+          "end": 1987,
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "x30",
+      "target": "x27",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2055,
+          "end": 2059,
+          "text": "Also"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "x31",
+      "target": "x30",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2092,
+          "end": 2095,
+          "text": "and"
+        }
+      ],
+      "note": "Premises of a syllogism; the conclusion (electors are flawed) is left implicit."
+    },
+    {
+      "id": "r31",
+      "source": "x32",
+      "target": "x27",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2145,
+          "end": 2166,
+          "text": "According to Source 2"
+        }
+      ],
+      "note": "Loose paraphrase of the source."
+    },
+    {
+      "id": "r32",
+      "source": "x33",
+      "target": "x34",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2272,
+          "end": 2280,
+          "text": "Although"
+        }
+      ]
+    },
+    {
+      "id": "r33",
+      "source": "x33b",
+      "target": "x33",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2329,
+          "end": 2332,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "source": "x34",
+      "target": "x27",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "x35",
+      "target": "x34",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2424,
+          "end": 2433,
+          "text": "influence"
+        }
+      ]
+    },
+    {
+      "id": "r36",
+      "source": "x36",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Third body reason."
+    },
+    {
+      "id": "r37",
+      "source": "x37",
+      "target": "x36",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "x38",
+      "target": "x37",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2720,
+          "end": 2727,
+          "text": "however"
+        }
+      ]
+    },
+    {
+      "id": "r39",
+      "source": "x39",
+      "target": "x38",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "numerical",
+          "start": 2804,
+          "end": 2813,
+          "text": "17 states"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "source": "x40",
+      "target": "x41",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2895,
+          "end": 2903,
+          "text": "Although"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "source": "x41",
+      "target": "x36",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "x42",
+      "target": "x41",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "x43",
+      "target": "x42",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r44",
+      "source": "x44",
+      "target": "x43",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3255,
+          "end": 3266,
+          "text": "even though"
+        }
+      ]
+    },
+    {
+      "id": "r45",
+      "source": "x45",
+      "target": "x7",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r46",
+      "source": "x46",
+      "target": "x7",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3367,
+          "end": 3380,
+          "text": "In conclusion"
+        }
+      ]
+    },
+    {
+      "id": "r47",
+      "source": "x47",
+      "target": "x46",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3439,
+          "end": 3446,
+          "text": "so that"
+        }
+      ]
+    },
+    {
+      "id": "r48",
+      "source": "x48",
+      "target": "x46",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Summary of the first reason."
+    },
+    {
+      "id": "r49",
+      "source": "x49",
+      "target": "x48",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Summary of the second reason."
+    },
+    {
+      "id": "r50",
+      "source": "x50",
+      "target": "x48",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3754,
+          "end": 3760,
+          "text": "Lastly"
+        }
+      ],
+      "note": "Summary of the third reason."
+    },
+    {
+      "id": "r51",
+      "source": "x51",
+      "target": "x50",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 3796,
+          "end": 3800,
+          "text": "this"
+        }
+      ]
+    },
+    {
+      "id": "r52",
+      "source": "x52",
+      "target": "x51",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3831,
+          "end": 3836,
+          "text": "since"
+        }
+      ]
+    },
+    {
+      "id": "r53",
+      "source": "x53",
+      "target": "x46",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 3962,
+          "end": 3973,
+          "text": "topple down"
+        }
+      ]
+    },
+    {
+      "id": "r54",
+      "source": "x54",
+      "target": "x53",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Motivation for the senator to act."
+    },
+    {
+      "id": "r55",
+      "source": "x55",
+      "target": "x56",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 4164,
+          "end": 4170,
+          "text": "stated"
+        }
+      ]
+    },
+    {
+      "id": "r56",
+      "source": "x56",
+      "target": "x54",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "A preference poll does not show that people will be grateful to the senator."
+    },
+    {
+      "id": "r57",
+      "source": "x57",
+      "target": "x46",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 4260,
+          "end": 4267,
+          "text": "abolish"
+        }
+      ],
+      "note": "The comparison with slavery is asserted, not argued."
+    },
+    {
+      "id": "r58",
+      "source": "x58",
+      "target": "x57",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r59",
+      "source": "x14",
+      "target": "x10",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 929,
+          "end": 953,
+          "text": "aren't truly represented"
+        }
+      ]
+    },
+    {
+      "id": "r60",
+      "source": "x26",
+      "target": "x11",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1776,
+          "end": 1782,
+          "text": "flawed"
+        }
+      ]
+    },
+    {
+      "id": "r61",
+      "source": "x36",
+      "target": "x12",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2547,
+          "end": 2579,
+          "text": "forces some states to be ignored"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-26",
+    "text_sha256": "6247948e71dc10ae7bb485059db0fcec00a8c27fac9c655a658ffcb02f29c21e",
+    "role_source": "PERSUADE element with largest overlap",
+    "polarity": "not annotated (all positive), as in the development gold",
+    "purpose": "pilot-check gold for RQ1 graph extraction (Claude-authored before any extraction of this essay; user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-26",
+    "review_outcome": "accepted_without_changes"
+  }
+}
