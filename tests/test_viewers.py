@@ -1,7 +1,7 @@
 import unittest
 
-from ling_mapper.render_html import render
-from ling_mapper import render_graph_html
+from argument_graph.render_html import render
+from argument_graph import render_graph_html
 
 
 def span(aid, start, text, role):

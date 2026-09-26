@@ -1,6 +1,6 @@
 import unittest
 
-from ling_mapper.graph_schema import SCHEMA_VERSION, argument_edges, validate_graph
+from argument_graph.graph_schema import SCHEMA_VERSION, argument_edges, validate_graph
 
 TEXT = ("I favor keeping the college instead of changing to popular vote because it is fair. "
         "A dispute is possible, but it is less likely. For example, Obama got 61.7 percent.")

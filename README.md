@@ -2,12 +2,37 @@
 
 Preliminary dataset-independent records, PERSUADE import, and argument-graph extraction with Claude for RQ1 representation evaluation. Python 3.10+; everything uses only the standard library except extraction, which needs the `anthropic` package. Alignment, hierarchy and diagnosis are not implemented yet.
 
+## Status (2026-09-26)
+
+Code lives in the `argument_graph` package (`src/argument_graph/`, renamed from `ling_mapper`). Details and numbers are in the sections below and in `PRELIMINARY_PIPELINE_PLAN.md`.
+
+| Stage | State |
+|---|---|
+| PERSUADE import (Phase A) | Done: electoral-college run v6, 21-essay pilot (11 development, 10 pilot-check). |
+| Student graph extraction (Phase B) | Prompt `student_graph/0.3` frozen. Scored on development and, once, on pilot-check essays. The pilot-check essays are now used, so a changed prompt needs a new held-out sample. |
+| Gold graphs | 4 development and 4 pilot-check essays: Claude-written, user-reviewed, not independently annotated. |
+| Source passages | Obtained (`fetch_sources`); second-hand copy, not yet compared with Kaggle's original. Gitignored (copyright). |
+| Reference graph (Phase B step 1) | Drafted as source graphs (a format for passages, not essays) for all three sources, plus the assignment's explicit expectations. Awaiting review. |
+| Browser page | `argument_graph.web`: paste a question and an essay to get its graph. |
+| Alignment (Phase C) | Prototype built (`argument_graph.align`): a model judge links each student unit to the source units it draws on, with gold alignments for the 8 gold essays and a word-overlap baseline. Judge `align/0.2` (with rules R1–R3): label accuracy 0.83, source-use F1 0.94, link F1 0.75, 11 of 17 distortions found (4 false), on 8 development essays. |
+| Diagnosis and feedback (Phase C) | Not started. |
+| Concept grouping (Phase D) | Not started. Within one essay, a model groups verified units by topic. Across essays and the reference graph, embedding clustering supplies alignment candidates. |
+
+Decisions taken on 2026-09-26:
+- Predicates that share a subject are split into separate units.
+- A fact the writer cites from a source and uses as their own evidence is `endorsed`; the next prompt version must say so.
+- The graph viewer is kept; the Gephi export was removed.
+
+Still open:
+- The root rule: the first statement of the writer's answer (used in the gold) or PERSUADE's position unit.
+- Adding a separate verification pass (Phase B step 4).
+
 ## Run the electoral-college pilot
 
 From the project root:
 
 ```sh
-PYTHONPATH=src python3 -m ling_mapper.prepare_data \
+PYTHONPATH=src python3 -m argument_graph.prepare_data \
   --input data/persuade_corpus_2.0_train.csv \
   --holistic data/persuade_2.0_human_scores_demo_id_github.csv \
   --prompt 'Does the electoral college work?' \
@@ -40,7 +65,7 @@ The v5 and v6 runs contain 1,818 essays and 19,561 recovered spans out of 19,894
 
 ## Common record boundary
 
-`ExampleRecord` in `src/ling_mapper/schemas.py` holds prompt, unchanged response text, optional source passages, optional rubric, optional gold spans/relations, and metadata. `from_dict()` validates JSON round trips and checks every span against its source text.
+`ExampleRecord` in `src/argument_graph/schemas.py` holds prompt, unchanged response text, optional source passages, optional rubric, optional gold spans/relations, and metadata. `from_dict()` validates JSON round trips and checks every span against its source text.
 
 Call `record.model_input()` for downstream model inputs. This allowlist omits gold annotations, effectiveness/holistic scores, demographics, hierarchy candidates, and dataset metadata. Source titles remain citation metadata and are never represented as actual passages. This import has no passage content or rubric attached.
 
@@ -66,12 +91,12 @@ The pilot is deterministic and balances available score bands approximately. It 
 
 ## Argument graph contract
 
-`src/ling_mapper/graph_schema.py` defines the graph that extraction must produce (`argument_graph/0.1`): proposition units that tile the essay, a single-rooted primary tree of eRST relations from a fixed GUM subset, and secondary edges only when a quoted signal licenses them. `validate_graph(graph, text)` lists every violation; `argument_edges(graph)` derives support/attack from relation class and writer stance. Rules and rationale are in section 4 of `PRELIMINARY_PIPELINE_PLAN.md`.
+`src/argument_graph/graph_schema.py` defines the graph that extraction must produce (`argument_graph/0.1`): proposition units that tile the essay, a single-rooted primary tree of eRST relations from a fixed GUM subset, and secondary edges only when a quoted signal licenses them. `validate_graph(graph, text)` lists every violation; `argument_edges(graph)` derives support/attack from relation class and writer stance. Rules and rationale are in section 4 of `PRELIMINARY_PIPELINE_PLAN.md`.
 
 View graphs in this format (the essay tiled into units with signals marked, the primary tree with relation labels, and a derived support/attack view; contract violations are listed, not hidden):
 
 ```sh
-PYTHONPATH=src python3 -m ling_mapper.render_graph_html \
+PYTHONPATH=src python3 -m argument_graph.render_graph_html \
   --graph data/annotations/argument_graphs/E0737CDC1E99.json \
   --records data/processed/electoral_college_v6/pilot.jsonl \
   --output data/processed/electoral_college_v6/viewer/argument_graph_E0737CDC1E99.html
@@ -86,7 +111,7 @@ PYTHONPATH=src python3 -m ling_mapper.render_graph_html \
 ```sh
 pip install anthropic   # the only non-standard-library dependency, used only here
 export ANTHROPIC_API_KEY=...
-PYTHONPATH=src python3 -m ling_mapper.student_graph \
+PYTHONPATH=src python3 -m argument_graph.student_graph \
   --records data/processed/electoral_college_v6/pilot.jsonl \
   --splits data/processed/electoral_college_v6/splits.json \
   --output-dir data/runs/student_graph
@@ -97,7 +122,7 @@ PYTHONPATH=src python3 -m ling_mapper.student_graph \
 The prompt version is `PROMPT_VERSION` in `student_graph.py`; the current version, `student_graph/0.3`, is frozen for the pilot-check run. Score the pilot-check essays once, with the frozen prompt:
 
 ```sh
-PYTHONPATH=src python3 -m ling_mapper.student_graph \
+PYTHONPATH=src python3 -m argument_graph.student_graph \
   --records data/processed/electoral_college_v6/pilot.jsonl \
   --splits data/processed/electoral_college_v6/splits.json \
   --split pilot_check --allow-pilot-check \
@@ -108,11 +133,104 @@ Pilot-check essays are written to the same run folder as the development essays 
 
 Each run directory is keyed by prompt version, model, effort and a hash of the prompt and schemas. It holds `system_prompt.txt`, `manifest.json` (config, records hash, per-essay status and token usage), and per essay `<id>.graph.json` plus `<id>.log.json` (every attempt's output, errors, stop reason, usage and request ID). Essays already extracted under the same configuration are skipped unless `--force` is given.
 
+## Source passages and reference graph
+
+The electoral-college assignment asks students to argue from three sources, but PERSUADE records carry only their titles. The passages, with the paragraph numbers students cite, come from the Kaggle "LLM - Detect AI Generated Text" competition (`train_prompts.csv`), run by the same organisers as PERSUADE. The script downloads a public copy pinned to a commit, checks its SHA-256, and decodes it (the copy is GBK-encoded):
+
+```sh
+PYTHONPATH=src python3 -m argument_graph.fetch_sources            # or --csv <downloaded file>
+```
+
+It writes `data/sources/electoral_college/`: `source_text.md`, `instructions.txt`, `paragraphs.json`, `source_records.jsonl` (one record per source, paragraph numbers as offsets) and `provenance.json`. The copy has not yet been compared with Kaggle's original, which needs a login. Its paragraph numbers match student citations ("paragraph 12"), and every factual note in the pilot-check gold agrees with it. If your Python cannot verify HTTPS certificates (python.org installs on macOS until "Install Certificates" is run), download with `curl -LO` and pass `--csv`.
+
+Plumer (Mother Jones, 2004) and Posner (Slate, 2012) are copyrighted, and this repository is public, so `data/sources/` is gitignored. That includes the reference graphs in `data/sources/electoral_college/reference/`: their units cover the passages, so they contain the full text.
+
+Sources are not essays, so the reference uses its own format, `source_graph/0.1` (`src/argument_graph/source_graph.py`), rather than the essay graph. The first draft used essay roles and the single-rooted eRST tree, which left the Federal Register sheet with no support links at all and most units of the opinion pieces outside any reason (50 of 71 for Plumer, 40 of 71 for Posner).
+- **Units** still cover the text with exact quotes. Each records its paragraph number and one of seven types: `thesis`, `claim`, `fact`, `example`, `concession`, `opposing_view` or `framing` (questions, headings, asides). Stance is the source author's own.
+- **Edges** run from a passage (one or more units) to a single unit, so a whole block of evidence counts as the reason. The types are `supports`, `opposes` (the author answers an opposing view), `concedes` (granted, but the claim holds anyway) and `elaborates` (detail, not a reason).
+- **The validator** checks coverage, paragraph numbers, that type and stance agree, and that edge targets make sense. Every concession and opposing view must be linked. In a source with a thesis, every non-framing unit must be in an edge. A fact sheet with no thesis needs no links.
+
+There is one graph per source: S1 Federal Register (24 facts grouped by topic, no argument); S2 Plumer (71 units, 20 edges); S3 Posner (71 units, 27 edges). In S2 and S3 every non-framing unit is in an edge; 56 of 58 and 60 of 66 are in a supports, opposes or concedes passage. The remainder are restatements, a continuation, or detail of the opposing view. Opposing authors stay separate, so neither side becomes the "correct" answer. Claude drafted them on 2026-09-26: `reference/segmentation/` fixes the units, `reference/annotations/` gives types and edges, and `reference/build_reference.py` builds and validates them. They are not yet reviewed. View them with:
+
+```sh
+D=data/sources/electoral_college
+PYTHONPATH=src python3 -m argument_graph.render_source_html --records $D/source_records.jsonl \
+  --graph $D/reference/S1.source_graph.json --graph $D/reference/S2.source_graph.json --graph $D/reference/S3.source_graph.json \
+  --output $D/reference/source_graphs.html
+```
+
+`data/annotations/reference/electoral_college_expectations.json` (committed) lists the assignment's explicit requirements, each with its exact quote: a letter to a state senator, a position, a claim, counterclaims, evidence from several sources without over-relying on one, and a multiparagraph essay.
+
+## Align student graphs with the sources (Phase C prototype)
+
+`src/argument_graph/align.py` links each unit of a student graph to the source-graph units it draws on, and says how faithfully:
+- `quote`: copies the source's wording.
+- `paraphrase`: the same proposition in other words.
+- `distorted`: based on a source but changed: reversed, a wrong number, name or date, a misused example, or an opposing view presented as the author's.
+- `related`: uses source content to assert something the source does not say.
+- `none`: no source basis.
+
+The three sources total about 2,000 words, so the model judge sees every source unit, with source, paragraph number, type and the author's stance, rather than a retrieved shortlist. Of the student essay it sees only the text and unit quotes, never roles, stances or relations, so gold graphs can be used as input without leaking annotations. Answers are validated: every unit is aligned exactly once, links point to real source units, linked labels have links, and a distortion states what changed. Failed checks go back to the model for up to 3 attempts, and output is never repaired silently. A word-overlap baseline (idf-weighted cosine) costs nothing and serves as the comparison.
+
+```sh
+G=data/annotations
+PYTHONPATH=src python3 -m argument_graph.align run --records data/processed/electoral_college_v6/pilot.jsonl \
+  $(for f in $G/argument_graphs/*.json $G/argument_graphs_pilot_check/*.json; do echo --graph $f; done)
+PYTHONPATH=src python3 -m argument_graph.align score --run-dir data/runs/align/<run folder>
+```
+
+The run writes `data/runs/align/align-0.1_<model>_<effort>_<hash>/`: the system prompt, and per essay `<id>.align.json` and `<id>.log.json`. The hash covers the prompt, schema, model, effort and source listing. At Opus 5, effort `high`, the 8 gold essays are estimated at about $2 (about 6k input tokens per essay). `score` compares the judge and the baseline with the gold. It reports 5-way label accuracy, source-use F1 (any source basis versus none), link precision, recall and F1 for quote, paraphrase and distorted units, agreement on which source is used, and distortions found and falsely flagged. Each system is scored only on the essays it has aligned.
+
+**Gold alignments** (`data/annotations/alignments/`, committed: student text and source unit IDs only) cover all 302 units of the 8 gold essays. The counts are 136 none, 59 related, 58 paraphrase, 35 quote and 14 distorted. Claude wrote them on 2026-09-26, before any judge run, and they are not yet reviewed. Word-overlap candidates were shown during annotation as a reading aid only. The 14 distortions include the reversed "certainty of outcome" claim, the misused Nixon example, the rule that a tie is decided by the House being given to the electors, "5,559 votes" with Hawaii dropped, the tie rule applied to Wyoming's electoral votes, and a Louisiana episode paraphrased into something else.
+
+**Baseline** (word overlap, all 8 essays): label accuracy 0.47, source-use F1 0.65, link precision 0.93 but recall 0.26 (F1 0.41), and 0 of 14 distortions found. It finds copied text reliably and misses paraphrase and every distortion, which is what the judge is for.
+
+**Judge, first run** (`align/0.1`, Opus 5, effort `high`, 2026-09-26). All 8 essays aligned on the first attempt, for about $1.01 (74k input and 26k output tokens).
+
+| | Label accuracy | Source-use F1 | Link precision | Link recall | Link F1 | Same source | Distortions found | False distortions |
+|---|---|---|---|---|---|---|---|---|
+| Word-overlap baseline | 0.47 | 0.65 | 0.93 | 0.26 | 0.41 | 1.00 | 0 / 14 | 0 |
+| Judge | 0.67 | 0.83 | 0.53 | 0.87 | 0.66 | 0.91 | 8 / 14 | 5 |
+
+The judge finds the right passage. When the judge and the gold both link a unit, they share a source unit 99% of the time; the judge just lists more neighbouring units (1.78 per linked unit against the gold's 1.32). Most of the gap is at label boundaries that neither the prompt nor the gold states clearly:
+- **`none` vs `related` (64 units: gold none, judge related or paraphrase).** The judge links students' own stances, evaluations and calls to action to a source's thesis ("Moving to popular vote will fix all of these problems" to Plumer's "Abolish the electoral college!"). The gold is not consistent here either: it links "We should abolish the Electoral College" to Plumer but not "try to topple down the un-democratic roots".
+- **`related` vs `distorted`.** In 3 of the 6 missed distortions, the judge's note names the change ("'bound to happen soon' is the student's escalation") but it chose `related`. Overstatement has no stated rule.
+- **Contradicting the passages.** Several of the 5 false alarms are defensible. "The electors… vote what the state wants" does contradict Plumer ¶10–11, and "lose interest in voting" goes beyond Posner's "less incentive to pay attention", in a view he reports only to rebut. The gold may be too lenient on these.
+
+These are 8 essays whose gold was written by Claude and not yet reviewed, so the figures are a first reading.
+
+**Rules R1–R3 and gold revision (2026-09-26).** The three boundaries are now written rules, in `data/annotations/alignments/GUIDELINES.md` and in the judge prompt (`align/0.2`):
+- **R1.** `related` needs specific source content; a stance, evaluation or call to action that only agrees with a source is `none`.
+- **R2.** Overstating a specific source claim is `distorted`.
+- **R3.** Asserting what a passage contradicts is `distorted`, unless another source supports it.
+
+The gold was revised by applying the rules to all 117 `related` and `paraphrase` units, which changed 12: 9 moved to `none` under R1, 2 to `distorted` under R2 and 1 under R3. Each change is logged with its rule in the file's `change_log` (`confirmed_by: null`). In three places the gold was kept against the judge; they are recorded as clarifications in the guidelines. The labels are now 145 none, 55 paraphrase, 50 related, 35 quote and 17 distorted.
+
+The revision was made after seeing the judge's answers. To check it does not simply copy them, the first run was re-scored against the revised gold. Label accuracy went from 0.67 to 0.66, source-use F1 from 0.83 to 0.80, and distortions from 8 of 14 found (5 false) to 10 of 17 (3 false). These 8 essays now count as development data for the judge; a fair estimate needs new gold essays.
+
+**Judge `align/0.2`** (Opus 5, effort `high`, 2026-09-26; all 8 essays on the first attempt, about $1.05), scored against the revised gold:
+
+| | Label accuracy | Source-use F1 | Link precision | Link recall | Link F1 | Same source | Distortions found | False distortions |
+|---|---|---|---|---|---|---|---|---|
+| Word-overlap baseline | 0.46 | 0.62 | 0.93 | 0.26 | 0.41 | 1.00 | 0 / 17 | 0 |
+| Judge `align/0.1` | 0.66 | 0.80 | 0.53 | 0.87 | 0.66 | 0.91 | 10 / 17 | 3 |
+| Judge `align/0.2` | 0.83 | 0.94 | 0.64 | 0.89 | 0.75 | 0.93 | 11 / 17 | 4 |
+
+The largest remaining disagreement, 19 units, is `related` (gold) against `paraphrase` (judge): previews, summaries and small inferences such as "the larger the population, the more electoral votes". Both labels mean source use, so this boundary matters less.
+
+Distortion is still the hardest label.
+- **Missed:** "swing states, the states that have a bigger weight". Also "the majority of the citizens wants him", where the judge's note recognises the plurality-to-majority change but the label is `related`.
+- **Arguably right:** two of the four false alarms apply the rules more strictly than the gold. These are "electors can vote for any candidate", against Plumer's "occasionally", and "unbiased electors", against party-chosen electors.
+
+Because a flagged distortion is a candidate misconception, it should go to review rather than straight to a finding. That matches plan section 5, Phase C. These figures come from essays that shaped the rules and the gold. The next measurement needs gold alignments for new essays: the 6 pilot-check essays without gold graphs, or new electoral-college essays.
+
+Writing the gold also changed two things. The judge now labels a unit by what it asserts even when it repeats an earlier point: an introduction's preview or a conclusion's summary of a source-based point would otherwise hide source use. And one note in the reviewed F3B4F60CE90C gold graph was corrected: Posner ¶21 does say large states get more attention, so the student's error is "the only ones". The change is logged in the file with `confirmed_by: null`.
+
 ## Generate a graph in the browser
 
 ```sh
 export ANTHROPIC_API_KEY=...
-PYTHONPATH=src python3 -m ling_mapper.web        # then open http://127.0.0.1:8000
+PYTHONPATH=src python3 -m argument_graph.web        # then open http://127.0.0.1:8000
 ```
 
 A local page where you paste an essay question and an essay, and get its argument graph in the same viewer as `render_graph_html`. It runs the same extraction as `student_graph.py` (current prompt, validation and retries), so an essay takes one to four minutes and roughly $0.30 to $1 at Opus 5, effort `high`. Every request is saved under `data/runs/web/<time>-<hash>/`: `input.json`, `log.json` (every attempt), `summary.json` (tokens, estimated cost, configuration) and `graph.json` when extraction succeeds. A failed extraction shows the stage and the checks that failed, never a partial graph. The server listens on 127.0.0.1 only. `--port`, `--model`, `--effort` and `--output-dir` change the defaults. The graph is an unreviewed model extraction; the development and pilot-check results above describe how far to trust it.
@@ -120,7 +238,7 @@ A local page where you paste an essay question and an essay, and get its argumen
 ## Score extracted graphs
 
 ```sh
-PYTHONPATH=src python3 -m ling_mapper.evaluate \
+PYTHONPATH=src python3 -m argument_graph.evaluate \
   --run-dir data/runs/student_graph/<run folder> \
   --records data/processed/electoral_college_v6/pilot.jsonl
 ```
@@ -148,12 +266,12 @@ One run of v0.3 on the 10 pilot-check essays, which had not been used for tuning
 | Development (4 gold / 11 essays) | 0.79 | 0.91 | 3/4 | 0.80 | 0.72 | 0.97 | 0.80 | 0.73 | 0.59 |
 | Pilot-check (4 gold / 10 essays) | 0.83 | 0.94 | 3/4 | 0.76 | 0.67 | 0.82 | 0.66 | 0.70 | 0.62 |
 
-Most of the stance gap comes from facts the writer attributes to a source ("According to Source 2, …", "as seen in the article, …"). The model marks them `reported`, following the prompt's definition ("attributed to others"). The gold marks them `endorsed`, because the writer uses them as their own evidence. Counting `reported` as `endorsed` raises pooled stance agreement from 0.83 to 0.90 and leaves derived edges unchanged. This convention is an open decision (plan section 4.1). The drop in derived F1 is structural: explanation-justify was labelled causal-cause or causal-result five times, a confusion v0.2 had removed on the development essays. The root miss (671D0569C835) is the root-choice ambiguity noted for the pilot-check gold. The pilot-check essays have now been used. Any later prompt change needs a new held-out sample drawn from the remaining electoral-college essays.
+Most of the stance gap comes from facts the writer attributes to a source ("According to Source 2, …", "as seen in the article, …"). The model marks them `reported`, following the prompt's definition ("attributed to others"). The gold marks them `endorsed`, because the writer uses them as their own evidence. Counting `reported` as `endorsed` raises pooled stance agreement from 0.83 to 0.90 and leaves derived edges unchanged. The user has since decided on `endorsed` for such facts (plan section 4.1); the next prompt version must say so. The drop in derived F1 is structural: explanation-justify was labelled causal-cause or causal-result five times, a confusion v0.2 had removed on the development essays. The root miss (671D0569C835) is the root-choice ambiguity noted for the pilot-check gold. The pilot-check essays have now been used. Any later prompt change needs a new held-out sample drawn from the remaining electoral-college essays.
 
 ## Read essays with their argument tree
 
 ```sh
-PYTHONPATH=src python3 -m ling_mapper.render_html \
+PYTHONPATH=src python3 -m argument_graph.render_html \
   --records data/processed/electoral_college_v6/pilot.jsonl \
   --essay <development example_id> ... \
   --output data/processed/electoral_college_v6/viewer/development_viewer.html

@@ -9,7 +9,7 @@ description = "Dataset-independent records and traceable discourse annotation im
 requires-python = ">=3.10"
 
 [project.scripts]
-ling-prepare = "ling_mapper.prepare_data:main"
+ling-prepare = "argument_graph.prepare_data:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

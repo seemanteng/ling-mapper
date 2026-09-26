@@ -3,9 +3,9 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ling_mapper.graph_schema import RELATIONS, validate_graph
-from ling_mapper.schemas import ExampleRecord, GoldSpan
-from ling_mapper.student_graph import extract, find_quote, locate_units, select_records, system_prompt
+from argument_graph.graph_schema import RELATIONS, validate_graph
+from argument_graph.schemas import ExampleRecord, GoldSpan
+from argument_graph.student_graph import extract, find_quote, locate_units, select_records, system_prompt
 
 TEXT = "I favor keeping the college because it is fair. A dispute is possible, but it is less likely."
 QUOTES = ["I favor keeping the college", "because it is fair.", "A dispute is possible,", "but it is less likely."]

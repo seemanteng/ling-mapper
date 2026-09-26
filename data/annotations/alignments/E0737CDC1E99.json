@@ -1,0 +1,233 @@
+{
+  "example_id": "persuade:E0737CDC1E99",
+  "student_graph": "data/annotations/argument_graphs/E0737CDC1E99.json",
+  "student_graph_sha256": "be6929cb52ee9890c4266970d4fb8dbb801fda3685aa23072f64c2b1cdcda171",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only"
+  },
+  "alignments": {
+    "u1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u5": {
+      "label": "paraphrase",
+      "source_units": [
+        "q14"
+      ],
+      "note": "Echoes Posner's thesis and his subtitle ('Five reasons to keep our despised method')."
+    },
+    "u6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u7": {
+      "label": "quote",
+      "source_units": [
+        "q16"
+      ],
+      "note": ""
+    },
+    "u8": {
+      "label": "quote",
+      "source_units": [
+        "q17"
+      ],
+      "note": ""
+    },
+    "u9": {
+      "label": "quote",
+      "source_units": [
+        "q18"
+      ],
+      "note": ""
+    },
+    "u10": {
+      "label": "quote",
+      "source_units": [
+        "q19"
+      ],
+      "note": ""
+    },
+    "u11": {
+      "label": "quote",
+      "source_units": [
+        "q21"
+      ],
+      "note": ""
+    },
+    "u12": {
+      "label": "quote",
+      "source_units": [
+        "q27"
+      ],
+      "note": ""
+    },
+    "u13": {
+      "label": "quote",
+      "source_units": [
+        "q36"
+      ],
+      "note": ""
+    },
+    "u14": {
+      "label": "quote",
+      "source_units": [
+        "q37"
+      ],
+      "note": ""
+    },
+    "u15": {
+      "label": "quote",
+      "source_units": [
+        "q38"
+      ],
+      "note": ""
+    },
+    "u15b": {
+      "label": "quote",
+      "source_units": [
+        "q39"
+      ],
+      "note": ""
+    },
+    "u15c": {
+      "label": "quote",
+      "source_units": [
+        "q38b"
+      ],
+      "note": ""
+    },
+    "u16": {
+      "label": "quote",
+      "source_units": [
+        "q40"
+      ],
+      "note": ""
+    },
+    "u17": {
+      "label": "quote",
+      "source_units": [
+        "q44"
+      ],
+      "note": ""
+    },
+    "u18": {
+      "label": "quote",
+      "source_units": [
+        "q52"
+      ],
+      "note": ""
+    },
+    "u19": {
+      "label": "quote",
+      "source_units": [
+        "q51"
+      ],
+      "note": ""
+    },
+    "u20": {
+      "label": "quote",
+      "source_units": [
+        "q60"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student gives it without his rebuttal."
+    },
+    "u21": {
+      "label": "quote",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student gives it without his rebuttal."
+    },
+    "u22": {
+      "label": "quote",
+      "source_units": [
+        "q62"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student gives it without his rebuttal."
+    },
+    "u23": {
+      "label": "quote",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student gives it without his rebuttal."
+    },
+    "u24": {
+      "label": "quote",
+      "source_units": [
+        "f4"
+      ],
+      "note": ""
+    },
+    "u25": {
+      "label": "quote",
+      "source_units": [
+        "f5"
+      ],
+      "note": ""
+    },
+    "u26": {
+      "label": "quote",
+      "source_units": [
+        "f6"
+      ],
+      "note": ""
+    },
+    "u27": {
+      "label": "quote",
+      "source_units": [
+        "f7"
+      ],
+      "note": ""
+    },
+    "u28": {
+      "label": "quote",
+      "source_units": [
+        "f8",
+        "f9"
+      ],
+      "note": ""
+    },
+    "u29": {
+      "label": "quote",
+      "source_units": [
+        "f10"
+      ],
+      "note": ""
+    },
+    "u30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "u31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

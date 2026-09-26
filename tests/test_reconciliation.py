@@ -3,8 +3,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ling_mapper.loaders.persuade import load_persuade
-from ling_mapper.spans import recover_sequence, displacement
+from argument_graph.loaders.persuade import load_persuade
+from argument_graph.spans import recover_sequence, displacement
 
 
 def row(text, start, end):

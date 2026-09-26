@@ -7,7 +7,7 @@ import urllib.request
 from http.server import ThreadingHTTPServer
 from pathlib import Path
 
-from ling_mapper.web import Handler, run_extraction
+from argument_graph.web import Handler, run_extraction
 from test_student_graph import QUOTES, RELATE, TEXT, ScriptedCaller
 
 

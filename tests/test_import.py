@@ -4,10 +4,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ling_mapper.loaders.persuade import load_persuade
-from ling_mapper.prepare_data import select_pilot
-from ling_mapper.schemas import ExampleRecord, GoldSpan, SourcePassage
-from ling_mapper.spans import recover_span
+from argument_graph.loaders.persuade import load_persuade
+from argument_graph.prepare_data import select_pilot
+from argument_graph.schemas import ExampleRecord, GoldSpan, SourcePassage
+from argument_graph.spans import recover_span
 
 
 class SpanTests(unittest.TestCase):

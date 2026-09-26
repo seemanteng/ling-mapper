@@ -1,0 +1,300 @@
+{
+  "example_id": "persuade:C70EE5903373",
+  "student_graph": "data/annotations/argument_graphs_pilot_check/C70EE5903373.json",
+  "student_graph_sha256": "6e2eae512379c9f12e52f1dac15243a7616aa944453894af4c082c05d92fbc8a",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "reason": "applied rules R1-R3 (GUIDELINES.md) after the first judge run",
+        "changes": [
+          {
+            "unit": "v5",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "v32",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "v19",
+            "rule": "R2",
+            "from": "paraphrase",
+            "to": "distorted"
+          },
+          {
+            "unit": "v4",
+            "rule": "R3",
+            "from": "paraphrase",
+            "to": "distorted"
+          }
+        ],
+        "confirmed_by": null
+      }
+    ]
+  },
+  "alignments": {
+    "v1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v4": {
+      "label": "distorted",
+      "source_units": [
+        "q61",
+        "q63"
+      ],
+      "note": "Posner reports this view in order to rebut it; he says it 'may' turn off voters in safe states. The student asserts it as fact of many voters."
+    },
+    "v5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v6": {
+      "label": "related",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Turns Posner's reported view (safe-state voters are turned off) into a prediction that a popular vote raises turnout."
+    },
+    "v7": {
+      "label": "paraphrase",
+      "source_units": [
+        "p58"
+      ],
+      "note": ""
+    },
+    "v8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v9": {
+      "label": "related",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Turns Posner's reported view (safe-state voters are turned off) into a prediction that a popular vote raises turnout."
+    },
+    "v10": {
+      "label": "paraphrase",
+      "source_units": [
+        "q61",
+        "q62"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student adopts it as their own argument."
+    },
+    "v11": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": ""
+    },
+    "v12": {
+      "label": "paraphrase",
+      "source_units": [
+        "q61",
+        "q62"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student adopts it as their own argument."
+    },
+    "v13": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": ""
+    },
+    "v14": {
+      "label": "related",
+      "source_units": [
+        "q64"
+      ],
+      "note": ""
+    },
+    "v15": {
+      "label": "related",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Turns Posner's reported view (safe-state voters are turned off) into a prediction that a popular vote raises turnout."
+    },
+    "v16": {
+      "label": "related",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Turns Posner's reported view (safe-state voters are turned off) into a prediction that a popular vote raises turnout."
+    },
+    "v17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v18": {
+      "label": "paraphrase",
+      "source_units": [
+        "q35"
+      ],
+      "note": ""
+    },
+    "v19": {
+      "label": "distorted",
+      "source_units": [
+        "q28",
+        "q29"
+      ],
+      "note": "Overstates Posner: a candidate needs appeal across regions, not a win in every region."
+    },
+    "v20": {
+      "label": "paraphrase",
+      "source_units": [
+        "q31"
+      ],
+      "note": ""
+    },
+    "v21": {
+      "label": "related",
+      "source_units": [
+        "q30"
+      ],
+      "note": ""
+    },
+    "v22": {
+      "label": "related",
+      "source_units": [
+        "q29"
+      ],
+      "note": ""
+    },
+    "v23": {
+      "label": "related",
+      "source_units": [
+        "q28"
+      ],
+      "note": ""
+    },
+    "v24": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v25": {
+      "label": "related",
+      "source_units": [
+        "p49"
+      ],
+      "note": "The 55 comes from Plumer's '55 representatives from California'."
+    },
+    "v26": {
+      "label": "paraphrase",
+      "source_units": [
+        "p58"
+      ],
+      "note": ""
+    },
+    "v27": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v28": {
+      "label": "distorted",
+      "source_units": [
+        "p56",
+        "p57"
+      ],
+      "note": "Plumer ¶12: a 1976 tie needed 5,559 voters in Ohio and 3,687 in Hawaii; the student drops Hawaii and the year."
+    },
+    "v29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v30": {
+      "label": "distorted",
+      "source_units": [
+        "p45",
+        "p46"
+      ],
+      "note": "In a tie the House of Representatives chooses the president, not the electors (Plumer ¶12)."
+    },
+    "v31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v32": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v33": {
+      "label": "related",
+      "source_units": [
+        "q63",
+        "q64"
+      ],
+      "note": "Turns Posner's reported view (safe-state voters are turned off) into a prediction that a popular vote raises turnout."
+    },
+    "v34": {
+      "label": "distorted",
+      "source_units": [
+        "p58"
+      ],
+      "note": "Plumer says the election is a few swing voters away from catastrophe, not that one is bound to happen soon."
+    },
+    "v35": {
+      "label": "paraphrase",
+      "source_units": [
+        "p4",
+        "p4b"
+      ],
+      "note": ""
+    },
+    "v36": {
+      "label": "quote",
+      "source_units": [
+        "p65"
+      ],
+      "note": ""
+    },
+    "v37": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "v38": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

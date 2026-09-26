@@ -1,0 +1,191 @@
+{
+  "example_id": "persuade:3165FA4998BC",
+  "student_graph": "data/annotations/argument_graphs/3165FA4998BC.json",
+  "student_graph_sha256": "0603524e9f3de49aa7597421ac9d019ed4c29b0db4aab08e2a792e925056fc37",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only"
+  },
+  "alignments": {
+    "b1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b3": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b8": {
+      "label": "paraphrase",
+      "source_units": [
+        "f5"
+      ],
+      "note": "Loosely restates the 270-vote majority."
+    },
+    "b9": {
+      "label": "paraphrase",
+      "source_units": [
+        "f4"
+      ],
+      "note": ""
+    },
+    "b10": {
+      "label": "related",
+      "source_units": [
+        "f4"
+      ],
+      "note": "The student's inference that 538 electors means unbiased people."
+    },
+    "b11": {
+      "label": "quote",
+      "source_units": [
+        "f7"
+      ],
+      "note": ""
+    },
+    "b12": {
+      "label": "distorted",
+      "source_units": [
+        "f7"
+      ],
+      "note": "Reads the allotment rule as making members of Congress (or the reader) electors; electors must not hold public office (Plumer ¶10)."
+    },
+    "b13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b14": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b15": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b19": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b19b": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b20": {
+      "label": "related",
+      "source_units": [
+        "q7",
+        "q8"
+      ],
+      "note": "Posner says electors are trusted to vote for their party's nominee; 'vote what the state wants' goes beyond that."
+    },
+    "b21": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b23": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b24": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b25": {
+      "label": "paraphrase",
+      "source_units": [
+        "f14"
+      ],
+      "note": ""
+    },
+    "b26": {
+      "label": "related",
+      "source_units": [
+        "f14"
+      ],
+      "note": "The student's inference from the four-year cycle."
+    },
+    "b27": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b28": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "b31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

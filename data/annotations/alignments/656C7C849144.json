@@ -1,0 +1,336 @@
+{
+  "example_id": "persuade:656C7C849144",
+  "student_graph": "data/annotations/argument_graphs/656C7C849144.json",
+  "student_graph_sha256": "205a6a6a813af6dda71f40d06807d06695ffab6f3a62296d3a7141cd6e4abe96",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "reason": "applied rules R1-R3 (GUIDELINES.md) after the first judge run",
+        "changes": [
+          {
+            "unit": "c28",
+            "rule": "R2",
+            "from": "paraphrase",
+            "to": "distorted"
+          }
+        ],
+        "confirmed_by": null
+      }
+    ]
+  },
+  "alignments": {
+    "c1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c2": {
+      "label": "related",
+      "source_units": [
+        "q4"
+      ],
+      "note": "General description: the electors, not the popular vote, decide."
+    },
+    "c3": {
+      "label": "paraphrase",
+      "source_units": [
+        "f19",
+        "p11"
+      ],
+      "note": ""
+    },
+    "c4": {
+      "label": "paraphrase",
+      "source_units": [
+        "f19",
+        "p12"
+      ],
+      "note": ""
+    },
+    "c5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c8": {
+      "label": "related",
+      "source_units": [
+        "q63"
+      ],
+      "note": "Preview of the point developed from Posner's opposing view."
+    },
+    "c9": {
+      "label": "related",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "c10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c11": {
+      "label": "related",
+      "source_units": [
+        "f6"
+      ],
+      "note": "The allotment follows the congressional delegation; the student links it to population."
+    },
+    "c12": {
+      "label": "paraphrase",
+      "source_units": [
+        "p49"
+      ],
+      "note": ""
+    },
+    "c13": {
+      "label": "distorted",
+      "source_units": [
+        "p48",
+        "p49"
+      ],
+      "note": "Plumer's one-vote-per-state rule applies when a tied election goes to the House; Wyoming has 3 electoral votes (Posner ¶21)."
+    },
+    "c14": {
+      "label": "distorted",
+      "source_units": [
+        "p48"
+      ],
+      "note": "Plumer's one-vote-per-state rule applies when a tied election goes to the House; Wyoming has 3 electoral votes (Posner ¶21)."
+    },
+    "c15": {
+      "label": "distorted",
+      "source_units": [
+        "p49",
+        "f5"
+      ],
+      "note": "270 is the majority needed to win, not the total (538)."
+    },
+    "c16": {
+      "label": "paraphrase",
+      "source_units": [
+        "p5",
+        "q12"
+      ],
+      "note": ""
+    },
+    "c16b": {
+      "label": "paraphrase",
+      "source_units": [
+        "p6",
+        "q12"
+      ],
+      "note": ""
+    },
+    "c17": {
+      "label": "paraphrase",
+      "source_units": [
+        "q11",
+        "p5"
+      ],
+      "note": ""
+    },
+    "c17b": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12",
+        "p5"
+      ],
+      "note": ""
+    },
+    "c17c": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12"
+      ],
+      "note": ""
+    },
+    "c18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c19": {
+      "label": "related",
+      "source_units": [
+        "f6"
+      ],
+      "note": ""
+    },
+    "c20": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c21": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c23": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c24": {
+      "label": "related",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Posner uses Texas as an example of a safe state."
+    },
+    "c25": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c26": {
+      "label": "paraphrase",
+      "source_units": [
+        "q61"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student adopts it as their own argument."
+    },
+    "c27": {
+      "label": "paraphrase",
+      "source_units": [
+        "q62"
+      ],
+      "note": "Posner reports this view in order to rebut it; the student adopts it as their own argument."
+    },
+    "c28": {
+      "label": "distorted",
+      "source_units": [
+        "q63"
+      ],
+      "note": "Posner reports this view in order to rebut it; he says less incentive to pay attention to the campaign, not losing interest in voting."
+    },
+    "c29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c31": {
+      "label": "related",
+      "source_units": [
+        "f6"
+      ],
+      "note": ""
+    },
+    "c32": {
+      "label": "related",
+      "source_units": [
+        "q44",
+        "q45"
+      ],
+      "note": ""
+    },
+    "c33": {
+      "label": "paraphrase",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "c35": {
+      "label": "related",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "c36": {
+      "label": "paraphrase",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "c34": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60",
+        "p61"
+      ],
+      "note": ""
+    },
+    "c37": {
+      "label": "paraphrase",
+      "source_units": [
+        "p61"
+      ],
+      "note": ""
+    },
+    "c38": {
+      "label": "related",
+      "source_units": [
+        "q63"
+      ],
+      "note": "The student's inference about lower interest in non-swing states."
+    },
+    "c39": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c40": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c41": {
+      "label": "related",
+      "source_units": [
+        "q63"
+      ],
+      "note": "Summary of the earlier source-based point."
+    },
+    "c42": {
+      "label": "related",
+      "source_units": [
+        "p60",
+        "q50"
+      ],
+      "note": "Summary of the earlier source-based point."
+    },
+    "c43": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "c44": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

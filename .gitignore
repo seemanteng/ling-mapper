@@ -19,3 +19,6 @@ HiRAG/eval/datasets/cs/cs_unique_contexts.json
 HiRAG/eval/datasets/mix/mix.jsonl
 
 .DS_Store
+
+# Copyrighted source passages; rebuild with python -m argument_graph.fetch_sources
+data/sources/

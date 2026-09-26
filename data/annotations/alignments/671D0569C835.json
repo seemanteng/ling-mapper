@@ -1,0 +1,423 @@
+{
+  "example_id": "persuade:671D0569C835",
+  "student_graph": "data/annotations/argument_graphs_pilot_check/671D0569C835.json",
+  "student_graph_sha256": "bc8a4d91f1ef88386ac3af5566830e90b8d120c9391fc746f1958b40768fd89d",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "reason": "applied rules R1-R3 (GUIDELINES.md) after the first judge run",
+        "changes": [
+          {
+            "unit": "x57",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "x10",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "x17",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "x45",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "x14",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          }
+        ],
+        "confirmed_by": null
+      }
+    ]
+  },
+  "alignments": {
+    "x1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x3": {
+      "label": "related",
+      "source_units": [
+        "f18",
+        "q6"
+      ],
+      "note": ""
+    },
+    "x4": {
+      "label": "paraphrase",
+      "source_units": [
+        "q3"
+      ],
+      "note": "Posner concedes this point; the student asserts it."
+    },
+    "x5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x9": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x10": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x12": {
+      "label": "related",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "x13": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x14": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x15": {
+      "label": "paraphrase",
+      "source_units": [
+        "p11"
+      ],
+      "note": "Cites Source 2 correctly."
+    },
+    "x16": {
+      "label": "paraphrase",
+      "source_units": [
+        "p37"
+      ],
+      "note": ""
+    },
+    "x17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x18": {
+      "label": "paraphrase",
+      "source_units": [
+        "p5",
+        "q12"
+      ],
+      "note": ""
+    },
+    "x19": {
+      "label": "distorted",
+      "source_units": [
+        "q12"
+      ],
+      "note": "The most popular votes is not a majority; the sources say Gore won the popular vote, which was a plurality."
+    },
+    "x20": {
+      "label": "paraphrase",
+      "source_units": [
+        "p6"
+      ],
+      "note": ""
+    },
+    "x21": {
+      "label": "paraphrase",
+      "source_units": [
+        "q12"
+      ],
+      "note": ""
+    },
+    "x22": {
+      "label": "related",
+      "source_units": [
+        "p44",
+        "p52"
+      ],
+      "note": ""
+    },
+    "x23": {
+      "label": "paraphrase",
+      "source_units": [
+        "p45"
+      ],
+      "note": ""
+    },
+    "x24": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x25": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x26": {
+      "label": "related",
+      "source_units": [
+        "p33"
+      ],
+      "note": ""
+    },
+    "x27": {
+      "label": "paraphrase",
+      "source_units": [
+        "f12"
+      ],
+      "note": "Cites Source 1 correctly."
+    },
+    "x28": {
+      "label": "related",
+      "source_units": [
+        "f12"
+      ],
+      "note": ""
+    },
+    "x29": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x30": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x31": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x32": {
+      "label": "distorted",
+      "source_units": [
+        "p34"
+      ],
+      "note": "Plumer ¶11: segregationists in the Louisiana legislature nearly replaced the Democratic electors with ones opposed to Kennedy; nothing about waiting until the last minute."
+    },
+    "x33": {
+      "label": "paraphrase",
+      "source_units": [
+        "q7"
+      ],
+      "note": "Cites Source 3 correctly."
+    },
+    "x33b": {
+      "label": "paraphrase",
+      "source_units": [
+        "q7",
+        "q8"
+      ],
+      "note": ""
+    },
+    "x34": {
+      "label": "related",
+      "source_units": [
+        "p34"
+      ],
+      "note": ""
+    },
+    "x35": {
+      "label": "related",
+      "source_units": [
+        "f12"
+      ],
+      "note": ""
+    },
+    "x36": {
+      "label": "related",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "x37": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60",
+        "q38b"
+      ],
+      "note": ""
+    },
+    "x38": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "x39": {
+      "label": "paraphrase",
+      "source_units": [
+        "p61"
+      ],
+      "note": ""
+    },
+    "x40": {
+      "label": "related",
+      "source_units": [
+        "q38b",
+        "q50"
+      ],
+      "note": ""
+    },
+    "x41": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x42": {
+      "label": "related",
+      "source_units": [
+        "q28"
+      ],
+      "note": "Uses Posner's 'everyone's president' idea against the Electoral College."
+    },
+    "x43": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x44": {
+      "label": "paraphrase",
+      "source_units": [
+        "f18",
+        "p11"
+      ],
+      "note": ""
+    },
+    "x45": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x46": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x47": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x48": {
+      "label": "paraphrase",
+      "source_units": [
+        "p11",
+        "q3"
+      ],
+      "note": "Cites Sources 2 and 3; Posner concedes the point."
+    },
+    "x49": {
+      "label": "related",
+      "source_units": [
+        "p33",
+        "p34"
+      ],
+      "note": ""
+    },
+    "x50": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "x51": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x52": {
+      "label": "related",
+      "source_units": [
+        "p61"
+      ],
+      "note": ""
+    },
+    "x53": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x54": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x55": {
+      "label": "paraphrase",
+      "source_units": [
+        "p4",
+        "p4b"
+      ],
+      "note": ""
+    },
+    "x56": {
+      "label": "paraphrase",
+      "source_units": [
+        "p4b"
+      ],
+      "note": ""
+    },
+    "x57": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "x58": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

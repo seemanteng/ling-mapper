@@ -1,0 +1,89 @@
+{
+  "prompt_name": "Does the electoral college work?",
+  "instructions_sha256": "822ff16421fc2f13137c895cf9eba93d3004e8d333d3b740cdeec837dd5ebbae",
+  "sources": {
+    "S1": "What Is the Electoral College? (Office of the Federal Register)",
+    "S2": "The Indefensible Electoral College (Bradford Plumer)",
+    "S3": "In Defense of the Electoral College (Judge Richard A. Posner)"
+  },
+  "note": "Reference expectations from the assignment text only (origin explicit_prompt). No rubric is available. The two opinion sources take opposite positions; neither position is expected.",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed"
+  },
+  "expectations": [
+    {
+      "id": "E1",
+      "criterion": "Form: a letter addressed to a state senator.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "Write a letter to your state senator",
+      "start": 0,
+      "end": 36
+    },
+    {
+      "id": "E2",
+      "criterion": "Take one position on the question: keep the Electoral College or change to election by popular vote.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "argue in favor of keeping the Electoral College or changing to election by popular vote for the president of the United States",
+      "start": 50,
+      "end": 176
+    },
+    {
+      "id": "E3",
+      "criterion": "State a claim (thesis).",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "Be sure to include a claim",
+      "start": 366,
+      "end": 392
+    },
+    {
+      "id": "E4",
+      "criterion": "Address at least one counterclaim.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "address counterclaims",
+      "start": 394,
+      "end": 415
+    },
+    {
+      "id": "E5",
+      "criterion": "Support the argument with evidence from more than one of the three sources.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "use evidence from multiple sources",
+      "start": 417,
+      "end": 451
+    },
+    {
+      "id": "E6",
+      "criterion": "Do not rely mainly on a single source.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "avoid overly relying on one source",
+      "start": 457,
+      "end": 491
+    },
+    {
+      "id": "E7",
+      "criterion": "Draw on the information in the provided texts.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "Use the information from the texts in your essay",
+      "start": 178,
+      "end": 226
+    },
+    {
+      "id": "E8",
+      "criterion": "Write several paragraphs.",
+      "origin": "explicit_prompt",
+      "requirement": "required",
+      "quote": "Your response should be in the form of a multiparagraph essay",
+      "start": 493,
+      "end": 554
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "example_id": "persuade:F3B4F60CE90C",
+  "student_graph": "data/annotations/argument_graphs_pilot_check/F3B4F60CE90C.json",
+  "student_graph_sha256": "b90449af34d12f09550ed4e73b2f4a2219f951023cd99d5d207b26c442253441",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "reason": "applied rules R1-R3 (GUIDELINES.md) after the first judge run",
+        "changes": [
+          {
+            "unit": "w22",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          },
+          {
+            "unit": "w38",
+            "rule": "R1",
+            "from": "related",
+            "to": "none"
+          }
+        ],
+        "confirmed_by": null
+      }
+    ]
+  },
+  "alignments": {
+    "w1": {
+      "label": "related",
+      "source_units": [
+        "f1",
+        "f18"
+      ],
+      "note": ""
+    },
+    "w2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w3": {
+      "label": "related",
+      "source_units": [
+        "p33"
+      ],
+      "note": ""
+    },
+    "w4": {
+      "label": "paraphrase",
+      "source_units": [
+        "p37"
+      ],
+      "note": ""
+    },
+    "w5": {
+      "label": "paraphrase",
+      "source_units": [
+        "p33"
+      ],
+      "note": ""
+    },
+    "w6": {
+      "label": "related",
+      "source_units": [
+        "p33"
+      ],
+      "note": ""
+    },
+    "w7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w9": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w10": {
+      "label": "related",
+      "source_units": [
+        "p33",
+        "p36"
+      ],
+      "note": ""
+    },
+    "w11": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w12": {
+      "label": "quote",
+      "source_units": [
+        "p32"
+      ],
+      "note": ""
+    },
+    "w13": {
+      "label": "paraphrase",
+      "source_units": [
+        "p33",
+        "p36"
+      ],
+      "note": ""
+    },
+    "w14": {
+      "label": "paraphrase",
+      "source_units": [
+        "p37"
+      ],
+      "note": ""
+    },
+    "w15": {
+      "label": "distorted",
+      "source_units": [
+        "p39",
+        "p40",
+        "p40b"
+      ],
+      "note": "In Plumer ¶11, Nixon as presiding officer validated only his opponent's Hawaii electors; it is not an example of electors defying the voters."
+    },
+    "w16": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w17": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w18": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w19": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w20": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w21": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w22": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w23": {
+      "label": "paraphrase",
+      "source_units": [
+        "p60"
+      ],
+      "note": ""
+    },
+    "w24": {
+      "label": "paraphrase",
+      "source_units": [
+        "p55"
+      ],
+      "note": ""
+    },
+    "w25": {
+      "label": "quote",
+      "source_units": [
+        "p55"
+      ],
+      "note": ""
+    },
+    "w26": {
+      "label": "paraphrase",
+      "source_units": [
+        "p57"
+      ],
+      "note": "Numbers rounded."
+    },
+    "w27": {
+      "label": "quote",
+      "source_units": [
+        "p56"
+      ],
+      "note": ""
+    },
+    "w28": {
+      "label": "distorted",
+      "source_units": [
+        "q50",
+        "p60"
+      ],
+      "note": "Posner says large states get more attention; 'the only ones' overstates it."
+    },
+    "w29": {
+      "label": "paraphrase",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "w30": {
+      "label": "related",
+      "source_units": [
+        "q49",
+        "q50"
+      ],
+      "note": ""
+    },
+    "w31": {
+      "label": "distorted",
+      "source_units": [
+        "p60",
+        "q38"
+      ],
+      "note": "Swing states are toss-up states, not the states with the most electoral votes (Plumer ¶13, Posner ¶20)."
+    },
+    "w32": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w33": {
+      "label": "paraphrase",
+      "source_units": [
+        "q52",
+        "q55"
+      ],
+      "note": ""
+    },
+    "w34": {
+      "label": "paraphrase",
+      "source_units": [
+        "q16",
+        "q19"
+      ],
+      "note": ""
+    },
+    "w35": {
+      "label": "distorted",
+      "source_units": [
+        "q19",
+        "q17"
+      ],
+      "note": "Reverses Posner ¶18: a dispute is less likely under the Electoral College than under a popular vote."
+    },
+    "w36": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w37": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w38": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w39": {
+      "label": "related",
+      "source_units": [
+        "p60",
+        "q50"
+      ],
+      "note": ""
+    },
+    "w40": {
+      "label": "related",
+      "source_units": [
+        "q50"
+      ],
+      "note": ""
+    },
+    "w41": {
+      "label": "related",
+      "source_units": [
+        "p33"
+      ],
+      "note": ""
+    },
+    "w42": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "w43": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    }
+  }
+}

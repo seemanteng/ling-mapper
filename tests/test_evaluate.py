@@ -3,7 +3,7 @@ import json
 import unittest
 from pathlib import Path
 
-from ling_mapper.evaluate import against_gold_graph, against_persuade
+from argument_graph.evaluate import against_gold_graph, against_persuade
 
 ROOT = Path(__file__).resolve().parents[1]
 GOLD = ROOT / "data/annotations/argument_graphs/E0737CDC1E99.json"

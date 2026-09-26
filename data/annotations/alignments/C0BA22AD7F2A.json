@@ -1,0 +1,93 @@
+{
+  "example_id": "persuade:C0BA22AD7F2A",
+  "student_graph": "data/annotations/argument_graphs/C0BA22AD7F2A.json",
+  "student_graph_sha256": "fd9a41441275bba1e7a65c2f8d876638e2062fa1b4bdf4175c23538d10c3573c",
+  "source_listing_sha256": "dd8636f52b59b7d8939474210da42fe1dfb7554789c924a322c6c44c0bd9c01b",
+  "provenance": {
+    "annotator": "claude",
+    "date": "2026-09-26",
+    "review_status": "not_reviewed",
+    "method": "written before any judge run; overlap candidates were shown as a reading aid only"
+  },
+  "alignments": {
+    "a1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a2": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a4": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a5": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a6": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a7": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a7b": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a8": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "a9": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "r1": {
+      "label": "none",
+      "source_units": [],
+      "note": ""
+    },
+    "r2": {
+      "label": "paraphrase",
+      "source_units": [
+        "p5"
+      ],
+      "note": "Generalises Gore's 2000 case to 'some people'."
+    },
+    "r2b": {
+      "label": "quote",
+      "source_units": [
+        "p6",
+        "p5"
+      ],
+      "note": ""
+    },
+    "r3": {
+      "label": "quote",
+      "source_units": [
+        "p11"
+      ],
+      "note": ""
+    },
+    "r4": {
+      "label": "quote",
+      "source_units": [
+        "p12"
+      ],
+      "note": ""
+    }
+  }
+}
