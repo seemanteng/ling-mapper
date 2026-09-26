@@ -168,8 +168,17 @@
     {
       "id": "b19",
       "start": 972,
+      "end": 1016,
+      "text": "The member of the Electoral College are fair",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b19b",
+      "start": 1017,
       "end": 1055,
-      "text": "The member of the Electoral College are fair and know what is best for the country.",
+      "text": "and know what is best for the country.",
       "role": "evidence",
       "stance": "endorsed",
       "polarity": "positive"
@@ -646,6 +655,21 @@
           "text": "and"
         }
       ]
+    },
+    {
+      "id": "r31",
+      "source": "b19b",
+      "target": "b19",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1017,
+          "end": 1020,
+          "text": "and"
+        }
+      ]
     }
   ],
   "provenance": {
@@ -668,6 +692,20 @@
           "r15"
         ],
         "reason": "inventory extended with mode-means, topic-solutionhood, topic-question, organization-phatic",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      },
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "units": [
+          "b19",
+          "b19b"
+        ],
+        "relations": [
+          "r31"
+        ],
+        "reason": "v0.2 segmentation rule 2: split coordinated predicates, including a shared subject (decided 2026-09-26)",
         "confirmed_by": "user",
         "confirmed_date": "2026-09-26"
       }

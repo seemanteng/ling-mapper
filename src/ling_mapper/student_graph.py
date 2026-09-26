@@ -21,16 +21,16 @@ from pathlib import Path
 from .graph_schema import RELATIONS, ROLES, SCHEMA_VERSION, SIGNAL_TYPES, STANCES, argument_edges, validate_graph
 from .schemas import ExampleRecord
 
-PROMPT_VERSION = "student_graph/0.1"
+PROMPT_VERSION = "student_graph/0.2"
 DEFAULT_MODEL = "claude-opus-5"
 
 ROLE_DEFINITIONS = {
-    "lead": "introduction that grabs attention or gives context before the position",
-    "position": "the writer's stance on the main question (the thesis)",
-    "claim": "a reason or point that supports the position",
-    "counterclaim": "an opposing view, or a reason against the position",
-    "rebuttal": "the writer's answer to a counterclaim",
-    "evidence": "examples, facts, sources or explanation that back a claim, counterclaim or rebuttal",
+    "lead": "everything in the introduction before the position, including the writer's general opinions and questions",
+    "position": "the writer's answer to the assignment question (the thesis)",
+    "claim": "the statement of one reason for the position, usually one sentence opening a body paragraph",
+    "counterclaim": "the statement of an opposing view, usually one sentence",
+    "rebuttal": "the statement of the writer's answer to a counterclaim",
+    "evidence": "everything that develops a claim, counterclaim or rebuttal: examples, facts, quotes, explanation, consequences and the writer's commentary",
     "concluding_summary": "closing restatement of the position and claims",
     "unannotated": "text that plays none of these roles (greetings, sign-offs, asides)",
 }
@@ -43,12 +43,17 @@ STANCE_DEFINITIONS = {
 }
 SEGMENTATION_RULES = """\
 1. Every sentence is at least one unit; a unit never crosses a paragraph break.
-2. Split clauses that each have their own predicate when joined by a conjunction or discourse marker (and, but, because, although, if, so, while), including non-finite clauses introduced by a marker (instead of ...-ing, by ...-ing).
+2. Split clauses that each have their own predicate when joined by a conjunction or discourse marker (and, but, because, although, if, so, while), including non-finite clauses introduced by a marker (instead of ...-ing, by ...-ing). Predicates that share one subject are split too: "won votes | and lost the presidency"; "it limits representation, | permits the disintrest of voters, | and reduces a candidates intrest". Coordinated noun phrases, adjectives and objects stay together ("good and bad things").
 3. Do not split restrictive relative clauses or the complement of a non-reporting verb.
 4. Split a reporting frame from its content only when the source is not the writer ("Posner argues | that ..."); link them with attribution-positive. The writer's own "I think/I believe" stays inside the unit.
 5. Headings and list labels ("Certainty of outcome:") are their own unit.
 6. Citations such as "(Posner, paragraph 22)" stay inside the unit they cite.
 7. An aside with its own predicate that interrupts a unit ("induces candidates-as we saw in 2012's election-to focus ...") is its own unit; the interrupted parts are separate units later joined by same-unit. Parenthetical noun phrases stay inside."""
+ROLE_RULES = """\
+- Roles follow the essay's element structure, not the stance of each unit. A conceded, reported or rejected unit can be evidence, and an opinion can be evidence.
+- A body paragraph normally holds one claim (or one counterclaim or rebuttal) and evidence. The claim is the unit or sentence stating the reason; the sentences after it that develop that reason are evidence, even when they are the writer's opinions, evaluations ("that is just evil"), consequences or restatements of the reason.
+- A counterclaim is the statement of the opposing view. The quotes, details and explanation that develop the opposing view are evidence. A concessive clause ("Although ...", "However it could ...") inside a paragraph developing the writer's own claim is evidence, not a counterclaim.
+- The position is the unit that answers the assignment question (for example: keep the Electoral College, or change to the popular vote), and the root is its main clause. General opinions or questions about the topic that come before it are lead, not claims and not the position, even when they sound argumentative."""
 STRUCTURE_RULES = """\
 - Every relation points from satellite (source, the less central unit) to nucleus (target). Multinuclear relations (marked below) chain each later member to the first member.
 - Primary tree: exactly one root (the central unit, normally the main clause of the thesis); every other unit has exactly one primary relation to its head; no cycles. Build the whole primary tree first.
@@ -56,6 +61,8 @@ STRUCTURE_RULES = """\
 - Give each relation the words that signal it (quoted exactly from the source or target unit) with a signal type, or no signals if it is implicit.
 - Stance must agree with structure: the satellite of adversative-concession is conceded; the satellite of adversative-antithesis is rejected; every conceded or rejected unit takes part in an adversative relation.
 - Label tests: evidence when S is a fact, example, statistic or source that makes N more believable, justify when S is the writer's reason for holding or saying N; concession when the writer grants S, antithesis when S is an alternative the writer rejects; cause/result only for causation stated as content; mode-means when S says how N is achieved; topic-solutionhood when S states a problem and N the fix; topic-question when S is a question that N answers; elaboration-additional only when nothing else applies.
+- because, since and so do not decide the label. If N is the writer's judgement, opinion or recommendation ("it is fair", "the process is mature", "we should keep it", "it doesn't prove anything"), S is the writer's reason for it: explanation-justify, or explanation-evidence when S is a fact that makes N more believable. Use causal-cause or causal-result only when N is an event or state in the world that S brings about ("because the state is large, it gets more electors").
+- Parallel items at the same level (several facts describing how the system works, a series of reasons or examples) form a joint-list: chain each later item to the first, and attach the list to its head through the first item. Use elaboration-additional only when S adds detail to one particular N, not when S is the next item in a series.
 - Represent what the essay says, including factual errors and weak reasoning. Do not correct, improve or judge the student's claims."""
 
 
@@ -79,6 +86,9 @@ Structure rules:
 
 Unit roles (the essay element a unit belongs to):
 {roles}
+
+Role rules:
+{ROLE_RULES}
 
 Stances (does the writer put the unit forward as their own view?):
 {stances}

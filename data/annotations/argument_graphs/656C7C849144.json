@@ -141,8 +141,17 @@
     {
       "id": "c16",
       "start": 1191,
+      "end": 1264,
+      "text": "There have also been times in which a president has won the piopular vote",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c16b",
+      "start": 1265,
       "end": 1301,
-      "text": "There have also been times in which a president has won the piopular vote but lost the Electoral College vote.",
+      "text": "but lost the Electoral College vote.",
       "role": "evidence",
       "stance": "endorsed",
       "polarity": "positive"
@@ -150,8 +159,26 @@
     {
       "id": "c17",
       "start": 1302,
+      "end": 1352,
+      "text": "This was seen in the 2000 vote of Bush versus Gore",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c17b",
+      "start": 1353,
+      "end": 1383,
+      "text": "when Gore won the popular vote",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c17c",
+      "start": 1384,
       "end": 1416,
-      "text": "This was seen in the 2000 vote of Bush versus Gore when Gore won the popular vote and Bush won the electoral vote.",
+      "text": "and Bush won the electoral vote.",
       "role": "evidence",
       "stance": "endorsed",
       "polarity": "positive"
@@ -1034,6 +1061,57 @@
         }
       ],
       "note": "The problems listed in c40-c42 are what c43 proposes to fix."
+    },
+    {
+      "id": "r48",
+      "source": "c16b",
+      "target": "c16",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1265,
+          "end": 1268,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r49",
+      "source": "c17b",
+      "target": "c17",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1353,
+          "end": 1357,
+          "text": "when"
+        }
+      ]
+    },
+    {
+      "id": "r50",
+      "source": "c17c",
+      "target": "c17b",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 1358,
+          "end": 1383,
+          "text": "Gore won the popular vote"
+        },
+        {
+          "type": "semantic",
+          "start": 1388,
+          "end": 1415,
+          "text": "Bush won the electoral vote"
+        }
+      ]
     }
   ],
   "provenance": {
@@ -1055,6 +1133,25 @@
           "r47"
         ],
         "reason": "added secondary topic-solutionhood edge after inventory extension",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      },
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "units": [
+          "c16",
+          "c16b",
+          "c17",
+          "c17b",
+          "c17c"
+        ],
+        "relations": [
+          "r48",
+          "r49",
+          "r50"
+        ],
+        "reason": "v0.2 segmentation rule 2: split coordinated predicates, including a shared subject (decided 2026-09-26)",
         "confirmed_by": "user",
         "confirmed_date": "2026-09-26"
       }

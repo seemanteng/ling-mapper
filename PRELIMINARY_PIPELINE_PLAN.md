@@ -139,7 +139,7 @@ A unit is an EDU-style, clause-level span of the unchanged text with end-exclusi
 Segmentation rules (adapted from eRST/GUM; the GUM wiki guidelines could not be retrieved, so these are this project's operational version and should be revised against them):
 
 1. Every sentence is at least one unit; units never cross a paragraph break.
-2. Split clauses that each have their own predicate when joined by a conjunction or discourse marker (*and, but, because, although, if, so, while*), including non-finite clauses introduced by a marker (*instead of …-ing, by …-ing*).
+2. Split clauses that each have their own predicate when joined by a conjunction or discourse marker (*and, but, because, although, if, so, while*), including non-finite clauses introduced by a marker (*instead of …-ing, by …-ing*). Predicates that share one subject are split too (*won votes | and lost the presidency*; decided 2026-09-26); coordinated noun phrases, adjectives and objects stay together.
 3. Do not split restrictive relative clauses or the complement of a non-reporting verb.
 4. Split a reporting frame from its content only when the source is not the writer (*Posner argues | that …*), linked by `attribution-positive`. The writer's own *I think/I believe* stays inside the unit and is recorded as stance/modality.
 5. Headings and list labels (*Certainty of outcome:*) are their own unit, linked by `organization-preparation`.
@@ -234,11 +234,13 @@ Complete when one command produces every artifact for one essay and then a small
 
 ### Phase D — Hierarchy and controlled comparison (roughly 3–4 days)
 
-1. Group the existing propositions into broad concepts and add summaries with membership links.
+1. Group the existing propositions into broad concepts and add summaries with membership links. Within one essay, a model call in the style of `student_graph.py` returns each group as a summary plus a list of member unit IDs; code checks that the IDs exist, and the summary does not replace the units. A unit may belong to several groups. Group by topic (what a unit is about), not by support: the eRST primary tree already records what supports what, so a group may join units from different paragraphs, such as a counterclaim and its rebuttal. A group whose members differ in stance or polarity is labelled as containing a conflict, and its summary must state both sides.
 2. Verify that summaries preserve qualifications and conflicting positions. Generate student groups independently of the reference organisation.
 3. On PERSUADE, evaluate flat versus hierarchical representation fidelity, including information retention and summary distortion, using the same held-out pilot essays. Build hierarchy on the same verified flat graphs. Reserve the direct-LLM versus flat-graph versus hierarchical-graph diagnosis comparison for the later misconception evaluation, using comparable inputs, criteria, and model configuration.
-4. Specify how hierarchy is used—for example, grouping candidate matches and retrieving member claims for judgement. Merely drawing grouped nodes does not test hierarchy's contribution.
+4. Specify how hierarchy is used—for example, grouping candidate matches and retrieving member claims for judgement. The intended use is to match at the group level, then pass the member units and their primary-tree paths to the judge. Merely drawing grouped nodes does not test hierarchy's contribution.
 5. After the main comparison, remove verification or discourse edges one at a time. Record model calls, tokens, latency, and cost as additional resources, since multi-stage conditions will differ.
+
+Borrowed from HiRAG's indexing (HiIndex, reviewed 2026-09-26): summary nodes linked to their members, soft membership, and stopping when another layer no longer compresses the groups. Not borrowed: its entity nodes, which reduce "the Electoral College is fair" and "is not fair" to one entity and merge nodes by name; its undirected edges; summaries with no source link; random sampling of cluster members when a cluster is too long; and unseeded UMAP, which makes groups vary between runs. Embedding clustering (UMAP + Gaussian mixture with BIC) is unstable on the 20–60 units of one essay, so it is reserved for claims pooled across essays or against the reference graph, where it can supply Phase C candidate retrieval once candidate volume warrants it. Any clustering run fixes its random seeds and records them in the run configuration.
 
 Complete when RQ1 results identify which representation stages preserve or distort information, even if hierarchy does not improve fidelity. This does not establish diagnostic performance.
 
@@ -258,7 +260,7 @@ The duration estimates are a suggested work sequence, not a deadline commitment.
 | GraphJudge | Separate graph generation from a per-edge judge; one-to-one (Hungarian) soft matching only when graphs come from different texts | Its free-text entity triples; its judge criterion of agreement with model world knowledge, which would delete genuine student misconceptions (judge fidelity to the essay instead); its G-BLEU/G-ROUGE code as released, whose `split_to_edges` joins the characters of each triple's string form |
 | DREsS | Keep content, organisation, and language assessment distinct | Treating essay-level scores as misconception gold labels |
 | Topological Ordering for ARI | Optional dependency-subgraph diagnostic after relation extraction | Using topological order as an essay-quality score |
-| HiRAG | Concept groups, summary-to-member links, and retrieval of underlying detail | Full hierarchical RAG infrastructure |
+| HiRAG | Concept groups, summary-to-member links, soft membership, and retrieval of underlying detail (Phase D) | Full hierarchical RAG infrastructure; entity nodes merged by name; undirected edges; embedding clustering within a single essay |
 
 These are proposed adaptations, not reproductions. KGGen's official examples expose entities and relation triples; inspect whether an adapter preserves the richer proposition metadata this project needs before adopting it as the extractor. See the official [KGGen repository](https://github.com/stair-lab/kg-gen), [GraphJudge repository](https://github.com/hhy-huang/GraphJudge), and [HiRAG repository](https://github.com/hhy-huang/HiRAG).
 

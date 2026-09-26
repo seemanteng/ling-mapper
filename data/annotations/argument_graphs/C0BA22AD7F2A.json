@@ -51,8 +51,17 @@
     {
       "id": "a7",
       "start": 550,
+      "end": 578,
+      "text": "the should continue the vote",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a7b",
+      "start": 579,
       "end": 606,
-      "text": "the should continue the vote and the show must continue!",
+      "text": "and the show must continue!",
       "role": "lead",
       "stance": "endorsed",
       "polarity": "positive"
@@ -87,8 +96,17 @@
     {
       "id": "r2",
       "start": 746,
+      "end": 775,
+      "text": "because some people won votes",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "r2b",
+      "start": 776,
       "end": 828,
-      "text": "because some people won votes and lost the presidency,thanks to electoral college.",
+      "text": "and lost the presidency,thanks to electoral college.",
       "role": "position",
       "stance": "endorsed",
       "polarity": "positive"
@@ -253,6 +271,42 @@
           "text": "who"
         }
       ]
+    },
+    {
+      "id": "r12",
+      "source": "a7b",
+      "target": "a7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 579,
+          "end": 582,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "r2b",
+      "target": "r2",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 766,
+          "end": 769,
+          "text": "won"
+        },
+        {
+          "type": "semantic",
+          "start": 780,
+          "end": 784,
+          "text": "lost"
+        }
+      ]
     }
   ],
   "provenance": {
@@ -275,6 +329,23 @@
           "r3"
         ],
         "reason": "inventory extended with mode-means, topic-solutionhood, topic-question, organization-phatic",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      },
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "units": [
+          "a7",
+          "a7b",
+          "r2",
+          "r2b"
+        ],
+        "relations": [
+          "r12",
+          "r13"
+        ],
+        "reason": "v0.2 segmentation rule 2: split coordinated predicates, including a shared subject (decided 2026-09-26)",
         "confirmed_by": "user",
         "confirmed_date": "2026-09-26"
       }
