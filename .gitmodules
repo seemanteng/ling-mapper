@@ -1,0 +1,9 @@
+[submodule "GraphJudge"]
+	path = GraphJudge
+	url = https://github.com/hhy-huang/GraphJudge.git
+[submodule "HiRAG"]
+	path = HiRAG
+	url = https://github.com/hhy-huang/HiRAG.git
+[submodule "kg-gen"]
+	path = kg-gen
+	url = https://github.com/stair-lab/kg-gen.git

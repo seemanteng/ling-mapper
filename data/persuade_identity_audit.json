@@ -1,0 +1,372 @@
+{
+  "unique_essays": 15594,
+  "raw_id_text_collisions": {},
+  "mismatched_id_count": 52,
+  "uniquely_recovered_by_text": 52,
+  "cases": [
+    {
+      "raw_id": "4.45649E+11",
+      "exact_text_candidate_ids": [
+        "4.46E+11"
+      ],
+      "text_sha256": "7c7e988bf0ad35d9be125e99dccec58e217b7ce32730a1221fcf5a9192703799"
+    },
+    {
+      "raw_id": "3.09272E+11",
+      "exact_text_candidate_ids": [
+        "3.09E+11"
+      ],
+      "text_sha256": "8c14ede7f43de380e19083feac9e7917dcf76b1ed64a2af120657a6974b69898"
+    },
+    {
+      "raw_id": "7.67677E+11",
+      "exact_text_candidate_ids": [
+        "7.68E+11"
+      ],
+      "text_sha256": "b678d2a39dca84d5435edb29f970f6f858c0a19ac7c8538b54cc4e4b2a843158"
+    },
+    {
+      "raw_id": "1.54897E+11",
+      "exact_text_candidate_ids": [
+        "1.55E+11"
+      ],
+      "text_sha256": "0a64d424f6745b725305dc4c5d7d9a2aeb2836cb29bb8178acc455daf9720a92"
+    },
+    {
+      "raw_id": "8.06101E+11",
+      "exact_text_candidate_ids": [
+        "8.06E+11"
+      ],
+      "text_sha256": "dce81217ba1503d15affaedcd8aac33bc2e0fa8657c76e3edf2695768f66cd57"
+    },
+    {
+      "raw_id": "4.97079E+11",
+      "exact_text_candidate_ids": [
+        "4.97E+11"
+      ],
+      "text_sha256": "95a572539cda7a7f6c46d51f36ed1a64c25976a3bd51970f61557d99ec636de7"
+    },
+    {
+      "raw_id": "5.34354E+11",
+      "exact_text_candidate_ids": [
+        "5.34E+11"
+      ],
+      "text_sha256": "63bb78a9aaee83eca026a44edd8f156efd2ff295186917ce78bea39db5ebb484"
+    },
+    {
+      "raw_id": "5.27141E+11",
+      "exact_text_candidate_ids": [
+        "5.27E+11"
+      ],
+      "text_sha256": "3ffce8d6558e6bd809f414cfb1499faf48543fc9d354b61403cf1a1a82a690dd"
+    },
+    {
+      "raw_id": "5.29033E+11",
+      "exact_text_candidate_ids": [
+        "5.29E+11"
+      ],
+      "text_sha256": "d4485863500a6ff94e54007c884cd2a5ce68a8b1ed5ff0f781622e9e16400e34"
+    },
+    {
+      "raw_id": "3.77549E+11",
+      "exact_text_candidate_ids": [
+        "3.78E+11"
+      ],
+      "text_sha256": "1a15f11153461476976c087c4d53ad063ad6d463c2eb774ee78020bdc181f950"
+    },
+    {
+      "raw_id": "1.51363E+11",
+      "exact_text_candidate_ids": [
+        "1.51E+11"
+      ],
+      "text_sha256": "9f037171345fdcac40918fe4e5156a768ef07b2059ceff6afcbc1066436e49df"
+    },
+    {
+      "raw_id": "3.99031E+11",
+      "exact_text_candidate_ids": [
+        "3.99E+11"
+      ],
+      "text_sha256": "6e67ecb83cd3abc32088008bc5525d124ce3d496325e955ca9d51288df19fe5d"
+    },
+    {
+      "raw_id": "7.09821E+11",
+      "exact_text_candidate_ids": [
+        "7.10E+11"
+      ],
+      "text_sha256": "b315e378c8ef37f6e24dea1cab9f98b69cbbac4cb44c4f7b3d333c810a5cea19"
+    },
+    {
+      "raw_id": "3.24844E+11",
+      "exact_text_candidate_ids": [
+        "3.25E+11"
+      ],
+      "text_sha256": "fd052b74ac4f7e0bfb919986e08578804b9ac3932abd42e989d79a5e7084c018"
+    },
+    {
+      "raw_id": "9.74383E+11",
+      "exact_text_candidate_ids": [
+        "9.74E+11"
+      ],
+      "text_sha256": "8256243f86cc023118475c13341bab589aa8238608f0a28abe557c4f3a614e72"
+    },
+    {
+      "raw_id": "5.46814E+11",
+      "exact_text_candidate_ids": [
+        "5.47E+11"
+      ],
+      "text_sha256": "80d6c26ce1321920cbc5cdb8328fb1fa6ab2b66a50b5bae8c8e1b9d762bb55ac"
+    },
+    {
+      "raw_id": "2.54886E+11",
+      "exact_text_candidate_ids": [
+        "2.55E+11"
+      ],
+      "text_sha256": "a9e981b715ecbab81ea82b59a92b8ca7cb2d715a92cb3a85add4028fa9684974"
+    },
+    {
+      "raw_id": "6.48988E+11",
+      "exact_text_candidate_ids": [
+        "6.49E+11"
+      ],
+      "text_sha256": "8e3aa8a6ff156a8dd5198bbc4e1343c6d4b30764fd5d2087ea1984c0add6d38f"
+    },
+    {
+      "raw_id": "1.07007E+11",
+      "exact_text_candidate_ids": [
+        "1.07E+11"
+      ],
+      "text_sha256": "87750097141c92b76a96aa3beea5ed1b0d6e0763f66fd961d93b5a9835dc8e4e"
+    },
+    {
+      "raw_id": "9.95331E+11",
+      "exact_text_candidate_ids": [
+        "9.95E+11"
+      ],
+      "text_sha256": "6e46e3e67b293170d9d71db09ea4956e833c4094974a35382af081b0e2378514"
+    },
+    {
+      "raw_id": "3.909E+11",
+      "exact_text_candidate_ids": [
+        "3.91E+11"
+      ],
+      "text_sha256": "bb20849cdd30d4c054bc3fef14323a0a0ee45c394b0e814b9e019379d37719f6"
+    },
+    {
+      "raw_id": "6.36755E+11",
+      "exact_text_candidate_ids": [
+        "6.37E+11"
+      ],
+      "text_sha256": "cdedf6eca54596e4e56eefe4dde4e3750637e01efe41791f37b8b9723dd26849"
+    },
+    {
+      "raw_id": "7.4434E+11",
+      "exact_text_candidate_ids": [
+        "7.44E+11"
+      ],
+      "text_sha256": "4b542734c9e89c667c9aa40d02f7c258097891afa87c56b754bc8514553aeb70"
+    },
+    {
+      "raw_id": "2.93994E+11",
+      "exact_text_candidate_ids": [
+        "2.94E+11"
+      ],
+      "text_sha256": "611237a1655d0e02763fbd291f76fba923f1357d681973628bc1589b3ae3e2be"
+    },
+    {
+      "raw_id": "5.45506E+11",
+      "exact_text_candidate_ids": [
+        "5.46E+11"
+      ],
+      "text_sha256": "2c6e4dcdb0d5dddf8150984afcce145907342dcd38e98479cf41bd4620c32651"
+    },
+    {
+      "raw_id": "4.41098E+11",
+      "exact_text_candidate_ids": [
+        "4.41E+11"
+      ],
+      "text_sha256": "5ff049e6ca5711a5cbf8d65ac6c285e9914fbd774702e0c48470db55994811ec"
+    },
+    {
+      "raw_id": "9.33848E+11",
+      "exact_text_candidate_ids": [
+        "9.34E+11"
+      ],
+      "text_sha256": "3a94cf9afe467724ec97783840490dcf945ad1dfafb88c65dc82d8a4e09e6d42"
+    },
+    {
+      "raw_id": "5.75256E+11",
+      "exact_text_candidate_ids": [
+        "5.75E+11"
+      ],
+      "text_sha256": "c2801d1088a962ddeb29402dee90eff211e286c8928f6c9d5b1d9ac40cfba77c"
+    },
+    {
+      "raw_id": "1.96782E+11",
+      "exact_text_candidate_ids": [
+        "1.97E+11"
+      ],
+      "text_sha256": "bb02682c97571f5260092987311b17dca8613c8c6907375fc858fbe90d09b77f"
+    },
+    {
+      "raw_id": "9.75927E+11",
+      "exact_text_candidate_ids": [
+        "9.76E+11"
+      ],
+      "text_sha256": "299b94d7e7bcabf2547c3f14a21f2f99f3381d0d310b5d393c8a05b69323c173"
+    },
+    {
+      "raw_id": "2.42207E+11",
+      "exact_text_candidate_ids": [
+        "2.42E+11"
+      ],
+      "text_sha256": "33450df89ae2c2d423cbe83e65d863d8fbe0d2e797d8a8b726d78eb7d47278b3"
+    },
+    {
+      "raw_id": "5.27933E+11",
+      "exact_text_candidate_ids": [
+        "5.28E+11"
+      ],
+      "text_sha256": "6cdf93e8f8dd18dd83df118b080491b0bd3d809f05f02a68b6d40742f21b22d3"
+    },
+    {
+      "raw_id": "4.27806E+11",
+      "exact_text_candidate_ids": [
+        "4.28E+11"
+      ],
+      "text_sha256": "6647f5efdf495ffd50df05c0432e6cf3343eaebda68ed9ac339ac2bd73d39b3e"
+    },
+    {
+      "raw_id": "3.88067E+11",
+      "exact_text_candidate_ids": [
+        "3.88E+11"
+      ],
+      "text_sha256": "be8639d23a721298830467112d1bc48c2904c2f88ef0c82a12aae4cac9db7a18"
+    },
+    {
+      "raw_id": "2.80738E+11",
+      "exact_text_candidate_ids": [
+        "2.81E+11"
+      ],
+      "text_sha256": "465ec99f4bd616d6a4b5ced76c7852991778330a5281734b9b16e24efedeb8b3"
+    },
+    {
+      "raw_id": "9.4582E+11",
+      "exact_text_candidate_ids": [
+        "9.46E+11"
+      ],
+      "text_sha256": "7316f1be542ec3c3c5daa9a06f1521165abdf20e86c4b063bf3c250cfbe5d522"
+    },
+    {
+      "raw_id": "7.66376E+11",
+      "exact_text_candidate_ids": [
+        "7.66E+11"
+      ],
+      "text_sha256": "7ddd65b7b94f611c5db4d1bc136f99c1eff08642a8bdffaa60203039650ee2fb"
+    },
+    {
+      "raw_id": "9.61822E+11",
+      "exact_text_candidate_ids": [
+        "9.62E+11"
+      ],
+      "text_sha256": "26d8d1d5d57f98009dde15d00ee4a6e82daed04bd946da68c08d85dc1c4fc95d"
+    },
+    {
+      "raw_id": "7.22184E+11",
+      "exact_text_candidate_ids": [
+        "7.22E+11"
+      ],
+      "text_sha256": "27b142038a4b6b7c8af0359afd94b408f94b27a422513b016b35d89f2c0c8e04"
+    },
+    {
+      "raw_id": "6.1543E+11",
+      "exact_text_candidate_ids": [
+        "6.15E+11"
+      ],
+      "text_sha256": "28b3a04944450bea1f7a36ec32cf17e89cfbacf580f0262b384505f06fc2f415"
+    },
+    {
+      "raw_id": "6.11229E+11",
+      "exact_text_candidate_ids": [
+        "6.11E+11"
+      ],
+      "text_sha256": "11d4d3b2645179d41a5bfd906dc542141528e43b7435ff520c2b0eb39a1aef85"
+    },
+    {
+      "raw_id": "7.90197E+11",
+      "exact_text_candidate_ids": [
+        "7.90E+11"
+      ],
+      "text_sha256": "851ab16f02c2fbd6a8e3bbad1ddd9ce4c1646023f9bd09000d2098defb426391"
+    },
+    {
+      "raw_id": "1.13001E+11",
+      "exact_text_candidate_ids": [
+        "1.13E+11"
+      ],
+      "text_sha256": "3bd17bbb8d60da48f4b980e98651adff879cf837b0765d70421cc91403d67bef"
+    },
+    {
+      "raw_id": "2.84131E+11",
+      "exact_text_candidate_ids": [
+        "2.84E+11"
+      ],
+      "text_sha256": "cacf2aeaf71e36cb2d5df2f42f3a08346e226674deca8769c1078783242eb649"
+    },
+    {
+      "raw_id": "6.15327E+11",
+      "exact_text_candidate_ids": [
+        "6.15E+11"
+      ],
+      "text_sha256": "fc72fda9648aad9226a81ef7c9940056aef4649d5788ca2201b75672766b4170"
+    },
+    {
+      "raw_id": "4.10957E+11",
+      "exact_text_candidate_ids": [
+        "4.11E+11"
+      ],
+      "text_sha256": "363a3ddc53c0bde9990864ad4a16f420dcf88dc827ae00d641713a234eaf2c70"
+    },
+    {
+      "raw_id": "4.30762E+11",
+      "exact_text_candidate_ids": [
+        "4.31E+11"
+      ],
+      "text_sha256": "50865dc1458a6f861ae4cfed7d2a1ee973b45160328be9201ec3f1a941f1c0f2"
+    },
+    {
+      "raw_id": "2.03527E+11",
+      "exact_text_candidate_ids": [
+        "2.04E+11"
+      ],
+      "text_sha256": "1242d703325d84aee4937f31b92b9562ab5a9da682524e3f7e1c7b15319d0553"
+    },
+    {
+      "raw_id": "1.06395E+11",
+      "exact_text_candidate_ids": [
+        "1.06E+11"
+      ],
+      "text_sha256": "38a1a86efb3a37dc36b143cf2c4dc8904e0f199b0764eec0f2a51de4dc074ea8"
+    },
+    {
+      "raw_id": "1.32496E+11",
+      "exact_text_candidate_ids": [
+        "1.32E+11"
+      ],
+      "text_sha256": "b1921cfed8736827d61d9d0f2c14184a020b75c9cfd6724b8d6275f4dbf054c7"
+    },
+    {
+      "raw_id": "3.27504E+11",
+      "exact_text_candidate_ids": [
+        "3.28E+11"
+      ],
+      "text_sha256": "4164a6fbc5b0cd7ca17418402e602c4be836d33b47f6a1b668fcbf8e95acfab6"
+    },
+    {
+      "raw_id": "1.61213E+11",
+      "exact_text_candidate_ids": [
+        "1.61E+11"
+      ],
+      "text_sha256": "78a21a8f3853947b9550527a547de48dfe27d09f1bac553a62be487a9d783a7d"
+    }
+  ]
+}

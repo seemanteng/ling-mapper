@@ -1,0 +1,219 @@
+{
+  "file": "data/persuade_corpus_2.0_train.csv",
+  "columns": [
+    "essay_id",
+    "essay_id_comp",
+    "competition_set",
+    "full_text",
+    "holistic_essay_score",
+    "discourse_id",
+    "discourse_start",
+    "discourse_end",
+    "discourse_text",
+    "discourse_type",
+    "discourse_type_num",
+    "discourse_effectiveness",
+    "hierarchical_id",
+    "hierarchical_text",
+    "hierarchical_label",
+    "provider",
+    "task",
+    "source_text",
+    "prompt_name",
+    "assignment",
+    "gender",
+    "grade_level",
+    "ell_status",
+    "race_ethnicity",
+    "economically_disadvantaged",
+    "student_disability_status",
+    "essay_word_count"
+  ],
+  "rows": 173266,
+  "unique_essays": 15594,
+  "roles": {
+    "Unannotated": 28973,
+    "Lead": 9305,
+    "Position": 15419,
+    "Evidence": 45702,
+    "Claim": 50208,
+    "Concluding Statement": 13505,
+    "Counterclaim": 5817,
+    "Rebuttal": 4337
+  },
+  "effectiveness": {
+    "(empty)": 28977,
+    "Adequate": 113244,
+    "Ineffective": 6462,
+    "Effective": 24583
+  },
+  "competition_set_rows": {
+    "train": 173266
+  },
+  "prompt_essay_counts": {
+    "Phones and driving": 701,
+    "Car-free cities": 983,
+    "Summer projects": 875,
+    "\"A Cowboy Who Rode the Waves\"": 688,
+    "Mandatory extracurricular activities": 839,
+    "Exploring Venus": 928,
+    "Facial action coding system": 1103,
+    "The Face on Mars": 819,
+    "Community service": 768,
+    "Grades for extracurricular activities": 815,
+    "Driverless cars": 1386,
+    "Does the electoral college work?": 1818,
+    "Cell phones at school": 829,
+    "Distance learning": 1498,
+    "Seeking multiple opinions": 1544
+  },
+  "checks": {
+    "slice_mismatch": 173266,
+    "slice_mismatch_whitespace_only": 53869,
+    "out_of_bounds": 60,
+    "missing_essay_join_rows": 590
+  },
+  "unique_discourse_ids": 728,
+  "duplicate_discourse_id_values": 726,
+  "duplicate_essay_span_role_keys": 0,
+  "hierarchy_populated_rows": 94677,
+  "hierarchical_labels": {
+    "Position": 47917,
+    "Claim": 39243,
+    "Counterclaim": 5643,
+    "Rebuttal": 1498,
+    "Evidence": 376
+  },
+  "slice_mismatch_examples": [
+    {
+      "essay_id": "423A1CA112E2",
+      "start": 0,
+      "end": 7,
+      "slice": "'Phones\\n'",
+      "annotation": "'Phones\\n\\n'"
+    },
+    {
+      "essay_id": "423A1CA112E2",
+      "start": 8,
+      "end": 229,
+      "slice": "'Modern humans today are always on their phone. They are always on their phone more than 5 hours a da'",
+      "annotation": "'Modern humans today are always on their phone. They are always on their phone more than 5 hours a da'"
+    },
+    {
+      "essay_id": "423A1CA112E2",
+      "start": 230,
+      "end": 312,
+      "slice": "'They are some really bad consequences when stuff happens when it comes to a phone.'",
+      "annotation": "'They are some really bad consequences when stuff happens when it comes to a phone. '"
+    }
+  ],
+  "hierarchy_examples": [
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Evidence 1",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Position",
+      "hierarchical_text": "They are some really bad consequences when stuff happens when it comes to a phone."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Evidence 2",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Position",
+      "hierarchical_text": "They are some really bad consequences when stuff happens when it comes to a phone."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Claim 1",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Position",
+      "hierarchical_text": "They are some really bad consequences when stuff happens when it comes to a phone."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Evidence 3",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Claim",
+      "hierarchical_text": "Driving is one of the way how to get around. People always be on their phones while doing it. Which can cause serious Problems."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Evidence 4",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Claim",
+      "hierarchical_text": "Driving is one of the way how to get around. People always be on their phones while doing it. Which can cause serious Problems."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Claim 2",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Position",
+      "hierarchical_text": "They are some really bad consequences when stuff happens when it comes to a phone."
+    },
+    {
+      "essay_id_comp": "423A1CA112E2",
+      "discourse_type_num": "Evidence 5",
+      "discourse_id": "1.62263E+12",
+      "hierarchical_id": "1.62263E+12",
+      "hierarchical_label": "Claim",
+      "hierarchical_text": "Phones are fine to use and it's also the best way to come over help."
+    },
+    {
+      "essay_id_comp": "A8445CABFECE",
+      "discourse_type_num": "Claim 1",
+      "discourse_id": "1.62258E+12",
+      "hierarchical_id": "1.62258E+12",
+      "hierarchical_label": "Position",
+      "hierarchical_text": "Drivers should not be able to use phones while operating a vehicle."
+    }
+  ],
+  "inclusive_offset_checks": {
+    "inclusive_exact_match": 32321,
+    "inclusive_mismatch": 140945,
+    "inclusive_whitespace_only": 47059,
+    "hierarchy_text_and_role_unique": 94394,
+    "hierarchy_text_and_role_missing": 236,
+    "hierarchy_text_and_role_ambiguous": 47
+  },
+  "missing_join_unique_essays": 52,
+  "inclusive_mismatch_examples": [
+    {
+      "essay": "423A1CA112E2",
+      "start": 313,
+      "end": 400,
+      "text_length": 2029,
+      "slice_tail": "' in the United States ban phones from class rooms just because of it.\\n'",
+      "gold_tail": "' in the United States ban phones from class rooms just because of it. '"
+    },
+    {
+      "essay": "423A1CA112E2",
+      "start": 401,
+      "end": 756,
+      "text_length": 2029,
+      "slice_tail": "'o communicate with a phone. Phones have changed due to our generation.'",
+      "gold_tail": "' communicate with a phone. Phones have changed due to our generation. '"
+    },
+    {
+      "essay": "423A1CA112E2",
+      "start": 757,
+      "end": 884,
+      "text_length": 2029,
+      "slice_tail": "'ys be on their phones while doing it. Which can cause serious Problems'",
+      "gold_tail": "' be on their phones while doing it. Which can cause serious Problems. '"
+    },
+    {
+      "essay": "423A1CA112E2",
+      "start": 885,
+      "end": 1147,
+      "text_length": 2029,
+      "slice_tail": "\"they still have to obey it because that's the only way how did he save\"",
+      "gold_tail": "\"ey still have to obey it because that's the only way how did he save. \""
+    }
+  ]
+}

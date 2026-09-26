@@ -1,0 +1,283 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:C0BA22AD7F2A",
+  "root": "r1",
+  "units": [
+    {
+      "id": "a1",
+      "start": 0,
+      "end": 56,
+      "text": "Why should people who be qualified be only able to vote?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a2",
+      "start": 57,
+      "end": 165,
+      "text": "Voting should be for everyone, not such as anyone like as in Gang related people or people who are in prison",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a4",
+      "start": 166,
+      "end": 188,
+      "text": "but you get the point.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a5",
+      "start": 189,
+      "end": 356,
+      "text": "This '' Electoral College '' experiment that they already have been going on is just something that they can use to get more time to think out what their next move is.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a6",
+      "start": 357,
+      "end": 549,
+      "text": "They way certaint people, like me, see things like if the One out of the other person who is running for President and his votes come back with such little insufficient votes like 87% to 89.5%",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a7",
+      "start": 550,
+      "end": 606,
+      "text": "the should continue the vote and the show must continue!",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "a8",
+      "start": 607,
+      "end": 677,
+      "text": "Even though the ''Electoral College'' seems like just a waste of time,",
+      "role": "lead",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "a9",
+      "start": 678,
+      "end": 696,
+      "text": "does it even work?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "r1",
+      "start": 698,
+      "end": 745,
+      "text": "Electoral College doesn't really prove anything",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "r2",
+      "start": 746,
+      "end": 828,
+      "text": "because some people won votes and lost the presidency,thanks to electoral college.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "r3",
+      "start": 829,
+      "end": 934,
+      "text": "Due to the elctoral college system, voters vote not for the president but just for the slate of electors,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "r4",
+      "start": 935,
+      "end": 969,
+      "text": "who then turn elect the president.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "a1",
+      "target": "a2",
+      "label": "topic-question",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 55,
+          "end": 56,
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "a2",
+      "target": "r1",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Topic drift: who may vote is unrelated to whether the Electoral College works."
+    },
+    {
+      "id": "r3",
+      "source": "a4",
+      "target": "a2",
+      "label": "organization-phatic",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "a5",
+      "target": "r1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "A criticism of the Electoral College asserted without support."
+    },
+    {
+      "id": "r5",
+      "source": "a6",
+      "target": "a7",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 408,
+          "end": 410,
+          "text": "if"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "a7",
+      "target": "a5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Unclear link: proposes continuing the vote when results are close; the percentages are not interpretable."
+    },
+    {
+      "id": "r7",
+      "source": "a8",
+      "target": "a9",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 607,
+          "end": 618,
+          "text": "Even though"
+        }
+      ],
+      "note": "Concession marker, but both parts are negative about the Electoral College."
+    },
+    {
+      "id": "r8",
+      "source": "a9",
+      "target": "r1",
+      "label": "topic-question",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 695,
+          "end": 696,
+          "text": "?"
+        }
+      ],
+      "note": "Question answered by the thesis in the next paragraph."
+    },
+    {
+      "id": "r9",
+      "source": "r2",
+      "target": "r1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 746,
+          "end": 753,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "r3",
+      "target": "r1",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Describes how the system works; offered as support but does not show it 'proves nothing'."
+    },
+    {
+      "id": "r11",
+      "source": "r4",
+      "target": "r3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 935,
+          "end": 938,
+          "text": "who"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-25",
+    "text_sha256": "26d31bb5ff13283629d868c0aa2f3032125219eabf3f1fd6ecc081f857b4ed20",
+    "role_source": "PERSUADE element with largest overlap",
+    "purpose": "development gold for RQ1 graph extraction (Claude-authored, user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-25",
+    "review_outcome": "accepted_without_changes; later changes confirmed 2026-09-26",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "relations": [
+          "r1",
+          "r8",
+          "r3"
+        ],
+        "reason": "inventory extended with mode-means, topic-solutionhood, topic-question, organization-phatic",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      }
+    ]
+  }
+}

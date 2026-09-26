@@ -1,0 +1,676 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:3165FA4998BC",
+  "root": "b1",
+  "units": [
+    {
+      "id": "b1",
+      "start": 0,
+      "end": 46,
+      "text": "Senator, we should keep the Electoral College.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b2",
+      "start": 47,
+      "end": 103,
+      "text": "The Electoral College establishes judgement and fairness",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b3",
+      "start": 104,
+      "end": 146,
+      "text": "by giving upcoming presidents a fair shot.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b4",
+      "start": 147,
+      "end": 165,
+      "text": "People have voices",
+      "role": "position",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "b5",
+      "start": 166,
+      "end": 221,
+      "text": "and the popular vote can be biased from state to state.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b6",
+      "start": 222,
+      "end": 244,
+      "text": "The proccess if mature",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b7",
+      "start": 245,
+      "end": 282,
+      "text": "because they chose unbiased electors,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b8",
+      "start": 283,
+      "end": 330,
+      "text": "and there is a majority of 270 electoral votes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b9",
+      "start": 331,
+      "end": 370,
+      "text": "The Electoral College has 538 electors,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b10",
+      "start": 371,
+      "end": 416,
+      "text": "which gives a good amount of unbiases people.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b11",
+      "start": 417,
+      "end": 521,
+      "text": "They figure this amount by one for each member in the House of Representaties plus two for the Senators,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b12",
+      "start": 522,
+      "end": 545,
+      "text": "which you could be one.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b13",
+      "start": 547,
+      "end": 617,
+      "text": "The Electoral College is one of the best ways to keep a fair election.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b14",
+      "start": 618,
+      "end": 674,
+      "text": "We people do not make the brightest decisions sometimes,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b15",
+      "start": 675,
+      "end": 783,
+      "text": "and the Electoral College keeps us from making the wrong decision for who is going to be our next president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b16",
+      "start": 785,
+      "end": 843,
+      "text": "People can be easily affected into turning on a candidate.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b17",
+      "start": 844,
+      "end": 913,
+      "text": "They could not realize that the candidate would be a great president.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b18",
+      "start": 914,
+      "end": 971,
+      "text": "The Electoral College gives the candidates a fair chance.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b19",
+      "start": 972,
+      "end": 1055,
+      "text": "The member of the Electoral College are fair and know what is best for the country.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b20",
+      "start": 1056,
+      "end": 1129,
+      "text": "The specific Electoral electors for your state vote what the state wants,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b21",
+      "start": 1130,
+      "end": 1188,
+      "text": "and is not biased on what other senators or electors want.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b22",
+      "start": 1189,
+      "end": 1248,
+      "text": "This gives the people a good amount of say in the election.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b23",
+      "start": 1250,
+      "end": 1293,
+      "text": "Electoral Colllege keeps the people in line",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b24",
+      "start": 1294,
+      "end": 1340,
+      "text": "and gives the people a sense of establishment.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b25",
+      "start": 1341,
+      "end": 1391,
+      "text": "The election of the president is every four years.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b26",
+      "start": 1392,
+      "end": 1487,
+      "text": "This gives people time to decide on a new president and who they want representing their votes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b27",
+      "start": 1488,
+      "end": 1574,
+      "text": "Overall the Electoral College is one of the brightest decisions that America has made.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b28",
+      "start": 1575,
+      "end": 1654,
+      "text": "For one the Electoral College gives people a fair chance in becoming president.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b29",
+      "start": 1655,
+      "end": 1725,
+      "text": "Also the Electoral College helps make the voting process a lot easier.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b30",
+      "start": 1727,
+      "end": 1833,
+      "text": "We people don't yet understand why there are not more people realizing that there is an Electoral College,",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "b31",
+      "start": 1834,
+      "end": 1896,
+      "text": "and what underlies is a great idea and even a better reality .",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "b2",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "b3",
+      "target": "b2",
+      "label": "mode-means",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 104,
+          "end": 106,
+          "text": "by"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "b4",
+      "target": "b5",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "'and' functions contrastively; no adversative marker, so implicit."
+    },
+    {
+      "id": "r4",
+      "source": "b5",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "b6",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "b7",
+      "target": "b6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 245,
+          "end": 252,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "b8",
+      "target": "b7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 283,
+          "end": 286,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "b9",
+      "target": "b7",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Weak: the number of electors does not show that they are unbiased."
+    },
+    {
+      "id": "r9",
+      "source": "b10",
+      "target": "b9",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 371,
+          "end": 376,
+          "text": "which"
+        }
+      ]
+    },
+    {
+      "id": "r10",
+      "source": "b11",
+      "target": "b9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 429,
+          "end": 440,
+          "text": "this amount"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "b12",
+      "target": "b11",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 522,
+          "end": 527,
+          "text": "which"
+        }
+      ],
+      "note": "Factual error: members of Congress cannot serve as electors."
+    },
+    {
+      "id": "r12",
+      "source": "b13",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "b14",
+      "target": "b15",
+      "label": "topic-solutionhood",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "b15",
+      "target": "b13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Keeping voters from their own choice is a different claim from keeping the election fair."
+    },
+    {
+      "id": "r15",
+      "source": "b16",
+      "target": "b18",
+      "label": "topic-solutionhood",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "b17",
+      "target": "b16",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "b18",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "b19",
+      "target": "b18",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Asserted without support."
+    },
+    {
+      "id": "r19",
+      "source": "b20",
+      "target": "b19",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "b21",
+      "target": "b20",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1130,
+          "end": 1133,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r21",
+      "source": "b22",
+      "target": "b20",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1189,
+          "end": 1193,
+          "text": "This"
+        }
+      ],
+      "note": "Tension with b15: here the Electoral College gives the people a say; there it overrides their decisions."
+    },
+    {
+      "id": "r22",
+      "source": "b23",
+      "target": "b1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "b24",
+      "target": "b23",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1294,
+          "end": 1297,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r24",
+      "source": "b25",
+      "target": "b26",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1392,
+          "end": 1396,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "b26",
+      "target": "b23",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Irrelevant evidence: the four-year term is not a property of the Electoral College."
+    },
+    {
+      "id": "r26",
+      "source": "b27",
+      "target": "b1",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1488,
+          "end": 1495,
+          "text": "Overall"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "b28",
+      "target": "b27",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1575,
+          "end": 1582,
+          "text": "For one"
+        }
+      ],
+      "note": "Shifts the earlier claim from candidates' fair chance to people's chance of becoming president."
+    },
+    {
+      "id": "r28",
+      "source": "b29",
+      "target": "b28",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1655,
+          "end": 1659,
+          "text": "Also"
+        }
+      ],
+      "note": "New reason in the conclusion, not argued in the body."
+    },
+    {
+      "id": "r29",
+      "source": "b30",
+      "target": "b27",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "b31",
+      "target": "b30",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1834,
+          "end": 1837,
+          "text": "and"
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-25",
+    "text_sha256": "e70e07f7366099c9af8dc1d9fd28f248ec3a443f4134b4026aed3c9d8cc1789e",
+    "role_source": "PERSUADE element with largest overlap",
+    "purpose": "development gold for RQ1 graph extraction (Claude-authored, user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-25",
+    "review_outcome": "accepted_without_changes; later changes confirmed 2026-09-26",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "relations": [
+          "r2",
+          "r13",
+          "r15"
+        ],
+        "reason": "inventory extended with mode-means, topic-solutionhood, topic-question, organization-phatic",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      }
+    ]
+  }
+}

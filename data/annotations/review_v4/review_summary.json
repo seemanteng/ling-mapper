@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-25",
+  "procedure": "Claude proposed verdicts with reasons; the user reviewed and confirmed all of them. Not a blind independent review.",
+  "source": "electoral_college_v4",
+  "span_review.csv": {
+    "rows": 101,
+    "verdicts": {
+      "correct": 89,
+      "wrong_boundary": 12
+    },
+    "by_stratum": {
+      "search_short": {
+        "correct": 4
+      },
+      "search_other": {
+        "correct": 20
+      },
+      "offset_trimmed": {
+        "correct": 40
+      },
+      "sequence_unique": {
+        "wrong_boundary": 6,
+        "correct": 9
+      },
+      "offset_exact_control": {
+        "correct": 10
+      },
+      "kept_order_swap": {
+        "correct": 6,
+        "wrong_boundary": 6
+      }
+    }
+  },
+  "hierarchy_review.csv": {
+    "rows": 30,
+    "verdicts": {
+      "supports": 19,
+      "attacks_or_rebuts": 5,
+      "unsure": 2,
+      "elaborates": 4
+    },
+    "by_child_role": {
+      "Evidence": {
+        "supports": 10,
+        "elaborates": 4
+      },
+      "Claim": {
+        "supports": 9,
+        "unsure": 1
+      },
+      "Counterclaim": {
+        "attacks_or_rebuts": 3,
+        "unsure": 1
+      },
+      "Rebuttal": {
+        "attacks_or_rebuts": 2
+      }
+    }
+  },
+  "findings": {
+    "labelled_span_location_errors": 0,
+    "unannotated_fragments": "12 sampled Unannotated rows are word fragments from source gap rows (source artefact); 38 dataset-wide overlap labelled spans.",
+    "hierarchy": "Links form an argument tree; relation type follows child role (Evidence/Claim supports, Counterclaim attacks Position, Rebuttal attacks Counterclaim); 2/30 unclear."
+  }
+}

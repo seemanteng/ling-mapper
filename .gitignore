@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+data/processed/
+data/runs/
+
+# Large files (>5MB)
+data/persuade_corpus_2.0_train.csv
+data/persuade_corpus_2.0_test.csv
+data/persuade_2.0_human_scores_demo_id_github.csv
+GraphJudge/datasets/GPT4o_mini_result_rebel_sub/train.source
+GraphJudge/datasets/GPT4o_mini_result_rebel_sub/train.target
+GraphJudge/datasets/GPT4o_mini_result_GenWiki-Hard/train.source
+GraphJudge/datasets/GPT4o_mini_result_GenWiki-Hard/train.target
+HiRAG/eval/datasets/legal/legal_unique_contexts.json
+HiRAG/eval/datasets/agriculture/agriculture_unique_contexts.json
+HiRAG/eval/datasets/cs/cs_unique_contexts.json
+HiRAG/eval/datasets/mix/mix.jsonl
+
+.DS_Store

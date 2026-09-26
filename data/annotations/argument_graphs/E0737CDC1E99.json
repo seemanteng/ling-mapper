@@ -1,0 +1,753 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:E0737CDC1E99",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 40,
+      "text": "I favor of keeping the electoral college",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 41,
+      "end": 127,
+      "text": "instead of changing to election by popular vote for the president of the United States",
+      "role": "position",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 128,
+      "end": 147,
+      "text": "because it is fair.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 148,
+      "end": 231,
+      "text": "Everyone see's something different in a president, we will see good and bad things.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 232,
+      "end": 331,
+      "text": "There are five very good reasons why we should keep our despised methode of choosing the president,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 332,
+      "end": 371,
+      "text": "which is known as the electoral college",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 373,
+      "end": 394,
+      "text": "Certainty of outcome:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 395,
+      "end": 462,
+      "text": "A dispute over the outcome of an electoral college vote is possible",
+      "role": "claim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 462,
+      "end": 481,
+      "text": "-it happend in 2000",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 481,
+      "end": 541,
+      "text": "-but it's less likely than a dispute over the popular group.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 542,
+      "end": 698,
+      "text": "For example in 2012's election Obama recieved 61.7 percent of the electoral vote compared to only 51.3 percent of the popular votes cast for him and Romney.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 700,
+      "end": 721,
+      "text": "Everyone's president:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 722,
+      "end": 907,
+      "text": "The residents of the other region are likely to feel that their votes to not count, that the new president will have no regard for their interests, that he really isn't their president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 909,
+      "end": 922,
+      "text": "Swing states:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 923,
+      "end": 998,
+      "text": "The winner takes all methode of awarding electoral votes induces candidates",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15b",
+      "start": 998,
+      "end": 1028,
+      "text": "-as we saw in 2012's election-",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15c",
+      "start": 1028,
+      "end": 1086,
+      "text": "to focus their r compaign efforts on the toss-up states...",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1086,
+      "end": 1166,
+      "text": "voters in toss up states are more likely to pay close attention to the compaign.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1168,
+      "end": 1179,
+      "text": "Big states:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1180,
+      "end": 1293,
+      "text": "The electoral college avoids the problem of elections in which no canidate recieves a majority of the votes cast.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1295,
+      "end": 1322,
+      "text": "5. Avoid Run-Off Elections:",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1323,
+      "end": 1339,
+      "text": "It can be argued",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1340,
+      "end": 1550,
+      "text": "that the Electoral College method of selecting the president may turn off potential voters for a candidate who has no hope of carrying their state-democrates in Texas, for example, or Republicans in California.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1551,
+      "end": 1590,
+      "text": "Knowing their vote will have no effect,",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1591,
+      "end": 1715,
+      "text": "they have less incentive to pay attention to the compaign than they would have if the president were picked by popular vote.",
+      "role": "evidence",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 1717,
+      "end": 1764,
+      "text": "the Electoral college consists of 538 electors.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 1765,
+      "end": 1834,
+      "text": "A majority of 270 electoral votes is required to elect the president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1835,
+      "end": 1941,
+      "text": "Your state's entitled allotment of ellectors equals the number of members in its congressional delegation:",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1942,
+      "end": 2020,
+      "text": "one for each member in the house of representatives plus two for you senators.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2022,
+      "end": 2180,
+      "text": "Under the 23rd Amendment of the constitution, the District of Columbia is allocated 3 electors and treated like a state for purposes of the electoral college.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 2181,
+      "end": 2285,
+      "text": "For this reason in the following discussion, the word ''state'' also refers to the district of Columbia.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2287,
+      "end": 2335,
+      "text": "Overall i think the Electoral College is better,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2336,
+      "end": 2430,
+      "text": "one of the reasons why i think that is because you have a better chance of getting more votes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u2",
+      "target": "u1",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 41,
+          "end": 51,
+          "text": "instead of"
+        }
+      ]
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 128,
+          "end": 135,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u5",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u1",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 279,
+          "end": 283,
+          "text": "keep"
+        }
+      ],
+      "note": "Restates the position as 'five reasons why we should keep'."
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 332,
+          "end": 337,
+          "text": "which"
+        }
+      ]
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u10",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 393,
+          "end": 394,
+          "text": ":"
+        }
+      ],
+      "note": "Heading introduces the paragraph's main claim."
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u10",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 482,
+          "end": 485,
+          "text": "but"
+        }
+      ]
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 462,
+          "end": 463,
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Reason 1 for the position."
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 542,
+          "end": 553,
+          "text": "For example"
+        }
+      ]
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u13",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 720,
+          "end": 721,
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Reason 2. Omits the condition it depends on (a candidate with only regional appeal), so the unit states it unconditionally."
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u15",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 921,
+          "end": 922,
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Reason 3."
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u15",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1083,
+          "end": 1086,
+          "text": "..."
+        }
+      ]
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u18",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1178,
+          "end": 1179,
+          "text": ":"
+        }
+      ],
+      "note": "Heading 'Big states' does not match the content, which is the run-off argument."
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Reason 4."
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u21",
+      "label": "organization-preparation",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1321,
+          "end": 1322,
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u21",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1333,
+          "end": 1339,
+          "text": "argued"
+        }
+      ]
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Presented as reason 5, but the content is a drawback of the Electoral College that is neither conceded nor rebutted."
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u23",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 1551,
+          "end": 1558,
+          "text": "Knowing"
+        }
+      ]
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u21",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u1",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Factual background copied from the source; no argumentative link."
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u24",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "graphical",
+          "start": 1940,
+          "end": 1941,
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u24",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u28",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2181,
+          "end": 2196,
+          "text": "For this reason"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u1",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2287,
+          "end": 2294,
+          "text": "Overall"
+        }
+      ]
+    },
+    {
+      "id": "r30",
+      "source": "u31",
+      "target": "u30",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2375,
+          "end": 2382,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "source": "u15c",
+      "target": "u15",
+      "label": "same-unit",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Rejoins the claim interrupted by the dash-delimited aside."
+    },
+    {
+      "id": "r32",
+      "source": "u15b",
+      "target": "u15",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 999,
+          "end": 1008,
+          "text": "as we saw"
+        }
+      ],
+      "note": "The student cites the 2012 election as evidence for the swing-state claim."
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-25",
+    "text_sha256": "f44729a96f45c18b4f908da801a8371490d2ef77fc350e320ca39981e704512e",
+    "purpose": "development gold for RQ1 graph extraction (Claude-authored, user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-25",
+    "review_outcome": "accepted_without_changes; later changes confirmed 2026-09-26",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "relations": [
+          "r31",
+          "r32"
+        ],
+        "units": [
+          "u15",
+          "u15b",
+          "u15c"
+        ],
+        "reason": "split interrupted unit u15 with same-unit (plan 4.1 rule 7)",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      }
+    ]
+  }
+}

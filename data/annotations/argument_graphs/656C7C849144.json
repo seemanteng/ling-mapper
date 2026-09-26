@@ -1,0 +1,1063 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:656C7C849144",
+  "root": "c5",
+  "units": [
+    {
+      "id": "c1",
+      "start": 0,
+      "end": 99,
+      "text": "When electing the president of the United States, you must vote in favor of the president you want.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c2",
+      "start": 100,
+      "end": 198,
+      "text": "However, instead of coming down to popular vote, the system uses the Electrolar College to decide.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c3",
+      "start": 199,
+      "end": 388,
+      "text": "The Electroral Vote works in that the people of a certain states votes for their candidate and the majority of people who vote for a certain president give their votes to a slate of voters.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c4",
+      "start": 389,
+      "end": 518,
+      "text": "What this means is that the popular vote within a state wins the electoral votes of the electors who then vote for the president.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c5",
+      "start": 519,
+      "end": 568,
+      "text": "Many people dislike this system including myself.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c6",
+      "start": 569,
+      "end": 595,
+      "text": "I disaprove of this system",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c7",
+      "start": 596,
+      "end": 629,
+      "text": "because it limits representation,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c8",
+      "start": 630,
+      "end": 663,
+      "text": "permits the disintrest of voters,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c9",
+      "start": 664,
+      "end": 708,
+      "text": "and reduces a candidates intrest in a state.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c10",
+      "start": 710,
+      "end": 816,
+      "text": "One major problem with the Electoral College voting system is that it limits representation of the people.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c11",
+      "start": 817,
+      "end": 942,
+      "text": "The Electoral COllege votes work so that the population of a state directly effects the amount of votes that states recieves.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c12",
+      "start": 943,
+      "end": 993,
+      "text": "For example, Wyoming only has about 500,000 voters",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c13",
+      "start": 994,
+      "end": 1041,
+      "text": "so it only recieves one electoral college vote.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c14",
+      "start": 1042,
+      "end": 1085,
+      "text": "Because there is only one vote for wyoming,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c15",
+      "start": 1086,
+      "end": 1190,
+      "text": "the 500,000 voters do not have acurate representation in a vote that has a total of 270 electoral votes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c16",
+      "start": 1191,
+      "end": 1301,
+      "text": "There have also been times in which a president has won the piopular vote but lost the Electoral College vote.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c17",
+      "start": 1302,
+      "end": 1416,
+      "text": "This was seen in the 2000 vote of Bush versus Gore when Gore won the popular vote and Bush won the electoral vote.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c18",
+      "start": 1418,
+      "end": 1433,
+      "text": "One might claim",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "c19",
+      "start": 1434,
+      "end": 1516,
+      "text": "that because the amount of electoral votes for a state is based of the population,",
+      "role": "counterclaim",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "c20",
+      "start": 1517,
+      "end": 1528,
+      "text": "it is fair.",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "c21",
+      "start": 1529,
+      "end": 1582,
+      "text": "However, I believe that the popular vote is more fair",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c22",
+      "start": 1583,
+      "end": 1632,
+      "text": "because it expresses the opinion of the majority.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c23",
+      "start": 1633,
+      "end": 1712,
+      "text": "In some states, there is a large majority of people running for a single party.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c24",
+      "start": 1713,
+      "end": 1809,
+      "text": "This can be observed primarily in Texas where an overwhelming majority of voters are Republican.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c25",
+      "start": 1810,
+      "end": 1886,
+      "text": "Therefore, the Republican president wins Texas almost every election period.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c26",
+      "start": 1887,
+      "end": 1942,
+      "text": "This can be frustrating for Democrats who live in Texas",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c27",
+      "start": 1943,
+      "end": 1992,
+      "text": "because they know that their vote does not matter",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c28",
+      "start": 1993,
+      "end": 2052,
+      "text": "causing them to lose interest in voting in the first place.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c29",
+      "start": 2053,
+      "end": 2086,
+      "text": "This is not fair for those people",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c30",
+      "start": 2087,
+      "end": 2147,
+      "text": "nor is it particularly good to express as an American trait.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c31",
+      "start": 2149,
+      "end": 2255,
+      "text": "As stated before, the larger the population of a states, the more Electoral College votes that state gets.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c32",
+      "start": 2256,
+      "end": 2339,
+      "text": "This leads to a small group of \"big states\" that have such a large amount of votes,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c33",
+      "start": 2340,
+      "end": 2411,
+      "text": "they are the target for candidates to try to persuade to vote for them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c35",
+      "start": 2412,
+      "end": 2508,
+      "text": "On the opposite side of the spectrum, most of the other 50 states have a smaller amount of votes",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c36",
+      "start": 2509,
+      "end": 2564,
+      "text": "and are less of an objective for candidates to acquire.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c34",
+      "start": 2565,
+      "end": 2745,
+      "text": "In many states throughout an election preiod (the period in which candidates move to diferent states giving speeches) the candidates never make an appearance in their state at all.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c37",
+      "start": 2746,
+      "end": 2863,
+      "text": "This is observed in the 2000 election in which seventeen states did not have the candidate make an appearance at all.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c38",
+      "start": 2864,
+      "end": 2921,
+      "text": "This also can lower interest in voting for the president.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c39",
+      "start": 2923,
+      "end": 3007,
+      "text": "The Electoral college voting system is not fair in the way the present system works.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c40",
+      "start": 3008,
+      "end": 3069,
+      "text": "The system does not show proper representation of the people,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c41",
+      "start": 3070,
+      "end": 3106,
+      "text": "does not promote interest in voting,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c42",
+      "start": 3107,
+      "end": 3206,
+      "text": "and causes a candidate to ignore the states in which do not have a large amount of electoral votes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c43",
+      "start": 3207,
+      "end": 3260,
+      "text": "Moving to popular vote will fix all of these problems",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "c44",
+      "start": 3261,
+      "end": 3312,
+      "text": "and will improve the way we vote for our president.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "c1",
+      "target": "c5",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "c2",
+      "target": "c1",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 100,
+          "end": 107,
+          "text": "However"
+        }
+      ],
+      "note": "Describes the system; 'instead of' here is not the writer rejecting an alternative, so not antithesis."
+    },
+    {
+      "id": "r3",
+      "source": "c3",
+      "target": "c2",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "c4",
+      "target": "c3",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 389,
+          "end": 404,
+          "text": "What this means"
+        }
+      ]
+    },
+    {
+      "id": "r5",
+      "source": "c6",
+      "target": "c5",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 571,
+          "end": 580,
+          "text": "disaprove"
+        }
+      ],
+      "note": "Thesis preview; the real proposal (move to popular vote) only appears in c43."
+    },
+    {
+      "id": "r6",
+      "source": "c7",
+      "target": "c6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 596,
+          "end": 603,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r7",
+      "source": "c8",
+      "target": "c7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "c9",
+      "target": "c7",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 664,
+          "end": 667,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r9",
+      "source": "c10",
+      "target": "c5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "c10",
+      "target": "c7",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 780,
+          "end": 801,
+          "text": "limits representation"
+        }
+      ],
+      "note": "Body point 1 restates preview reason 1."
+    },
+    {
+      "id": "r11",
+      "source": "c11",
+      "target": "c10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "c12",
+      "target": "c11",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 943,
+          "end": 954,
+          "text": "For example"
+        }
+      ]
+    },
+    {
+      "id": "r13",
+      "source": "c13",
+      "target": "c12",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 994,
+          "end": 996,
+          "text": "so"
+        }
+      ],
+      "note": "Factual error: every state has at least three electoral votes; Wyoming has three."
+    },
+    {
+      "id": "r14",
+      "source": "c14",
+      "target": "c15",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1042,
+          "end": 1049,
+          "text": "Because"
+        }
+      ]
+    },
+    {
+      "id": "r15",
+      "source": "c15",
+      "target": "c10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "Factual error: 270 is the majority needed to win, not the total (538)."
+    },
+    {
+      "id": "r16",
+      "source": "c16",
+      "target": "c10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1202,
+          "end": 1206,
+          "text": "also"
+        }
+      ]
+    },
+    {
+      "id": "r17",
+      "source": "c17",
+      "target": "c16",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1302,
+          "end": 1306,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r18",
+      "source": "c18",
+      "target": "c20",
+      "label": "attribution-positive",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 1428,
+          "end": 1433,
+          "text": "claim"
+        }
+      ]
+    },
+    {
+      "id": "r19",
+      "source": "c19",
+      "target": "c20",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1439,
+          "end": 1446,
+          "text": "because"
+        }
+      ],
+      "note": "Reason inside the reported counterclaim."
+    },
+    {
+      "id": "r20",
+      "source": "c20",
+      "target": "c21",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1529,
+          "end": 1536,
+          "text": "However"
+        }
+      ],
+      "note": "The writer grants the view but prefers the popular vote as 'more fair', so concession rather than antithesis."
+    },
+    {
+      "id": "r21",
+      "source": "c21",
+      "target": "c5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "c22",
+      "target": "c21",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1583,
+          "end": 1590,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r23",
+      "source": "c23",
+      "target": "c21",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "The Texas example shows winner-take-all voter disinterest more than majority opinion."
+    },
+    {
+      "id": "r24",
+      "source": "c24",
+      "target": "c23",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1713,
+          "end": 1717,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r25",
+      "source": "c25",
+      "target": "c24",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1810,
+          "end": 1819,
+          "text": "Therefore"
+        }
+      ]
+    },
+    {
+      "id": "r26",
+      "source": "c26",
+      "target": "c25",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 1887,
+          "end": 1891,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r27",
+      "source": "c27",
+      "target": "c26",
+      "label": "causal-cause",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 1943,
+          "end": 1950,
+          "text": "because"
+        }
+      ]
+    },
+    {
+      "id": "r28",
+      "source": "c28",
+      "target": "c27",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 1993,
+          "end": 2000,
+          "text": "causing"
+        }
+      ]
+    },
+    {
+      "id": "r29",
+      "source": "c28",
+      "target": "c8",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "semantic",
+          "start": 2009,
+          "end": 2022,
+          "text": "lose interest"
+        }
+      ],
+      "note": "Realizes preview reason 2 (voter disinterest) inside point 2."
+    },
+    {
+      "id": "r30",
+      "source": "c29",
+      "target": "c26",
+      "label": "evaluation-comment",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 2053,
+          "end": 2057,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r31",
+      "source": "c30",
+      "target": "c29",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2087,
+          "end": 2090,
+          "text": "nor"
+        }
+      ]
+    },
+    {
+      "id": "r32",
+      "source": "c31",
+      "target": "c34",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "c31",
+      "target": "c11",
+      "label": "restatement-partial",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2149,
+          "end": 2165,
+          "text": "As stated before"
+        }
+      ]
+    },
+    {
+      "id": "r34",
+      "source": "c32",
+      "target": "c31",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2261,
+          "end": 2269,
+          "text": "leads to"
+        }
+      ]
+    },
+    {
+      "id": "r35",
+      "source": "c33",
+      "target": "c32",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "syntactic",
+          "start": 2310,
+          "end": 2314,
+          "text": "such"
+        }
+      ],
+      "note": "Result clause without 'that' (comma splice)."
+    },
+    {
+      "id": "r36",
+      "source": "c35",
+      "target": "c33",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "lexical",
+          "start": 2412,
+          "end": 2448,
+          "text": "On the opposite side of the spectrum"
+        }
+      ],
+      "note": "'the other 50 states' overstates: there are 50 states in total."
+    },
+    {
+      "id": "r37",
+      "source": "c36",
+      "target": "c35",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 2509,
+          "end": 2512,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r38",
+      "source": "c34",
+      "target": "c5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "c37",
+      "target": "c34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 2746,
+          "end": 2750,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r40",
+      "source": "c38",
+      "target": "c34",
+      "label": "causal-result",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 2864,
+          "end": 2868,
+          "text": "This"
+        }
+      ]
+    },
+    {
+      "id": "r41",
+      "source": "c39",
+      "target": "c5",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "c40",
+      "target": "c39",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "c41",
+      "target": "c40",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r44",
+      "source": "c42",
+      "target": "c40",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3107,
+          "end": 3110,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r45",
+      "source": "c43",
+      "target": "c39",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true,
+      "note": "The writer's actual proposal. Its problem-solution link to the listed problems is the secondary edge from c40."
+    },
+    {
+      "id": "r46",
+      "source": "c44",
+      "target": "c43",
+      "label": "joint-list",
+      "tier": "primary",
+      "signals": [
+        {
+          "type": "dm",
+          "start": 3261,
+          "end": 3264,
+          "text": "and"
+        }
+      ]
+    },
+    {
+      "id": "r47",
+      "source": "c40",
+      "target": "c43",
+      "label": "topic-solutionhood",
+      "tier": "secondary",
+      "signals": [
+        {
+          "type": "reference",
+          "start": 3246,
+          "end": 3260,
+          "text": "these problems"
+        }
+      ],
+      "note": "The problems listed in c40-c42 are what c43 proposes to fix."
+    }
+  ],
+  "provenance": {
+    "annotator": "claude",
+    "review_status": "human_reviewed",
+    "date": "2026-09-25",
+    "text_sha256": "b017db24a18c65e1fb42c04c8ee146e3a0d8a1567e4ecc8a9b36f667dc3f55bc",
+    "role_source": "PERSUADE element with largest overlap",
+    "purpose": "development gold for RQ1 graph extraction (Claude-authored, user-accepted; not independently annotated)",
+    "reviewer": "user",
+    "review_date": "2026-09-25",
+    "review_outcome": "accepted_without_changes; later changes confirmed 2026-09-26",
+    "change_log": [
+      {
+        "date": "2026-09-26",
+        "by": "claude",
+        "relations": [
+          "r45",
+          "r47"
+        ],
+        "reason": "added secondary topic-solutionhood edge after inventory extension",
+        "confirmed_by": "user",
+        "confirmed_date": "2026-09-26"
+      }
+    ]
+  }
+}
