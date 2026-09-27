@@ -198,7 +198,7 @@
       "end": 1516,
       "text": "that because the amount of electoral votes for a state is based of the population,",
       "role": "counterclaim",
-      "stance": "reported",
+      "stance": "conceded",
       "polarity": "positive"
     },
     {
@@ -1154,6 +1154,19 @@
         "reason": "v0.2 segmentation rule 2: split coordinated predicates, including a shared subject (decided 2026-09-26)",
         "confirmed_by": "user",
         "confirmed_date": "2026-09-26"
+      },
+      {
+        "date": "2026-09-27",
+        "by": "claude",
+        "stance_changes": [
+          {
+            "unit": "c19",
+            "from": "reported",
+            "to": "conceded"
+          }
+        ],
+        "reason": "prompt v0.4 convention: every unit of a conceded passage is conceded (the validator previously allowed only units in an adversative relation)",
+        "confirmed_by": null
       }
     ]
   }

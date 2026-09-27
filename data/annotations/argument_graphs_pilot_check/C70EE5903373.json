@@ -171,7 +171,7 @@
       "end": 1049,
       "text": "beacuse in order to win you must do so in all regions of the country.",
       "role": "counterclaim",
-      "stance": "reported",
+      "stance": "conceded",
       "polarity": "positive"
     },
     {
@@ -908,6 +908,21 @@
     "purpose": "pilot-check gold for RQ1 graph extraction (Claude-authored before any extraction of this essay; user-accepted; not independently annotated)",
     "reviewer": "user",
     "review_date": "2026-09-26",
-    "review_outcome": "accepted_without_changes"
+    "review_outcome": "accepted_without_changes",
+    "change_log": [
+      {
+        "date": "2026-09-27",
+        "by": "claude",
+        "stance_changes": [
+          {
+            "unit": "v19",
+            "from": "reported",
+            "to": "conceded"
+          }
+        ],
+        "reason": "prompt v0.4 convention: every unit of a conceded passage is conceded (the validator previously allowed only units in an adversative relation)",
+        "confirmed_by": null
+      }
+    ]
   }
 }

@@ -9,7 +9,7 @@ import html
 import json
 from pathlib import Path
 
-from .graph_schema import RELATIONS, argument_edges, validate_graph
+from .graph_schema import RELATIONS, argument_edges, propositions, validate_graph
 
 
 def graph_data(graph, record):
@@ -18,7 +18,7 @@ def graph_data(graph, record):
         "id": record["example_id"], "score": record["metadata"].get("holistic_score"),
         "prompt": record["prompt"], "text": text, "root": graph.get("root"),
         "units": graph.get("units", []), "relations": graph.get("relations", []),
-        "derived": argument_edges(graph), "errors": validate_graph(graph, text),
+        "derived": argument_edges(graph), "errors": validate_graph(graph, text), "props": propositions(graph),
         "provenance": graph.get("provenance", {}), "schema": graph.get("schema_version"),
     }
 
@@ -99,6 +99,11 @@ g.edge path.hit { fill: none; stroke: transparent; stroke-width: 12; }
 g.edge text { font: 600 10.5px sans-serif; fill: var(--c); paint-order: stroke; stroke: var(--panel); stroke-width: 4px; }
 g.edge.implicit text { font-style: italic; }
 g.edge.hl path.line, g.edge.sel path.line { stroke-width: 3.4; opacity: 1; }
+#props { height: calc(100vh - 330px); min-height: 380px; overflow: auto; border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; }
+#props .prop { border-left: 3px solid var(--c); padding: 5px 0 5px 10px; margin: 6px 0; cursor: default; }
+#props .prop.hl { background: color-mix(in srgb, var(--c) var(--tint), transparent); }
+#props .ptag { font-size: 11px; text-transform: uppercase; letter-spacing: .04em; font-weight: 600; color: var(--c); margin-right: 6px; }
+#props .pout { font-size: 12px; color: var(--muted); margin-top: 2px; }
 #details { margin-top: 10px; font-size: 13px; border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; min-height: 58px; }
 #details .k { color: var(--muted); }
 #details q { font-style: italic; }
@@ -133,11 +138,12 @@ g.panel .phow { font: 500 12px sans-serif; letter-spacing: 0; fill: var(--muted)
   <section><h2>Argument graph</h2>
     <ul id="errors" hidden></ul>
     <div class="toolbar">
-      <button id="v-rel" aria-pressed="true">Relations</button><button id="v-arg" aria-pressed="false">Support / attack</button>
+      <button id="v-rel" aria-pressed="true">Relations</button><button id="v-arg" aria-pressed="false">Support / attack</button><button id="v-prop" aria-pressed="false" title="Units joined with their frames, conditions and split parts">Propositions</button>
       <button id="fit">Fit width</button><button id="all">Whole graph</button>
       <span class="hint">Scroll to pan · pinch or ⌘/Ctrl-scroll to zoom · click a node or edge for details</span>
     </div>
     <div id="graph"></div>
+    <div id="props" hidden></div>
     <div id="details"><span class="k">Click a node or an edge.</span></div>
     <div class="legend" id="legend"></div>
   </section>
@@ -430,13 +436,31 @@ function show(i) {
   $("draft").style.color = reviewed ? "var(--muted)" : "var(--warn)";
   const errs = $("errors"); errs.replaceChildren(...d.errors.map(e => mk("li", {}, e))); errs.hidden = ok;
   $("prompt").textContent = d.prompt;
-  renderEssay(d); drawGraph(d); legend();
+  renderEssay(d); drawGraph(d); legend(); if (mode === "prop") drawProps(d);
   details('<span class="k">Click a node or an edge.</span>');
 }
-function setMode(m) { mode = m; $("v-rel").setAttribute("aria-pressed", m === "rel"); $("v-arg").setAttribute("aria-pressed", m === "arg");
+function drawProps(d) {
+  const P = d.props, byId = Object.fromEntries(P.propositions.map(p => [p.id, p]));
+  const out = {}; P.edges.forEach(e => (out[e.source] ||= []).push(e));
+  $("props").replaceChildren(mk("p", {class: "k"}, `${P.propositions.length} propositions from ${d.units.length} units: each unit joined with its reporting frame, conditions and split-off parts.`),
+    ...P.propositions.map(p => {
+      const el = mk("div", {class: "prop"});
+      el.style.setProperty("--c", `var(--${p.role})`);
+      el.append(mk("span", {class: "ptag"}, `${p.id} · ${p.role}${p.stance !== "endorsed" ? " · " + p.stance : ""}${p.polarity === "negative" ? " · negated" : ""}`), p.text);
+      (out[p.id] || []).forEach(e => el.append(mk("div", {class: "pout"},
+        `${e.tier === "secondary" ? "(secondary) " : ""}${e.label} → ${e.target}: ${byId[e.target].text.slice(0, 70)}${byId[e.target].text.length > 70 ? "…" : ""}`)));
+      el.onmouseenter = () => { el.classList.add("hl"); p.units.forEach(u => hl(u, true)); };
+      el.onmouseleave = () => { el.classList.remove("hl"); p.units.forEach(u => hl(u, false)); };
+      return el;
+    }));
+}
+function setMode(m) { mode = m; ["rel", "arg", "prop"].forEach(k => $("v-" + k).setAttribute("aria-pressed", m === k));
+  $("graph").hidden = m === "prop"; $("props").hidden = m !== "prop"; $("fit").hidden = $("all").hidden = m === "prop";
+  if (m === "prop") { drawProps(DATA.essays[cur]); return; }
   const v = view; drawGraph(DATA.essays[cur]); if (v) setView(v); legend(); }
 $("v-rel").onclick = () => setMode("rel");
 $("v-arg").onclick = () => setMode("arg");
+$("v-prop").onclick = () => setMode("prop");
 $("fit").onclick = fitWidth;
 $("all").onclick = fitAll;
 DATA.essays.forEach((d, i) => $("pick").append(mk("option", {value: i}, d.id.replace("persuade:", ""))));

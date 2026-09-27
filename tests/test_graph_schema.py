@@ -1,6 +1,6 @@
 import unittest
 
-from argument_graph.graph_schema import SCHEMA_VERSION, argument_edges, validate_graph
+from argument_graph.graph_schema import SCHEMA_VERSION, argument_edges, propositions, validate_graph
 
 TEXT = ("I favor keeping the college instead of changing to popular vote because it is fair. "
         "A dispute is possible, but it is less likely. For example, Obama got 61.7 percent.")
@@ -118,6 +118,24 @@ class GraphContractTests(unittest.TestCase):
         self.assertError(g, "adversative-antithesis satellite must have stance 'rejected'")
         g = graph(); g["units"][5]["stance"] = "rejected"
         self.assertError(g, "unit u6: stance 'rejected' needs an adversative relation")
+
+    def test_a_conceded_passage_may_span_several_units(self):
+        g = graph()
+        g["units"][5]["stance"] = "conceded"
+        g["relations"][4] = rel("r5", "u6", "u4", "elaboration-additional")  # the example now belongs to the concession
+        self.assertEqual(validate_graph(g, TEXT), [])
+        g["units"][5]["stance"] = "rejected"  # a different stance does not join the conceded passage
+        self.assertError(g, "unit u6: stance 'rejected' needs an adversative relation")
+
+    def test_propositions_join_frames_conditions_and_parts(self):
+        g = graph()
+        g["relations"][1] = rel("r2", "u3", "u1", "contingency-condition")  # treat 'because it is fair.' as a condition
+        p = propositions(g)
+        first = p["propositions"][0]
+        self.assertEqual((first["units"], first["head"], first["role"]), (["u1", "u3"], "u1", "position"))
+        self.assertEqual(len(p["propositions"]), 5)
+        self.assertIn({"source": "p2", "target": "p1", "label": "adversative-antithesis", "tier": "primary", "relation": "r1"}, p["edges"])
+        self.assertFalse(any(e["relation"] == "r2" for e in p["edges"]))  # joined, so no longer an edge
 
     def test_support_and_attack_are_derived_from_stance(self):
         edges = {(e["type"], e["source"], e["target"]) for e in argument_edges(graph())}

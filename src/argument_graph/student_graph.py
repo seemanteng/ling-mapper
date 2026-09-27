@@ -22,7 +22,7 @@ from pathlib import Path
 from .graph_schema import RELATIONS, ROLES, SCHEMA_VERSION, SIGNAL_TYPES, STANCES, argument_edges, validate_graph
 from .schemas import ExampleRecord
 
-PROMPT_VERSION = "student_graph/0.3"
+PROMPT_VERSION = "student_graph/0.4"
 DEFAULT_MODEL = "claude-opus-5"
 
 ROLE_DEFINITIONS = {
@@ -36,10 +36,10 @@ ROLE_DEFINITIONS = {
     "unannotated": "text that plays none of these roles (greetings, sign-offs, asides)",
 }
 STANCE_DEFINITIONS = {
-    "endorsed": "the writer puts this forward as their own view",
-    "conceded": "the writer grants it (typically before arguing past it)",
-    "rejected": "the writer presents it as an alternative they reject",
-    "reported": "attributed to others or presented without the writer taking it on",
+    "endorsed": "the writer puts this forward as their own view, including facts the writer takes from a source and uses as their own evidence (\"According to Source 2, ...\")",
+    "conceded": "the writer grants it (typically before arguing past it); every unit of a conceded passage is conceded, not only its first unit (\"While it is true that AI only requires a laptop | and can provide round the clock assistance | which leads to a better educated populace\")",
+    "rejected": "the writer presents it as a view or alternative the writer rejects. An alternative that someone else passed over, in events the writer describes (\"instead of hiring local artists, | they used AI\"), is not rejected by the writer",
+    "reported": "a view the writer attributes to others without taking it on (\"Critics may argue | that ...\", \"One might claim\")",
     "unclear": "none of the above can be decided from the text",
 }
 SEGMENTATION_RULES = """\
@@ -60,9 +60,10 @@ STRUCTURE_RULES = """\
 - Primary tree: exactly one root (the central unit, normally the main clause of the thesis); every other unit has exactly one primary relation to its head; no cycles. Build the whole primary tree first.
 - Secondary relations add a further, tree-breaking relation and are allowed only when a quoted signal in the essay licenses it; never duplicate a primary relation. same-unit is primary only and joins parts separated by the interrupting unit; relations of the whole attach to its first part.
 - Give each relation the words that signal it (quoted exactly from the source or target unit) with a signal type, or no signals if it is implicit.
-- Stance must agree with structure: the satellite of adversative-concession is conceded; the satellite of adversative-antithesis is rejected; every conceded or rejected unit takes part in an adversative relation.
-- Label tests: evidence when S is a fact, example, statistic or source that makes N more believable, justify when S is the writer's reason for holding or saying N; concession when the writer grants S, antithesis when S is an alternative the writer rejects; cause/result only for causation stated as content; mode-means when S says how N is achieved; topic-solutionhood when S states a problem and N the fix; topic-question when S is a question that N answers; elaboration-additional only when nothing else applies.
-- because, since and so do not decide the label. If N is the writer's judgement, opinion or recommendation ("it is fair", "the process is mature", "we should keep it", "it doesn't prove anything"), S is the writer's reason for it: explanation-justify, or explanation-evidence when S is a fact that makes N more believable. Use causal-cause or causal-result only when N is an event or state in the world that S brings about ("because the state is large, it gets more electors").
+- Stance must agree with structure: the satellite of adversative-concession is conceded; the satellite of adversative-antithesis is rejected; every conceded or rejected unit either takes part in an adversative relation or belongs to a passage of the same stance, connected by primary relations to a unit that does.
+- Label tests: evidence when S is a fact, example, statistic or source that makes N more believable, justify when S is the writer's reason for holding or saying N; concession when the writer grants S, antithesis when S is an alternative the writer rejects (when the essay reports that someone chose N instead of S, use adversative-contrast: the writer is not rejecting S); cause/result only for causation stated as content; mode-means when S says how N is achieved; topic-solutionhood when S states a problem and N the fix; topic-question when S is a question that N answers; elaboration-additional only when nothing else applies.
+- because, since and so do not decide the label. If N is the writer's judgement, opinion or recommendation ("it is fair", "the process is mature", "we should keep it", "it doesn't prove anything"), S is the writer's reason for it: explanation-justify, or explanation-evidence when S is a fact that makes N more believable. Use causal-cause or causal-result only when N is an event or state in the world that S brings about ("because the state is large, it gets more electors"). Therefore, thus, hence and so introducing the writer's conclusion mark an inference: the earlier reason justifies the conclusion (explanation-justify from the reason to the conclusion, or from the conclusion's supporting unit as a secondary relation), not causal-result.
+- restatement-partial and restatement-repetition only when a unit states the same claim with the same strength. A stronger conclusion ("it cannot be said that any societal good comes out of this"), a generalisation ("too many students" becomes "students have surrendered all their learning"), or an evaluation of an earlier point is not a restatement: use evaluation-comment, explanation-justify or elaboration-additional as fits, so the change in strength stays visible.
 - Parallel items at the same level (several facts describing how the system works, a series of reasons or examples) form a joint-list: chain each later item to the first, and attach the list to its head through the first item. Use elaboration-additional only when S adds detail to one particular N, not when S is the next item in a series.
 - Represent what the essay says, including factual errors and weak reasoning. Do not correct, improve or judge the student's claims."""
 
@@ -93,6 +94,8 @@ Role rules:
 
 Stances (does the writer put the unit forward as their own view?):
 {stances}
+
+Polarity: negative only when the unit's main claim is negated ("technology is not always beneficial", "it cannot be said that any good comes of this"). Negation inside a subordinate phrase ("without even a second thought") or a negative topic does not make the unit negative; "not always" stays distinct from "never".
 
 Signal types: {", ".join(sorted(SIGNAL_TYPES))}. Use dm for discourse markers such as because, but, however, for example."""
 

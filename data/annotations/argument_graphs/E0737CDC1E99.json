@@ -81,7 +81,7 @@
       "end": 481,
       "text": "-it happend in 2000",
       "role": "claim",
-      "stance": "endorsed",
+      "stance": "conceded",
       "polarity": "positive"
     },
     {
@@ -747,6 +747,19 @@
         "reason": "split interrupted unit u15 with same-unit (plan 4.1 rule 7)",
         "confirmed_by": "user",
         "confirmed_date": "2026-09-26"
+      },
+      {
+        "date": "2026-09-27",
+        "by": "claude",
+        "stance_changes": [
+          {
+            "unit": "u9",
+            "from": "endorsed",
+            "to": "conceded"
+          }
+        ],
+        "reason": "prompt v0.4 convention: every unit of a conceded passage is conceded (the validator previously allowed only units in an adversative relation)",
+        "confirmed_by": null
       }
     ]
   }

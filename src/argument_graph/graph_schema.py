@@ -149,9 +149,19 @@ def validate_graph(graph: dict[str, Any], text: str) -> list[str]:
             want = required.get(r["label"])
             if want and by_id[r["source"]].get("stance") != want:
                 errors.append(f"relation {r.get('id')}: {r['label']} satellite must have stance {want!r}")
+    # A conceded or rejected passage may span several units: a unit is also anchored when primary
+    # edges connect it, through units of the same stance, to a unit in an adversative relation.
+    frontier = [uid for uid in anchored if by_id[uid].get("stance") in NOT_OWN]
+    while frontier:
+        uid = frontier.pop()
+        for s, t in primary_pairs:
+            other = t if s == uid else s if t == uid else None
+            if other and other not in anchored and by_id[other].get("stance") == by_id[uid].get("stance"):
+                anchored.add(other)
+                frontier.append(other)
     for uid, u in by_id.items():
         if u.get("stance") in NOT_OWN and uid not in anchored:
-            errors.append(f"unit {uid}: stance {u['stance']!r} needs an adversative relation")
+            errors.append(f"unit {uid}: stance {u['stance']!r} needs an adversative relation or a place in a {u['stance']} passage")
     for s, t in secondary_pairs & primary_pairs:
         errors.append(f"secondary edge {s}->{t} duplicates a primary edge")
 
@@ -195,3 +205,41 @@ def argument_edges(graph: dict[str, Any]) -> list[dict[str, Any]]:
                     derived.append({"type": "attack", "source": attacker["id"], "target": target["id"],
                                     "relation": r["id"], "basis": "adversative"})
     return derived
+
+
+# Relations whose satellite is part of its nucleus's proposition rather than a proposition of its own.
+PROPOSITION_JOINS = {"same-unit", "attribution-positive", "contingency-condition"}
+
+
+def propositions(graph: dict[str, Any]) -> dict[str, list[dict[str, Any]]]:
+    """Group units into whole propositions: a unit with its reporting frame, conditions and
+    split-off parts. Derived from the primary tree; the graph itself is unchanged. Each
+    proposition takes its role, stance and polarity from its head (the main clause); relations
+    between units of different propositions are kept as proposition edges."""
+    units = {u["id"]: u for u in graph.get("units") or []}
+    parent = {uid: uid for uid in units}
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+    primary = [r for r in graph.get("relations") or [] if r.get("tier") == "primary"]
+    for r in primary:
+        if r["label"] in PROPOSITION_JOINS and r["source"] in units and r["target"] in units:
+            parent[find(r["source"])] = find(r["target"])
+    groups = {}
+    for uid in sorted(units, key=lambda x: units[x]["start"]):
+        groups.setdefault(find(uid), []).append(uid)
+    heads = {r["source"]: r["target"] for r in primary}
+    props, of = [], {}
+    for members in sorted(groups.values(), key=lambda m: units[m[0]]["start"]):
+        head = next((m for m in members if heads.get(m) not in members), members[0])
+        pid = f"p{len(props) + 1}"
+        of.update({m: pid for m in members})
+        props.append({"id": pid, "units": members, "head": head, "text": " ".join(units[m]["text"] for m in members),
+                      "role": units[head].get("role"), "stance": units[head].get("stance"),
+                      "polarity": units[head].get("polarity")})
+    edges = [{"source": of[r["source"]], "target": of[r["target"]], "label": r["label"], "tier": r["tier"], "relation": r["id"]}
+             for r in graph.get("relations") or []
+             if r.get("source") in of and r.get("target") in of and of[r["source"]] != of[r["target"]]]
+    return {"propositions": props, "edges": edges}
