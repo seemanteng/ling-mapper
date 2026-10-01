@@ -276,6 +276,8 @@ def extract(record, caller, max_attempts=3, attempts=None):
 
 def select_records(records_path, splits_path, split, essays, allow_pilot_check):
     splits = json.loads(Path(splits_path).read_text())
+    if not essays and split not in splits:
+        raise SystemExit(f"No split {split!r} in {splits_path}")
     wanted = list(essays) if essays else list(splits[split])
     forbidden = set(splits["pilot_check"]) & set(wanted)
     if forbidden and not allow_pilot_check:
@@ -292,7 +294,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--records", type=Path, required=True)
     parser.add_argument("--splits", type=Path, required=True)
-    parser.add_argument("--split", default="development", choices=["development", "pilot_check"])
+    parser.add_argument("--split", default="development", help="A list in the splits file: development, pilot_check, or gum")
     parser.add_argument("--essay", action="append", default=[], help="Example ID (repeatable); overrides --split")
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--model", default=DEFAULT_MODEL)
@@ -313,7 +315,7 @@ def main():
         "records_sha256": hashlib.sha256(args.records.read_bytes()).hexdigest(), "essays": {}}
     caller = AnthropicCaller(args.model, args.effort)
     for record in records:
-        name = record.example_id.replace("persuade:", "")
+        name = record.example_id.split(":", 1)[-1]
         graph_path, log_path = run_dir / f"{name}.graph.json", run_dir / f"{name}.log.json"
         if graph_path.exists() and not args.force:
             print(f"{name}: cached")

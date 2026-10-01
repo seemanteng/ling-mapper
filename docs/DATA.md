@@ -80,3 +80,19 @@ PYTHONPATH=src python3 -m argument_graph.render_html \
 ```
 
 A self-contained HTML page: the essay with spans highlighted by role beside its argument graph, built from hierarchy candidate links. The Graph tab draws spans as nodes with arrows child → parent (left-to-right or top-down; scroll to zoom, drag to pan); the Outline tab shows the same tree as nested cards. Hovering either side highlights its counterpart; clicking jumps to it. Arrow keys switch essays. Add `--essay <example_id>` (repeatable) for specific essays and `--include-unannotated` to keep Unannotated spans.
+
+## GUM: expert eRST reference
+
+GUM (Georgetown University Multilayer corpus) is annotated in eRST, the scheme the graph contract adapts, so its trees serve as an expert-annotated check on relation labelling. `argument_graph.loaders.gum` converts GUM documents into records and gold graphs. The dependency files use the same head-ordered conversion as this project (satellite to nucleus, multinuclear members chained to the first), so the gold tree is GUM's own; only character offsets are added. The text is rebuilt from the CoNLL-U sentence strings, and every EDU token must be found in order or the import fails.
+
+```sh
+git clone --depth 1 --filter=blob:none --sparse https://github.com/amir-zeldes/gum.git <gum dir>
+git -C <gum dir> sparse-checkout set rst/dependencies dep
+PYTHONPATH=src python3 -m argument_graph.loaders.gum --gum-dir <gum dir> --output-dir data/processed/gum_v1
+PYTHONPATH=src python3 -m argument_graph.student_graph --records data/processed/gum_v1/records.jsonl \
+  --splits data/processed/gum_v1/splits.json --split gum --output-dir data/runs/gum
+PYTHONPATH=src python3 -m argument_graph.evaluate --run-dir data/runs/gum/<run folder> \
+  --records data/processed/gum_v1/records.jsonl --gold-dir data/processed/gum_v1/gold
+```
+
+The default documents are the essay and letter documents of GUM's standard test partition: `GUM_essay_fear`, `GUM_essay_system`, `GUM_letter_attorney` and `GUM_letter_mandela` (821–1,070 words, 525 EDUs, 521 primary edges). They were not used to design prompts. Limits: gold graphs keep GUM's 32-label inventory, and only 367 of the 521 primary edges carry a label the contract allows, so exact-label accuracy cannot exceed 0.70 (`labelled_accuracy_in_inventory` scores the rest); GUM EDUs follow GUM's segmentation guidelines, which are finer than this project's in places; GUM has no roles or stances, so those scores and derived support/attack are not computed; signals and secondary edges are imported but not scored. The texts are published writing, not student essays, and the record prompt states that no assignment question exists. Texts are CC BY / BY-NC-SA and annotations CC BY 4.0 (see GUM's LICENSE.md); the built files stay under the gitignored `data/processed/`.

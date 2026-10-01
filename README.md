@@ -60,7 +60,7 @@ PYTHONPATH=src python3 -m argument_graph.evaluate --run-dir data/runs/student_gr
 
 The viewer shows the essay tiled into units next to three views: **Relations** (the tree), **Support / attack** and **Propositions**. Contract violations are listed, not hidden.
 
-The scorer writes `metrics.json` into the run folder, overwriting any earlier one. Against gold graphs it reports unit segmentation, root match, attachment (plain and labelled), role and stance agreement, and derived support/attack F1. Against PERSUADE it reports role agreement and element F1.
+The scorer writes `metrics.json` into the run folder, overwriting any earlier one. Against gold graphs it reports unit segmentation, root match, attachment (plain and labelled), role and stance agreement, and derived support/attack F1. Against PERSUADE it reports role agreement and element F1. Four GUM documents with expert eRST trees give a check on relation labelling that does not depend on the Claude-written gold graphs (see [docs/DATA.md](docs/DATA.md#gum-expert-erst-reference)).
 
 ## Current quality
 

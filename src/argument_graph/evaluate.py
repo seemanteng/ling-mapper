@@ -14,6 +14,11 @@ Against gold argument graphs (same essay, possibly different segmentation):
     so a finer or coarser segmentation is not by itself counted as an attachment error;
   - derived support/attack edges: P/R/F1 after the same mapping.
 
+Gold graphs from GUM (expert eRST annotation, loaders/gum.py) have GUM's full label
+inventory and no role or stance, so role, stance and derived-edge scores are None for
+them, and labelled accuracy is also reported over gold edges whose label is in the
+project inventory.
+
 Against PERSUADE (every essay):
   - role agreement per character with the gold elements (unannotated elsewhere);
   - element F1 in the Feedback Prize style: predicted elements are maximal runs of
@@ -28,14 +33,14 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from .graph_schema import argument_edges
+from .graph_schema import RELATIONS, argument_edges
 
 CLASSES = ("explanation", "adversative", "causal", "contingency", "elaboration", "restatement", "attribution",
            "evaluation", "context", "organization", "joint", "mode", "topic", "same")
 
 
 def coarse(label):
-    return next(c for c in CLASSES if label.startswith(c))
+    return next((c for c in CLASSES if label.startswith(c)), label.split("-")[0])
 
 
 class Text:
@@ -120,7 +125,8 @@ def against_gold_graph(text, pred, gold):
         if gid: groups[gid].add(pid)
     exits = exit_edges(pred, groups)
     gheads = primary_heads(gold)
-    att = lab = cls = 0
+    att = lab = cls = lab_in = 0
+    gold_in = sum(r["label"] in RELATIONS for r in gheads.values())
     per_label = Counter()
     for gid, grel in gheads.items():
         prel = exits.get(gid)
@@ -128,14 +134,16 @@ def against_gold_graph(text, pred, gold):
             att += 1
             lab += prel["label"] == grel["label"]
             cls += coarse(prel["label"]) == coarse(grel["label"])
+            lab_in += prel["label"] == grel["label"] and grel["label"] in RELATIONS
             per_label[(grel["label"], prel["label"])] += 1
     # The root matches when the predicted root covers at least half of the gold root, so a
     # root unit that merely also contains a neighbouring clause is not scored as a miss.
     proot = next(u for u in pu if u["id"] == pred["root"])
     groot = next(u for u in gu if u["id"] == gold["root"])
     root_match = t.overlap(proot, groot) >= 0.5 * t.size(*t.core(groot))
-    role_agree, n, role_conf = char_agreement(t, pu, gu, "role")
-    stance_agree, _, _ = char_agreement(t, pu, gu, "stance", default="endorsed")
+    has_roles = all("role" in u for u in gu)
+    role_agree, n, role_conf = char_agreement(t, pu, gu, "role") if has_roles else (0, 0, Counter())
+    stance_agree, _, _ = char_agreement(t, pu, gu, "stance", default="endorsed") if has_roles else (0, 0, None)
     def derived(g, mapping=None):
         out = set()
         for e in argument_edges(g):
@@ -143,7 +151,7 @@ def against_gold_graph(text, pred, gold):
             if s and d and s != d:
                 out.add((e["type"], s, d))
         return out
-    dp, dg = derived(pred, to_gold), derived(gold)
+    dp, dg = (derived(pred, to_gold), derived(gold)) if has_roles else (set(), set())
     return {
         "units": {"predicted": len(pu), "gold": len(gu)},
         "segmentation_exact": prf(len(cores_p & cores_g), len(cores_p), len(cores_g)),
@@ -154,8 +162,9 @@ def against_gold_graph(text, pred, gold):
         "attachment": {"correct": att, "labelled": lab, "class": cls, "gold_edges": len(gheads),
                        "accuracy": round(att / len(gheads), 4) if gheads else None,
                        "labelled_accuracy": round(lab / len(gheads), 4) if gheads else None,
-                       "class_accuracy": round(cls / len(gheads), 4) if gheads else None},
-        "derived_edges": prf(len(dp & dg), len(dp), len(dg)),
+                       "class_accuracy": round(cls / len(gheads), 4) if gheads else None,
+                       "labelled_in_inventory": lab_in, "gold_edges_in_inventory": gold_in},
+        "derived_edges": prf(len(dp & dg), len(dp), len(dg)) if has_roles else None,
         "_label_pairs": per_label, "_role_confusion": role_conf,
     }
 
@@ -217,15 +226,21 @@ def summarise(per_essay, key):
         seg = prf(tot(("segmentation_exact", "tp")), tot(("segmentation_exact", "predicted")), tot(("segmentation_exact", "gold")))
         bnd = prf(tot(("segmentation_boundaries", "tp")), tot(("segmentation_boundaries", "predicted")), tot(("segmentation_boundaries", "gold")))
         edges = tot(("attachment", "gold_edges"))
-        der = prf(tot(("derived_edges", "tp")), tot(("derived_edges", "predicted")), tot(("derived_edges", "gold")))
+        scored = [r for r in rows if r["derived_edges"]]
+        tot_d = lambda f: sum(r["derived_edges"][f] for r in scored)
+        der = prf(tot_d("tp"), tot_d("predicted"), tot_d("gold")) if scored else None
+        mean = lambda k: round(sum(r[k] for r in scored) / len(scored), 4) if scored else None
+        edges_in = tot(("attachment", "gold_edges_in_inventory"))
         labels = sum((r["_label_pairs"] for r in rows), Counter())
         return {"essays": len(rows), "segmentation_exact": seg, "segmentation_boundaries": bnd,
                 "root_match": f"{sum(r['root_match'] for r in rows)}/{len(rows)}",
                 "attachment_accuracy": round(tot(("attachment", "correct")) / edges, 4),
                 "labelled_accuracy": round(tot(("attachment", "labelled")) / edges, 4),
                 "class_accuracy": round(tot(("attachment", "class")) / edges, 4),
-                "role_agreement_mean": round(sum(r["role_agreement"] for r in rows) / len(rows), 4),
-                "stance_agreement_mean": round(sum(r["stance_agreement"] for r in rows) / len(rows), 4),
+                "labelled_accuracy_in_inventory": round(tot(("attachment", "labelled_in_inventory")) / edges_in, 4) if edges_in else None,
+                "gold_edges_in_inventory": f"{edges_in}/{edges}",
+                "role_agreement_mean": mean("role_agreement"),
+                "stance_agreement_mean": mean("stance_agreement"),
                 "derived_edges": der,
                 "label_confusions_on_correct_attachments": [
                     {"gold": g, "predicted": p, "count": c} for (g, p), c in labels.most_common() if g != p]}
@@ -250,7 +265,7 @@ def main():
     for path in sorted(args.run_dir.glob("*.graph.json")):
         pred = json.loads(path.read_text())
         rec = records[pred["example_id"]]
-        entry = {"persuade": against_persuade(rec["response_text"], pred, rec)}
+        entry = {"persuade": against_persuade(rec["response_text"], pred, rec)} if rec.get("gold_spans") else {}
         gold_path = args.gold_dir / path.name.replace(".graph.json", ".json")
         if gold_path.exists():
             entry["gold_graph"] = against_gold_graph(rec["response_text"], pred, json.loads(gold_path.read_text()))
