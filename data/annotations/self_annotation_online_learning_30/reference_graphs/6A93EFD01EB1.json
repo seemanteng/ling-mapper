@@ -1,0 +1,396 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:6A93EFD01EB1",
+  "root": "u4",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 56,
+      "text": "Have you ever thought of trying school away from school?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 57,
+      "end": 148,
+      "text": "Not having to wake up early on weekdays, and not having to leave the comfort of your house.",
+      "role": "lead",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 149,
+      "end": 212,
+      "text": "Well, it isn't all that grand and glamorous as you might think.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 213,
+      "end": 369,
+      "text": "Schools should not give students online classes as it limits their social life, they dont get the one on one help they need, and it is a lot of screen time.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 371,
+      "end": 528,
+      "text": "Having a social life is important for a student, it helps build better people skills, and can help them develop friendships boosting happiness in most cases.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 529,
+      "end": 646,
+      "text": "This can also help them build character and to not be shy around others having benefits with how they learn in class.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 647,
+      "end": 754,
+      "text": "A conference on a computer doesn't have any of that or any other positive impact on a students social life.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 755,
+      "end": 792,
+      "text": "This only handicaps them to a screen.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 794,
+      "end": 967,
+      "text": "Having the one on one help in person is extremely beneficial\u00a0it allows a student to connect better with the teacher and getting questions about work answered in the process.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 968,
+      "end": 1158,
+      "text": "Furthermore when a student seeks a teachers assistance sometimes the conference doesnt help, and not being able to properly understand the teacher due to the distance, hurting the education.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1159,
+      "end": 1263,
+      "text": "This only makes it less of a viable option, and why schools should not offer online classes to students.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1265,
+      "end": 1349,
+      "text": "Lastly the amount of screen time you will spend on the computer is insanely painful.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1350,
+      "end": 1510,
+      "text": "Average time at school is about eight hours, and if a student wanted to do all of his classes in that time on conference they would be aching badly in the head.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1511,
+      "end": 1617,
+      "text": "This is caused by the blue light that emits from a computer and staring at it all day can cause migraines.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1618,
+      "end": 1683,
+      "text": "This can hurt ones ability to properly do well in online classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1684,
+      "end": 1770,
+      "text": "Public schools dont have this issue and it is why video conference is not that clever.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1772,
+      "end": 1868,
+      "text": "Arguments to this idea say it would help kids who are sick from home get the education the need,",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1869,
+      "end": 1893,
+      "text": "but this is wrong to do.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1894,
+      "end": 1988,
+      "text": "Kids need to rest when they are sick so they can build back the immune system and feel better.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1989,
+      "end": 2038,
+      "text": "Forcing them to learn doesnt help a sick student.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 2040,
+      "end": 2145,
+      "text": "To conclude schools offering online classes and video conferences are not the best solution for students.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2146,
+      "end": 2299,
+      "text": "It strips them of a social life, the can't get one on one help from a teacher, and causes students to have a lot of screen time on a computer conference.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u3",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u6",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u7",
+      "target": "u6",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u8",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u8",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u10",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u11",
+      "target": "u10",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u12",
+      "target": "u10",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u13",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u14",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u15",
+      "target": "u14",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u16",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u17",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u18",
+      "target": "u19",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u19",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u20",
+      "target": "u19",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u21",
+      "target": "u20",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u22",
+      "target": "u4",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u23",
+      "target": "u22",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

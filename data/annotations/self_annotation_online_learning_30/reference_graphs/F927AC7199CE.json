@@ -1,0 +1,954 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:F927AC7199CE",
+  "root": "u14",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 91,
+      "text": "As a teen growing up in the digital age, I use a computer and smart phone\u00a0on a daily basis.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 92,
+      "end": 255,
+      "text": "It seems as if computers and smart devices are engraved into our lives now, from researching\u00a0information, grocery shopping, or even watching cat videos on YouTube.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 256,
+      "end": 332,
+      "text": "Smart devices allow us to do all that and more within seconds of each other.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 333,
+      "end": 385,
+      "text": "These devices have changed the way we think and act.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 386,
+      "end": 500,
+      "text": "Every year more people decide to work from home for reasons like lower transportation costs, efficiency, and ease.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 501,
+      "end": 591,
+      "text": "Those same reasons are also why students are deciding to to participate in online classes.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 592,
+      "end": 649,
+      "text": "Because of new developments in software and applications,",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 650,
+      "end": 707,
+      "text": "working and taking classes from home is easier than ever.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 708,
+      "end": 790,
+      "text": "As a direct result, more people are beginning to work and attend school from home.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 791,
+      "end": 866,
+      "text": "Online school is a topic that's been discussed often in the past few years.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 867,
+      "end": 964,
+      "text": "The amount of people worldwide receiving and online education sees exponential growth every year.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 965,
+      "end": 1081,
+      "text": "Many students, wether elementary or college age are finding online school to be more beneficial than regular school.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1082,
+      "end": 1205,
+      "text": "Being able to learn form anywhere and at your own pace are just two advantages that receiving an online education provides.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1206,
+      "end": 1280,
+      "text": "Having the option to take classes online, in my opinion, is revolutionary.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1282,
+      "end": 1365,
+      "text": "Taking school online can be beneficial to many students for a multitude of reasons.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1366,
+      "end": 1427,
+      "text": "The most prominent reasons to me are special education needs.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1428,
+      "end": 1482,
+      "text": "We all learn in different ways and at different paces.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1483,
+      "end": 1623,
+      "text": "In a regular school day, we are usually seated for 8 hours straight with only a couple minutes to walk and stretch our legs between classes,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1624,
+      "end": 1698,
+      "text": "when that transition period is over, we are seated for another 90 minutes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1699,
+      "end": 1793,
+      "text": "Many teachers expect us to stay seated and remain quiet for the entire 90 minute class period.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1794,
+      "end": 1835,
+      "text": "While this may be fine for some students,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1836,
+      "end": 1900,
+      "text": "other students, including myself find this to be very difficult.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1901,
+      "end": 2072,
+      "text": "I have ADD and often times, I struggle to stay focused in classes, I find it easier if I have the option to work for a little, take a break, and then come back to my work,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2073,
+      "end": 2147,
+      "text": "while other students may learn at a faster pace than their peers in class.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 2148,
+      "end": 2227,
+      "text": "Attending regular schools may hinder them from learning at their full capacity.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2229,
+      "end": 2311,
+      "text": "Sicknesses are another reason why the ability to take online classes is important.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 2312,
+      "end": 2404,
+      "text": "Weather you have a short term or chronic illness, you will usually have to miss some school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2405,
+      "end": 2436,
+      "text": "When you are able to come back,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 2437,
+      "end": 2528,
+      "text": "you still have to do the missing work along with current assignments which can be a hassle.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2529,
+      "end": 2649,
+      "text": "If ill students were able to do their work while they are out of school, there would be a burden lifted off their backs.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 2650,
+      "end": 2731,
+      "text": "Making up missing work is difficult, especially after returning after an illness.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 2732,
+      "end": 2783,
+      "text": "The same goes for students that may have to travel.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 2784,
+      "end": 2877,
+      "text": "Students may have to travel during the school year for things like funerals or vacations etc.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 2878,
+      "end": 2942,
+      "text": "with online school, students can take their education with them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 2943,
+      "end": 3040,
+      "text": "The added stress of making up work and turning in papers would be relieved with online education.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 3042,
+      "end": 3257,
+      "text": "Life is only getting more digital, and with people more acclimated to operating behind screens and being on their devices all day, students taking their classes online wouldn't see an enormous change in their lives.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 3258,
+      "end": 3367,
+      "text": "Many school systems that offer online classes still allow students to participate in sports and school clubs.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 3368,
+      "end": 3497,
+      "text": "Many people fear that students who take online classes will lose out on the social opportunities that come with attending school,",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 3498,
+      "end": 3523,
+      "text": "which is simply not true.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 3524,
+      "end": 3623,
+      "text": "Being able to learn form home may also give students the chance to discover a new hobby or interest",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 3624,
+      "end": 3685,
+      "text": "because of shorter educational periods and less distractions.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 3686,
+      "end": 3789,
+      "text": "It is highly unlikely for students who receive an online education to lose out on social opportunities.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u45",
+      "start": 3791,
+      "end": 3859,
+      "text": "In my final analysis, many students can benefit form online classes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u46",
+      "start": 3860,
+      "end": 3948,
+      "text": "Unlike regular school, online classes give students more flexibility in their education.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u47",
+      "start": 3949,
+      "end": 4066,
+      "text": "Everyone learns in their own unique way and it is difficult for schools to accommodate all students' learning styles.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 4067,
+      "end": 4176,
+      "text": "This is one of the main reasons why the option to take classes online is revolutionizing education worldwide.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u49",
+      "start": 4177,
+      "end": 4335,
+      "text": "Students with disorders like ADHD or ADD are now able to learn how they need to, rather than being forced to sit and stay quiet for hours and hours at a time.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 4336,
+      "end": 4415,
+      "text": "The ability to learn at your own pace is the most important thing in education.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u51",
+      "start": 4416,
+      "end": 4518,
+      "text": "The way that regular schools typically function does not allow for students to learn how they need to.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u52",
+      "start": 4519,
+      "end": 4630,
+      "text": "With the growth of online classes, students of all ages are able to learn how and where they need to with ease.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u53",
+      "start": 4631,
+      "end": 4733,
+      "text": "Students who need to travel or fall ill will no longer have to worry about catching up on school work,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u54",
+      "start": 4734,
+      "end": 4774,
+      "text": "because of the portability of computers.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u55",
+      "start": 4775,
+      "end": 4856,
+      "text": "This advancement in education can improve many lives with with just a few clicks.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u14",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u6",
+      "target": "u5",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u7",
+      "target": "u8",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u8",
+      "target": "u14",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u10",
+      "target": "u14",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u11",
+      "target": "u10",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u12",
+      "target": "u10",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u13",
+      "target": "u10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u16",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u16",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u16",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u18",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u18",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u22",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u20",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u17",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u17",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u29",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u33",
+      "target": "u30",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u34",
+      "target": "u26",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u35",
+      "target": "u34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u36",
+      "target": "u34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r34",
+      "source": "u37",
+      "target": "u36",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "u38",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r36",
+      "source": "u39",
+      "target": "u44",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r37",
+      "source": "u40",
+      "target": "u41",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "u41",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "u42",
+      "target": "u40",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u43",
+      "target": "u42",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r41",
+      "source": "u44",
+      "target": "u40",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "u45",
+      "target": "u14",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "u46",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r44",
+      "source": "u47",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r45",
+      "source": "u48",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r46",
+      "source": "u49",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r47",
+      "source": "u50",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r48",
+      "source": "u51",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r49",
+      "source": "u52",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r50",
+      "source": "u53",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r51",
+      "source": "u54",
+      "target": "u53",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r52",
+      "source": "u55",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

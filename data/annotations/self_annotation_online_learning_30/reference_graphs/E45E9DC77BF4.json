@@ -1,0 +1,162 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:E45E9DC77BF4",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 261,
+      "text": "I believe that if a student can focused at home and do there work and find it more easy, then\u00a0yes I think this would benefit a lot of student who can't\u00a0always find a ride to school , wakes up really\u00a0late, teen mom at home , or is a student who cant be in school",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 262,
+      "end": 360,
+      "text": "because they got kicked out .This helps out a lot of people with situations at home or at school .",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 361,
+      "end": 432,
+      "text": "I feel like if I was to take this position I wouldn't be able to forces",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 433,
+      "end": 469,
+      "text": "because I get too distracted at home",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 470,
+      "end": 516,
+      "text": "but if I was in school I would be more focused",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 517,
+      "end": 547,
+      "text": "but for other its is different",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 548,
+      "end": 686,
+      "text": "because they might think the opposite , maybe they can focus\u00a0more at home and they might think coming to school is a distraction\u00a0for them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 687,
+      "end": 851,
+      "text": "I also believe that if the students dont understand what the program is showing them then there are always other resources like the video conferencing as provided .",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 852,
+      "end": 978,
+      "text": "You\u00a0dont nesserly have to see each other face to face and you could always ask others for help when needed in both situations.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u3",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u4",
+      "target": "u7",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u5",
+      "target": "u4",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u6",
+      "target": "u4",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u7",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u8",
+      "target": "u7",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u10",
+      "target": "u9",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

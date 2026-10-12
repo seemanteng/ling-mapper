@@ -1,0 +1,180 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:7A5503AB17D1",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 93,
+      "text": "Student would be a benefit if they are to able to take online you need to aproud by your self",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 94,
+      "end": 356,
+      "text": "because not going late in the class be on the time and more careful if you are en 12 grade you have less time for wait oportunities from a graduate, another example ;if your are new in the schools you need to pay attention be on the time and not missing a class.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 358,
+      "end": 542,
+      "text": "because some people make a lot a problem is why they teacher want a better things for you personalities is one reason the only you need to aproud for doing excelent person in this life",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 543,
+      "end": 796,
+      "text": "but if you lose the oportunities not doing something bad you need to take position for you attendes you need to be a good person you need to try if you no try something never doing nothing be confident at you self on the schools a student , have benefit",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 797,
+      "end": 976,
+      "text": "because attendent in the schhols, is important from when do not have a better opotunities\u00a0and a big idea to learned more no wait a time from ,you personalities and you future to .",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 977,
+      "end": 1114,
+      "text": "is why some student have a lot problem when they wan't a job or doing something whit benefit some people wan't a benefit is a good record",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 1115,
+      "end": 1174,
+      "text": "because when you missing one day and nex day you doing lost",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 1175,
+      "end": 1323,
+      "text": "because is the simple reason a you was missing in the class do no't have idea what do you toking about ,you comming to the schools you coming a lost",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 1324,
+      "end": 1386,
+      "text": "because you don't have idea they another student doing is why.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1387,
+      "end": 1504,
+      "text": "another reson is attend is important becuase a make good boy or girl is the more things in this life are good person.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u4",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u7",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u8",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u10",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u11",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

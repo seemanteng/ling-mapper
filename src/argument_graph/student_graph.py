@@ -20,6 +20,7 @@ import traceback
 from pathlib import Path
 
 from .graph_schema import RELATIONS, ROLES, SCHEMA_VERSION, SIGNAL_TYPES, STANCES, argument_edges, validate_graph
+from .providers import make_caller, with_backoff
 from .schemas import ExampleRecord
 
 PROMPT_VERSION = "student_graph/0.4"
@@ -68,7 +69,12 @@ STRUCTURE_RULES = """\
 - Represent what the essay says, including factual errors and weak reasoning. Do not correct, improve or judge the student's claims."""
 
 
-def system_prompt():
+ABLATIONS = ("full", "no-retry", "one-stage", "no-segmentation-rules", "no-role-rules", "no-structure-rules", "oracle-segments")
+DROPPED_RULES = {"no-segmentation-rules": "segmentation", "no-role-rules": "role", "no-structure-rules": "structure"}
+
+
+def system_prompt(drop=()):
+    """The contract text. `drop` removes a rules block ("segmentation", "role" or "structure") for ablations."""
     labels = "\n".join(f"- {name}{' (multinuclear)' if kind == 'multinuclear' else ''}: {definition}"
                        for name, (kind, definition) in RELATIONS.items())
     roles = "\n".join(f"- {r}: {ROLE_DEFINITIONS[r]}" for r in sorted(ROLES))
@@ -77,22 +83,13 @@ def system_prompt():
 
 Units tile the essay: every piece of non-whitespace text belongs to exactly one unit, quoted exactly as written (keep the student's spelling, punctuation and spacing).
 
-Segmentation rules:
-{SEGMENTATION_RULES}
-
-Relation labels (S = satellite/source, N = nucleus/target, R = reader, W = writer):
+{"" if "segmentation" in drop else f"Segmentation rules:{chr(10)}{SEGMENTATION_RULES}{chr(10)}{chr(10)}"}Relation labels (S = satellite/source, N = nucleus/target, R = reader, W = writer):
 {labels}
 
-Structure rules:
-{STRUCTURE_RULES}
-
-Unit roles (the essay element a unit belongs to):
+{"" if "structure" in drop else f"Structure rules:{chr(10)}{STRUCTURE_RULES}{chr(10)}{chr(10)}"}Unit roles (the essay element a unit belongs to):
 {roles}
 
-Role rules:
-{ROLE_RULES}
-
-Stances (does the writer put the unit forward as their own view?):
+{"" if "role" in drop else f"Role rules:{chr(10)}{ROLE_RULES}{chr(10)}{chr(10)}"}Stances (does the writer put the unit forward as their own view?):
 {stances}
 
 Polarity: negative only when the unit's main claim is negated ("technology is not always beneficial", "it cannot be said that any good comes of this"). Negation inside a subordinate phrase ("without even a second thought") or a negative topic does not make the unit negative; "not always" stays distinct from "never".
@@ -127,8 +124,25 @@ RELATE_SCHEMA = {
 }
 
 
-def config_hash(model, effort):
-    blob = json.dumps([PROMPT_VERSION, system_prompt(), SEGMENT_SCHEMA, RELATE_SCHEMA, model, effort], sort_keys=True)
+ONE_STAGE_SCHEMA = {
+    "type": "object", "additionalProperties": False, "required": ["root", "units", "relations"],
+    "properties": {
+        "root": {"type": "string"},
+        "units": {"type": "array", "items": {
+            "type": "object", "additionalProperties": False, "required": ["text", "role", "stance", "polarity"],
+            "properties": {"text": {"type": "string"}, "role": {"type": "string", "enum": sorted(ROLES)},
+                           "stance": {"type": "string", "enum": sorted(STANCES)},
+                           "polarity": {"type": "string", "enum": ["positive", "negative"]}}}},
+        "relations": RELATE_SCHEMA["properties"]["relations"],
+    },
+}
+
+
+def config_hash(model, effort, provider="anthropic", ablation="full"):
+    # The provider and ablation join the hash only when they are not the defaults, so earlier runs keep their hashes.
+    extra = ([] if provider == "anthropic" else [provider]) + ([] if ablation == "full" else [ablation, ONE_STAGE_SCHEMA])
+    prompt = system_prompt((DROPPED_RULES[ablation],) if ablation in DROPPED_RULES else ())
+    blob = json.dumps([PROMPT_VERSION, prompt, SEGMENT_SCHEMA, RELATE_SCHEMA, model, effort] + extra, sort_keys=True)
     return hashlib.sha256(blob.encode()).hexdigest()[:16]
 
 
@@ -216,13 +230,15 @@ class AnthropicCaller:
 
     def __call__(self, system, messages, schema):
         started = time.time()
-        with self.client.beta.messages.stream(
-            model=self.model, max_tokens=64000, system=system, messages=messages,
-            thinking={"type": "adaptive"},
-            output_config={"effort": self.effort, "format": {"type": "json_schema", "schema": schema}},
-            betas=["server-side-fallback-2026-07-01"], fallbacks="default",
-        ) as stream:
-            response = stream.get_final_message()
+        def request():
+            with self.client.beta.messages.stream(
+                model=self.model, max_tokens=64000, system=system, messages=messages,
+                thinking={"type": "adaptive"},
+                output_config={"effort": self.effort, "format": {"type": "json_schema", "schema": schema}},
+                betas=["server-side-fallback-2026-07-01"], fallbacks="default",
+            ) as stream:
+                return stream.get_final_message()
+        response = with_backoff(request)
         log = {"request_id": getattr(response, "_request_id", None), "model": response.model,
                "stop_reason": response.stop_reason, "usage": response.usage.to_dict(),
                "seconds": round(time.time() - started, 1), "response": response.to_dict()}
@@ -234,6 +250,12 @@ class AnthropicCaller:
         except json.JSONDecodeError as exc:
             log["stop_reason"] = f"invalid_json: {exc}"
             return None, response.content, log
+
+
+def out_of_credit(exc):
+    """A billing error that every remaining essay would hit too, so the run should stop, not record failures."""
+    message = str(exc).lower()
+    return "credit balance is too low" in message or "no remaining credits" in message or getattr(exc, "status_code", None) == 402
 
 
 def _run_stage(caller, system, messages, schema, check, max_attempts, stage, attempts):
@@ -253,21 +275,46 @@ def _run_stage(caller, system, messages, schema, check, max_attempts, stage, att
     return None
 
 
-def extract(record, caller, max_attempts=3, attempts=None):
-    """Run both stages for one ExampleRecord. Returns {"graph": graph or None, "attempts": [...]}.
+def extract(record, caller, max_attempts=3, attempts=None, ablation="full", oracle_units=None):
+    """Run the extraction for one ExampleRecord. Returns {"graph": graph or None, "attempts": [...]}.
 
-    Pass `attempts` to keep the attempts made so far if a call raises.
+    Pass `attempts` to keep the attempts made so far if a call raises. `ablation` changes one part
+    of the pipeline: "one-stage" asks for units and relations in one call, "oracle-segments" skips
+    stage 1 and uses `oracle_units` (id/start/end/text), "no-retry" is `max_attempts=1`, and the
+    "no-*-rules" ablations are handled by the system prompt.
     """
     inp = record.model_input()
-    text, system = inp["response_text"], system_prompt()
+    drop = (DROPPED_RULES[ablation],) if ablation in DROPPED_RULES else ()
+    text, system = inp["response_text"], system_prompt(drop)
     essay = f"<assignment>\n{inp['prompt']}\n</assignment>\n\n<essay>\n{text}\n</essay>"
     attempts = [] if attempts is None else attempts
-    units = _run_stage(caller, system, [{"role": "user", "content": essay + "\n\nSegment the essay into units following the segmentation rules. Return every unit as an exact quote, in essay order, so that together they cover all of its non-whitespace text."}],
-                       SEGMENT_SCHEMA, lambda d: locate_units(text, d["units"]), max_attempts, "segment", attempts)
-    if units is None:
-        return {"graph": None, "failed_stage": "segment", "attempts": attempts}
+    follow = "" if "segmentation" in drop else " following the segmentation rules"
+    segment_ask = (f"\n\nSegment the essay into units{follow}. Return every unit as an exact quote, in essay order, "
+                   "so that together they cover all of its non-whitespace text.")
+    build_ask = ("Build the graph: give every unit its role, stance and polarity, choose the root, add the primary tree "
+                 "and any signalled secondary relations, and quote each relation's signals.")
+    if ablation == "one-stage":
+        def check(data):
+            located, errors = locate_units(text, [u["text"] for u in data["units"]])
+            if errors:
+                return None, errors
+            relate = {"root": data["root"], "relations": data["relations"],
+                      "units": [{"id": f"u{i}", **{k: u[k] for k in ("role", "stance", "polarity")}}
+                                for i, u in enumerate(data["units"], 1)]}
+            return assemble_graph(record.example_id, text, located, relate)
+        ask = segment_ask + " Number the units u1, u2, ... in essay order; relations and the root refer to these ids. " + build_ask
+        graph = _run_stage(caller, system, [{"role": "user", "content": essay + ask}], ONE_STAGE_SCHEMA, check,
+                           max_attempts, "single", attempts)
+        return {"graph": graph, "attempts": attempts} if graph else {"graph": None, "failed_stage": "single", "attempts": attempts}
+    if ablation == "oracle-segments":
+        units = [dict(u) for u in oracle_units]
+    else:
+        units = _run_stage(caller, system, [{"role": "user", "content": essay + segment_ask}],
+                           SEGMENT_SCHEMA, lambda d: locate_units(text, d["units"]), max_attempts, "segment", attempts)
+        if units is None:
+            return {"graph": None, "failed_stage": "segment", "attempts": attempts}
     listing = "\n".join(f"{u['id']}: {u['text']}" for u in units)
-    graph = _run_stage(caller, system, [{"role": "user", "content": essay + f"\n\nThe essay is segmented into these units:\n<units>\n{listing}\n</units>\n\nBuild the graph: give every unit its role, stance and polarity, choose the root, add the primary tree and any signalled secondary relations, and quote each relation's signals."}],
+    graph = _run_stage(caller, system, [{"role": "user", "content": essay + f"\n\nThe essay is segmented into these units:\n<units>\n{listing}\n</units>\n\n" + build_ask}],
                        RELATE_SCHEMA, lambda d: assemble_graph(record.example_id, text, units, d), max_attempts, "relate", attempts)
     if graph is None:
         return {"graph": None, "failed_stage": "relate", "attempts": attempts}
@@ -297,33 +344,57 @@ def main():
     parser.add_argument("--split", default="development", help="A list in the splits file: development, pilot_check, or gum")
     parser.add_argument("--essay", action="append", default=[], help="Example ID (repeatable); overrides --split")
     parser.add_argument("--output-dir", type=Path, required=True)
-    parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument("--provider", default="anthropic", choices=["anthropic", "openai", "gemini", "huggingface"])
+    parser.add_argument("--model", default=None, help=f"Exact model ID (required except for anthropic, default {DEFAULT_MODEL})")
     parser.add_argument("--effort", default="high", choices=["low", "medium", "high", "xhigh", "max"])
     parser.add_argument("--max-attempts", type=int, default=3)
     parser.add_argument("--force", action="store_true", help="Re-extract essays that already have output for this config")
+    parser.add_argument("--ablation", default="full", choices=ABLATIONS, help="Change one part of the pipeline (see extract)")
+    parser.add_argument("--oracle-dir", type=Path, default=Path("data/annotations/self_annotation_online_learning_30/reference_graphs"),
+                        help="Reference graphs whose units oracle-segments uses")
+    parser.add_argument("--keep-model-failures", action="store_true",
+                        help="On a resume, do not retry essays that failed segmentation or relation checks (provider errors are still retried)")
     parser.add_argument("--allow-pilot-check", action="store_true")
     args = parser.parse_args()
+    if args.model is None:
+        if args.provider != "anthropic":
+            parser.error(f"--model is required for provider {args.provider}")
+        args.model = DEFAULT_MODEL
     records = select_records(args.records, args.splits, args.split, args.essay, args.allow_pilot_check)
-    key = config_hash(args.model, args.effort)
-    run_dir = args.output_dir / f"{PROMPT_VERSION.replace('/', '-')}_{args.model}_{args.effort}_{key}"
+    if args.ablation == "no-retry":
+        args.max_attempts = 1
+    key = config_hash(args.model, args.effort, args.provider, args.ablation)
+    model_slug = re.sub(r"[^A-Za-z0-9._-]+", "-", args.model)
+    suffix = "" if args.ablation == "full" else f"_{args.ablation}"
+    run_dir = args.output_dir / f"{PROMPT_VERSION.replace('/', '-')}_{model_slug}_{args.effort}{suffix}_{key}"
     run_dir.mkdir(parents=True, exist_ok=True)
-    (run_dir / "system_prompt.txt").write_text(system_prompt())
+    (run_dir / "system_prompt.txt").write_text(system_prompt((DROPPED_RULES[args.ablation],) if args.ablation in DROPPED_RULES else ()))
     manifest_path = run_dir / "manifest.json"
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {
-        "prompt_version": PROMPT_VERSION, "config_hash": key, "model": args.model, "effort": args.effort,
+        "prompt_version": PROMPT_VERSION, "config_hash": key, "provider": args.provider, "model": args.model, "effort": args.effort, "ablation": args.ablation,
         "schema_version": SCHEMA_VERSION, "records": str(args.records),
         "records_sha256": hashlib.sha256(args.records.read_bytes()).hexdigest(), "essays": {}}
-    caller = AnthropicCaller(args.model, args.effort)
+    caller = make_caller(args.provider, args.model, args.effort)
     for record in records:
         name = record.example_id.split(":", 1)[-1]
         graph_path, log_path = run_dir / f"{name}.graph.json", run_dir / f"{name}.log.json"
         if graph_path.exists() and not args.force:
             print(f"{name}: cached")
             continue
+        earlier = manifest["essays"].get(record.example_id, {}).get("status", "")
+        if args.keep_model_failures and earlier in ("failed_segment", "failed_relate") and not args.force:
+            print(f"{name}: kept earlier {earlier}")
+            continue
         attempts = []
         try:
-            result = extract(record, caller, args.max_attempts, attempts)
+            oracle = None
+            if args.ablation == "oracle-segments":
+                gold = json.loads((args.oracle_dir / f"{name}.json").read_text())
+                oracle = [{k: u[k] for k in ("id", "start", "end", "text")} for u in gold["units"]]
+            result = extract(record, caller, args.max_attempts, attempts, args.ablation, oracle)
         except Exception as exc:  # one essay's API or parsing error must not end the batch or lose its log
+            if out_of_credit(exc):
+                raise SystemExit(f"Stopped before {name}: the provider reports no credit ({exc}). Top up and re-run to resume.")
             attempts.append({"stage": "error", "error": f"{type(exc).__name__}: {exc}", "traceback": traceback.format_exc()})
             result = {"graph": None, "failed_stage": "error", "attempts": attempts}
         log_path.write_text(json.dumps(result["attempts"], indent=2, ensure_ascii=False, default=str))
@@ -334,7 +405,7 @@ def main():
                   "output_tokens": sum(u.get("output_tokens", 0) for u in usage)}
         if result["graph"]:
             graph = result["graph"]
-            graph["provenance"] = {"annotator": f"{args.model} ({PROMPT_VERSION}, effort {args.effort})",
+            graph["provenance"] = {"annotator": f"{args.provider}:{args.model} ({PROMPT_VERSION}, effort {args.effort}, ablation {args.ablation})",
                                    "review_status": "not_human_reviewed", "config_hash": key}
             graph_path.write_text(json.dumps(graph, indent=2, ensure_ascii=False))
             status.update(units=len(graph["units"]), relations=len(graph["relations"]), derived=len(argument_edges(graph)))

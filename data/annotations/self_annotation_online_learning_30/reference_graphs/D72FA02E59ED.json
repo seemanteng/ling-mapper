@@ -1,0 +1,486 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:D72FA02E59ED",
+  "root": "u3",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 47,
+      "text": "Why are more counties offering online learning?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 48,
+      "end": 229,
+      "text": "With the increasing access to the internet, some schools are offering distance learning as an option for students to attend classes from home by way of online or video conferencing.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 230,
+      "end": 412,
+      "text": "This innovative way of learning brings many benefits for both teachers and students by improving participation, minimizing transportation, and offering simple solutions for problems.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 414,
+      "end": 464,
+      "text": "Teaching online helps improve participation rates.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 465,
+      "end": 611,
+      "text": "Students that are sick will be able to attend the video conferences and complete their work as they will not be able to risk the health of others.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 612,
+      "end": 757,
+      "text": "Also, when most schools would have closed for bad weather, these online classes can stay up as students are already in the safety of their homes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 758,
+      "end": 801,
+      "text": "Problems such as these affect teachers most",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 802,
+      "end": 882,
+      "text": "because they are trying to get certain material accross before major test dates;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 883,
+      "end": 970,
+      "text": "a solution like this will really help teachers keep their students from falling behind.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 972,
+      "end": 1080,
+      "text": "Furthermore, Allowing students to work from home cuts time on transportation for both students and teachers.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1081,
+      "end": 1160,
+      "text": "Because online schooling allows for both students and teachers to stay at home,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1161,
+      "end": 1202,
+      "text": "students will be able to sleep in longer,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1203,
+      "end": 1318,
+      "text": "and teachers will not have to take long commutes from their homes that are often far from the schools they work in.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1319,
+      "end": 1395,
+      "text": "This solution will not only give students and staff more time for themselves",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1396,
+      "end": 1451,
+      "text": "but will also have positive effects on the environment.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1452,
+      "end": 1540,
+      "text": "The gasses that are produced from busses and cars are very damaging for the environment,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1541,
+      "end": 1644,
+      "text": "but the cut of transportation from online schooling will reduce these green house gasses significantly,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1645,
+      "end": 1739,
+      "text": "and it will help improve our air quality as well as reduce our contribution to global warming;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1740,
+      "end": 1856,
+      "text": "the improvement of our environment will help students feel more confident and hopeful for the world they'll live in.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1858,
+      "end": 2000,
+      "text": "Lastly, some argue that malfunctions can occur with the technonlogy and that students could have unexpected problems with internet connection,",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 2001,
+      "end": 2144,
+      "text": "but with the increasing growth of technology, most places offer free wifi, and all Generic_City libraries have computers for the public to use.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 2145,
+      "end": 2247,
+      "text": "Problems such as these are expected and have solutions thought out before hand to prevent such issues.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2248,
+      "end": 2387,
+      "text": "Counties, like Generic_City, have school issued computers that have the software and personel to prevent and help with problems like these,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2388,
+      "end": 2487,
+      "text": "so students and teachers can rest assure that their online classes will have little to no problems.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 2489,
+      "end": 2586,
+      "text": "After all the wonderful and problem solving benefits that online schooling can bring to students,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2587,
+      "end": 2691,
+      "text": "from improved learning to reassurring solutions, one must see the need for more of it being implemented.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 2692,
+      "end": 2829,
+      "text": "So I implore you to reach out to your counties and parents to start a petition to increase the availibilty of online learning in schools.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u3",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u4",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u4",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u6",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u12",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u10",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u10",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u10",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u17",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u15",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u15",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u18",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u21",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u20",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u26",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u3",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

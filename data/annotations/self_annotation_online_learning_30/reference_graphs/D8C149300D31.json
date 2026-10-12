@@ -1,0 +1,846 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:D8C149300D31",
+  "root": "u5",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 106,
+      "text": "Distance learning is a recent innovation that some schools now offer by way of online or video conference.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 107,
+      "end": 151,
+      "text": "It is becoming a popular method of education",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 152,
+      "end": 245,
+      "text": "because kids do not like getting up early in the morning and going to school for eight hours.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 246,
+      "end": 340,
+      "text": "The online method allows kids to log on to class at whatever time of the day to do their work.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 341,
+      "end": 512,
+      "text": "I do not think it is healthy to take these classes and stare at a computer screen all day, rather, I believe children should go to school and sit in a classrooom to learn.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 513,
+      "end": 610,
+      "text": "Students do not benefit from this type of learning as much as they would if they went to a school",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 611,
+      "end": 847,
+      "text": "because individuals would have less of a way to make friends and enjoy their school experience, there would be no sports that people could do, and their is not as much guidance or help that a person could reach out to if they needed it.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 849,
+      "end": 976,
+      "text": "Online teaching does not allow kids to make friends or have the same school experience that a person should have in their life.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 977,
+      "end": 1051,
+      "text": "I believe that it is essential for people to have the experience of school",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 1052,
+      "end": 1114,
+      "text": "because it will be useful in the workforce and the real world.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1115,
+      "end": 1167,
+      "text": "There will be amazing and terrible times in a school",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1168,
+      "end": 1236,
+      "text": "but there will also be amazing and terrible times in someone's life.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1237,
+      "end": 1309,
+      "text": "I, myself, have had horrible things happen to me during my school career",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1310,
+      "end": 1382,
+      "text": "but also some of the rest things that have ever happened to me have been",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1383,
+      "end": 1401,
+      "text": "because of school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1402,
+      "end": 1551,
+      "text": "For example, I have won various academic awards during my high school career and that will be very useful later in life when I am applying for a job.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1553,
+      "end": 1651,
+      "text": "Furthermore, there would be no chance to play sports that could very well shape a person's future.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1652,
+      "end": 1772,
+      "text": "Many people around the world compete in sports for a living such as football, basketball, soccer, and many other things.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1773,
+      "end": 2035,
+      "text": "The people that are on teams, such as the Miami Heat for the National Basketball Association, started out playing this sport in elementary or high school, they then went on to college, and now they are making millions of dollars playing for a famous sports team.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 2036,
+      "end": 2126,
+      "text": "They are making money by doing what they love and it all started when they were in school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 2127,
+      "end": 2222,
+      "text": "Taking classes through a computer screen does not give individuals the chance to do such things",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2223,
+      "end": 2270,
+      "text": "because there is no teams that they could join.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2272,
+      "end": 2369,
+      "text": "Lastly, there is not as much guidance for someone with this method of learning and these classes.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 2370,
+      "end": 2412,
+      "text": "Kids struggle with all different subjects;",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2413,
+      "end": 2565,
+      "text": "whether it be math, reading, writing, science, or history, there needs to be someone in front\u00a0of them to help them work out the issue when there is one.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 2566,
+      "end": 2672,
+      "text": "Studies show that kids learn better from someone when they are getting help from a teacher in a classroom.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2673,
+      "end": 2768,
+      "text": "This is because the child can interact and communicate better with the teacher being with them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 2769,
+      "end": 2812,
+      "text": "Also, teachers are sometimes kids lifelines",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2813,
+      "end": 2881,
+      "text": "because children have sad home lives and brutal families these days.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2882,
+      "end": 2973,
+      "text": "Having the one on one relationship with a student can make all the difference in the world.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2975,
+      "end": 3065,
+      "text": "There are people that would argue saying children are better off taking the online classes",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 3066,
+      "end": 3102,
+      "text": "because it helps with mental health.",
+      "role": "evidence",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 3103,
+      "end": 3218,
+      "text": "I believe that mental health would still be negatively affected if a person went the route of taking online classes",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 3219,
+      "end": 3376,
+      "text": "because no matter if you are in a classroom or if you are at home, there is still social media and it is the number one cause of teen depression, not school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 3377,
+      "end": 3477,
+      "text": "If a parent wants to help a child's mental health they should make them stay away from social media.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 3478,
+      "end": 3569,
+      "text": "A person should not have to miss out on such a great time in their life because of anxiety.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 3570,
+      "end": 3639,
+      "text": "If they stay around nice people and do not get involved with bullies,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 3640,
+      "end": 3679,
+      "text": "there mental health will be in balance.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 3681,
+      "end": 3829,
+      "text": "To conclude, I strongly believe that children should be in a classroom at a school instead of being at home on the computer taking classes every day",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 3830,
+      "end": 3989,
+      "text": "because school brings about exciting experiences, allows children to let their athletic ability shine, and gives them guidance they need to finish high school.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 3990,
+      "end": 4056,
+      "text": "If I would have taken all of my classes online and stayed at home,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u45",
+      "start": 4057,
+      "end": 4153,
+      "text": "I do not think I would be as happy as I am coming to school every day and being with my friends.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u46",
+      "start": 4154,
+      "end": 4210,
+      "text": "I have not so exquisite days just like anyone else would",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u47",
+      "start": 4211,
+      "end": 4255,
+      "text": "but I would not change my life for anything.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 4256,
+      "end": 4309,
+      "text": "It has made me turn from an introvert to an extrovert",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u49",
+      "start": 4310,
+      "end": 4360,
+      "text": "because I have had to quit being a shy little kid.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 4361,
+      "end": 4438,
+      "text": "School is essential to having a profound life and to making it in this world.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u5",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u2",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u11",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u11",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u13",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u14",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u14",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u17",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u20",
+      "target": "u18",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u21",
+      "target": "u20",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u22",
+      "target": "u17",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u23",
+      "target": "u22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u24",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u25",
+      "target": "u24",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u26",
+      "target": "u25",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u27",
+      "target": "u24",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u28",
+      "target": "u27",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u29",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u30",
+      "target": "u29",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u31",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u32",
+      "target": "u34",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u33",
+      "target": "u32",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u34",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u35",
+      "target": "u34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r34",
+      "source": "u37",
+      "target": "u35",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "u38",
+      "target": "u34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r36",
+      "source": "u40",
+      "target": "u41",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r37",
+      "source": "u41",
+      "target": "u34",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "u42",
+      "target": "u5",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "u43",
+      "target": "u42",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u44",
+      "target": "u45",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r41",
+      "source": "u45",
+      "target": "u42",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "u46",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "u47",
+      "target": "u46",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r44",
+      "source": "u48",
+      "target": "u45",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r45",
+      "source": "u49",
+      "target": "u48",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r46",
+      "source": "u50",
+      "target": "u5",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

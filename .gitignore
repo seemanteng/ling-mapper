@@ -22,3 +22,6 @@ HiRAG/eval/datasets/mix/mix.jsonl
 
 # Copyrighted source passages; rebuild with python -m argument_graph.fetch_sources
 data/sources/
+
+# API keys
+.env

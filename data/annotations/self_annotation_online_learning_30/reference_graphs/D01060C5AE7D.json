@@ -1,0 +1,774 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:D01060C5AE7D",
+  "root": "u2",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 31,
+      "text": "The Benefits of Online Learning",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 33,
+      "end": 97,
+      "text": "Students would definitely benefit from attending online classes.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 98,
+      "end": 172,
+      "text": "For most students, school is known to be a stressful learning environment.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 173,
+      "end": 262,
+      "text": "This makes it harder for students to learn and feel comfortable in what they're learning.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 263,
+      "end": 342,
+      "text": "If students had online classes, they would have more freedom in their learning.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 343,
+      "end": 402,
+      "text": "Also, students would feel comfortable and have less stress.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 403,
+      "end": 476,
+      "text": "Attending classes online would make students have a desire to learn more.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 477,
+      "end": 530,
+      "text": "Students would not only benefit from online learning,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 531,
+      "end": 572,
+      "text": "but they would also enjoy online classes.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 574,
+      "end": 687,
+      "text": "First and foremost, students would benefit from online classes because they would more freedom in their learning.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 688,
+      "end": 800,
+      "text": "When students are at school, they tend to have a schedule and they're told exactly what to do and when to do it.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 801,
+      "end": 900,
+      "text": "From personal experience, I've learned that most students don't enjoy being forced to do something.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 901,
+      "end": 1001,
+      "text": "Being told what to do and when to do it, makes the learning environment more stressful for students.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1002,
+      "end": 1076,
+      "text": "Therefore, the more freedom students have the less stress they'll receive.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1077,
+      "end": 1133,
+      "text": "At school, students have some unreasonable consequences.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1134,
+      "end": 1223,
+      "text": "If students did online learning, they would benefit from not having as many consequences.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1224,
+      "end": 1276,
+      "text": "Student would benefit from having less consequences.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1277,
+      "end": 1387,
+      "text": "Therefore, students should have the right to their freedom, especially when it comes to what they're learning.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1389,
+      "end": 1457,
+      "text": "Also, students would feel more comfortable and enjoy online classes.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 1458,
+      "end": 1565,
+      "text": "The average student, plays sports or does extracurricular activities, making their schedule more difficult.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 1566,
+      "end": 1633,
+      "text": "Online school would provide students with a more flexible schedule.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1634,
+      "end": 1712,
+      "text": "Students\u00a0would also be able to do and try new things outside of the classroom.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1713,
+      "end": 1773,
+      "text": "Activities keep students engaged, making them want to learn.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1774,
+      "end": 1850,
+      "text": "This also makes learning more fun and helps students further their learning.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 1851,
+      "end": 1912,
+      "text": "The less stress students have the more successful they'll be.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 1913,
+      "end": 1984,
+      "text": "Students can't have fun with what they're learning if they're stressed.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 1985,
+      "end": 2052,
+      "text": "Having a lot of stressful causes students to not do well in school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2053,
+      "end": 2194,
+      "text": "For some students, stress can be helpful, but for the average high school\u00a0student stress isn't beneficial and cause more issues for students.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 2195,
+      "end": 2274,
+      "text": "Students should be able to have fun and enjoy their learning for their benefit.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 2276,
+      "end": 2322,
+      "text": "Others may say online school isn't beneficial,",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 2323,
+      "end": 2389,
+      "text": "but students are going to pay more attention and have less stress.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 2390,
+      "end": 2499,
+      "text": "Students already don't enjoy the idea of coming to school everyday, and being told what to do and how to act.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 2500,
+      "end": 2603,
+      "text": "Some of the rules at school can be unreasonable for students causing students to get into more trouble.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 2604,
+      "end": 2648,
+      "text": "Online classes would take away that trouble.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 2649,
+      "end": 2704,
+      "text": "Therefore, making students want to learn and do better.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 2705,
+      "end": 2809,
+      "text": "If students were more comfortable in their learning environment, they would be more encouraged to learn.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 2811,
+      "end": 2874,
+      "text": "Finally, students are constantly stressed everyday from school.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u45",
+      "start": 2875,
+      "end": 2965,
+      "text": "Making it difficult for students to enjoy what they're learning causing them to slack off.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u46",
+      "start": 2966,
+      "end": 3061,
+      "text": "If students felt more comfortable in their learning environment, they would be more successful.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 3062,
+      "end": 3128,
+      "text": "Every parent and teacher should want to see their student succeed.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u49",
+      "start": 3129,
+      "end": 3185,
+      "text": "Online school sounds like the perfect plan for students.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 3186,
+      "end": 3246,
+      "text": "Every student should be able to enjoy what they're learning.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u51",
+      "start": 3247,
+      "end": 3350,
+      "text": "In conclusion, online classes can beneficial to students causing them to have a more successful future.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u2",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u5",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u7",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u8",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u10",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u11",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u13",
+      "target": "u11",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u15",
+      "target": "u11",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u16",
+      "target": "u11",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u17",
+      "target": "u11",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u18",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u19",
+      "target": "u18",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u21",
+      "target": "u18",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u22",
+      "target": "u18",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u23",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u24",
+      "target": "u25",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u25",
+      "target": "u23",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u26",
+      "target": "u23",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u28",
+      "target": "u27",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u29",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u30",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u31",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u32",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u35",
+      "target": "u29",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u36",
+      "target": "u37",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u37",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u38",
+      "target": "u37",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u39",
+      "target": "u38",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u40",
+      "target": "u39",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r34",
+      "source": "u41",
+      "target": "u37",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "u42",
+      "target": "u41",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r36",
+      "source": "u44",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r37",
+      "source": "u45",
+      "target": "u44",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "u46",
+      "target": "u44",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "u48",
+      "target": "u49",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u49",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r41",
+      "source": "u50",
+      "target": "u49",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "u51",
+      "target": "u2",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

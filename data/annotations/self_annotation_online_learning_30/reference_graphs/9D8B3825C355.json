@@ -1,0 +1,234 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:9D8B3825C355",
+  "root": "u6",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 129,
+      "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 130,
+      "end": 178,
+      "text": "because the students like to have class in home.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 179,
+      "end": 235,
+      "text": "The students can use the computation to do her homework.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 236,
+      "end": 282,
+      "text": "The students can have time to do his homework.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 283,
+      "end": 352,
+      "text": "The students can use the online to do the homework and the his works.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 353,
+      "end": 439,
+      "text": "The video conferencing they can helping the students to do the worth and the homework.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 440,
+      "end": 541,
+      "text": "The students con have a video conferencing to took\u00a0to the teaches when the students have a questions.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 543,
+      "end": 583,
+      "text": "The etudents like to have class in home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 584,
+      "end": 684,
+      "text": "can have time to do sand in the home to do homework and can have all day to the work to the teaches.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 685,
+      "end": 758,
+      "text": "they can call to the teaches to helping when the\u00a0student have a question.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 759,
+      "end": 829,
+      "text": "the most of the\u00a0student can have class in hoe is morale to do writing.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 830,
+      "end": 875,
+      "text": "the stundents can have time to go to the job.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 876,
+      "end": 1012,
+      "text": "some schools do have after distance learning as on option for students to attend class from home by way of online or videos conferencing",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u11",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u11",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

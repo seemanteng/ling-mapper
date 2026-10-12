@@ -1,0 +1,234 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:D326DB3F4FCF",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 108,
+      "text": "yes becuase students would have more time to there work and is give more time the techer plan out the lesson",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 109,
+      "end": 158,
+      "text": "but thye got give a time limeit to finsh the work",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 159,
+      "end": 239,
+      "text": "cuz then students can get done the work and it would be hlepful to some students",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 240,
+      "end": 354,
+      "text": "cuz some learn better by them self and they wouldnt feel rushed by the teacher to finsh the work before class ends",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 355,
+      "end": 489,
+      "text": "but some other students learn better when ther is a teacher right there teaching face to face some students learn diifernt then others",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 490,
+      "end": 552,
+      "text": "and there would be problems with students like getting trouble",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 553,
+      "end": 594,
+      "text": "and it will teach students responepillity",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 595,
+      "end": 672,
+      "text": "and it would show if they are willing t the work or if they care or dont care",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 673,
+      "end": 741,
+      "text": "cuz now a days students dont really care about school they just come",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 742,
+      "end": 758,
+      "text": "cuz they have to",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 759,
+      "end": 860,
+      "text": "cuz if they didnt need to come they wouldnt come they just think that school a waste of time for them",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 861,
+      "end": 958,
+      "text": "but they dont know how much they need school and how much school os gooing help them in the futer",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 959,
+      "end": 1061,
+      "text": "but it will give students more time to sit dont and work maybe they like it more then coming to school",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u2",
+      "target": "u1",
+      "label": "contingency-condition",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u1",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u11",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

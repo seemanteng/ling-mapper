@@ -1,0 +1,612 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:601599CA6F3F",
+  "root": "u4",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 130,
+      "text": "Some schools offer distance learning as an option for students to attend classes from home by way of online or video conferencing.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 131,
+      "end": 259,
+      "text": "Many people say students should not be able to attend classes from home in result of students cheating on online site and video.",
+      "role": "lead",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 260,
+      "end": 467,
+      "text": "Opponent wrongly think that student would loss more time to spend with love one or even would feel more relax to do nun for the classes making them responsible and unfocused\u00a0to compete there classes at home.",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 469,
+      "end": 616,
+      "text": "Although some believe students should be able to attend classes from home it should be known students must not be able to attend classes from home.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 618,
+      "end": 704,
+      "text": "Student would benefit from not being able to attend classes from home time management.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 705,
+      "end": 825,
+      "text": "Student would be able to have more time management and more time to organize for school and more time to plan in school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 826,
+      "end": 935,
+      "text": "Me as a student of high school time management help me out with making my day more easier and less stressing.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 936,
+      "end": 1022,
+      "text": "Making students a more organize and helping them used there time correctly in the day.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 1023,
+      "end": 1079,
+      "text": "Student benefits building up more confine in there self.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 1081,
+      "end": 1157,
+      "text": "It make student feel more wanted to succeed then sitting home doing classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1158,
+      "end": 1250,
+      "text": "Me still a students of high school i feel more confine to come to school then being at home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1252,
+      "end": 1303,
+      "text": "It help students feel more confine in there future.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1305,
+      "end": 1357,
+      "text": "It help student meet new people in there in classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1358,
+      "end": 1441,
+      "text": "It help student interaction with other people building a bond with there classmate.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1442,
+      "end": 1489,
+      "text": "It help me find my own friend that trust in me.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1490,
+      "end": 1569,
+      "text": "It help students find the people that act lest\u00a0care about them and there dream.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1571,
+      "end": 1647,
+      "text": "It benefit student later by helping student build up character in them self.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1648,
+      "end": 1697,
+      "text": "Helping student find there strength and weakness.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1698,
+      "end": 1773,
+      "text": "Helping me build up myself and my mind and making me a more confine person.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1774,
+      "end": 1852,
+      "text": "It make student build\u00a0up a more stronger character in there road to successes.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1853,
+      "end": 1940,
+      "text": "It help student build responsible in there self making then a more responsible student.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1941,
+      "end": 2013,
+      "text": "Me going to classes make me a more responsible students then me at home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2014,
+      "end": 2087,
+      "text": "It help build me responsible for the students who don`t have responsible.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2088,
+      "end": 2154,
+      "text": "it help student find there strength and weakness in there classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 2155,
+      "end": 2218,
+      "text": "It help me find my strength and weakness by doing hand on work.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2219,
+      "end": 2275,
+      "text": "Helping students understand there strength and weakness.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 2277,
+      "end": 2351,
+      "text": "Although some believe\u00a0students should be able to attend classes from home,",
+      "role": "concluding_summary",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2352,
+      "end": 2425,
+      "text": "it should be known students must not be able to attend classes from home.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 2427,
+      "end": 2610,
+      "text": "However student must not be able to attend classes from home it can benefit now by helping students build up character and build up responsible and help them build up time management.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2612,
+      "end": 2691,
+      "text": "Opponents wrongly think that student should be able to attend classes form home",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2692,
+      "end": 2747,
+      "text": "but can result of cheating or making student unfocused.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2748,
+      "end": 2801,
+      "text": "Making the students unable to get the help they need.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 2803,
+      "end": 2841,
+      "text": "Making student lost hope in they self.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 2842,
+      "end": 2907,
+      "text": "Make students feel wanted and confine to come to school and work.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u4",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u4",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u5",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u5",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u15",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u9",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u17",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u20",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u20",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u21",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u20",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u24",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u4",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u27",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u29",
+      "target": "u28",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u30",
+      "target": "u31",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u31",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u32",
+      "target": "u31",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u33",
+      "target": "u31",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u34",
+      "target": "u31",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

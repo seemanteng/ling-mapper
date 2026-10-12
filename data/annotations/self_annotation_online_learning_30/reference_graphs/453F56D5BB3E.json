@@ -1,0 +1,414 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:453F56D5BB3E",
+  "root": "u3",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 60,
+      "text": "Have you ever wanted to stay home and learn school material?",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 61,
+      "end": 193,
+      "text": "\"Some schools offer distant learning as an option for students to attend classses from home by way of online or video conferencing.\"",
+      "role": "lead",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 194,
+      "end": 234,
+      "text": "I thnk its a good idea for some students",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 235,
+      "end": 369,
+      "text": "because you get to learn from your home and some people are just too shy with others and you get to learn the school material at home.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 370,
+      "end": 420,
+      "text": "People may say that going to school is much easier",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 421,
+      "end": 598,
+      "text": "because you can get help from many students around you\u00a0with what your working on and everything that you'll learn will be read and given an in example for you from your teacher;",
+      "role": "evidence",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 599,
+      "end": 697,
+      "text": "however, I believe that if you do take online classes it will do the same as if you went to school",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 698,
+      "end": 809,
+      "text": "because it will be the same material and it will be a less of a hassel waking up every morning to go to school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 811,
+      "end": 940,
+      "text": "Learning the same material while your home\u00a0is a great thing because you dont need to go to school to learn it while you are home.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 941,
+      "end": 984,
+      "text": "An example is when you miss a day of school",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 985,
+      "end": 1024,
+      "text": "and you needed to catch up on something",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1025,
+      "end": 1114,
+      "text": "and you get to go to your google classroom or blackboard and get anything that you missed",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1115,
+      "end": 1135,
+      "text": "and you complete it.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1136,
+      "end": 1190,
+      "text": "Its a great way to learn as well as to going to school",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1191,
+      "end": 1245,
+      "text": "but it'll be easier for anyone to stay home and learn.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1247,
+      "end": 1314,
+      "text": "In my observation a majority of students do go to school and learn.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1315,
+      "end": 1382,
+      "text": "Staying home and taking online classses are not well known for many",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1383,
+      "end": 1427,
+      "text": "but there is a lot of peope that do take it.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1428,
+      "end": 1572,
+      "text": "Ive know multiple people that take onlline classes and they've passsed for what they did which shows that taking online classes isnt bad at all.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1573,
+      "end": 1660,
+      "text": "This topic is about if students would benifet from taking online classes and I say yes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 1661,
+      "end": 1750,
+      "text": "My reasons why is because it will be almost the same thing as being in a class for others",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1751,
+      "end": 1845,
+      "text": "and you dont need to worry about getting ready early in the morning and deal with other people",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1846,
+      "end": 1881,
+      "text": "while you just take online classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u3",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u3",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u7",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u5",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u7",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u13",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u14",
+      "target": "u13",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u15",
+      "target": "u13",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u16",
+      "target": "u13",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u17",
+      "target": "u9",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u18",
+      "target": "u17",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u19",
+      "target": "u22",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u20",
+      "target": "u19",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u21",
+      "target": "u20",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u22",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u23",
+      "target": "u3",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u24",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u26",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

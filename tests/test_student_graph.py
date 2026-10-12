@@ -124,3 +124,57 @@ class ExtractorTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AblationTests(unittest.TestCase):
+    def test_dropped_rules_leave_the_rest_of_the_prompt(self):
+        full = system_prompt()
+        for part, header in (("segmentation", "Segmentation rules:"), ("role", "Role rules:"), ("structure", "Structure rules:")):
+            reduced = system_prompt((part,))
+            self.assertIn(header, full)
+            self.assertNotIn(header, reduced)
+            self.assertLess(len(reduced), len(full))
+        self.assertIn("Unit roles", system_prompt(("structure",)))
+
+    def test_one_stage_makes_a_single_call_and_the_same_graph(self):
+        one = {"root": "u1", "units": [{"text": q, **{k: RELATE["units"][i][k] for k in ("role", "stance", "polarity")}}
+                                       for i, q in enumerate(QUOTES)], "relations": RELATE["relations"]}
+        caller = ScriptedCaller(one)
+        result = extract(record(), caller, ablation="one-stage")
+        self.assertEqual(len(caller.requests), 1)
+        self.assertEqual(validate_graph(result["graph"], TEXT), [])
+        self.assertEqual([u["text"] for u in result["graph"]["units"]], QUOTES)
+        self.assertEqual(result["attempts"][0]["stage"], "single")
+
+    def test_one_stage_reports_quote_errors_for_a_retry(self):
+        bad = {"root": "u1", "units": [{"text": "not in the essay", "role": "position", "stance": "endorsed", "polarity": "positive"}],
+               "relations": []}
+        result = extract(record(), ScriptedCaller(bad, bad, bad), ablation="one-stage")
+        self.assertIsNone(result["graph"])
+        self.assertEqual(result["failed_stage"], "single")
+
+    def test_oracle_segments_skip_stage_one(self):
+        spans, pos = [], 0
+        for i, q in enumerate(QUOTES, 1):
+            start = TEXT.index(q, pos)
+            pos = start + len(q)
+            spans.append({"id": f"u{i}", "start": start, "end": pos, "text": q})
+        caller = ScriptedCaller(RELATE)
+        result = extract(record(), caller, ablation="oracle-segments", oracle_units=spans)
+        self.assertEqual(len(caller.requests), 1)
+        self.assertEqual(validate_graph(result["graph"], TEXT), [])
+        self.assertIn("u3: A dispute is possible,", caller.requests[0]["messages"][0]["content"])
+
+    def test_ablation_changes_the_config_hash_but_full_does_not(self):
+        from argument_graph.student_graph import config_hash
+        self.assertEqual(config_hash("m", "medium"), config_hash("m", "medium", "anthropic", "full"))
+        hashes = {config_hash("m", "medium", "anthropic", a) for a in ("full", "one-stage", "no-retry", "no-role-rules")}
+        self.assertEqual(len(hashes), 4)
+
+
+class CreditTests(unittest.TestCase):
+    def test_billing_errors_are_recognised(self):
+        from argument_graph.student_graph import out_of_credit
+        self.assertTrue(out_of_credit(Exception("Your credit balance is too low to access the Anthropic API")))
+        self.assertTrue(out_of_credit(Exception("You have no remaining credits.")))
+        self.assertFalse(out_of_credit(Exception("429 high traffic")))

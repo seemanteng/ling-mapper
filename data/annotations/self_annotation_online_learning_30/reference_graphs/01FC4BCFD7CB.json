@@ -1,0 +1,432 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:01FC4BCFD7CB",
+  "root": "u6",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 94,
+      "text": "Some schools are offering online learning as an option for students to attend class from home.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 95,
+      "end": 203,
+      "text": "There is an ongoing debate on whether doing online classes or doing traditional learning is most beneficial.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 204,
+      "end": 276,
+      "text": "There are those who agree that working in a classroom is most beneficial",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 277,
+      "end": 298,
+      "text": "but this is not true.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 299,
+      "end": 326,
+      "text": "Although some may disagree,",
+      "role": "lead",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 327,
+      "end": 419,
+      "text": "doing online classes are more beneficial than doing the traditional learning in a classroom.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 421,
+      "end": 489,
+      "text": "There are many reasons as to why online classes are more beneficial.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 490,
+      "end": 536,
+      "text": "One reason is students can be more comfortable",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 537,
+      "end": 613,
+      "text": "while they do work, meaning they get enough sleep so they can pay attention.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 614,
+      "end": 710,
+      "text": "Additionally, they dont have a specific time limit to do work at home vs when they are at school",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 711,
+      "end": 778,
+      "text": "so they do not have to stress over getting it done in time as much.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 779,
+      "end": 931,
+      "text": "Furthermore, some students have lots of work around the house or have multiple jobs so having online classes means they can do their work when they can.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 933,
+      "end": 1007,
+      "text": "There are additional reasons as to why online classes are more beneficial.",
+      "role": "unannotated",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1008,
+      "end": 1103,
+      "text": "A reason being is, they are more willing to do work due to the flexibility of doing work online",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1104,
+      "end": 1172,
+      "text": "because some students have a busy life at home with chores and jobs,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1173,
+      "end": 1215,
+      "text": "so they get their work done when they can.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1216,
+      "end": 1398,
+      "text": "Additionally, they have access to the internet for specific questions, and if they can not find it on the internet, they will usually email or message and ask the teacher themselves.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1399,
+      "end": 1562,
+      "text": "Finally, online classes are more beneficial because students who get sick do not have to worry about missing assignments and do not have to worry about attendance.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1564,
+      "end": 1591,
+      "text": "Although some may disagree,",
+      "role": "concluding_summary",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1592,
+      "end": 1684,
+      "text": "doing online classes are more beneficial than doing the traditional learning in a classroom.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1685,
+      "end": 1736,
+      "text": "Online classes are most beneficial due to students;",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1737,
+      "end": 1836,
+      "text": "being more willing to do work, can do work whenever they possibly can if they have a busy schedule,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 1837,
+      "end": 1913,
+      "text": "and they do not have to worry about missing work and class if they get sick.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 1914,
+      "end": 2032,
+      "text": "Ultimately, online classes are more beneficial than classroom work for students due to the flexibility of the classes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u4",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u8",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u8",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u8",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u10",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u14",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u15",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u14",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u6",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u20",
+      "target": "u6",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u21",
+      "target": "u20",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u22",
+      "target": "u6",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u23",
+      "target": "u22",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u24",
+      "target": "u22",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u25",
+      "target": "u6",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

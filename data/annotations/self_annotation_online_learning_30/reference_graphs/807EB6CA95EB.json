@@ -1,0 +1,504 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:807EB6CA95EB",
+  "root": "u1",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 89,
+      "text": "Students will benefit from attending classes at home via online and/or video conferencing",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 90,
+      "end": 200,
+      "text": "because of the level of flexibility for students, the betterment of their mental health, and its availability.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 202,
+      "end": 371,
+      "text": "For students who play sports and are constantly going away for competitions, games, etc, the flexibility of\u00a0online school and video conferencing is extremely beneficial.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 372,
+      "end": 469,
+      "text": "Having the ability to use this tool is a great and convenient way of learning for those students.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 470,
+      "end": 495,
+      "text": "Not only is it convenient",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 496,
+      "end": 597,
+      "text": "but\u00a0as a result of attending classes online students will not have to miss any important assignments,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 598,
+      "end": 729,
+      "text": "which if missed, could result in a student getting behind on school work and may even cause lower grades for them in\u00a0the long term.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 731,
+      "end": 817,
+      "text": "Taking classes online can aid students on sport teams as well as those that have jobs.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 818,
+      "end": 1076,
+      "text": "Many high school students have jobs and work whether to help out at home, have some disposable funds, or for many other reasons across the board and\u00a0for those when they can work being physically present in schools can be very limiting on the hours they work.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1077,
+      "end": 1123,
+      "text": "Depending on when their school dismisses them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1124,
+      "end": 1315,
+      "text": "With some schools letting out at as late as 4:30 P.M.,\u00a0students\u00a0are left to working hours after 5:00pm which for some can result in them working until as late as 8 or 9 P.M. on school nights.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1316,
+      "end": 1390,
+      "text": "This leaves the student little to no time to socialize, complete homework,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1391,
+      "end": 1487,
+      "text": "and most importantly get the proper amount of sleep needed for the students ever growing brains.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1488,
+      "end": 1543,
+      "text": "For students who work, online schooling is very helpful",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1544,
+      "end": 1618,
+      "text": "because it allows for them to have more options in terms of working hours.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1620,
+      "end": 1757,
+      "text": "Although attending classes from home by the use of online or video conferencing may seem as though it would negatively affect the student",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1758,
+      "end": 1810,
+      "text": "because of a lower level of interaction with others,",
+      "role": "evidence",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1811,
+      "end": 1840,
+      "text": "it\u00a0can\u00a0do quite\u00a0the\u00a0opposite.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1841,
+      "end": 1953,
+      "text": "For many students bullying in school is a harsh reality that they have to deal with everyday when in attendance,",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1954,
+      "end": 2012,
+      "text": "which can affect their health and school work very poorly.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2013,
+      "end": 2131,
+      "text": "But in the cases of those who have had bullying be a constant occurrence for them while being in a school environment,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2132,
+      "end": 2306,
+      "text": "this lower level of interaction with others through the use of online schooling can be very helpful and can have a positive impact not only their grades but their well being.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2308,
+      "end": 2378,
+      "text": "Lastly taking classes online is benefital because of the availability.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2379,
+      "end": 2678,
+      "text": "Often times for students who may not fully know and comprehend the material being taught to them because of many reasons such as the distraction from others in the classroom, or poor teaching style for example can make it almost impossible to work on and finish assignments that are given in school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2679,
+      "end": 2778,
+      "text": "Once the bell rings at the end of the day students are left to their own efforts to figure the unit",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2779,
+      "end": 2949,
+      "text": "because many teachers do not provide practice before or after school and stduents can not always go to outside online sources as a result of the lack of reliability, etc.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2951,
+      "end": 3266,
+      "text": "Whereas\u00a0in\u00a0they were take classes online through the school from the very\u00a0beginning\u00a0the student would always have\u00a0access\u00a0to learning targets, and with less distraction from others there is no one to take their focus from their work which can cause students to finish quicker, and turn in better quality assignments.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 3267,
+      "end": 3365,
+      "text": "Now with that all being said there are many benefital reasons for students to take online classes.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u2",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u3",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u5",
+      "target": "u6",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u6",
+      "target": "u4",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u6",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u2",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u10",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u11",
+      "target": "u12",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u12",
+      "target": "u10",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u13",
+      "target": "u12",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u14",
+      "target": "u12",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u15",
+      "target": "u9",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u16",
+      "target": "u15",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u17",
+      "target": "u20",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u19",
+      "target": "u17",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u20",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u21",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u22",
+      "target": "u21",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u23",
+      "target": "u24",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u24",
+      "target": "u21",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u26",
+      "target": "u1",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u28",
+      "target": "u26",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u30",
+      "target": "u26",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u31",
+      "target": "u30",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u32",
+      "target": "u26",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u34",
+      "target": "u1",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

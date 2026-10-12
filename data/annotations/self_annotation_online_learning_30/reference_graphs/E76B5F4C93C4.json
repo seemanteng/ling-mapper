@@ -1,0 +1,396 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:E76B5F4C93C4",
+  "root": "u3",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 87,
+      "text": "Some schools were considering doing classes from home like online or video confrencing.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 88,
+      "end": 122,
+      "text": "This could change schools Heavily.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 123,
+      "end": 192,
+      "text": "Having the options to take classes at home would not benefit students",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 193,
+      "end": 354,
+      "text": "because they dont need to pay attention they could put up the class and just walk away and also it would make it so many students would skip school all the time.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 356,
+      "end": 477,
+      "text": "Having the option to take classes at home would not benefit the students because they wouldnt even have to pay attention.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 478,
+      "end": 553,
+      "text": "The main point of school is to educate kids and prepare them for adulthood,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 554,
+      "end": 666,
+      "text": "but how can Schools assure they are learning if someone isnt there to make sure there actually paying attention.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 667,
+      "end": 761,
+      "text": "Many teachers will make sure students are not on their phone and are actually paying attention",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 762,
+      "end": 813,
+      "text": "but no one can assure that if the kids are at home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 814,
+      "end": 894,
+      "text": "Finally if students didnt understand they would have no way of asking questions.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 896,
+      "end": 995,
+      "text": "Next if students could simply take thier classes from home some students wouldnt ever go to school.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 996,
+      "end": 1099,
+      "text": "If students were just skipping school and taking their classes online many students would not graduate.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1100,
+      "end": 1180,
+      "text": "Doing this would just give students another reason to try and skip school daily.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1181,
+      "end": 1328,
+      "text": "School is more than just learning information its also about learning important skills for life like responsibility, teamwork, and problem solving.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1329,
+      "end": 1429,
+      "text": "Being able to take classes at home would make it impossible for some students to learn those skills.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1431,
+      "end": 1524,
+      "text": "Some people may say that having the option to take classes at home would benefit the students",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1525,
+      "end": 1620,
+      "text": "because it would give an option for kids who couldnt attend school that day to not fall behind.",
+      "role": "evidence",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1621,
+      "end": 1757,
+      "text": "Many kids will get sick throughout the year or have a reason not to come to school and this would give them a chance to not fall behind.",
+      "role": "evidence",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1759,
+      "end": 1839,
+      "text": "Giving students the option to take classes at home would not benefit them at all",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1840,
+      "end": 1914,
+      "text": "because it would make it so kids could just skip school whenever they want",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1915,
+      "end": 2015,
+      "text": "and just because they have the class on the computer doesnt mean they are actually paying attention.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2017,
+      "end": 2109,
+      "text": "Finally In order for the students tp truely benefit they would need to really want to learn.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u3",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u4",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u6",
+      "target": "u4",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u8",
+      "target": "u9",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u9",
+      "target": "u4",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u10",
+      "target": "u9",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u11",
+      "target": "u10",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u12",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u13",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u14",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u15",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u16",
+      "target": "u17",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u17",
+      "target": "u13",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u18",
+      "target": "u21",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u19",
+      "target": "u18",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u20",
+      "target": "u19",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u21",
+      "target": "u3",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u22",
+      "target": "u21",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u23",
+      "target": "u21",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u24",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

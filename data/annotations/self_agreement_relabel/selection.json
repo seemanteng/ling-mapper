@@ -1,0 +1,42 @@
+{
+  "seed": 42,
+  "per_band": 1,
+  "essays": [
+    {
+      "essay_no": 16,
+      "example_id": "persuade:4585DE769AE9",
+      "holistic_score": "1",
+      "segments": 36
+    },
+    {
+      "essay_no": 20,
+      "example_id": "persuade:93B23DB0F67B",
+      "holistic_score": "2",
+      "segments": 29
+    },
+    {
+      "essay_no": 23,
+      "example_id": "persuade:B936994E140D",
+      "holistic_score": "3",
+      "segments": 22
+    },
+    {
+      "essay_no": 26,
+      "example_id": "persuade:4CAB27E45729",
+      "holistic_score": "4",
+      "segments": 27
+    },
+    {
+      "essay_no": 28,
+      "example_id": "persuade:7999CE056DE6",
+      "holistic_score": "5",
+      "segments": 37
+    },
+    {
+      "essay_no": 1,
+      "example_id": "persuade:D72FA02E59ED",
+      "holistic_score": "6",
+      "segments": 27
+    }
+  ]
+}

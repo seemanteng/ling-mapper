@@ -1,0 +1,774 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:C287B9AB69D2",
+  "root": "u8",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 113,
+      "text": "Some experts may argue that physical attendance in school is extremely important in a student's ability to learn.",
+      "role": "lead",
+      "stance": "reported",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 114,
+      "end": 210,
+      "text": "School can provide a way where children obtain new knowledge that is essential for their future,",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 211,
+      "end": 278,
+      "text": "but most importantly it is a way for them to improve social skills.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 279,
+      "end": 393,
+      "text": "These skills are important in a person's future whether they will pursue a job or simply interacting with someone.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 394,
+      "end": 498,
+      "text": "However, at an early age life can trow us obstacles that will hinder our chance for being able to learn.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u6",
+      "start": 499,
+      "end": 650,
+      "text": "These problems are just a stepping block to achieve our goals and we need to find an alternative route where children can access the basis of learning.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 651,
+      "end": 760,
+      "text": "Although being able to physically attend school is the conventional way on how students can access knowledge,",
+      "role": "lead",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 761,
+      "end": 903,
+      "text": "online school or video conferencing is a beneficial alternative for students to learn when sick or can't attend school due to serious matters.",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 905,
+      "end": 1003,
+      "text": "some teachers argue that cellphones and new technology disrupts the ability for students to learn.",
+      "role": "counterclaim",
+      "stance": "rejected",
+      "polarity": "positive"
+    },
+    {
+      "id": "u10",
+      "start": 1004,
+      "end": 1046,
+      "text": "In some cases this has a true nature to it",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 1047,
+      "end": 1169,
+      "text": "because cellphones are a big distraction and that is why teachers strictly prevent the usage of phones during class time .",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1170,
+      "end": 1231,
+      "text": "Although new technologies bring negative impacts on learning,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1232,
+      "end": 1297,
+      "text": "we cannot deny the benefits it bring regarding distance learning.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1298,
+      "end": 1402,
+      "text": "One instance when I was not in school due to family issues, my teacher let me face time\u00a0the entire class",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1403,
+      "end": 1488,
+      "text": "so i would not miss any new information that is very important for the upcoming test.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1489,
+      "end": 1649,
+      "text": "This unconventional type of learning is providing a new way for students to be successful in class even tough they are not physically there to learn the lesson.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1650,
+      "end": 1734,
+      "text": "Video conferencing is extremely helpful for students to catch up with their lessons,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1735,
+      "end": 1772,
+      "text": "which in a long run benefits greatly.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1773,
+      "end": 1953,
+      "text": "Due to these outcomes more teachers should allow video conferencing trough FaceTime\u00a0or any means in order for students to not miss any school materials and be successful in school.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1955,
+      "end": 2082,
+      "text": "Online school is a beneficial alternative for students to take when for some personal reasons they cannot attend attend school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 2083,
+      "end": 2217,
+      "text": "For example, some kids need to take on the job to help and provide for their family and this will prevent him or her to attend school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 2218,
+      "end": 2344,
+      "text": "With new technology and the power of the online world these amazing children would a great way where they can access learning.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 2345,
+      "end": 2451,
+      "text": "Schools should provide free online courses that will assist working students in their pursuit of learning.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u24",
+      "start": 2452,
+      "end": 2534,
+      "text": "The Department of Education should carry out and endorse this new type of learning",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 2535,
+      "end": 2615,
+      "text": "so that every children in America can have an access to basic type of knowledge.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 2616,
+      "end": 2688,
+      "text": "Once we provide these less privilege students a way to access education,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 2689,
+      "end": 2773,
+      "text": "then they will use these knowledge to uplift their families and improve their lives.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 2775,
+      "end": 2882,
+      "text": "School is a great escape for students to not just learn educated materials, but to also have a social life.",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2883,
+      "end": 3035,
+      "text": "Many research proves that people who attended school and had a social life are well better off in the future rather than people that were home schooled.",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 3036,
+      "end": 3206,
+      "text": "School is very substantial in a person's life as it provides us everyday skills that were not taught in books or lessons, such as having a great and sociable personality.",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 3207,
+      "end": 3261,
+      "text": "These skills will be handy in college or a future job,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 3262,
+      "end": 3367,
+      "text": "because these institutions usually pick someone who stands out greatly and have an amazing social skills.",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 3368,
+      "end": 3480,
+      "text": "However in some students, being in school is just not for them due to some bad experience that happened to them.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 3481,
+      "end": 3596,
+      "text": "Some students might have experience some type of prejudice or bullying that they feel being school is not for them.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 3597,
+      "end": 3691,
+      "text": "In this case online school would be a great escape for some students to still be able to learn",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 3692,
+      "end": 3735,
+      "text": "though they are no longer attending school.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 3736,
+      "end": 3812,
+      "text": "Although school should be a safe space for students to learn and enjoy life,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 3813,
+      "end": 3912,
+      "text": "ignorance can fill someone's body that they hinder the ability for some students to enjoy learning.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 3913,
+      "end": 4040,
+      "text": "Due to this reason school should facilitate online school in order to provide a health and safe lifestyle for students at home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 4041,
+      "end": 4134,
+      "text": "Once these students feel safe is the only way they can obtain learning and better themselves.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 4136,
+      "end": 4248,
+      "text": "Attending school is a great way to provide students a quality education that will be very helpful in the future;",
+      "role": "counterclaim",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 4249,
+      "end": 4346,
+      "text": "however, with new technology students can access information without physically attending school.",
+      "role": "rebuttal",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 4347,
+      "end": 4589,
+      "text": "online school and video conferencing provide a way for student who needs to work to provide for their family, the ones who are missing out on class, or the students who feels unsafe in school an alternative to enjoy life and be able to learn.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u8",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u2",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u3",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u8",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u6",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u7",
+      "target": "u8",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u9",
+      "target": "u13",
+      "label": "adversative-antithesis",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u10",
+      "target": "u13",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u11",
+      "target": "u10",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u12",
+      "target": "u13",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u13",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u14",
+      "target": "u13",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u15",
+      "target": "u14",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u16",
+      "target": "u13",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u17",
+      "target": "u13",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u18",
+      "target": "u17",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u19",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u20",
+      "target": "u22",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u21",
+      "target": "u22",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u22",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u23",
+      "target": "u22",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u24",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u25",
+      "target": "u24",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u26",
+      "target": "u27",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u27",
+      "target": "u23",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u28",
+      "target": "u8",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u30",
+      "target": "u28",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u31",
+      "target": "u28",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u32",
+      "target": "u31",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u33",
+      "target": "u32",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u34",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u35",
+      "target": "u34",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r34",
+      "source": "u36",
+      "target": "u34",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "u37",
+      "target": "u36",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r36",
+      "source": "u38",
+      "target": "u39",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r37",
+      "source": "u39",
+      "target": "u35",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "u40",
+      "target": "u34",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "u41",
+      "target": "u40",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u42",
+      "target": "u43",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r41",
+      "source": "u43",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "u44",
+      "target": "u43",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}

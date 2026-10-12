@@ -9,6 +9,7 @@ This set is the human reference for RQ1: how faithfully the extractor's student 
 | `data/processed/distance_learning_v3/records.jsonl` | The 30 essays as `ExampleRecord`s, in essay-number order |
 | `data/annotations/self_annotation_online_learning_30/Essay N.csv` | The final labelled sheets (called v2 below) |
 | `data/annotations/self_annotation_online_learning_30/changes.csv` | One row per cell changed in the consistency pass |
+| `data/annotations/self_annotation_online_learning_30/reference_graphs/<id>.json` | The sheets converted to `argument_graph/0.1` (section 6); pass this folder to `evaluate.py --gold-dir` |
 
 The blank pre-segmented sheets and the author's original labelled sheets (v1) were deleted on 2026-10-12 after the pass was complete. The essay text is in `records.jsonl`. Every value the pass changed is kept in the `old` column of `changes.csv`, and every cell not listed there is unchanged in v2, so v1 can be rebuilt from v2 and the log.
 
@@ -119,10 +120,52 @@ In total there are 1,968 logged changes, across all 30 essays. The most common c
 
 About 10% of segments are not Endorsed, so overall stance accuracy can be high even when a model handles concessions badly. Report stance per class, or as macro-F1.
 
+## 6. Conversion to reference graphs
+
+`python3 -m argument_graph.reference_graph` (with `PYTHONPATH=src`) writes one `argument_graph/0.1` graph per essay and runs `validate_graph` on each. All 30 pass: 859 units, 829 primary relations, one root per essay. Scoring a graph against itself gives 1.0 on every metric. The mapping below is a modelling choice, so report it with the results.
+
+**Roles.** Lead, Position, Claim, Evidence, Counterclaim and Rebuttal keep their names (lower-case). Conclusion becomes `concluding_summary`. Other becomes `unannotated`.
+
+**Stance.** Lower-cased. The system's `unclear` was never used.
+
+**Relations.** Each sheet row is a child (satellite) pointing at its parent (nucleus).
+
+| Sheet label | System relation |
+|---|---|
+| backs it up | `explanation-justify` if the parent is the Position or a Claim, otherwise `explanation-evidence` |
+| gives an example | `explanation-evidence` |
+| adds detail | `elaboration-additional` |
+| restates it | `restatement-partial` |
+| sets the scene | `context-background` |
+| argues against it, contrasts with it | `adversative-concession` if the child is Conceded, `adversative-antithesis` if Rejected, otherwise `adversative-contrast` |
+| other: sets a condition | `contingency-condition` |
+| other: answers the question, raises the question, aside, qualifies it, asks the reader | `elaboration-additional` (8 edges; the system's `topic-question` runs from question to answer, the opposite way) |
+
+The justify/evidence split uses the target's role because the sheets have one label for both. Report accuracy at the coarse class level (explanation) as well as the exact label.
+
+**Two structural changes.** The system's trees differ from the sheets' in two places, so the converter restructures them:
+1. **Counterclaim and reply.** The sheets hang the counterclaim off the position and the reply off the counterclaim. The system's validator makes the conceded or rejected unit the satellite of the endorsed one. So the counterclaim becomes the satellite of its first reply, and the reply takes the counterclaim's old head as `explanation-justify` or `explanation-evidence`. Further replies to the same counterclaim, and the counterclaim's own evidence, stay attached to the counterclaim.
+2. **Fronted contrast.** `adversative-contrast` chains the later member to the earlier one, but the sheets hang "Although X, | Y" off Y. The earlier member takes the later one's place in the tree and the later one is chained to it. Exception: when the later member is the Position (the root), the earlier one stays its satellite as `context-background` (one edge, essay 8).
+
+The sheets' own parent column is unchanged and remains the record of the author's judgement.
+
+**Not annotated.** Polarity is `positive` on every unit, and every relation is `implicit` with no quoted signals. Neither is scored by `evaluate.py`. This set cannot evaluate negation or signal detection.
+
+## 7. Self-agreement check (planned)
+
+To estimate how consistent the author is over time, six essays (one per score band 1–6) were chosen with `argument_graph.agreement sheets` (seed 42, essays with 15–40 segments) and written as blank sheets to `data/annotations/self_agreement_relabel/`. The sheets keep the final segmentation and have every label column empty, so the check covers labels only, not segment boundaries.
+
+Protocol:
+1. Wait at least a week after the final sheets were completed. The sheets were prepared on 2026-10-12.
+2. Label the six sheets from scratch using only the written decision rules above. Do not open the final sheets, `changes.csv`, `reference_graphs/` or any model output while labelling. Segment numbers can skip (merged segments keep their original numbers); parents refer to those numbers.
+3. Run `PYTHONPATH=src python3 -m argument_graph.agreement score --relabel-dir data/annotations/self_agreement_relabel --output data/annotations/self_agreement_relabel/agreement.md`.
+
+The report gives raw agreement and Cohen's kappa for role, stance and relation, agreement on the parent, and the same graph metrics the models are scored with (attachment, labelled attachment, root, roles, per-class stance), with the new labels as the prediction. Read that last block as a human ceiling: a model should not be expected to match the reference better than the author matches themself. Six essays and about 180 segments are few, and the rare stances (Rejected, Reported) will have only a handful of cases, so report those as counts. This measures one person's consistency over time. It does not replace agreement between two annotators.
+
 ## Limitations
 
 - **Single annotator.** The author is also the system designer, and there is no inter-annotator agreement yet. A second annotator on a subset, and the author re-labelling some essays from scratch after a delay, are the planned checks.
 - **Segmentation is not fully independent.** Boundaries start from a rule-based splitter and were changed only for clear errors. Segmentation scores therefore measure agreement with the splitter as corrected by the annotator, not with fully free human segmentation.
-- **Labels differ from the system's.** The seven relation labels and the role set must be mapped onto the extractor's eRST relations and roles before scoring. That mapping is a modelling choice and should be reported alongside the results.
+- **Labels differ from the system's.** The seven relation labels and the role set are mapped onto the extractor's eRST relations and roles in section 6. That mapping is a modelling choice and should be reported alongside the results.
 - **Official test partition.** 13 essays come from PERSUADE's official test partition. This matters only if results are compared with work that holds that partition out.
 - **One prompt.** All essays answer the same prompt, so the set says nothing about other topics.

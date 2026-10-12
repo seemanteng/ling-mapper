@@ -1,0 +1,918 @@
+{
+  "schema_version": "argument_graph/0.1",
+  "example_id": "persuade:FA38B62F80E5",
+  "root": "u8",
+  "units": [
+    {
+      "id": "u1",
+      "start": 0,
+      "end": 112,
+      "text": "Historically, children have only been able to receive an education by traveling to a building known as a school.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u2",
+      "start": 113,
+      "end": 183,
+      "text": "In this building, there are classrooms, desks, boards, teachers, etc.,",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u3",
+      "start": 184,
+      "end": 240,
+      "text": "but most importantly, the outlet to a successful future.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u4",
+      "start": 241,
+      "end": 374,
+      "text": "Over time, more and more developments have been made in order to improve the quality of the curriculum that students learn in school.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u5",
+      "start": 375,
+      "end": 510,
+      "text": "With the rise of technology, even the location of schooling has begun to vary with the addition of a unique option: learning from home.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u7",
+      "start": 511,
+      "end": 659,
+      "text": "Online video conferences and other such facilities allow for students to access the same materials that they would be given at a traditional school.",
+      "role": "lead",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u8",
+      "start": 660,
+      "end": 767,
+      "text": "However, as convenient as it seems, students would not benefit from being able to attend classes from home,",
+      "role": "position",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u9",
+      "start": 768,
+      "end": 915,
+      "text": "which is portrayed by the lack of three things that are vital to academic achievement: student discipline, teacher connection, and test regulation.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u11",
+      "start": 917,
+      "end": 1021,
+      "text": "First and foremost, being able to attend classes from home would result in a lack of student discipline.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u12",
+      "start": 1022,
+      "end": 1153,
+      "text": "Learning from home would discourage students from maintaining a strict schedule that would normally be upheld in a school building.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u13",
+      "start": 1154,
+      "end": 1221,
+      "text": "For example, Generic_Name, a sixth grader, takes classes from home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u14",
+      "start": 1222,
+      "end": 1304,
+      "text": "The year before, he used to wake up at 6:00 every morning to get ready for school,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u15",
+      "start": 1305,
+      "end": 1327,
+      "text": "which started at 8:00.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u16",
+      "start": 1328,
+      "end": 1357,
+      "text": "Now, he wakes up around 9:00,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u17",
+      "start": 1358,
+      "end": 1421,
+      "text": "because he only has four 90-minute classes to attend via video.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u18",
+      "start": 1422,
+      "end": 1470,
+      "text": "While he may be able to get more sleep at night,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u19",
+      "start": 1471,
+      "end": 1534,
+      "text": "Generic_Name has not established a routine for his school work,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u20",
+      "start": 1535,
+      "end": 1584,
+      "text": "so he wastes hours before and in between classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u21",
+      "start": 1585,
+      "end": 1671,
+      "text": "This leads to him not having enough time to spend with his loved ones or exercise, all",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u22",
+      "start": 1672,
+      "end": 1727,
+      "text": "because he has the leisure to slack off during the day.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u23",
+      "start": 1728,
+      "end": 1811,
+      "text": "Consequently, there is not only a decrease in efficiency, but also in productivity,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u25",
+      "start": 1812,
+      "end": 1875,
+      "text": "which is an outcome of the ability to attend classes from home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u26",
+      "start": 1876,
+      "end": 1910,
+      "text": "These are qualities of discipline,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u27",
+      "start": 1911,
+      "end": 1958,
+      "text": "which is an indicator of success in the future.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u28",
+      "start": 1960,
+      "end": 2068,
+      "text": "Secondly, the direct connection to teachers would be lost if students were able to attend classes from home.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u29",
+      "start": 2069,
+      "end": 2174,
+      "text": "In other words, students would not be able to ask their teachers any questions they might have in person.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u30",
+      "start": 2175,
+      "end": 2297,
+      "text": "Although the video conferencing software might include a messaging system for students to communicate with their teachers,",
+      "role": "evidence",
+      "stance": "conceded",
+      "polarity": "positive"
+    },
+    {
+      "id": "u31",
+      "start": 2298,
+      "end": 2431,
+      "text": "it does not replicate the same level of understanding that a student might gain if they were able to speak directly to their teacher.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u32",
+      "start": 2432,
+      "end": 2544,
+      "text": "For instance, students who need clarification of certain material may not receive an adequate explanation online",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u33",
+      "start": 2545,
+      "end": 2624,
+      "text": "because their teacher's attention may be divided or focused on some other task.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u34",
+      "start": 2625,
+      "end": 2750,
+      "text": "Additionally, in person, students would be able to ask follow-up questions and have a thorough discussion with their teacher,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u35",
+      "start": 2751,
+      "end": 2849,
+      "text": "whereas a messaging system might not allow for steady communication due to breaks between answers.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u36",
+      "start": 2850,
+      "end": 2901,
+      "text": "Therefore, there may be gaps in students' learning,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u37",
+      "start": 2902,
+      "end": 2962,
+      "text": "which could contribute to poor performance in their classes.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u38",
+      "start": 2964,
+      "end": 3078,
+      "text": "Last but not least, the regulation of tests is lowered when students have the ability to attend classes from home.",
+      "role": "claim",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u39",
+      "start": 3079,
+      "end": 3136,
+      "text": "When assessing students' learning in a tradtional school,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u40",
+      "start": 3137,
+      "end": 3282,
+      "text": "teachers normally provide them with hard copies of multiple-choice or short answer questions that require students to write with a pencil or pen.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u41",
+      "start": 3283,
+      "end": 3315,
+      "text": "With advancements in technology,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u42",
+      "start": 3316,
+      "end": 3457,
+      "text": "however, tests are increasingly being administered through software to both avoid the wastage of paper and facilitate the process of grading.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u43",
+      "start": 3458,
+      "end": 3558,
+      "text": "Learning from home usually requires students to take all of their tests online rather than on paper,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u44",
+      "start": 3559,
+      "end": 3658,
+      "text": "which becomes problematic when there is no teacher or reliable adult proctoring the administration.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u45",
+      "start": 3659,
+      "end": 3808,
+      "text": "This allows for cheating and other dishonest behaviors to occur, thereby decreasing the credibility of the scores of students taking tests from home.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u46",
+      "start": 3809,
+      "end": 3908,
+      "text": "Test regulation is necessary for schools to accurately assess the academic performance of students,",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u47",
+      "start": 3909,
+      "end": 3953,
+      "text": "so a lack thereof is detrimental to society.",
+      "role": "evidence",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u48",
+      "start": 3955,
+      "end": 4120,
+      "text": "In conclusion, students would not benefit from being able to attend classes from home due to the lack of student discipline, teacher connection, and test regulation.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u49",
+      "start": 4121,
+      "end": 4287,
+      "text": "A combination of one or more of these factors can lead to a student not meeting the standards of learning, or even worse, the requirements for graduation from school.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u50",
+      "start": 4288,
+      "end": 4356,
+      "text": "At home, students are not monitored regularly as they are at school,",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u51",
+      "start": 4357,
+      "end": 4423,
+      "text": "which is a breeding ground for incomplete lessons and assignments.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u52",
+      "start": 4424,
+      "end": 4505,
+      "text": "Subsequently, grades plummet, and in many cases, so does the motivation to excel.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u54",
+      "start": 4506,
+      "end": 4622,
+      "text": "In order for education to fulfill its purpose, students should attend school in a building separate from their home.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    },
+    {
+      "id": "u55",
+      "start": 4623,
+      "end": 4847,
+      "text": "By doing so, they would be subject to the benefits of character cultivation, as they learn not only the subjects normally taught in a curriculum, but also the value of hard work and its upward path to accomplishment in life.",
+      "role": "concluding_summary",
+      "stance": "endorsed",
+      "polarity": "positive"
+    }
+  ],
+  "relations": [
+    {
+      "id": "r1",
+      "source": "u1",
+      "target": "u8",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r2",
+      "source": "u2",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r3",
+      "source": "u3",
+      "target": "u2",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r4",
+      "source": "u4",
+      "target": "u1",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r5",
+      "source": "u5",
+      "target": "u4",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r6",
+      "source": "u7",
+      "target": "u5",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r7",
+      "source": "u9",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r8",
+      "source": "u11",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r9",
+      "source": "u12",
+      "target": "u11",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r10",
+      "source": "u13",
+      "target": "u12",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r11",
+      "source": "u14",
+      "target": "u13",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r12",
+      "source": "u15",
+      "target": "u14",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r13",
+      "source": "u16",
+      "target": "u14",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r14",
+      "source": "u17",
+      "target": "u16",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r15",
+      "source": "u18",
+      "target": "u19",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r16",
+      "source": "u19",
+      "target": "u13",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r17",
+      "source": "u20",
+      "target": "u19",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r18",
+      "source": "u21",
+      "target": "u20",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r19",
+      "source": "u22",
+      "target": "u21",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r20",
+      "source": "u23",
+      "target": "u11",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r21",
+      "source": "u25",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r22",
+      "source": "u26",
+      "target": "u23",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r23",
+      "source": "u27",
+      "target": "u26",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r24",
+      "source": "u28",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r25",
+      "source": "u29",
+      "target": "u28",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r26",
+      "source": "u30",
+      "target": "u31",
+      "label": "adversative-concession",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r27",
+      "source": "u31",
+      "target": "u28",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r28",
+      "source": "u32",
+      "target": "u31",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r29",
+      "source": "u33",
+      "target": "u32",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r30",
+      "source": "u34",
+      "target": "u31",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r31",
+      "source": "u35",
+      "target": "u34",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r32",
+      "source": "u36",
+      "target": "u28",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r33",
+      "source": "u37",
+      "target": "u36",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r34",
+      "source": "u38",
+      "target": "u8",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r35",
+      "source": "u39",
+      "target": "u40",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r36",
+      "source": "u40",
+      "target": "u43",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r37",
+      "source": "u41",
+      "target": "u42",
+      "label": "context-background",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r38",
+      "source": "u42",
+      "target": "u40",
+      "label": "adversative-contrast",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r39",
+      "source": "u43",
+      "target": "u38",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r40",
+      "source": "u44",
+      "target": "u43",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r41",
+      "source": "u45",
+      "target": "u44",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r42",
+      "source": "u46",
+      "target": "u38",
+      "label": "explanation-justify",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r43",
+      "source": "u47",
+      "target": "u46",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r44",
+      "source": "u48",
+      "target": "u8",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r45",
+      "source": "u49",
+      "target": "u48",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r46",
+      "source": "u50",
+      "target": "u49",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r47",
+      "source": "u51",
+      "target": "u50",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r48",
+      "source": "u52",
+      "target": "u51",
+      "label": "elaboration-additional",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r49",
+      "source": "u54",
+      "target": "u48",
+      "label": "restatement-partial",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    },
+    {
+      "id": "r50",
+      "source": "u55",
+      "target": "u54",
+      "label": "explanation-evidence",
+      "tier": "primary",
+      "signals": [],
+      "implicit": true
+    }
+  ]
+}
