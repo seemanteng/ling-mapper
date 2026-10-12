@@ -1,0 +1,47 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+15,C287B9AB69D2,1,u1,Some experts may argue that physical attendance in school is extremely important in a student's ability to learn.,Lead,Reported,s8,sets the scene,It sets the context for the rest of the essay 
+15,C287B9AB69D2,2,u2,"School can provide a way where children obtain new knowledge that is essential for their future,",Lead,Endorsed,s1,adds detail,It sets the context for the rest of the essay 
+15,C287B9AB69D2,3,u3,but most importantly it is a way for them to improve social skills.,Lead,Endorsed,s2,adds detail,It sets the context for the rest of the essay 
+15,C287B9AB69D2,4,u4,These skills are important in a person's future whether they will pursue a job or simply interacting with someone.,Lead,Endorsed,s3,adds detail,It sets the context for the rest of the essay 
+15,C287B9AB69D2,5,u5,"However, at an early age life can trow us obstacles that will hinder our chance for being able to learn.",Lead,Endorsed,s8,sets the scene,It sets the context for the rest of the essay 
+15,C287B9AB69D2,6,u6,These problems are just a stepping block to achieve our goals and we need to find an alternative route where children can access the basis of learning.,Lead,Endorsed,s5,adds detail,It sets the context for the rest of the essay 
+15,C287B9AB69D2,7,u7,"Although being able to physically attend school is the conventional way on how students can access knowledge,",Lead,Conceded,s8,contrasts with it,It sets the context for the rest of the essay 
+15,C287B9AB69D2,8,u8,online school or video conferencing is a beneficial alternative for students to learn when sick or can't attend school due to serious matters.,Position,Endorsed,TOP,,
+15,C287B9AB69D2,9,u9,some teachers argue that cellphones and new technology disrupts the ability for students to learn.,Counterclaim,Rejected,s8,argues against it,Counter point 1
+15,C287B9AB69D2,10,u10,In some cases this has a true nature to it,Evidence,Conceded,s13,contrasts with it,
+15,C287B9AB69D2,11,u11,because cellphones are a big distraction and that is why teachers strictly prevent the usage of phones during class time .,Evidence,Conceded,s10,backs it up,
+15,C287B9AB69D2,12,u12,"Although new technologies bring negative impacts on learning,",Evidence,Conceded,s13,contrasts with it,
+15,C287B9AB69D2,13,u13,we cannot deny the benefits it bring regarding distance learning.,Rebuttal,Endorsed,s9,argues against it,
+15,C287B9AB69D2,14,u14,"One instance when I was not in school due to family issues, my teacher let me face time the entire class",Evidence,Endorsed,s13,gives an example,
+15,C287B9AB69D2,15,u15,so i would not miss any new information that is very important for the upcoming test.,Evidence,Endorsed,s14,adds detail,
+15,C287B9AB69D2,16,u16,This unconventional type of learning is providing a new way for students to be successful in class even tough they are not physically there to learn the lesson.,Evidence,Endorsed,s13,backs it up,
+15,C287B9AB69D2,17,u17,"Video conferencing is extremely helpful for students to catch up with their lessons,",Evidence,Endorsed,s13,backs it up,
+15,C287B9AB69D2,18,u18,which in a long run benefits greatly.,Evidence,Endorsed,s17,adds detail,
+15,C287B9AB69D2,19,u19,Due to these outcomes more teachers should allow video conferencing trough FaceTime or any means in order for students to not miss any school materials and be successful in school.,Claim,Endorsed,s8,backs it up,Point 1
+15,C287B9AB69D2,20,u20,Online school is a beneficial alternative for students to take when for some personal reasons they cannot attend attend school.,Evidence,Endorsed,s22,sets the scene,
+15,C287B9AB69D2,21,u21,"For example, some kids need to take on the job to help and provide for their family and this will prevent him or her to attend school.",Evidence,Endorsed,s22,gives an example,
+15,C287B9AB69D2,22,u22,With new technology and the power of the online world these amazing children would a great way where they can access learning.,Claim,Endorsed,s8,backs it up,Point 2
+15,C287B9AB69D2,23,u23,Schools should provide free online courses that will assist working students in their pursuit of learning.,Evidence,Endorsed,s22,backs it up,
+15,C287B9AB69D2,24,u24,The Department of Education should carry out and endorse this new type of learning,Evidence,Endorsed,s23,adds detail,
+15,C287B9AB69D2,25,u25,so that every children in America can have an access to basic type of knowledge.,Evidence,Endorsed,s24,backs it up,
+15,C287B9AB69D2,26,u26,"Once we provide these less privilege students a way to access education,",Evidence,Endorsed,s27,sets the scene,
+15,C287B9AB69D2,27,u27,then they will use these knowledge to uplift their families and improve their lives.,Evidence,Endorsed,s23,backs it up,
+15,C287B9AB69D2,28,u28,"School is a great escape for students to not just learn educated materials, but to also have a social life.",Counterclaim,Conceded,s8,argues against it,
+15,C287B9AB69D2,30,u30,Many research proves that people who attended school and had a social life are well better off in the future rather than people that were home schooled.,Evidence,Conceded,s28,backs it up,
+15,C287B9AB69D2,31,u31,"School is very substantial in a person's life as it provides us everyday skills that were not taught in books or lessons, such as having a great and sociable personality.",Evidence,Conceded,s28,backs it up,
+15,C287B9AB69D2,32,u32,"These skills will be handy in college or a future job,",Evidence,Conceded,s31,adds detail,
+15,C287B9AB69D2,33,u33,because these institutions usually pick someone who stands out greatly and have an amazing social skills.,Evidence,Conceded,s32,backs it up,
+15,C287B9AB69D2,34,u34,"However in some students, being in school is just not for them due to some bad experience that happened to them.",Claim,Endorsed,s8,backs it up,Point 3
+15,C287B9AB69D2,35,u35,Some students might have experience some type of prejudice or bullying that they feel being school is not for them.,Evidence,Endorsed,s34,backs it up,
+15,C287B9AB69D2,36,u36,In this case online school would be a great escape for some students to still be able to learn,Evidence,Endorsed,s34,backs it up,
+15,C287B9AB69D2,37,u37,though they are no longer attending school.,Evidence,Endorsed,s36,adds detail,
+15,C287B9AB69D2,38,u38,"Although school should be a safe space for students to learn and enjoy life,",Evidence,Conceded,s39,contrasts with it,
+15,C287B9AB69D2,39,u39,ignorance can fill someone's body that they hinder the ability for some students to enjoy learning.,Evidence,Endorsed,s35,adds detail,
+15,C287B9AB69D2,40,u40,Due to this reason school should facilitate online school in order to provide a health and safe lifestyle for students at home.,Evidence,Endorsed,s34,backs it up,
+15,C287B9AB69D2,41,u41,Once these students feel safe is the only way they can obtain learning and better themselves.,Evidence,Endorsed,s40,adds detail,
+15,C287B9AB69D2,42,u42,Attending school is a great way to provide students a quality education that will be very helpful in the future;,Counterclaim,Conceded,s8,argues against it,Counterpoint 2
+15,C287B9AB69D2,43,u43,"however, with new technology students can access information without physically attending school.",Rebuttal,Endorsed,s42,argues against it,
+15,C287B9AB69D2,44,u44,"online school and video conferencing provide a way for student who needs to work to provide for their family, the ones who are missing out on class, or the students who feels unsafe in school an alternative to enjoy life and be able to learn.",Evidence,Endorsed,s43,backs it up,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,The expression of some points are not very clear. There seems to be logical jumps at times.  Some arguments can be more concise. ,,,,,,,,

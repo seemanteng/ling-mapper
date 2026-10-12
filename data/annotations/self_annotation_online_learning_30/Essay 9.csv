@@ -1,0 +1,57 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+9,F927AC7199CE,1,u1,"As a teen growing up in the digital age, I use a computer and smart phone on a daily basis.",Lead,Endorsed,s14,sets the scene,Setting the context to the topic
+9,F927AC7199CE,2,u2,"It seems as if computers and smart devices are engraved into our lives now, from researching information, grocery shopping, or even watching cat videos on YouTube.",Lead,Endorsed,s1,backs it up,Setting the context to the topic
+9,F927AC7199CE,3,u3,Smart devices allow us to do all that and more within seconds of each other.,Lead,Endorsed,s2,backs it up,
+9,F927AC7199CE,4,u4,These devices have changed the way we think and act.,Lead,Endorsed,s2,backs it up,
+9,F927AC7199CE,5,u5,"Every year more people decide to work from home for reasons like lower transportation costs, efficiency, and ease.",Lead,Endorsed,s2,backs it up,
+9,F927AC7199CE,6,u6,Those same reasons are also why students are deciding to to participate in online classes.,Lead,Endorsed,s5,backs it up,
+9,F927AC7199CE,7,u7,"Because of new developments in software and applications,",Lead,Endorsed,s8,sets the scene,Setting the context to the topic
+9,F927AC7199CE,8,u8,working and taking classes from home is easier than ever.,Lead,Endorsed,s14,sets the scene,Setting the context to the topic
+9,F927AC7199CE,9,u9,"As a direct result, more people are beginning to work and attend school from home.",Lead,Endorsed,s8,backs it up,
+9,F927AC7199CE,10,u10,Online school is a topic that's been discussed often in the past few years.,Lead,Endorsed,s14,sets the scene,Introduces the topic
+9,F927AC7199CE,11,u11,The amount of people worldwide receiving and online education sees exponential growth every year.,Lead,Endorsed,s10,adds detail,Setting the context to the topic
+9,F927AC7199CE,12,u12,"Many students, wether elementary or college age are finding online school to be more beneficial than regular school.",Lead,Endorsed,s10,adds detail,Setting the context to the topic
+9,F927AC7199CE,13,u13,Being able to learn form anywhere and at your own pace are just two advantages that receiving an online education provides.,Lead,Endorsed,s10,backs it up,Setting the context to the topic
+9,F927AC7199CE,14,u14,"Having the option to take classes online, in my opinion, is revolutionary.",Position,Endorsed,TOP,,
+9,F927AC7199CE,15,u15,Taking school online can be beneficial to many students for a multitude of reasons.,Other,Endorsed,s16,sets the scene,
+9,F927AC7199CE,16,u16,The most prominent reasons to me are special education needs.,Claim,Endorsed,s14,backs it up,Point 1
+9,F927AC7199CE,17,u17,We all learn in different ways and at different paces.,Evidence,Endorsed,s16,adds detail,
+9,F927AC7199CE,18,u18,"In a regular school day, we are usually seated for 8 hours straight with only a couple minutes to walk and stretch our legs between classes,",Evidence,Endorsed,s16,adds detail,
+9,F927AC7199CE,19,u19,"when that transition period is over, we are seated for another 90 minutes.",Evidence,Endorsed,s18,adds detail,
+9,F927AC7199CE,20,u20,Many teachers expect us to stay seated and remain quiet for the entire 90 minute class period.,Evidence,Endorsed,s18,adds detail,
+9,F927AC7199CE,21,u21,"While this may be fine for some students,",Evidence,Conceded,s22,contrasts with it,
+9,F927AC7199CE,22,u22,"other students, including myself find this to be very difficult.",Evidence,Endorsed,s20,adds detail,
+9,F927AC7199CE,23,u23,"I have ADD and often times, I struggle to stay focused in classes, I find it easier if I have the option to work for a little, take a break, and then come back to my work,",Evidence,Endorsed,s22,backs it up,
+9,F927AC7199CE,24,u24,while other students may learn at a faster pace than their peers in class.,Evidence,Endorsed,s17,adds detail,
+9,F927AC7199CE,25,u25,Attending regular schools may hinder them from learning at their full capacity.,Evidence,Endorsed,s17,adds detail,
+9,F927AC7199CE,26,u26,Sicknesses are another reason why the ability to take online classes is important.,Claim,Endorsed,s14,backs it up,Point 2
+9,F927AC7199CE,27,u27,"Weather you have a short term or chronic illness, you will usually have to miss some school.",Evidence,Endorsed,s26,adds detail,
+9,F927AC7199CE,28,u28,"When you are able to come back,",Evidence,Endorsed,s29,sets the scene,
+9,F927AC7199CE,29,u29,you still have to do the missing work along with current assignments which can be a hassle.,Evidence,Endorsed,s26,adds detail,
+9,F927AC7199CE,30,u30,"If ill students were able to do their work while they are out of school, there would be a burden lifted off their backs.",Evidence,Endorsed,s29,adds detail,"s30, 31,32 should be one segment "
+9,F927AC7199CE,33,u33,"Making up missing work is difficult, especially after returning after an illness.",Evidence,Endorsed,s30,backs it up,
+9,F927AC7199CE,34,u34,The same goes for students that may have to travel.,Evidence,Endorsed,s26,backs it up,
+9,F927AC7199CE,35,u35,Students may have to travel during the school year for things like funerals or vacations etc.,Evidence,Endorsed,s34,gives an example,
+9,F927AC7199CE,36,u36,"with online school, students can take their education with them.",Evidence,Endorsed,s34,backs it up,
+9,F927AC7199CE,37,u37,The added stress of making up work and turning in papers would be relieved with online education.,Evidence,Endorsed,s36,adds detail,
+9,F927AC7199CE,38,u38,"Life is only getting more digital, and with people more acclimated to operating behind screens and being on their devices all day, students taking their classes online wouldn't see an enormous change in their lives.",Claim,Endorsed,s14,backs it up,
+9,F927AC7199CE,39,u39,Many school systems that offer online classes still allow students to participate in sports and school clubs.,Evidence,Endorsed,s44,backs it up,
+9,F927AC7199CE,40,u40,"Many people fear that students who take online classes will lose out on the social opportunities that come with attending school,",Counterclaim,Rejected,s14,argues against it,
+9,F927AC7199CE,41,u41,which is simply not true.,Rebuttal,Endorsed,s40,argues against it,
+9,F927AC7199CE,42,u42,Being able to learn form home may also give students the chance to discover a new hobby or interest,Rebuttal,Endorsed,s40,argues against it,
+9,F927AC7199CE,43,u43,because of shorter educational periods and less distractions.,Evidence,Endorsed,s42,backs it up,
+9,F927AC7199CE,44,u44,It is highly unlikely for students who receive an online education to lose out on social opportunities.,Rebuttal,Endorsed,s40,argues against it,
+9,F927AC7199CE,45,u45,"In my final analysis, many students can benefit form online classes.",Conclusion,Endorsed,s14,restates it,
+9,F927AC7199CE,46,u46,"Unlike regular school, online classes give students more flexibility in their education.",Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,47,u47,Everyone learns in their own unique way and it is difficult for schools to accommodate all students' learning styles.,Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,48,u48,This is one of the main reasons why the option to take classes online is revolutionizing education worldwide.,Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,49,u49,"Students with disorders like ADHD or ADD are now able to learn how they need to, rather than being forced to sit and stay quiet for hours and hours at a time.",Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,50,u50,The ability to learn at your own pace is the most important thing in education.,Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,51,u51,The way that regular schools typically function does not allow for students to learn how they need to.,Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,52,u52,"With the growth of online classes, students of all ages are able to learn how and where they need to with ease.",Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,53,u53,"Students who need to travel or fall ill will no longer have to worry about catching up on school work,",Conclusion,Endorsed,s45,adds detail,
+9,F927AC7199CE,54,u54,because of the portability of computers.,Conclusion,Endorsed,s53,backs it up,
+9,F927AC7199CE,55,u55,This advancement in education can improve many lives with with just a few clicks.,Conclusion,Endorsed,s45,adds detail,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,Overall a well explored and well substantiated essay but can be more concise and straightforward at times. ,,,,,,,,

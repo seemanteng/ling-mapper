@@ -1,0 +1,42 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+3,2CCFB8C0BAF7,1,u1,Would students learn more at home rather than at school?,Lead,Endorsed,s4,sets the scene,
+3,2CCFB8C0BAF7,2,u2,"This is a highly debated question in the educational world as many schools are considering adopting ""distance learning"" for their students.",Lead,Endorsed,s1,adds detail,
+3,2CCFB8C0BAF7,3,u3,Some students who are sick or injured may benefit from a home environment.,Counterclaim,Conceded,s4,contrasts with it,
+3,2CCFB8C0BAF7,4,u4,"However, the majority would struggle due to distractions, distance between student and teacher, and the lack of an authoritative figure to keep them on task.",Position,Endorsed,TOP,,
+3,2CCFB8C0BAF7,5,u5,"Many students are easily distracted in school, so in a room full of things much more interesting than classwork, there is an even greater chance for distraction.",Claim,Endorsed,s4,backs it up,Point 1
+3,2CCFB8C0BAF7,7,u7,"Along with this, for those students who's parents work outside of the home, there is no one to help keep them on task.",Evidence,Endorsed,s5,backs it up,
+3,2CCFB8C0BAF7,8,u8,"That is a lot to ask for a young adolescent with distractions such as video games, pets, etc.",Evidence,Endorsed,s7,adds detail,
+3,2CCFB8C0BAF7,9,u9,"Throughout the development of my education, I have discovered staying focused and on track to be one of the most difficult things to do, especially while in one's own room.",Evidence,Endorsed,s5,gives an example,Personal experience 
+3,2CCFB8C0BAF7,11,u11,"Therefore, the addition of distance learning would create an epidemic of kids who are unfocused, adding to the already skyrocketing amount.",Evidence,Endorsed,s5,backs it up,
+3,2CCFB8C0BAF7,12,u12,In the past 10 to 20 years the quantity of kids and teenagers claiming or being diagnosed with ADD and ADHD has reached unprecedented heights.,Evidence,Endorsed,s11,backs it up,
+3,2CCFB8C0BAF7,13,u13,"Adding these students or others to a home environment with toys, games, and a bed is just asking for problems.",Evidence,Endorsed,s11,adds detail,
+3,2CCFB8C0BAF7,14,u14,One main issue with learning from home is the absence of the teacher.,Claim,Endorsed,s4,backs it up,Point 2
+3,2CCFB8C0BAF7,15,u15,"For, the only way for the teacher to reach his or her student would be through a computer screen.",Evidence,Endorsed,s14,backs it up,
+3,2CCFB8C0BAF7,16,u16,Video calls are a very useful piece of technology;,Evidence,Conceded,s17,contrasts with it,
+3,2CCFB8C0BAF7,17,u17,"however, from a teaching standpoint, they provide very little gratification, nor do they achieve the same goals compared to a face to face encounter.",Evidence,Endorsed,s14,backs it up,
+3,2CCFB8C0BAF7,18,u18,"Depending on the time of classes and calls, the teacher and student may not always be available at the same time.",Evidence,Endorsed,s14,backs it up,
+3,2CCFB8C0BAF7,19,u19,This would expand the distance between the student and the teacher.,Evidence,Endorsed,s18,adds detail,
+3,2CCFB8C0BAF7,20,u20,"Such a gap can cause a student to feel stranded in an ocean of equations, since there is no teacher to help save him or her.",Evidence,Endorsed,s19,adds detail,
+3,2CCFB8C0BAF7,23,u23,"While most teachers hate to believe it, most students cheat.",Claim,Endorsed,s4,backs it up,Point 3
+3,2CCFB8C0BAF7,25,u25,"And in a room all by themselves, with internet access, there is no doubt many would cheat on tests and quizzes with ease.",Evidence,Endorsed,s23,backs it up,
+3,2CCFB8C0BAF7,26,u26,"From personal experience, it is way to easy to find a classwork or homework assignment on a pdf document through Google.",Evidence,Endorsed,s25,gives an example,
+3,2CCFB8C0BAF7,27,u27,"Shying away from the learning portion of the debate, a school is a cultural hub where long lasting lessons and friendships are made.",Claim,Endorsed,s4,backs it up,Point 4
+3,2CCFB8C0BAF7,28,u28,"While many students feel they could go the rest of their lives without stepping foot in school again,",Evidence,Reported,s29,contrasts with it,
+3,2CCFB8C0BAF7,29,u29,the loss of such an important place would leave students with a weaker connection to friends and a poor social development.,Evidence,Endorsed,s27,backs it up,
+3,2CCFB8C0BAF7,30,u30,"The lessons learned in school, don't always happen in the classroom;",Evidence,Endorsed,s27,backs it up,
+3,2CCFB8C0BAF7,31,u31,"they can occur in the halls, the gym, or even the locker room.",Evidence,Endorsed,s30,gives an example,
+3,2CCFB8C0BAF7,32,u32,These lessons become part of who we are and how we continue to grow as students and humans.,Evidence,Endorsed,s30,adds detail,
+3,2CCFB8C0BAF7,33,u33,"Now, of course there are benefits to learning at home.",Counterclaim,Conceded,s4,argues against it,Counterargument 1
+3,2CCFB8C0BAF7,34,u34,"A great portion of students today are sleep deprived and also through personal experience, the lack of sleep greatly affects student's grades.",Evidence,Conceded,s33,backs it up,
+3,2CCFB8C0BAF7,35,u35,"So, with the idea of learning from home, many kids may be able to sleep in and gain some much needed rest.",Evidence,Conceded,s33,backs it up,
+3,2CCFB8C0BAF7,36,u36,This alone could boost grades for lots of students.,Evidence,Conceded,s35,adds detail,
+3,2CCFB8C0BAF7,37,u37,"However, there is no guarantee students will obtain an increase in sleep through the change.",Rebuttal,Endorsed,s33,argues against it,Rebuttal to the counterargument
+3,2CCFB8C0BAF7,38,u38,"As the amount of sleep a student gets, directly correlates to the amount of homework that is assigned.",Evidence,Endorsed,s37,backs it up,
+3,2CCFB8C0BAF7,39,u39,"In other words, without a decrease in the amount of homework assigned, there will continue to be tired students who fall asleep during class and struggle to stay awake during long, boring lectures.",Evidence,Endorsed,s38,adds detail,
+3,2CCFB8C0BAF7,40,u40,"Overall, the incorporation of a distance learning option for students is not a good idea.",Conclusion,Endorsed,s4,restates it,
+3,2CCFB8C0BAF7,41,u41,"With students who are still tired, cheating, and struggling to stay focused there seems to be little to no gain from the plan.",Conclusion,Endorsed,s40,adds detail,
+3,2CCFB8C0BAF7,42,u42,"However, an experiment could be done with a few schools to determine the true effectiveness of the program.",Conclusion,Conceded,s43,contrasts with it,
+3,2CCFB8C0BAF7,43,u43,"But, until then the evidence and the conclusion is against the addition of long distance learning.",Conclusion,Endorsed,s40,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,Overall this is a well developed essay with logical flow although signposting can be clearer and the arguemnets can be further evaluated. ,,,,,,,,

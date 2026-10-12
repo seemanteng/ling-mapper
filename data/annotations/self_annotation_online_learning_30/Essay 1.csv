@@ -1,0 +1,31 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+1,D72FA02E59ED,1,u1,Why are more counties offering online learning?,Lead,Endorsed,s3,sets the scene,Hook
+1,D72FA02E59ED,2,u2,"With the increasing access to the internet, some schools are offering distance learning as an option for students to attend classes from home by way of online or video conferencing.",Lead,Endorsed,s1,other: answers the question,Setting the context to the topic
+1,D72FA02E59ED,3,u3,"This innovative way of learning brings many benefits for both teachers and students by improving participation, minimizing transportation, and offering simple solutions for problems.",Position,Endorsed,TOP,,
+1,D72FA02E59ED,4,u4,Teaching online helps improve participation rates.,Claim,Endorsed,s3,backs it up,Point 1
+1,D72FA02E59ED,5,u5,Students that are sick will be able to attend the video conferences and complete their work as they will not be able to risk the health of others.,Evidence,Endorsed,s4,gives an example,
+1,D72FA02E59ED,6,u6,"Also, when most schools would have closed for bad weather, these online classes can stay up as students are already in the safety of their homes.",Evidence,Endorsed,s4,gives an example,
+1,D72FA02E59ED,7,u7,Problems such as these affect teachers most,Evidence,Endorsed,s6,adds detail,
+1,D72FA02E59ED,8,u8,because they are trying to get certain material accross before major test dates;,Evidence,Endorsed,s7,adds detail,
+1,D72FA02E59ED,9,u9,a solution like this will really help teachers keep their students from falling behind.,Evidence,Endorsed,s4,backs it up,
+1,D72FA02E59ED,10,u10,"Furthermore, Allowing students to work from home cuts time on transportation for both students and teachers.",Claim,Endorsed,s3,backs it up,Point 2
+1,D72FA02E59ED,11,u11,"Because online schooling allows for both students and teachers to stay at home,",Evidence,Endorsed,s12,backs it up,
+1,D72FA02E59ED,12,u12,"students will be able to sleep in longer,",Evidence,Endorsed,s10,backs it up,
+1,D72FA02E59ED,13,u13,and teachers will not have to take long commutes from their homes that are often far from the schools they work in.,Evidence,Endorsed,s10,backs it up,
+1,D72FA02E59ED,14,u14,This solution will not only give students and staff more time for themselves,Evidence,Endorsed,s10,restates it,
+1,D72FA02E59ED,15,u15,but will also have positive effects on the environment.,Claim,Endorsed,s3,backs it up,Point 3
+1,D72FA02E59ED,16,u16,"The gasses that are produced from busses and cars are very damaging for the environment,",Evidence,Endorsed,s17,sets the scene,
+1,D72FA02E59ED,17,u17,"but the cut of transportation from online schooling will reduce these green house gasses significantly,",Evidence,Endorsed,s15,backs it up,
+1,D72FA02E59ED,18,u18,and it will help improve our air quality as well as reduce our contribution to global warming;,Evidence,Endorsed,s15,backs it up,
+1,D72FA02E59ED,19,u19,the improvement of our environment will help students feel more confident and hopeful for the world they'll live in.,Evidence,Endorsed,s18,adds detail,
+1,D72FA02E59ED,20,u20,"Lastly, some argue that malfunctions can occur with the technonlogy and that students could have unexpected problems with internet connection,",Counterclaim,Rejected,s3,argues against it,Counterargument 1
+1,D72FA02E59ED,21,u21,"but with the increasing growth of technology, most places offer free wifi, and all Generic_City libraries have computers for the public to use.",Rebuttal,Endorsed,s20,argues against it,
+1,D72FA02E59ED,22,u22,Problems such as these are expected and have solutions thought out before hand to prevent such issues.,Rebuttal,Endorsed,s20,argues against it,
+1,D72FA02E59ED,23,u23,"Counties, like Generic_City, have school issued computers that have the software and personel to prevent and help with problems like these,",Evidence,Endorsed,s22,gives an example,
+1,D72FA02E59ED,24,u24,so students and teachers can rest assure that their online classes will have little to no problems.,Rebuttal,Endorsed,s23,adds detail,
+1,D72FA02E59ED,25,u25,"After all the wonderful and problem solving benefits that online schooling can bring to students,",Conclusion,Endorsed,s26,sets the scene,Conclusion
+1,D72FA02E59ED,26,u26,"from improved learning to reassurring solutions, one must see the need for more of it being implemented.",Conclusion,Endorsed,s3,restates it,
+1,D72FA02E59ED,27,u27,So I implore you to reach out to your counties and parents to start a petition to increase the availibilty of online learning in schools.,Conclusion,Endorsed,s26,adds detail,Call to action 
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,This essay has a coherent line of thought that usually starts with a claim and then branches out logically into sub claims to support the main claim. There is some evidence given to support the points being made. ,,,,,,,,

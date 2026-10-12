@@ -1,0 +1,47 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+5,D01060C5AE7D,1,u1,The Benefits of Online Learning,Lead,Endorsed,s2,sets the scene,Setting the context to the topic
+5,D01060C5AE7D,2,u2,Students would definitely benefit from attending online classes.,Position,Endorsed,TOP,,
+5,D01060C5AE7D,3,u3,"For most students, school is known to be a stressful learning environment.",Evidence,Endorsed,s4,sets the scene,
+5,D01060C5AE7D,4,u4,This makes it harder for students to learn and feel comfortable in what they're learning.,Evidence,Endorsed,s5,sets the scene,
+5,D01060C5AE7D,5,u5,"If students had online classes, they would have more freedom in their learning.",Claim,Endorsed,s2,backs it up,s4 and s5 should be in the same segment
+5,D01060C5AE7D,7,u7,"Also, students would feel comfortable and have less stress.",Claim,Endorsed,s2,backs it up,
+5,D01060C5AE7D,8,u8,Attending classes online would make students have a desire to learn more.,Evidence,Endorsed,s7,adds detail,
+5,D01060C5AE7D,9,u9,"Students would not only benefit from online learning,",Claim,Endorsed,s2,restates it,
+5,D01060C5AE7D,10,u10,but they would also enjoy online classes.,Claim,Endorsed,s2,backs it up,
+5,D01060C5AE7D,11,u11,"First and foremost, students would benefit from online classes because they would more freedom in their learning.",Claim,Endorsed,s2,backs it up,Point 1
+5,D01060C5AE7D,13,u13,"When students are at school, they tend to have a schedule and they're told exactly what to do and when to do it.",Evidence,Endorsed,s11,backs it up,s13 and s14 should be in the same segment 
+5,D01060C5AE7D,15,u15,"From personal experience, I've learned that most students don't enjoy being forced to do something.",Evidence,Endorsed,s11,gives an example,
+5,D01060C5AE7D,16,u16,"Being told what to do and when to do it, makes the learning environment more stressful for students.",Evidence,Endorsed,s11,backs it up,
+5,D01060C5AE7D,17,u17,"Therefore, the more freedom students have the less stress they'll receive.",Evidence,Endorsed,s11,backs it up,
+5,D01060C5AE7D,18,u18,"At school, students have some unreasonable consequences.",Claim,Endorsed,s2,backs it up,Point 2 but it could be phrased much better. I am not very sure what author is trying to express
+5,D01060C5AE7D,19,u19,"If students did online learning, they would benefit from not having as many consequences.",Evidence,Endorsed,s18,backs it up,s19 and s20 should be in the same segment. 
+5,D01060C5AE7D,21,u21,Student would benefit from having less consequences.,Evidence,Endorsed,s18,restates it,
+5,D01060C5AE7D,22,u22,"Therefore, students should have the right to their freedom, especially when it comes to what they're learning.",Evidence,Endorsed,s18,backs it up,
+5,D01060C5AE7D,23,u23,"Also, students would feel more comfortable and enjoy online classes.",Claim,Endorsed,s2,backs it up,Point 3 but could be signposted clearer. 
+5,D01060C5AE7D,24,u24,"The average student, plays sports or does extracurricular activities, making their schedule more difficult.",Evidence,Endorsed,s25,sets the scene,
+5,D01060C5AE7D,25,u25,Online school would provide students with a more flexible schedule.,Evidence,Endorsed,s23,backs it up,
+5,D01060C5AE7D,26,u26,Students would also be able to do and try new things outside of the classroom.,Evidence,Endorsed,s23,backs it up,
+5,D01060C5AE7D,27,u27,"Activities keep students engaged, making them want to learn.",Evidence,Endorsed,s26,adds detail,
+5,D01060C5AE7D,28,u28,This also makes learning more fun and helps students further their learning.,Evidence,Endorsed,s27,adds detail,
+5,D01060C5AE7D,29,u29,The less stress students have the more successful they'll be.,Evidence,Endorsed,s23,adds detail,This is a huge assumption that is unsubstantiated
+5,D01060C5AE7D,30,u30,Students can't have fun with what they're learning if they're stressed.,Evidence,Endorsed,s29,adds detail,
+5,D01060C5AE7D,31,u31,Having a lot of stressful causes students to not do well in school.,Evidence,Endorsed,s29,adds detail,
+5,D01060C5AE7D,32,u32,"For some students, stress can be helpful, but for the average high school student stress isn't beneficial and cause more issues for students.",Evidence,Endorsed,s29,adds detail,"s32, 33, 34 should be in the same segment "
+5,D01060C5AE7D,35,u35,Students should be able to have fun and enjoy their learning for their benefit.,Evidence,Endorsed,s29,adds detail,
+5,D01060C5AE7D,36,u36,"Others may say online school isn't beneficial,",Counterclaim,Rejected,s2,argues against it,Counterargument 1
+5,D01060C5AE7D,37,u37,but students are going to pay more attention and have less stress.,Rebuttal,Endorsed,s36,argues against it,
+5,D01060C5AE7D,38,u38,"Students already don't enjoy the idea of coming to school everyday, and being told what to do and how to act.",Evidence,Endorsed,s37,backs it up,
+5,D01060C5AE7D,39,u39,Some of the rules at school can be unreasonable for students causing students to get into more trouble.,Evidence,Endorsed,s38,backs it up,
+5,D01060C5AE7D,40,u40,Online classes would take away that trouble.,Evidence,Endorsed,s39,adds detail,
+5,D01060C5AE7D,41,u41,"Therefore, making students want to learn and do better.",Evidence,Endorsed,s37,backs it up,
+5,D01060C5AE7D,42,u42,"If students were more comfortable in their learning environment, they would be more encouraged to learn.",Evidence,Endorsed,s41,backs it up,s42 and s43 should be in the same segment.
+5,D01060C5AE7D,44,u44,"Finally, students are constantly stressed everyday from school.",Claim,Endorsed,s2,backs it up,Point 4
+5,D01060C5AE7D,45,u45,Making it difficult for students to enjoy what they're learning causing them to slack off.,Evidence,Endorsed,s44,adds detail,
+5,D01060C5AE7D,46,u46,"If students felt more comfortable in their learning environment, they would be more successful.",Evidence,Endorsed,s44,backs it up,
+5,D01060C5AE7D,48,u48,Every parent and teacher should want to see their student succeed.,Evidence,Endorsed,s49,sets the scene,General statement 
+5,D01060C5AE7D,49,u49,Online school sounds like the perfect plan for students.,Conclusion,Endorsed,s2,restates it,
+5,D01060C5AE7D,50,u50,Every student should be able to enjoy what they're learning.,Conclusion,Endorsed,s49,adds detail,
+5,D01060C5AE7D,51,u51,"In conclusion, online classes can beneficial to students causing them to have a more successful future.",Conclusion,Endorsed,s2,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,"Overall, many angles were explored but the development of argument is relatively weak with too many unsubstantiated statements and poor expression of language that obscures the overall point. ",,,,,,,,

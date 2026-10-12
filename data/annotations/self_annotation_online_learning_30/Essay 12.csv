@@ -1,0 +1,32 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+12,807EB6CA95EB,1,u1,Students will benefit from attending classes at home via online and/or video conferencing,Position,Endorsed,TOP,,
+12,807EB6CA95EB,2,u2,"because of the level of flexibility for students, the betterment of their mental health, and its availability.",Claim,Endorsed,s1,backs it up,Point 1
+12,807EB6CA95EB,3,u3,"For students who play sports and are constantly going away for competitions, games, etc, the flexibility of online school and video conferencing is extremely beneficial.",Evidence,Endorsed,s2,backs it up,
+12,807EB6CA95EB,4,u4,Having the ability to use this tool is a great and convenient way of learning for those students.,Evidence,Endorsed,s3,adds detail,
+12,807EB6CA95EB,5,u5,Not only is it convenient,Evidence,Endorsed,s6,sets the scene,
+12,807EB6CA95EB,6,u6,"but as a result of attending classes online students will not have to miss any important assignments,",Evidence,Endorsed,s4,backs it up,
+12,807EB6CA95EB,7,u7,"which if missed, could result in a student getting behind on school work and may even cause lower grades for them in the long term.",Evidence,Endorsed,s6,adds detail,
+12,807EB6CA95EB,9,u9,Taking classes online can aid students on sport teams as well as those that have jobs.,Evidence,Endorsed,s2,backs it up,
+12,807EB6CA95EB,10,u10,"Many high school students have jobs and work whether to help out at home, have some disposable funds, or for many other reasons across the board and for those when they can work being physically present in schools can be very limiting on the hours they work.",Evidence,Endorsed,s9,backs it up,
+12,807EB6CA95EB,11,u11,Depending on when their school dismisses them.,Evidence,Endorsed,s12,sets the scene,
+12,807EB6CA95EB,12,u12,"With some schools letting out at as late as 4:30 P.M., students are left to working hours after 5:00pm which for some can result in them working until as late as 8 or 9 P.M. on school nights.",Evidence,Endorsed,s10,adds detail,
+12,807EB6CA95EB,13,u13,"This leaves the student little to no time to socialize, complete homework,",Evidence,Endorsed,s12,adds detail,
+12,807EB6CA95EB,14,u14,and most importantly get the proper amount of sleep needed for the students ever growing brains.,Evidence,Endorsed,s12,adds detail,
+12,807EB6CA95EB,15,u15,"For students who work, online schooling is very helpful",Evidence,Endorsed,s9,restates it,
+12,807EB6CA95EB,16,u16,because it allows for them to have more options in terms of working hours.,Evidence,Endorsed,s15,backs it up,
+12,807EB6CA95EB,17,u17,Although attending classes from home by the use of online or video conferencing may seem as though it would negatively affect the student,Counterclaim,Rejected,s1,argues against it,
+12,807EB6CA95EB,19,u19,"because of a lower level of interaction with others,",Evidence,Rejected,s17,backs it up,
+12,807EB6CA95EB,20,u20,it can do quite the opposite.,Rebuttal,Endorsed,s17,argues against it,
+12,807EB6CA95EB,21,u21,"For many students bullying in school is a harsh reality that they have to deal with everyday when in attendance,",Claim,Endorsed,s1,backs it up,Point 2
+12,807EB6CA95EB,22,u22,which can affect their health and school work very poorly.,Evidence,Endorsed,s21,adds detail,
+12,807EB6CA95EB,23,u23,"But in the cases of those who have had bullying be a constant occurrence for them while being in a school environment,",Evidence,Endorsed,s24,sets the scene,
+12,807EB6CA95EB,24,u24,this lower level of interaction with others through the use of online schooling can be very helpful and can have a positive impact not only their grades but their well being.,Evidence,Endorsed,s21,backs it up,s24 and s25 should be in one segment. 
+12,807EB6CA95EB,26,u26,Lastly taking classes online is benefital because of the availability.,Claim,Endorsed,s1,backs it up,Point 3. The way this is phrased makes it a repeat of Main Point 1
+12,807EB6CA95EB,28,u28,"Often times for students who may not fully know and comprehend the material being taught to them because of many reasons such as the distraction from others in the classroom, or poor teaching style for example can make it almost impossible to work on and finish assignments that are given in school.",Evidence,Endorsed,s26,backs it up,
+12,807EB6CA95EB,30,u30,Once the bell rings at the end of the day students are left to their own efforts to figure the unit,Evidence,Endorsed,s26,backs it up,
+12,807EB6CA95EB,31,u31,"because many teachers do not provide practice before or after school and stduents can not always go to outside online sources as a result of the lack of reliability, etc.",Evidence,Endorsed,s30,backs it up,
+12,807EB6CA95EB,32,u32,"Whereas in they were take classes online through the school from the very beginning the student would always have access to learning targets, and with less distraction from others there is no one to take their focus from their work which can cause students to finish quicker, and turn in better quality assignments.",Evidence,Endorsed,s26,backs it up,
+12,807EB6CA95EB,34,u34,Now with that all being said there are many benefital reasons for students to take online classes.,Conclusion,Endorsed,s1,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,The essay is a bit messy in its organisation and some of its points are not very distinct from each other. Each point can be better elaborated on and expressed. ,,,,,,,,

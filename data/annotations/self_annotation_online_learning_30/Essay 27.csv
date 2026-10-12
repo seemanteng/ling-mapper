@@ -1,0 +1,51 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+27,D8C149300D31,1,u1,Distance learning is a recent innovation that some schools now offer by way of online or video conference.,Lead,Endorsed,s5,sets the scene,Sets context for the rest of the essay
+27,D8C149300D31,2,u2,It is becoming a popular method of education,Lead,Endorsed,s1,adds detail,Sets context for the rest of the essay
+27,D8C149300D31,3,u3,because kids do not like getting up early in the morning and going to school for eight hours.,Lead,Endorsed,s2,backs it up,Sets context for the rest of the essay
+27,D8C149300D31,4,u4,The online method allows kids to log on to class at whatever time of the day to do their work.,Lead,Endorsed,s2,adds detail,Sets context for the rest of the essay
+27,D8C149300D31,5,u5,"I do not think it is healthy to take these classes and stare at a computer screen all day, rather, I believe children should go to school and sit in a classrooom to learn.",Position,Endorsed,TOP,,
+27,D8C149300D31,6,u6,Students do not benefit from this type of learning as much as they would if they went to a school,Claim,Endorsed,s5,backs it up,Point 1
+27,D8C149300D31,7,u7,"because individuals would have less of a way to make friends and enjoy their school experience, there would be no sports that people could do, and their is not as much guidance or help that a person could reach out to if they needed it.",Evidence,Endorsed,s6,backs it up,
+27,D8C149300D31,8,u8,Online teaching does not allow kids to make friends or have the same school experience that a person should have in their life.,Evidence,Endorsed,s6,backs it up,
+27,D8C149300D31,9,u9,I believe that it is essential for people to have the experience of school,Evidence,Endorsed,s8,backs it up,
+27,D8C149300D31,10,u10,because it will be useful in the workforce and the real world.,Evidence,Endorsed,s9,backs it up,
+27,D8C149300D31,11,u11,There will be amazing and terrible times in a school,Evidence,Endorsed,s9,backs it up,
+27,D8C149300D31,12,u12,but there will also be amazing and terrible times in someone's life.,Evidence,Endorsed,s11,adds detail,
+27,D8C149300D31,13,u13,"I, myself, have had horrible things happen to me during my school career",Evidence,Endorsed,s11,gives an example,
+27,D8C149300D31,14,u14,but also some of the rest things that have ever happened to me have been,Evidence,Endorsed,s13,contrasts with it,I think auther meant best. 
+27,D8C149300D31,15,u15,because of school.,Evidence,Endorsed,s14,backs it up,
+27,D8C149300D31,16,u16,"For example, I have won various academic awards during my high school career and that will be very useful later in life when I am applying for a job.",Evidence,Endorsed,s14,gives an example,
+27,D8C149300D31,17,u17,"Furthermore, there would be no chance to play sports that could very well shape a person's future.",Claim,Endorsed,s5,backs it up,Point 2
+27,D8C149300D31,18,u18,"Many people around the world compete in sports for a living such as football, basketball, soccer, and many other things.",Evidence,Endorsed,s17,backs it up,
+27,D8C149300D31,20,u20,"The people that are on teams, such as the Miami Heat for the National Basketball Association, started out playing this sport in elementary or high school, they then went on to college, and now they are making millions of dollars playing for a famous sports team.",Evidence,Endorsed,s18,gives an example,
+27,D8C149300D31,21,u21,They are making money by doing what they love and it all started when they were in school.,Evidence,Endorsed,s20,adds detail,
+27,D8C149300D31,22,u22,Taking classes through a computer screen does not give individuals the chance to do such things,Evidence,Endorsed,s17,restates it,
+27,D8C149300D31,23,u23,because there is no teams that they could join.,Evidence,Endorsed,s22,backs it up,"To make sports a stronger point, the author should elaborate more on why sports cannot be online learning to make the link more explicit."
+27,D8C149300D31,24,u24,"Lastly, there is not as much guidance for someone with this method of learning and these classes.",Claim,Endorsed,s5,backs it up,Point 3
+27,D8C149300D31,25,u25,Kids struggle with all different subjects;,Evidence,Endorsed,s24,backs it up,
+27,D8C149300D31,26,u26,"whether it be math, reading, writing, science, or history, there needs to be someone in front of them to help them work out the issue when there is one.",Evidence,Endorsed,s25,adds detail,
+27,D8C149300D31,27,u27,Studies show that kids learn better from someone when they are getting help from a teacher in a classroom.,Evidence,Endorsed,s24,backs it up,
+27,D8C149300D31,28,u28,This is because the child can interact and communicate better with the teacher being with them.,Evidence,Endorsed,s27,backs it up,
+27,D8C149300D31,29,u29,"Also, teachers are sometimes kids lifelines",Claim,Endorsed,s5,backs it up,Point 3
+27,D8C149300D31,30,u30,because children have sad home lives and brutal families these days.,Evidence,Endorsed,s29,backs it up,
+27,D8C149300D31,31,u31,Having the one on one relationship with a student can make all the difference in the world.,Evidence,Endorsed,s29,adds detail,
+27,D8C149300D31,32,u32,There are people that would argue saying children are better off taking the online classes,Counterclaim,Rejected,s5,argues against it,Counter point 3
+27,D8C149300D31,33,u33,because it helps with mental health.,Evidence,Rejected,s32,backs it up,
+27,D8C149300D31,34,u34,I believe that mental health would still be negatively affected if a person went the route of taking online classes,Rebuttal,Endorsed,s32,argues against it,
+27,D8C149300D31,35,u35,"because no matter if you are in a classroom or if you are at home, there is still social media and it is the number one cause of teen depression, not school.",Evidence,Endorsed,s34,backs it up,
+27,D8C149300D31,37,u37,If a parent wants to help a child's mental health they should make them stay away from social media.,Evidence,Endorsed,s35,adds detail,
+27,D8C149300D31,38,u38,A person should not have to miss out on such a great time in their life because of anxiety.,Evidence,Endorsed,s34,backs it up,
+27,D8C149300D31,40,u40,"If they stay around nice people and do not get involved with bullies,",Evidence,Endorsed,s41,sets the scene,
+27,D8C149300D31,41,u41,there mental health will be in balance.,Evidence,Endorsed,s34,backs it up,
+27,D8C149300D31,42,u42,"To conclude, I strongly believe that children should be in a classroom at a school instead of being at home on the computer taking classes every day",Conclusion,Endorsed,s5,restates it,
+27,D8C149300D31,43,u43,"because school brings about exciting experiences, allows children to let their athletic ability shine, and gives them guidance they need to finish high school.",Conclusion,Endorsed,s42,backs it up,
+27,D8C149300D31,44,u44,"If I would have taken all of my classes online and stayed at home,",Conclusion,Endorsed,s45,sets the scene,
+27,D8C149300D31,45,u45,I do not think I would be as happy as I am coming to school every day and being with my friends.,Conclusion,Endorsed,s42,backs it up,
+27,D8C149300D31,46,u46,I have not so exquisite days just like anyone else would,Conclusion,Endorsed,s47,contrasts with it,
+27,D8C149300D31,47,u47,but I would not change my life for anything.,Conclusion,Endorsed,s45,adds detail,
+27,D8C149300D31,48,u48,It has made me turn from an introvert to an extrovert,Conclusion,Endorsed,s45,adds detail,
+27,D8C149300D31,49,u49,because I have had to quit being a shy little kid.,Conclusion,Endorsed,s48,backs it up,
+27,D8C149300D31,50,u50,School is essential to having a profound life and to making it in this world.,Conclusion,Endorsed,s5,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,"Overall a well developed essay, some spelling and grammatical mistakes but it has a clear logical flow. ",,,,,,,,

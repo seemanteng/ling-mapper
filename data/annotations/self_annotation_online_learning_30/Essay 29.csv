@@ -1,0 +1,55 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+29,FA38B62F80E5,1,u1,"Historically, children have only been able to receive an education by traveling to a building known as a school.",Lead,Endorsed,s8,sets the scene,Setting the context for the rest of the essay
+29,FA38B62F80E5,2,u2,"In this building, there are classrooms, desks, boards, teachers, etc.,",Lead,Endorsed,s1,adds detail,Setting the context for the rest of the essay
+29,FA38B62F80E5,3,u3,"but most importantly, the outlet to a successful future.",Lead,Endorsed,s2,adds detail,Setting the context for the rest of the essay
+29,FA38B62F80E5,4,u4,"Over time, more and more developments have been made in order to improve the quality of the curriculum that students learn in school.",Lead,Endorsed,s1,adds detail,Setting the context for the rest of the essay
+29,FA38B62F80E5,5,u5,"With the rise of technology, even the location of schooling has begun to vary with the addition of a unique option: learning from home.",Lead,Endorsed,s4,adds detail,Setting the context for the rest of the essay
+29,FA38B62F80E5,7,u7,Online video conferences and other such facilities allow for students to access the same materials that they would be given at a traditional school.,Lead,Endorsed,s5,adds detail,Setting the context for the rest of the essay
+29,FA38B62F80E5,8,u8,"However, as convenient as it seems, students would not benefit from being able to attend classes from home,",Position,Endorsed,TOP,,
+29,FA38B62F80E5,9,u9,"which is portrayed by the lack of three things that are vital to academic achievement: student discipline, teacher connection, and test regulation.",Claim,Endorsed,s8,backs it up,
+29,FA38B62F80E5,11,u11,"First and foremost, being able to attend classes from home would result in a lack of student discipline.",Claim,Endorsed,s8,backs it up,Point 1
+29,FA38B62F80E5,12,u12,Learning from home would discourage students from maintaining a strict schedule that would normally be upheld in a school building.,Evidence,Endorsed,s11,backs it up,
+29,FA38B62F80E5,13,u13,"For example, Generic_Name, a sixth grader, takes classes from home.",Evidence,Endorsed,s12,gives an example,
+29,FA38B62F80E5,14,u14,"The year before, he used to wake up at 6:00 every morning to get ready for school,",Evidence,Endorsed,s13,adds detail,
+29,FA38B62F80E5,15,u15,which started at 8:00.,Evidence,Endorsed,s14,adds detail,
+29,FA38B62F80E5,16,u16,"Now, he wakes up around 9:00,",Evidence,Endorsed,s14,contrasts with it,
+29,FA38B62F80E5,17,u17,because he only has four 90-minute classes to attend via video.,Evidence,Endorsed,s16,backs it up,
+29,FA38B62F80E5,18,u18,"While he may be able to get more sleep at night,",Evidence,Conceded,s19,contrasts with it,
+29,FA38B62F80E5,19,u19,"Generic_Name has not established a routine for his school work,",Evidence,Endorsed,s13,adds detail,
+29,FA38B62F80E5,20,u20,so he wastes hours before and in between classes.,Evidence,Endorsed,s19,adds detail,
+29,FA38B62F80E5,21,u21,"This leads to him not having enough time to spend with his loved ones or exercise, all",Evidence,Endorsed,s20,adds detail,
+29,FA38B62F80E5,22,u22,because he has the leisure to slack off during the day.,Evidence,Endorsed,s21,backs it up,
+29,FA38B62F80E5,23,u23,"Consequently, there is not only a decrease in efficiency, but also in productivity,",Evidence,Endorsed,s11,backs it up,
+29,FA38B62F80E5,25,u25,which is an outcome of the ability to attend classes from home.,Evidence,Endorsed,s23,adds detail,
+29,FA38B62F80E5,26,u26,"These are qualities of discipline,",Evidence,Endorsed,s23,adds detail,
+29,FA38B62F80E5,27,u27,which is an indicator of success in the future.,Evidence,Endorsed,s26,adds detail,
+29,FA38B62F80E5,28,u28,"Secondly, the direct connection to teachers would be lost if students were able to attend classes from home.",Claim,Endorsed,s8,backs it up,Point 2
+29,FA38B62F80E5,29,u29,"In other words, students would not be able to ask their teachers any questions they might have in person.",Evidence,Endorsed,s28,restates it,
+29,FA38B62F80E5,30,u30,"Although the video conferencing software might include a messaging system for students to communicate with their teachers,",Evidence,Conceded,s31,contrasts with it,
+29,FA38B62F80E5,31,u31,it does not replicate the same level of understanding that a student might gain if they were able to speak directly to their teacher.,Evidence,Endorsed,s28,backs it up,
+29,FA38B62F80E5,32,u32,"For instance, students who need clarification of certain material may not receive an adequate explanation online",Evidence,Endorsed,s31,gives an example,
+29,FA38B62F80E5,33,u33,because their teacher's attention may be divided or focused on some other task.,Evidence,Endorsed,s32,backs it up,
+29,FA38B62F80E5,34,u34,"Additionally, in person, students would be able to ask follow-up questions and have a thorough discussion with their teacher,",Evidence,Endorsed,s31,backs it up,
+29,FA38B62F80E5,35,u35,whereas a messaging system might not allow for steady communication due to breaks between answers.,Evidence,Endorsed,s34,contrasts with it,
+29,FA38B62F80E5,36,u36,"Therefore, there may be gaps in students' learning,",Evidence,Endorsed,s28,backs it up,
+29,FA38B62F80E5,37,u37,which could contribute to poor performance in their classes.,Evidence,Endorsed,s36,adds detail,
+29,FA38B62F80E5,38,u38,"Last but not least, the regulation of tests is lowered when students have the ability to attend classes from home.",Claim,Endorsed,s8,backs it up,Point 3
+29,FA38B62F80E5,39,u39,"When assessing students' learning in a tradtional school,",Evidence,Endorsed,s40,sets the scene,
+29,FA38B62F80E5,40,u40,teachers normally provide them with hard copies of multiple-choice or short answer questions that require students to write with a pencil or pen.,Evidence,Endorsed,s42,contrasts with it,
+29,FA38B62F80E5,41,u41,"With advancements in technology,",Evidence,Endorsed,s42,sets the scene,
+29,FA38B62F80E5,42,u42,"however, tests are increasingly being administered through software to both avoid the wastage of paper and facilitate the process of grading.",Evidence,Endorsed,s43,sets the scene,
+29,FA38B62F80E5,43,u43,"Learning from home usually requires students to take all of their tests online rather than on paper,",Evidence,Endorsed,s38,backs it up,
+29,FA38B62F80E5,44,u44,which becomes problematic when there is no teacher or reliable adult proctoring the administration.,Evidence,Endorsed,s43,adds detail,
+29,FA38B62F80E5,45,u45,"This allows for cheating and other dishonest behaviors to occur, thereby decreasing the credibility of the scores of students taking tests from home.",Evidence,Endorsed,s44,adds detail,
+29,FA38B62F80E5,46,u46,"Test regulation is necessary for schools to accurately assess the academic performance of students,",Evidence,Endorsed,s38,backs it up,
+29,FA38B62F80E5,47,u47,so a lack thereof is detrimental to society.,Evidence,Endorsed,s46,adds detail,
+29,FA38B62F80E5,48,u48,"In conclusion, students would not benefit from being able to attend classes from home due to the lack of student discipline, teacher connection, and test regulation.",Conclusion,Endorsed,s8,restates it,
+29,FA38B62F80E5,49,u49,"A combination of one or more of these factors can lead to a student not meeting the standards of learning, or even worse, the requirements for graduation from school.",Conclusion,Endorsed,s48,backs it up,Reinstating the stance and its reasons
+29,FA38B62F80E5,50,u50,"At home, students are not monitored regularly as they are at school,",Conclusion,Endorsed,s49,backs it up,Reinstating the stance and its reasons
+29,FA38B62F80E5,51,u51,which is a breeding ground for incomplete lessons and assignments.,Conclusion,Endorsed,s50,adds detail,Reinstating the stance and its reasons
+29,FA38B62F80E5,52,u52,"Subsequently, grades plummet, and in many cases, so does the motivation to excel.",Conclusion,Endorsed,s51,adds detail,Reinstating the stance and its reasons
+29,FA38B62F80E5,54,u54,"In order for education to fulfill its purpose, students should attend school in a building separate from their home.",Conclusion,Endorsed,s48,restates it,Reinstating the stance and its reasons
+29,FA38B62F80E5,55,u55,"By doing so, they would be subject to the benefits of character cultivation, as they learn not only the subjects normally taught in a curriculum, but also the value of hard work and its upward path to accomplishment in life.",Conclusion,Endorsed,s54,backs it up,Reinstating the stance and its reasons
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,A well developed and crafted essay. Language is clear and logical. To improve there could be a counterclaim and refutal included. ,,,,,,,,

@@ -1,0 +1,52 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+30,66259133A8BF,1,u1,"Through the use of technology, remotely anything is possible.",Lead,Endorsed,s7,sets the scene,It sets the context for the rest of the essay
+30,66259133A8BF,2,u2,"Everything is at our fingertips, providing comfort and complete bliss.",Lead,Endorsed,s1,adds detail,It sets the context for the rest of the essay
+30,66259133A8BF,3,u3,It is easier than ever to get things done from remotely anywhere in the world.,Lead,Endorsed,s1,adds detail,It sets the context for the rest of the essay
+30,66259133A8BF,4,u4,All areas of the globe are adapting to this ever growing phenomenon.,Lead,Endorsed,s1,adds detail,It sets the context for the rest of the essay
+30,66259133A8BF,5,u5,"It only makes sense that the question of whether or not technology should be incorporated into schools, and to what extent, arises.",Lead,Endorsed,s1,other: raises the question,It sets the context for the rest of the essay
+30,66259133A8BF,6,u6,"There are many benefits to adding technology in the classroom that can help make the teachers' as well as the student's lives easier, such as the use of online classes.",Lead,Endorsed,s5,other: answers the question,
+30,66259133A8BF,7,u7,I think students would benefit from being able to attend classes from home,Position,Endorsed,TOP,,
+30,66259133A8BF,8,u8,"because it allows them to learn at their own pace, easily make up work on classes they missed, and give them more independence.",Claim,Endorsed,s7,backs it up,Point 1
+30,66259133A8BF,9,u9,Allowing students to take online classes would tremendously benefit them since they will have the opportunity to learn at their own pace.,Evidence,Endorsed,s8,backs it up,
+30,66259133A8BF,10,u10,"Not all kids learn the same way and at the same pace,",Evidence,Endorsed,s9,backs it up,
+30,66259133A8BF,11,u11,which is why alternative methods of teaching and learning need to be provided to cater for everyone.,Evidence,Endorsed,s10,adds detail,
+30,66259133A8BF,12,u12,Distance learning with permit kids to take charge of their learning and learn when they feel most comfortable.,Evidence,Endorsed,s9,adds detail,
+30,66259133A8BF,13,u13,Getting up early at ungodly hours to get ready for school wastes a lot of precious sleep time for full time students.,Evidence,Endorsed,s12,backs it up,
+30,66259133A8BF,14,u14,The weight of staying up to study the night before before plus the dread of getting to class early in the morning does not result in a pleasant and healthy form of leaning.,Evidence,Endorsed,s13,adds detail,
+30,66259133A8BF,15,u15,"Rather, it creates problems for both the students as well as the teachers.",Evidence,Endorsed,s14,adds detail,
+30,66259133A8BF,16,u16,"Because of online learning, students will also have the opportunity to pause and listen to the lessons provided over and over again until they understand what is being taught.",Evidence,Endorsed,s9,backs it up,
+30,66259133A8BF,18,u18,This allows for the students to go over parts of the lessons they are having trouble with and make sure they really understand.,Evidence,Endorsed,s16,adds detail,
+30,66259133A8BF,19,u19,"In addition, the kids will be able to take notes at their own pace without having to worry about scrambling to get everything down.",Evidence,Endorsed,s16,backs it up,
+30,66259133A8BF,20,u20,This eliminates the stress and anxiety that comes with balancing getting everything down and paying full attention to the lesson being taught.,Evidence,Endorsed,s19,adds detail,
+30,66259133A8BF,21,u21,"With the help of online classes, students wouldn't lose as much class time on days that they have to miss school.",Evidence,Endorsed,s8,backs it up,
+30,66259133A8BF,22,u22,Everyone has some off days.,Evidence,Endorsed,s23,sets the scene,
+30,66259133A8BF,23,u23,"Whether it be because of a sickness, a family emergency, or simply a mental health day, students tend to miss a decent among of school when it comes to unforeseen situations.",Evidence,Endorsed,s21,backs it up,
+30,66259133A8BF,25,u25,"However, with online classes, students would be able to tune in to what they missed while they were away.",Evidence,Endorsed,s23,contrasts with it,
+30,66259133A8BF,27,u27,The classes offered online would allow the students to stay up to date with what is happening in their classes and would ensure that they don't fall behind simply,Claim,Endorsed,s7,backs it up,Point 2
+30,66259133A8BF,28,u28,because of circumstances that were out of their control.,Evidence,Endorsed,s27,adds detail,
+30,66259133A8BF,29,u29,"If someone is diagnosed with a serious health issue,",Evidence,Endorsed,s30,sets the scene,
+30,66259133A8BF,30,u30,"resulting in them misses tons of classes, they would still have the chance of making up all their work and catching up through the help of online classes.",Evidence,Endorsed,s27,gives an example,
+30,66259133A8BF,31,u31,Online classes are able to limit students' stress of making it to class during difficult times in their lives and able to focus on themselves while simultaneously getting their schoolwork done as well.,Evidence,Endorsed,s27,backs it up,
+30,66259133A8BF,33,u33,It is crucial that the school system understands and provides for students that wish to learn but are not able to because of life problems.,Evidence,Endorsed,s27,backs it up,
+30,66259133A8BF,36,u36,"Lastly, online classes would also increase the attendance rates for the school since the kids would be able to tune in through the comfort of their homes, any time during the day.",Claim,Endorsed,s7,backs it up,Point 3
+30,66259133A8BF,37,u37,Online classes would assist kids by making sure they don't miss too much of school and are still at the same level as their peers.,Evidence,Endorsed,s36,adds detail,
+30,66259133A8BF,38,u38,Some may argue that allowing kids to learn on their own through the use of online classes would remove the structure they need in their lives and cause them to become lazy.,Counterclaim,Rejected,s7,argues against it,
+30,66259133A8BF,40,u40,"However, offering online school to students can actually make them more independent and self sufficient.",Rebuttal,Endorsed,s38,argues against it,Point 4
+30,66259133A8BF,41,u41,Students would be able to create their own schedule and hold themselves accountable to it.,Evidence,Endorsed,s40,backs it up,
+30,66259133A8BF,42,u42,This creates a realistic environment for them since this is what happens in the workforce.,Evidence,Endorsed,s41,adds detail,
+30,66259133A8BF,43,u43,"They would be able to learn wherever and whenever they deem fit, allowing them to incorporate more school into their lives.",Evidence,Endorsed,s40,backs it up,
+30,66259133A8BF,44,u44,Having so much structure in students' lives creates an unrealistic perception of how the rest of the world functions.,Evidence,Endorsed,s40,backs it up,
+30,66259133A8BF,45,u45,"After school ends,",Evidence,Endorsed,s46,sets the scene,
+30,66259133A8BF,46,u46,there are no more set schedules in people's lives anymore.,Evidence,Endorsed,s44,backs it up,
+30,66259133A8BF,47,u47,So it would only make sense for students to get ready for that now.,Evidence,Endorsed,s44,adds detail,
+30,66259133A8BF,48,u48,People also tend to counter that online classes would not have the same effect as regular classes and therefore would not benefit students.,Counterclaim,Rejected,s7,argues against it,Counter Point 1
+30,66259133A8BF,50,u50,"However, online classes would be incredibly beneficial for kids who simply cannot go to school due to life problems.",Rebuttal,Endorsed,s48,argues against it,
+30,66259133A8BF,51,u51,"In addition, some online classes are way cheaper than classes offered on campus.",Evidence,Endorsed,s50,backs it up,
+30,66259133A8BF,52,u52,This gives students a chance to obtain a more affordable education and still stay on track.,Evidence,Endorsed,s51,adds detail,
+30,66259133A8BF,53,u53,Allowing kids to take online classes provides many benefits for everyone.,Conclusion,Endorsed,s7,restates it,
+30,66259133A8BF,54,u54,"Student are able to learn at their own pace, they don't have to worry about missing work due to missing classes, and they are able to gain more independence all thanks to online classes.",Conclusion,Endorsed,s53,adds detail,
+30,66259133A8BF,56,u56,Being able to adapt to the technological advances is important if we all want to continue moving forward.,Conclusion,Endorsed,s53,adds detail,
+30,66259133A8BF,57,u57,Allowing students to experience online classes is a step in the right direction since so many benefits come with it.,Conclusion,Endorsed,s53,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,"Logical, well developed points. Language is concise and expressed well for the marker to understand the points being made. ",,,,,,,,

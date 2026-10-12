@@ -1,0 +1,40 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+16,4585DE769AE9,1,u1,I don't believe the students would benefit from being able to attend classes from home.,Position,Endorsed,TOP,,
+16,4585DE769AE9,2,u2,"First of all, the research showing there is a lot of chance to know about the distance.",Claim,Endorsed,s1,backs it up,Point 1
+16,4585DE769AE9,3,u3,It's hard to make the online or video to offer the distance.,Evidence,Endorsed,s2,adds detail,I am not very sure what the author is trying to express here. 
+16,4585DE769AE9,4,u4,Because when the students are in online or when they try to make video they are not going to take care them self.,Evidence,Endorsed,s2,backs it up,
+16,4585DE769AE9,5,u5,For example: I remember when I was six grade my friend PROPER_NAME was making online video.,Evidence,Endorsed,s4,gives an example,
+16,4585DE769AE9,6,u6,We went to classes from home to know how far it is.,Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,7,u7,On that time she just focus on her video she wasn't focus on her way.,Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,8,u8,"After that, she try to cross the way",Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,9,u9,but she still making video.,Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,10,u10,She didn't saw the car she try to cross the road.,Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,11,u11,"So,she got some accident",Evidence,Endorsed,s5,adds detail,
+16,4585DE769AE9,12,u12,because of the video and she just focusing what she is doing.,Evidence,Endorsed,s5,adds detail,"I think the author's point is that online learning requires students to be on their devices and this can endanger students if they take the meetings in dangerous environments , it may cause more harm than good. This point was very poorly brought across and I am not even sure if it is the point. "
+16,4585DE769AE9,13,u13,The most important way is to offer the distance classes from home is using map.,Claim,Endorsed,s1,backs it up,
+16,4585DE769AE9,14,u14,It's easy to know how far or how close it is.,Evidence,Endorsed,s13,backs it up,s14-s16 needs a more obvious link to the topic.
+16,4585DE769AE9,15,u15,"Other ways, the students have to take care there self when they are in the way",Evidence,Endorsed,s2,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,16,u16,because there is a lot of car.,Evidence,Endorsed,s15,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,17,u17,"Additional, there are not going to take care them self when they are making online or video.",Evidence,Endorsed,s2,restates it,Needs a more obvious link to the topic.
+16,4585DE769AE9,18,u18,They just focus what there are doing.,Evidence,Endorsed,s17,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,19,u19,For example: when I was tine grade I remember my friend PROPER_NAME she was eleven grade.,Evidence,Endorsed,s17,gives an example,Needs a more obvious link to the topic.
+16,4585DE769AE9,20,u20,She try to offer the distance for her friend by making video.,Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,21,u21,When She was school from home.,Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,22,u22,"Then, she started showing the way.",Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,23,u23,"On that time, she wasn't take care her self",Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,24,u24,because she was focusing the video.,Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,25,u25,"Next, she try to cross the way by raining.",Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,26,u26,She didn't pay attention the way and she got car accident.,Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,27,u27,On that time she passed away she died.,Evidence,Endorsed,s19,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,28,u28,I agree some students think they would benefits from being able to attend classes from home.,Counterclaim,Conceded,s1,argues against it,Needs a more obvious link to the topic.
+16,4585DE769AE9,29,u29,But most of them are not going to take care them self,Rebuttal,Endorsed,s28,argues against it,Needs a more obvious link to the topic.
+16,4585DE769AE9,30,u30,because there are not focusing the way.,Evidence,Endorsed,s29,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,31,u31,They just focusing what there are doing or they just focusing online or video.,Evidence,Endorsed,s29,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,32,u32,"Additional, using map is butter than making online or video.",Evidence,Endorsed,s29,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,33,u33,Other ways its hard to make online or video for offer the distance.,Evidence,Endorsed,s29,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,34,u34,Most students are not going to focus when there are making that.,Evidence,Endorsed,s29,adds detail,Needs a more obvious link to the topic.
+16,4585DE769AE9,35,u35,"In conclusion, I don't believe the students would benefits by way of online or video to offer the distance.",Conclusion,Endorsed,s1,restates it,
+16,4585DE769AE9,36,u36,There is other way to offer the distance from classes to home.,Conclusion,Endorsed,s35,adds detail,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,I think the author misunderstood the essay question. There are too many personal anectdotes with too little analysis and link to the topic. I do not understand what the author is trying to convey.,,,,,,,,

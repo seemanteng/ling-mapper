@@ -1,0 +1,19 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+11,93E101B6AB4E,1,u1,Some schools offer distance learning as an option for students to attend classes from home by using online or video conferencing.,Lead,Endorsed,s2,sets the scene,It sets the context for the rest of the essay.
+11,93E101B6AB4E,2,u2,I think some students would benefit from this and other students would not.,Position,Endorsed,TOP,,The author does not pick a stance. 
+11,93E101B6AB4E,3,u3,I believe some students could benefit from this,Claim,Endorsed,s2,backs it up,
+11,93E101B6AB4E,4,u4,"because they could do work whenever they want, They also don't have to wake up early everyday and go to school.",Evidence,Endorsed,s3,backs it up,
+11,93E101B6AB4E,5,u5,"If they have things to do at home,",Evidence,Endorsed,s6,sets the scene,
+11,93E101B6AB4E,6,u6,they can do that and still have time for school work.,Evidence,Endorsed,s3,backs it up,
+11,93E101B6AB4E,7,u7,I also believe that some students would not benefit off this.,Claim,Endorsed,s2,backs it up,
+11,93E101B6AB4E,8,u8,I dont think all students would do good with this,Evidence,Endorsed,s7,restates it,
+11,93E101B6AB4E,9,u9,because not everyone learns the same way.,Evidence,Endorsed,s8,backs it up,
+11,93E101B6AB4E,10,u10,"For example, some students learn visually.",Evidence,Endorsed,s9,gives an example,
+11,93E101B6AB4E,11,u11,"Not all students have a peaceful household,",Evidence,Endorsed,s7,backs it up,
+11,93E101B6AB4E,12,u12,which makes it harder to pay attention to their work.,Evidence,Endorsed,s11,adds detail,
+11,93E101B6AB4E,13,u13,Students can also have learning disabilities which can make it difficult to learn.,Evidence,Endorsed,s9,backs it up,
+11,93E101B6AB4E,14,u14,"In my opinion, it really just depends on who the student is.",Conclusion,Endorsed,s2,restates it,
+11,93E101B6AB4E,15,u15,Maybe distance learning is not for everyone.,Conclusion,Endorsed,s2,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,"No clear stance was offered. While each point makes sense logically, they are very briefly explored. ",,,,,,,,

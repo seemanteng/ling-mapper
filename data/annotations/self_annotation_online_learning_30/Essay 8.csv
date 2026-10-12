@@ -1,0 +1,28 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+8,01FC4BCFD7CB,1,u1,Some schools are offering online learning as an option for students to attend class from home.,Lead,Endorsed,s6,sets the scene,Setting context for the rest of the essay
+8,01FC4BCFD7CB,2,u2,There is an ongoing debate on whether doing online classes or doing traditional learning is most beneficial.,Lead,Endorsed,s1,adds detail,Setting context for the rest of the essay
+8,01FC4BCFD7CB,3,u3,There are those who agree that working in a classroom is most beneficial,Counterclaim,Rejected,s6,argues against it,Setting context for the rest of the essay but citing a popular perspective that author disagrees with.
+8,01FC4BCFD7CB,4,u4,but this is not true.,Rebuttal,Endorsed,s3,argues against it,Setting context for the rest of the essay but citing a popular perspective that author disagrees with.
+8,01FC4BCFD7CB,5,u5,"Although some may disagree,",Lead,Reported,s6,contrasts with it,Setting context for the rest of the essay but citing a popular perspective that author disagrees with.
+8,01FC4BCFD7CB,6,u6,doing online classes are more beneficial than doing the traditional learning in a classroom.,Position,Endorsed,TOP,,
+8,01FC4BCFD7CB,7,u7,There are many reasons as to why online classes are more beneficial.,Other,Endorsed,s8,sets the scene,
+8,01FC4BCFD7CB,8,u8,One reason is students can be more comfortable,Claim,Endorsed,s6,backs it up,Point 1
+8,01FC4BCFD7CB,9,u9,"while they do work, meaning they get enough sleep so they can pay attention.",Evidence,Endorsed,s8,adds detail,
+8,01FC4BCFD7CB,10,u10,"Additionally, they dont have a specific time limit to do work at home vs when they are at school",Evidence,Endorsed,s8,backs it up,
+8,01FC4BCFD7CB,11,u11,so they do not have to stress over getting it done in time as much.,Evidence,Endorsed,s10,adds detail,
+8,01FC4BCFD7CB,12,u12,"Furthermore, some students have lots of work around the house or have multiple jobs so having online classes means they can do their work when they can.",Evidence,Endorsed,s8,backs it up,
+8,01FC4BCFD7CB,13,u13,There are additional reasons as to why online classes are more beneficial.,Other,Endorsed,s14,sets the scene,
+8,01FC4BCFD7CB,14,u14,"A reason being is, they are more willing to do work due to the flexibility of doing work online",Claim,Endorsed,s6,backs it up,Point 2
+8,01FC4BCFD7CB,15,u15,"because some students have a busy life at home with chores and jobs,",Evidence,Endorsed,s14,backs it up,
+8,01FC4BCFD7CB,16,u16,so they get their work done when they can.,Evidence,Endorsed,s15,adds detail,
+8,01FC4BCFD7CB,17,u17,"Additionally, they have access to the internet for specific questions, and if they can not find it on the internet, they will usually email or message and ask the teacher themselves.",Evidence,Endorsed,s14,backs it up,
+8,01FC4BCFD7CB,18,u18,"Finally, online classes are more beneficial because students who get sick do not have to worry about missing assignments and do not have to worry about attendance.",Claim,Endorsed,s6,backs it up,Point 3
+8,01FC4BCFD7CB,20,u20,"Although some may disagree,",Conclusion,Reported,s21,contrasts with it,Counter Point 1
+8,01FC4BCFD7CB,21,u21,doing online classes are more beneficial than doing the traditional learning in a classroom.,Conclusion,Endorsed,s6,restates it,
+8,01FC4BCFD7CB,22,u22,Online classes are most beneficial due to students;,Conclusion,Endorsed,s6,restates it,
+8,01FC4BCFD7CB,23,u23,"being more willing to do work, can do work whenever they possibly can if they have a busy schedule,",Conclusion,Endorsed,s22,adds detail,
+8,01FC4BCFD7CB,24,u24,and they do not have to worry about missing work and class if they get sick.,Conclusion,Endorsed,s22,adds detail,
+8,01FC4BCFD7CB,25,u25,"Ultimately, online classes are more beneficial than classroom work for students due to the flexibility of the classes.",Conclusion,Endorsed,s6,restates it,
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,Overall it is a well structured and well expressed essay. The arguments could have gone into greater depth but it is at least logical and easy to understand. ,,,,,,,,

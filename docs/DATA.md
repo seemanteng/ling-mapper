@@ -36,6 +36,32 @@ The v5 and v6 runs contain 1,818 essays and 19,561 recovered spans out of 19,894
 | v5 | Drop Unannotated fragments that overlap a labelled span |
 | v6 | Same records as v5 (identical hash); design-inspected essay moved out of pilot-check |
 
+## Distance-learning self-annotation set (essays 1–30)
+
+Essays 1–15 are in `data/processed/distance_learning_v2/`. Essays 16–30 top up every holistic score band to 5 essays, drawn from both official partitions and skipping essays already used:
+
+```sh
+PYTHONPATH=src python3 -m argument_graph.select_batch \
+  --input data/persuade_corpus_2.0_train.csv \
+  --input data/persuade_corpus_2.0_test.csv \
+  --holistic data/persuade_2.0_human_scores_demo_id_github.csv \
+  --prompt 'Distance learning' --target-per-band 5 --seed 42 \
+  --existing data/processed/distance_learning_v2 \
+  --output-dir data/processed/distance_learning_v3
+```
+
+`distance_learning_v3/records.jsonl` holds all 30 essays in essay-number order. `splits.json` adds `self_annotation_batch3` with its seed and quotas.
+
+The annotation sheets are pre-segmented by rules, not by a language model, so the starting segmentation favours none of the compared extractors:
+
+```sh
+PYTHONPATH=src python3 -m argument_graph.presegment \
+  --records data/processed/distance_learning_v3/records.jsonl \
+  --output-dir data/annotations/self_annotation
+```
+
+`presegment` splits at sentence ends, `;`/`:`, subordinators and contrastive connectives (because, but, although, however, ...), comma plus connective or relative (", so", ", which"), comma plus "and"/"or" only before a likely subject, and after a fronted subordinate clause ("If X, | Y"). Run-on pieces over 30 words also split before a bare coordinator followed by a subject. Pieces under 3 words rejoin the previous clause. Segments are exact slices of the essay and cover all of its non-whitespace text; the annotator merges or splits them where the rules are wrong and notes it. `index.csv` lists each essay's ID, score, partition, word count and segment count. The earlier teacher-review sheets, which took their segments from a Claude run, were removed. The blank sheets were deleted after labelling. Re-running the command now differs at seven boundaries, because the splitter no longer cuts before the verb "cause". How the sheets were labelled and checked, and the final labels in `data/annotations/self_annotation_online_learning_30/`, are described in [SELF_ANNOTATION.md](SELF_ANNOTATION.md).
+
 ## Common record boundary
 
 `ExampleRecord` in `src/argument_graph/schemas.py` holds prompt, unchanged response text, optional source passages, optional rubric, optional gold spans/relations, and metadata. `from_dict()` validates JSON round trips and checks every span against its source text.

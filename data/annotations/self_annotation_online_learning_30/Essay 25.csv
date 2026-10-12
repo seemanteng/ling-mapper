@@ -1,0 +1,24 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+25,2BD0B513E03D,1,u1,Distance Learning,Lead,Endorsed,s3,sets the scene,
+25,2BD0B513E03D,2,u2,"Some schools offer distance learning as an option for students to attend classes from home by way of online, or video conferencing.",Lead,Endorsed,s3,sets the scene,
+25,2BD0B513E03D,3,u3,"But this is not the best option for children, here are some reasons why this is not beneficial for them.",Position,Endorsed,TOP,,
+25,2BD0B513E03D,4,u4,"Firstly, students who participate in distance learning will be less social than a student who attends a school with other students their age.",Claim,Endorsed,s3,backs it up,Point 1
+25,2BD0B513E03D,5,u5,"For example, about a year ago my cousin went to her first job interview, she was nervous and was not used to having to talk to adults who were not her parents.",Evidence,Endorsed,s4,gives an example,This is not relevant to online vs physical learning
+25,2BD0B513E03D,6,u6,She went to the interview,Evidence,Endorsed,s5,adds detail,This is not relevant to online vs physical learning
+25,2BD0B513E03D,7,u7,"but she did not get the job, I believe she lost this job opportunity",Evidence,Endorsed,s5,adds detail,This is not relevant to online vs physical learning
+25,2BD0B513E03D,8,u8,because the fact that she was home schooled most of her life and was not around enough adults.,Evidence,Endorsed,s7,backs it up,This is not relevant to online vs physical learning
+25,2BD0B513E03D,9,u9,"Secondly, distance learning could be less beneficial for a student",Claim,Endorsed,s3,backs it up,Point 2
+25,2BD0B513E03D,10,u10,because they are not around people of the same age.,Evidence,Endorsed,s9,adds detail,
+25,2BD0B513E03D,11,u11,Some parents may say that distance learning is just fine for their child,Counterclaim,Rejected,s3,argues against it,Counter point 1
+25,2BD0B513E03D,12,u12,because they are around their siblings who are the same age as them.,Evidence,Rejected,s11,backs it up,This is poorly reasoned.
+25,2BD0B513E03D,13,u13,"But that is not true, how a student talks and acts around their siblings may not be the same way they should talk and act around a class mate or someone in public.",Rebuttal,Endorsed,s11,argues against it,
+25,2BD0B513E03D,14,u14,Public education could help them with that.,Evidence,Endorsed,s13,adds detail,
+25,2BD0B513E03D,15,u15,"Thirdly, distance learning may be hard on students, especially if their parent or guardian is not always there to help them, as like a teacher would be.",Claim,Endorsed,s3,backs it up,Point 3
+25,2BD0B513E03D,16,u16,"For example, everyone knows that parents and guardians have jobs just like everyone else, even if you are a stay at home parent, it could be difficult for you to be there to help your child with all the questions and problems they have",Evidence,Endorsed,s15,gives an example,
+25,2BD0B513E03D,17,u17,because even a stay at home parent has things that need to be done around the house.,Evidence,Endorsed,s16,backs it up,
+25,2BD0B513E03D,18,u18,Students need to get out of the house and be in a learning environment around other students their age.,Conclusion,Endorsed,s19,backs it up,Counter point 2
+25,2BD0B513E03D,19,u19,This is why I believe distance learning is not as beneficial for students who go to school everyday.,Conclusion,Endorsed,s3,restates it,
+25,2BD0B513E03D,20,u20,"So, what is your opinion on distance learning after reading this paper, and would you make the decision to let your child attend distance learning or would they go to school with other students.",Conclusion,Endorsed,s19,other: asks the reader,This is not summarising points/ adding new information/ taking a stance. 
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,The points are not well developed and the stance went from being clear to being unclear by the end. ,,,,,,,,

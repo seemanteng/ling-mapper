@@ -1,0 +1,1969 @@
+essay_no,segment,field,old,new,reason,accepted_by_author
+1,s1,Is this the writer's stance?,Reported,Endorsed,"writer's own hook is Endorsed (rule 2); s1 had no parent, attached to position",yes
+1,s1,Segment it relates to,,s3,"writer's own hook is Endorsed (rule 2); s1 had no parent, attached to position",yes
+1,s1,How it relates,,sets the scene,"writer's own hook is Endorsed (rule 2); s1 had no parent, attached to position",yes
+1,s2,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed (rule 2); free-text relation mapped,yes
+1,s2,How it relates,It answers the question posed in 1,other: answers the question,writer's own context is Endorsed (rule 2); free-text relation mapped,yes
+1,s3,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+1,s3,How it relates,It is the main stance of the essay,,trailing space; TOP needs no relation,yes
+1,s4,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+1,s5,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; concrete case,yes
+1,s5,How it relates,It elaborates on s4,gives an example,Reason recoded by rule 1; concrete case,yes
+1,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; concrete case,yes
+1,s6,How it relates,It elaborates on s4,gives an example,Reason recoded by rule 1; concrete case,yes
+1,s7,What is the segment doing?,Lead,Evidence,Lead is for the introduction only,yes
+1,s7,How it relates,It elaborates on s6,adds detail,Lead is for the introduction only,yes
+1,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+1,s8,How it relates,elaborates on s7,adds detail,Reason recoded by rule 1,yes
+1,s9,What is the segment doing?,Reason,Evidence,"returns to point 1, not a detail of s8",yes
+1,s9,Segment it relates to,s8,s4,"returns to point 1, not a detail of s8",yes
+1,s9,How it relates,elaborates on s8,backs it up,"returns to point 1, not a detail of s8",yes
+1,s10,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+1,s11,What is the segment doing?,Reason,Evidence,fronted cause of s12,yes
+1,s11,Segment it relates to,s10,s12,fronted cause of s12,yes
+1,s11,How it relates,It elaborates on s10,backs it up,fronted cause of s12,yes
+1,s12,What is the segment doing?,Reason,Evidence,parallel benefits attach to shared parent,yes
+1,s12,Segment it relates to,s11,s10,parallel benefits attach to shared parent,yes
+1,s12,How it relates,It elaborates on s11,backs it up,parallel benefits attach to shared parent,yes
+1,s13,What is the segment doing?,Reason,Evidence,parallel benefits attach to shared parent,yes
+1,s13,Segment it relates to,s12,s10,parallel benefits attach to shared parent,yes
+1,s13,How it relates,It elaborates on s12,backs it up,parallel benefits attach to shared parent,yes
+1,s14,What is the segment doing?,Reason,Evidence,sums up point 2,yes
+1,s14,Segment it relates to,s13,s10,sums up point 2,yes
+1,s14,How it relates,It elaborates on s13,restates it,sums up point 2,yes
+1,s15,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+1,s16,What is the segment doing?,Reason,Evidence,problem that s17 answers,yes
+1,s16,Segment it relates to,s15,s17,problem that s17 answers,yes
+1,s16,How it relates,It elaborates on s15,sets the scene,problem that s17 answers,yes
+1,s17,What is the segment doing?,Reason,Evidence,parallel effects attach to shared parent,yes
+1,s17,Segment it relates to,s16,s15,parallel effects attach to shared parent,yes
+1,s17,How it relates,It elaborates on s16,backs it up,parallel effects attach to shared parent,yes
+1,s18,What is the segment doing?,Reason,Evidence,parallel effects attach to shared parent,yes
+1,s18,Segment it relates to,s17,s15,parallel effects attach to shared parent,yes
+1,s18,How it relates,It elaborates on s17,backs it up,parallel effects attach to shared parent,yes
+1,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+1,s19,How it relates,It elaborates on s18,adds detail,Reason recoded by rule 1,yes
+1,s20,How it relates,Counterpoint,argues against it,free-text relation mapped,yes
+1,s21,What is the segment doing?,Evidence,Rebuttal,writer's reply to the counterclaim,yes
+1,s21,How it relates,It is trying to list examples that rejects s20,argues against it,writer's reply to the counterclaim,yes
+1,s22,Segment it relates to,s21,s20,second reply to the counterclaim,yes
+1,s22,How it relates,It elaborates on s21,argues against it,second reply to the counterclaim,yes
+1,s23,Segment it relates to,s21,s22,example of the solutions in s22,yes
+1,s23,How it relates,It elaborates on s21,gives an example,example of the solutions in s22,yes
+1,s24,How it relates,It elaborates on s23,adds detail,free-text relation mapped,yes
+1,s25,Segment it relates to,s3,s26,fronted opener of s26,yes
+1,s25,How it relates,Reinstates s3,sets the scene,fronted opener of s26,yes
+1,s26,Segment it relates to,s25,s3,main clause of the conclusion,yes
+1,s26,How it relates,It elaborates on s25,restates it,main clause of the conclusion,yes
+1,s27,Segment it relates to,s25,s26,follows from s26,yes
+1,s27,How it relates,It elaborates on s25,adds detail,follows from s26,yes
+2,s1,Segment it relates to,,s2,every segment needs a parent,yes
+2,s1,How it relates,,sets the scene,every segment needs a parent,yes
+2,s2,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+2,s2,How it relates,It is the main stance of the essay,,trailing space; TOP needs no relation,yes
+2,s3,What is the segment doing?,Reason,Claim,thesis preview reasons are Claims (rule 1); boundary moved: splitter cut 'could | cause',yes
+2,s3,How it relates,Elaborates on s2,backs it up,thesis preview reasons are Claims (rule 1); boundary moved: splitter cut 'could | cause',yes
+2,s3,segment_text,"because this leaves optimal room for cheating, this could","because this leaves optimal room for cheating,",thesis preview reasons are Claims (rule 1); boundary moved: splitter cut 'could | cause',yes
+2,s4,What is the segment doing?,Reason,Claim,boundary moved: splitter cut 'could | cause',yes
+2,s4,How it relates,Elaborates on s2,backs it up,boundary moved: splitter cut 'could | cause',yes
+2,s4,segment_text,"cause students to lack social skills,","this could cause students to lack social skills,",boundary moved: splitter cut 'could | cause',yes
+2,s5,What is the segment doing?,Reason,Claim,"thesis preview reason, parallel to s3",yes
+2,s5,Segment it relates to,s3,s2,"thesis preview reason, parallel to s3",yes
+2,s5,How it relates,Elaborates on s3,backs it up,"thesis preview reason, parallel to s3",yes
+2,s6,What is the segment doing?,Lead,Counterclaim,"writer grants it, s7 argues past it",yes
+2,s6,Is this the writer's stance?,Reported,Conceded,"writer grants it, s7 argues past it",yes
+2,s6,Segment it relates to,,s7,"writer grants it, s7 argues past it",yes
+2,s6,How it relates,,contrasts with it,"writer grants it, s7 argues past it",yes
+2,s7,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+2,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+2,s8,How it relates,Elaborates on s7,adds detail,Reason recoded by rule 1,yes
+2,s9,How it relates,Elaborates on s7,gives an example,free-text relation mapped,yes
+2,s10,Segment it relates to,s8,s9,continues s9,yes
+2,s10,How it relates,Elaborates on s8,adds detail,continues s9,yes
+2,s11,What is the segment doing?,Reason,Evidence,returns to the cheating point,yes
+2,s11,Segment it relates to,s9,s7,returns to the cheating point,yes
+2,s11,How it relates,Elaborates on s9,backs it up,returns to the cheating point,yes
+2,s12,Is this the writer's stance?,Reported,Endorsed,writer's own statement is Endorsed,yes
+2,s12,How it relates,Main Point 2,backs it up,writer's own statement is Endorsed,yes
+2,s13,What is the segment doing?,Lead,Evidence,fronted clause of s14; Lead is intro only,yes
+2,s13,Is this the writer's stance?,Reported,Endorsed,fronted clause of s14; Lead is intro only,yes
+2,s13,Segment it relates to,s12,s14,fronted clause of s14; Lead is intro only,yes
+2,s13,How it relates,Elaborates on s12,sets the scene,fronted clause of s14; Lead is intro only,yes
+2,s14,What is the segment doing?,Reason,Evidence,writer's own claim is Endorsed; weak support is not a stance,yes
+2,s14,Is this the writer's stance?,Reported,Endorsed,writer's own claim is Endorsed; weak support is not a stance,yes
+2,s14,How it relates,Elaborates on s12,backs it up,writer's own claim is Endorsed; weak support is not a stance,yes
+2,s15,What is the segment doing?,Lead,Evidence,introduces point 3 in writer's voice,yes
+2,s15,Is this the writer's stance?,Reported,Endorsed,introduces point 3 in writer's voice,yes
+2,s15,Segment it relates to,,s16,introduces point 3 in writer's voice,yes
+2,s15,How it relates,,sets the scene,introduces point 3 in writer's voice,yes
+2,s16,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+2,s17,What is the segment doing?,Reason,Evidence,parallel support for point 3,yes
+2,s17,How it relates,Elaborates on s16,backs it up,parallel support for point 3,yes
+2,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+2,s18,How it relates,Elaborates on s17,adds detail,Reason recoded by rule 1,yes
+2,s19,Segment it relates to,s18,s16,parallel support for point 3,yes
+2,s19,How it relates,Elaborates on s18,backs it up,parallel support for point 3,yes
+2,s20,What is the segment doing?,Reason,Evidence,parallel support for point 3,yes
+2,s20,Segment it relates to,s19,s16,parallel support for point 3,yes
+2,s20,How it relates,Elaborates on s19,adds detail,parallel support for point 3,yes
+2,s21,What is the segment doing?,Reason,Evidence,parallel support for point 3,yes
+2,s21,Segment it relates to,s19,s16,parallel support for point 3,yes
+2,s21,How it relates,Elaborates on s19,backs it up,parallel support for point 3,yes
+2,s22,Is this the writer's stance?,Endorsed,Conceded,grants the other side's point,yes
+2,s22,How it relates,Countpoint,argues against it,grants the other side's point,yes
+2,s23,Is this the writer's stance?,Rejected,Endorsed,writer's own reply is Endorsed,yes
+2,s23,How it relates,Points out shortcoming of s22,argues against it,writer's own reply is Endorsed,yes
+2,s24,Segment it relates to,s6,s2,"second counterpoint, parallel to s22",yes
+2,s24,How it relates,Reinstating,argues against it,"second counterpoint, parallel to s22",yes
+2,s24,Notes,,restates s6,"second counterpoint, parallel to s22",yes
+2,s25,Is this the writer's stance?,Rejected,Endorsed,answers s24; writer's own view,yes
+2,s25,Segment it relates to,s2,s24,answers s24; writer's own view,yes
+2,s25,How it relates,Countpoint,argues against it,answers s24; writer's own view,yes
+2,s26,What is the segment doing?,Rebuttal,Evidence,writer's support for the rebuttal,yes
+2,s26,Is this the writer's stance?,Rejected,Endorsed,writer's support for the rebuttal,yes
+2,s26,How it relates,Elaborates on s25,backs it up,writer's support for the rebuttal,yes
+2,s27,What is the segment doing?,Reason,Evidence,writer's support for the rebuttal,yes
+2,s27,Is this the writer's stance?,Rejected,Endorsed,writer's support for the rebuttal,yes
+2,s27,How it relates,Elaborates on s25,gives an example,writer's support for the rebuttal,yes
+2,s28,What is the segment doing?,Reason,Evidence,fronted clause of s29,yes
+2,s28,Segment it relates to,s26,s29,fronted clause of s29,yes
+2,s28,How it relates,Elaborates on s26,sets the scene,fronted clause of s29,yes
+2,s29,What is the segment doing?,Reason,Evidence,backs the rebuttal,yes
+2,s29,Segment it relates to,s27,s25,backs the rebuttal,yes
+2,s29,How it relates,Elaborates on s27,backs it up,backs the rebuttal,yes
+2,s30,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+2,s30,Segment it relates to,s28,s29,Reason recoded by rule 1,yes
+2,s30,How it relates,Elaborates on s28,adds detail,Reason recoded by rule 1,yes
+2,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+2,s31,Segment it relates to,s29,s30,Reason recoded by rule 1,yes
+2,s31,How it relates,Elaborates on s29,adds detail,Reason recoded by rule 1,yes
+2,s32,How it relates,reinstates s2,restates it,free-text relation mapped,yes
+2,s33,Segment it relates to,s2,s32,lists claims inside the conclusion,yes
+2,s33,How it relates,supports s2,adds detail,lists claims inside the conclusion,yes
+2,s34,Segment it relates to,s2,s32,lists claims inside the conclusion,yes
+2,s34,How it relates,supports s2,adds detail,lists claims inside the conclusion,yes
+3,s6,segment,"so in a room full of things much more interesting than classwork, there is an even greater chance for distraction.",merged into s5,merged with s6 per author note,yes
+3,s10,segment,while in one's own room.,merged into s9,merged with s10 per author note; personal experience backs point 1,yes
+3,s21,segment,"cause a student to feel stranded in an ocean of equations,",merged into s20,merged s21-s22 (splitter cut 'can | cause'; author note); off-by-one fixed,yes
+3,s22,segment,since there is no teacher to help save him or her.,merged into s20,merged s21-s22 (splitter cut 'can | cause'; author note); off-by-one fixed,yes
+3,s24,segment,most students cheat.,merged into s23,merged with s24 per author note,yes
+3,s1,Is this the writer's stance?,Reported,Endorsed,writer's own hook is Endorsed (rule 2); needs a parent,yes
+3,s1,Segment it relates to,,s4,writer's own hook is Endorsed (rule 2); needs a parent,yes
+3,s1,How it relates,,sets the scene,writer's own hook is Endorsed (rule 2); needs a parent,yes
+3,s2,Is this the writer's stance?,Reported,Endorsed,pointed to itself; writer's own context,yes
+3,s2,Segment it relates to,s2,s1,pointed to itself; writer's own context,yes
+3,s2,How it relates,It elaborates on s1,adds detail,pointed to itself; writer's own context,yes
+3,s3,Is this the writer's stance?,Rejected,Conceded,'may benefit' grants the point before 'However',yes
+3,s3,Segment it relates to,s2,s4,'may benefit' grants the point before 'However',yes
+3,s3,How it relates,It elaborates on s1,contrasts with it,'may benefit' grants the point before 'However',yes
+3,s4,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+3,s4,How it relates,It is the main stance of the essay,,trailing space; TOP needs no relation,yes
+3,s5,How it relates,,backs it up,merged with s6 per author note,yes
+3,s5,Notes,Should be same segment as s6,Point 1,merged with s6 per author note,yes
+3,s7,What is the segment doing?,Reason,Evidence,Reason recoded; s6 merged away,yes
+3,s7,Segment it relates to,s6,s5,Reason recoded; s6 merged away,yes
+3,s7,How it relates,It elaborates on s6,backs it up,Reason recoded; s6 merged away,yes
+3,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+3,s8,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+3,s9,Segment it relates to,s8,s5,merged with s10 per author note; personal experience backs point 1,yes
+3,s9,How it relates,It elaborates on s8,gives an example,merged with s10 per author note; personal experience backs point 1,yes
+3,s11,What is the segment doing?,Conclusion,Evidence,Conclusion is for the essay end; wraps up point 1,yes
+3,s11,Segment it relates to,s6,s5,Conclusion is for the essay end; wraps up point 1,yes
+3,s11,How it relates,Conclusion of point 1,backs it up,Conclusion is for the essay end; wraps up point 1,yes
+3,s12,Segment it relates to,s14,s11,"supports s11's 'skyrocketing amount', not point 2",yes
+3,s12,How it relates,"Leading into s14, Main Point 2",backs it up,"supports s11's 'skyrocketing amount', not point 2",yes
+3,s13,What is the segment doing?,Lead,Evidence,"continues s11, not point 2",yes
+3,s13,Segment it relates to,s14,s11,"continues s11, not point 2",yes
+3,s13,How it relates,"Leading into s14, Main Point 2",adds detail,"continues s11, not point 2",yes
+3,s14,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+3,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+3,s15,How it relates,It elaborates on s14,backs it up,Reason recoded by rule 1,yes
+3,s16,What is the segment doing?,Reason,Evidence,granted before 'however',yes
+3,s16,Is this the writer's stance?,Endorsed,Conceded,granted before 'however',yes
+3,s16,Segment it relates to,s15,s17,granted before 'however',yes
+3,s16,How it relates,It elaborates on s15,contrasts with it,granted before 'however',yes
+3,s17,What is the segment doing?,Reason,Evidence,writer's own view; main support for point 2,yes
+3,s17,Is this the writer's stance?,Rejected,Endorsed,writer's own view; main support for point 2,yes
+3,s17,Segment it relates to,s16,s14,writer's own view; main support for point 2,yes
+3,s17,How it relates,Disagrees with s16,backs it up,writer's own view; main support for point 2,yes
+3,s18,What is the segment doing?,Reason,Evidence,parallel problem for point 2,yes
+3,s18,Segment it relates to,s17,s14,parallel problem for point 2,yes
+3,s18,How it relates,It supports s17,backs it up,parallel problem for point 2,yes
+3,s19,What is the segment doing?,Reason,Evidence,relation column was off by one; follows author's wording,yes
+3,s19,Segment it relates to,s17,s18,relation column was off by one; follows author's wording,yes
+3,s19,How it relates,It supports s18,adds detail,relation column was off by one; follows author's wording,yes
+3,s20,What is the segment doing?,Reason,Evidence,merged s21-s22 (splitter cut 'can | cause'; author note); off-by-one fixed,yes
+3,s20,Segment it relates to,s18,s19,merged s21-s22 (splitter cut 'can | cause'; author note); off-by-one fixed,yes
+3,s20,How it relates,It supports s19,adds detail,merged s21-s22 (splitter cut 'can | cause'; author note); off-by-one fixed,yes
+3,s23,How it relates,Main Point 3,backs it up,merged with s24 per author note,yes
+3,s25,What is the segment doing?,Reason,Evidence,Reason recoded; s24 merged away,yes
+3,s25,Segment it relates to,s24,s23,Reason recoded; s24 merged away,yes
+3,s25,How it relates,It supports s24,backs it up,Reason recoded; s24 merged away,yes
+3,s26,How it relates,It supports s25,gives an example,free-text relation mapped,yes
+3,s27,Segment it relates to,s26,s4,main point attaches to the position,yes
+3,s27,How it relates,It supports s26,backs it up,main point attaches to the position,yes
+3,s28,What is the segment doing?,Reason,Evidence,students' view the writer argues past,yes
+3,s28,Is this the writer's stance?,Endorsed,Reported,students' view the writer argues past,yes
+3,s28,Segment it relates to,s27,s29,students' view the writer argues past,yes
+3,s28,How it relates,It supports s27,contrasts with it,students' view the writer argues past,yes
+3,s29,What is the segment doing?,Reason,Evidence,parallel support for point 4,yes
+3,s29,Segment it relates to,s28,s27,parallel support for point 4,yes
+3,s29,How it relates,It supports s28,backs it up,parallel support for point 4,yes
+3,s30,What is the segment doing?,Reason,Evidence,parallel support for point 4,yes
+3,s30,Segment it relates to,s29,s27,parallel support for point 4,yes
+3,s30,How it relates,It supports s29,backs it up,parallel support for point 4,yes
+3,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+3,s31,How it relates,It supports s30,gives an example,Reason recoded by rule 1,yes
+3,s32,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+3,s32,Segment it relates to,s31,s30,Reason recoded by rule 1,yes
+3,s32,How it relates,It supports s31,adds detail,Reason recoded by rule 1,yes
+3,s33,How it relates,Counterpoint,argues against it,free-text relation mapped,yes
+3,s34,What is the segment doing?,Reason,Evidence,develops the conceded counterpoint,yes
+3,s34,How it relates,It supports and elaborates on s33,backs it up,develops the conceded counterpoint,yes
+3,s35,What is the segment doing?,Reason,Evidence,develops the conceded counterpoint,yes
+3,s35,Segment it relates to,s34,s33,develops the conceded counterpoint,yes
+3,s35,How it relates,It supports and elaborates on s34,backs it up,develops the conceded counterpoint,yes
+3,s36,What is the segment doing?,Reason,Evidence,develops the conceded counterpoint,yes
+3,s36,How it relates,It supports and elaborates on s35,adds detail,develops the conceded counterpoint,yes
+3,s37,Segment it relates to,s36,s33,reply to the counterclaim,yes
+3,s37,How it relates,It supports and elaborates on s36,argues against it,reply to the counterclaim,yes
+3,s38,What is the segment doing?,Rebuttal,Evidence,Rebuttal support recoded,yes
+3,s38,How it relates,It supports and elaborates on s37,backs it up,Rebuttal support recoded,yes
+3,s39,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+3,s39,How it relates,It supports and elaborates on s38,adds detail,Reason recoded by rule 1,yes
+3,s40,How it relates,Reinstates author's position ,restates it,free-text relation mapped,yes
+3,s41,How it relates,It elaborates on s40,adds detail,free-text relation mapped,yes
+3,s42,Segment it relates to,s41,s43,"granted before 'But, until then'",yes
+3,s42,How it relates,It elaborates on s41,contrasts with it,"granted before 'But, until then'",yes
+3,s43,Segment it relates to,s42,s40,returns to the conclusion,yes
+3,s43,How it relates,It elaborates on s42,restates it,returns to the conclusion,yes
+4,s3,segment,"cause you would be getting lazy and you would e getting used to that laziness, for me i rather go to school to actually learn and not at home",merged into s2,merged fragment s3 ('and the reasons why is | cause...'); point 1 is a Claim,yes
+4,s13,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s14,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s15,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s16,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s17,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s18,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s19,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s20,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s21,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s22,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s23,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s24,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s25,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s26,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s27,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s28,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s29,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s30,segment,.,merged into s12,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+4,s1,How it relates,It is the main stance of the essay,,trailing space; TOP needs no relation,yes
+4,s2,What is the segment doing?,Reason,Claim,merged fragment s3 ('and the reasons why is | cause...'); point 1 is a Claim,yes
+4,s2,How it relates,It continues from s1,backs it up,merged fragment s3 ('and the reasons why is | cause...'); point 1 is a Claim,yes
+4,s2,Notes,,Point 1,merged fragment s3 ('and the reasons why is | cause...'); point 1 is a Claim,yes
+4,s4,What is the segment doing?,Reason,Evidence,personal support for point 1; s3 merged away,yes
+4,s4,Segment it relates to,s3,s2,personal support for point 1; s3 merged away,yes
+4,s4,How it relates,It elaborates on s3,backs it up,personal support for point 1; s3 merged away,yes
+4,s5,Is this the writer's stance?,Endorsed,Conceded,grants the other side; point 2 answers it,yes
+4,s5,Segment it relates to,s4,s9,grants the other side; point 2 answers it,yes
+4,s5,How it relates,It supports s4,contrasts with it,grants the other side; point 2 answers it,yes
+4,s6,What is the segment doing?,Rebuttal,Evidence,keeps praising home school: part of the concession,yes
+4,s6,Is this the writer's stance?,Endorsed,Conceded,keeps praising home school: part of the concession,yes
+4,s6,How it relates,It supports s5,backs it up,keeps praising home school: part of the concession,yes
+4,s7,What is the segment doing?,Reason,Evidence,reason inside the concession,yes
+4,s7,Is this the writer's stance?,Endorsed,Conceded,reason inside the concession,yes
+4,s7,How it relates,It supports s6,backs it up,reason inside the concession,yes
+4,s8,What is the segment doing?,Reason,Evidence,still conceding; turn clause moved to s9,yes
+4,s8,Is this the writer's stance?,Endorsed,Conceded,still conceding; turn clause moved to s9,yes
+4,s8,Segment it relates to,s7,s6,still conceding; turn clause moved to s9,yes
+4,s8,How it relates,It supports s7,adds detail,still conceding; turn clause moved to s9,yes
+4,s8,segment_text,"while doing work, waking up late wouldnt be bad it would sound nice, students being home schooled have some lack of education","while doing work, waking up late wouldnt be bad it would sound nice,",still conceding; turn clause moved to s9,yes
+4,s9,How it relates,Main Point 2,backs it up,starts at the turn 'students being home schooled...',yes
+4,s9,segment_text,cause they got used to becoming lazy and not doing anything theres no teacher to tell him/her what to do they can do whatever they want with no teacher to bother them.,students being home schooled have some lack of education cause they got used to becoming lazy and not doing anything theres no teacher to tell him/her what to do they can do whatever they want with no teacher to bother them.,starts at the turn 'students being home schooled...',yes
+4,s10,How it relates,It supports s9,contrasts with it,free-text relation mapped,yes
+4,s11,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+4,s12,What is the segment doing?,Reason,Evidence,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s12,How it relates,It elaborates on s11,adds detail,merged 18 '.' segments the splitter made from a row of dots,yes
+4,s31,What is the segment doing?,"Others (Eg. Greetings, sign-offs, off-topic)",Other,writer's own aside; needs a parent,yes
+4,s31,Is this the writer's stance?,Unclear,Endorsed,writer's own aside; needs a parent,yes
+4,s31,Segment it relates to,,s1,writer's own aside; needs a parent,yes
+4,s31,How it relates,,other: aside,writer's own aside; needs a parent,yes
+5,s6,segment,they would have more freedom in their learning.,merged into s5,"merged s6 (author note, read as s5+s6); intro preview reason is a Claim",yes
+5,s12,segment,because they would more freedom in their learning.,merged into s11,merged s12 per author note,yes
+5,s14,segment,they tend to have a schedule and they're told exactly what to do and when to do it.,merged into s13,merged s14 per author note; Reason recoded,yes
+5,s20,segment,they would benefit from not having as many consequences.,merged into s19,merged s20 per author note; Reason recoded,yes
+5,s33,segment,but for the average high school student stress isn't beneficial and,merged into s32,merged s33-s34 per author note (splitter cut 'and | cause'),yes
+5,s34,segment,cause more issues for students.,merged into s32,merged s33-s34 per author note (splitter cut 'and | cause'),yes
+5,s43,segment,they would be more encouraged to learn.,merged into s42,merged s43 per author note; Reason recoded,yes
+5,s47,segment,they would be more successful.,merged into s46,"merged s47 (author note, read as s46+s47); Reason recoded",yes
+5,s1,Is this the writer's stance?,Reported,Endorsed,writer's own title is Endorsed (rule 2); needs a parent,yes
+5,s1,Segment it relates to,,s2,writer's own title is Endorsed (rule 2); needs a parent,yes
+5,s1,How it relates,,sets the scene,writer's own title is Endorsed (rule 2); needs a parent,yes
+5,s2,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+5,s2,How it relates,It is the main stance of the essay,,trailing space; TOP needs no relation,yes
+5,s3,What is the segment doing?,Reason,Evidence,s3/s4 formed a loop; problem that s5 answers,yes
+5,s3,How it relates,It is setting the context for s4,sets the scene,s3/s4 formed a loop; problem that s5 answers,yes
+5,s4,What is the segment doing?,Reason,Evidence,s3/s4 formed a loop; problem that s5 answers,yes
+5,s4,Segment it relates to,s3,s5,s3/s4 formed a loop; problem that s5 answers,yes
+5,s4,How it relates,It supports s3,sets the scene,s3/s4 formed a loop; problem that s5 answers,yes
+5,s5,What is the segment doing?,Reason,Claim,"merged s6 (author note, read as s5+s6); intro preview reason is a Claim",yes
+5,s5,Segment it relates to,s3,s2,"merged s6 (author note, read as s5+s6); intro preview reason is a Claim",yes
+5,s5,How it relates,It supports s3,backs it up,"merged s6 (author note, read as s5+s6); intro preview reason is a Claim",yes
+5,s7,What is the segment doing?,Reason,Claim,intro preview reason is a Claim,yes
+5,s7,How it relates,It supports s2,backs it up,intro preview reason is a Claim,yes
+5,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s8,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+5,s9,How it relates,It supports s2,restates it,"repeats the position; Reason recoded to Claim, pairs with s10",yes
+5,s9,What is the segment doing?,Reason,Claim,"repeats the position; Reason recoded to Claim, pairs with s10",yes
+5,s10,What is the segment doing?,Reason,Claim,intro preview reason is a Claim,yes
+5,s10,How it relates,It supports s2,backs it up,intro preview reason is a Claim,yes
+5,s11,How it relates,Main Point 1,backs it up,merged s12 per author note,yes
+5,s13,What is the segment doing?,Reason,Evidence,merged s14 per author note; Reason recoded,yes
+5,s13,How it relates,It elaborates on s11,backs it up,merged s14 per author note; Reason recoded,yes
+5,s15,How it relates,It elaborates on s11,gives an example,personal experience,yes
+5,s16,What is the segment doing?,Reason,Evidence,parallel support for point 1,yes
+5,s16,Segment it relates to,s15,s11,parallel support for point 1,yes
+5,s16,How it relates,It supports s15,backs it up,parallel support for point 1,yes
+5,s17,What is the segment doing?,Reason,Evidence,parallel support for point 1,yes
+5,s17,Segment it relates to,s15,s11,parallel support for point 1,yes
+5,s17,How it relates,It supports s15,backs it up,parallel support for point 1,yes
+5,s18,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+5,s19,What is the segment doing?,Reason,Evidence,merged s20 per author note; Reason recoded,yes
+5,s19,How it relates,It elaborates on s18,backs it up,merged s20 per author note; Reason recoded,yes
+5,s21,What is the segment doing?,Reason,Evidence,Reason recoded; restates point 2,yes
+5,s21,How it relates,It supports s18,restates it,Reason recoded; restates point 2,yes
+5,s22,What is the segment doing?,Conclusion,Evidence,Conclusion is for the essay end,yes
+5,s22,How it relates,Conclusion to main point 2,backs it up,Conclusion is for the essay end,yes
+5,s23,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+5,s24,Segment it relates to,s23,s25,problem that s25 answers,yes
+5,s24,How it relates,It elaborates on s23,sets the scene,problem that s25 answers,yes
+5,s25,What is the segment doing?,Reason,Evidence,support for point 3,yes
+5,s25,Segment it relates to,s24,s23,support for point 3,yes
+5,s25,How it relates,It elaborates on s24,backs it up,support for point 3,yes
+5,s26,What is the segment doing?,Reason,Evidence,parallel benefit for point 3,yes
+5,s26,Segment it relates to,s24,s23,parallel benefit for point 3,yes
+5,s26,How it relates,It elaborates on s24,backs it up,parallel benefit for point 3,yes
+5,s27,What is the segment doing?,Reason,Evidence,develops s26,yes
+5,s27,Segment it relates to,s24,s26,develops s26,yes
+5,s27,How it relates,It supports s24,adds detail,develops s26,yes
+5,s28,What is the segment doing?,Reason,Evidence,develops s27,yes
+5,s28,Segment it relates to,s24,s27,develops s27,yes
+5,s28,How it relates,It supports s24,adds detail,develops s27,yes
+5,s29,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s29,How it relates,It elaborates on s23,adds detail,Reason recoded by rule 1,yes
+5,s30,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s30,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+5,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s31,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+5,s32,How it relates,It elaborates on s29,adds detail,merged s33-s34 per author note (splitter cut 'and | cause'),yes
+5,s35,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s35,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+5,s36,How it relates,Counterpoint,argues against it,free-text relation mapped,yes
+5,s37,How it relates,Disagrees with s36,argues against it,free-text relation mapped,yes
+5,s38,What is the segment doing?,Reason,Evidence,"supports the reply, not the counterclaim",yes
+5,s38,Segment it relates to,s36,s37,"supports the reply, not the counterclaim",yes
+5,s38,How it relates,It supports s36,backs it up,"supports the reply, not the counterclaim",yes
+5,s39,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s39,How it relates,It supports s38,backs it up,Reason recoded by rule 1,yes
+5,s40,What is the segment doing?,Reason,Evidence,refers to s39's trouble,yes
+5,s40,Segment it relates to,s38,s39,refers to s39's trouble,yes
+5,s40,How it relates,It supports s38,adds detail,refers to s39's trouble,yes
+5,s41,What is the segment doing?,Conclusion,Evidence,Conclusion is for the essay end; wraps up rebuttal,yes
+5,s41,How it relates,Conclusion to the rebuttal,backs it up,Conclusion is for the essay end; wraps up rebuttal,yes
+5,s42,What is the segment doing?,Reason,Evidence,merged s43 per author note; Reason recoded,yes
+5,s42,How it relates,It supports s41,backs it up,merged s43 per author note; Reason recoded,yes
+5,s44,How it relates,Main Point 4,backs it up,free-text relation mapped,yes
+5,s45,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+5,s45,How it relates,It elaborates on s44,adds detail,Reason recoded by rule 1,yes
+5,s46,What is the segment doing?,Reason,Evidence,"merged s47 (author note, read as s46+s47); Reason recoded",yes
+5,s46,How it relates,It supports s44,backs it up,"merged s47 (author note, read as s46+s47); Reason recoded",yes
+5,s48,What is the segment doing?,Lead,Evidence,writer's own statement; Lead is intro only,yes
+5,s48,Is this the writer's stance?,Reported,Endorsed,writer's own statement; Lead is intro only,yes
+5,s48,Segment it relates to,,s49,writer's own statement; Lead is intro only,yes
+5,s48,How it relates,,sets the scene,writer's own statement; Lead is intro only,yes
+5,s49,What is the segment doing?,Reason,Conclusion,wrap-up of the essay,yes
+5,s49,How it relates,It supports the overall stance ,restates it,wrap-up of the essay,yes
+5,s50,What is the segment doing?,Lead,Conclusion,part of the conclusion,yes
+5,s50,How it relates,It elaborates on s49,adds detail,part of the conclusion,yes
+5,s51,How it relates,It supports the overall stance ,restates it,free-text relation mapped,yes
+6,s5,segment,and it is a lot of screen time.,merged into s4,merged s5: splitter cut the position's three-reason list; one TOP only,yes
+6,s1,Is this the writer's stance?,Reported,Endorsed,writer's own hook; context text was in the relation column with no parent,yes
+6,s1,Segment it relates to,,s4,writer's own hook; context text was in the relation column with no parent,yes
+6,s1,How it relates,Setting the context to the topic,sets the scene,writer's own hook; context text was in the relation column with no parent,yes
+6,s2,Is this the writer's stance?,Reported,Conceded,"lists perks, then s3 argues past them",yes
+6,s2,Segment it relates to,,s3,"lists perks, then s3 argues past them",yes
+6,s2,How it relates,Setting the context to the topic,contrasts with it,"lists perks, then s3 argues past them",yes
+6,s3,Segment it relates to,s2,s4,turns the hook toward the position,yes
+6,s3,How it relates,It supports s2,sets the scene,turns the hook toward the position,yes
+6,s4,What is the segment doing?,Position ,Position,merged s5: splitter cut the position's three-reason list; one TOP only,yes
+6,s4,How it relates,It is the main stance of the essay ,,merged s5: splitter cut the position's three-reason list; one TOP only,yes
+6,s6,How it relates,Main Point 1 ,backs it up,free-text relation mapped,yes
+6,s7,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+6,s7,How it relates,It elaborates on s4,adds detail,Reason recoded by rule 1,yes
+6,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+6,s8,How it relates,It elaborates on s4,backs it up,Reason recoded by rule 1,yes
+6,s9,What is the segment doing?,Reason,Evidence,comments on s8,yes
+6,s9,Segment it relates to,s6,s8,comments on s8,yes
+6,s9,How it relates,It elaborates on s4,adds detail,comments on s8,yes
+6,s10,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+6,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+6,s11,How it relates,It elaborates on s10,backs it up,Reason recoded by rule 1,yes
+6,s12,What is the segment doing?,Conclusion,Evidence,"wraps up point 2, not point 1; Conclusion is for the essay end",yes
+6,s12,Segment it relates to,s6,s10,"wraps up point 2, not point 1; Conclusion is for the essay end",yes
+6,s12,How it relates,Conclusion to the main point 2,backs it up,"wraps up point 2, not point 1; Conclusion is for the essay end",yes
+6,s13,How it relates,Main Point 3 ,backs it up,free-text relation mapped,yes
+6,s14,How it relates,It supports s13,backs it up,free-text relation mapped,yes
+6,s15,How it relates,It elaborates on s14,adds detail,free-text relation mapped,yes
+6,s16,What is the segment doing?,Conclusion,Evidence,wraps up point 3,yes
+6,s16,How it relates,It supports s13,backs it up,wraps up point 3,yes
+6,s17,What is the segment doing?,Rebuttal,Evidence,not answering a counterclaim,yes
+6,s17,How it relates,It supports s13,backs it up,not answering a counterclaim,yes
+6,s18,How it relates,Counterpoint,argues against it,free-text relation mapped,yes
+6,s19,How it relates,It disagrees with s18,argues against it,free-text relation mapped,yes
+6,s20,What is the segment doing?,Rebuttal,Evidence,"supports the reply s19, not the counterclaim",yes
+6,s20,Segment it relates to,s18,s19,"supports the reply s19, not the counterclaim",yes
+6,s20,How it relates,It supports s18,backs it up,"supports the reply s19, not the counterclaim",yes
+6,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+6,s21,How it relates,It supports s20,backs it up,Reason recoded by rule 1,yes
+6,s22,How it relates,It reinstates and supports s4,restates it,free-text relation mapped,yes
+6,s23,Segment it relates to,s4,s22,lists the points within the conclusion,yes
+6,s23,How it relates,It reinstates and supports s4,adds detail,lists the points within the conclusion,yes
+7,s6,segment,and you future to .,merged into s5,merged fragment s6 ('and you future to .'),yes
+7,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+7,s1,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+7,s2,How it relates,It elaborates on s1,adds detail,free-text relation mapped,yes
+7,s3,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+7,s3,How it relates,It supports s2,backs it up,Reason recoded by rule 1,yes
+7,s4,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but' contrast,yes
+7,s4,How it relates,It is disagreeing with s3,contrasts with it,Reason recoded by rule 1; 'but' contrast,yes
+7,s5,What is the segment doing?,Reason,Evidence,merged fragment s6 ('and you future to .'),yes
+7,s5,How it relates,It elaborates on s4,adds detail,merged fragment s6 ('and you future to .'),yes
+7,s7,What is the segment doing?,Reason,Evidence,had no parent; continues s5,yes
+7,s7,Segment it relates to,,s5,had no parent; continues s5,yes
+7,s7,How it relates,,adds detail,had no parent; continues s5,yes
+7,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+7,s8,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+7,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+7,s9,How it relates,It supports s8,backs it up,Reason recoded by rule 1,yes
+7,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+7,s10,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+7,s11,Segment it relates to,s9,s1,main point attaches to the position,yes
+7,s11,How it relates,It elaborates on s9,backs it up,main point attaches to the position,yes
+8,s19,segment,because students who get sick do not have to worry about missing assignments and do not have to worry about attendance.,merged into s18,merged s19 per author note,yes
+8,s1,Segment it relates to,,s6,writer's own context is Endorsed; needs a parent,yes
+8,s1,How it relates,,sets the scene,writer's own context is Endorsed; needs a parent,yes
+8,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed; needs a parent,yes
+8,s2,How it relates,Commenting on s1,adds detail,writer's own context is Endorsed,yes
+8,s2,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed,yes
+8,s3,Segment it relates to,s1,s6,raised in order to reject it (rule 2),yes
+8,s3,How it relates,Commenting on s1,argues against it,raised in order to reject it (rule 2),yes
+8,s3,What is the segment doing?,Lead,Counterclaim,raised in order to reject it (rule 2),yes
+8,s3,Is this the writer's stance?,Reported,Rejected,raised in order to reject it (rule 2),yes
+8,s4,How it relates,It disagrees with s3,argues against it,writer believes 'this is not true',yes
+8,s4,What is the segment doing?,Lead,Rebuttal,writer believes 'this is not true',yes
+8,s4,Is this the writer's stance?,Rejected,Endorsed,writer believes 'this is not true',yes
+8,s5,Segment it relates to,s4,s6,mentions others' view without granting it,yes
+8,s5,How it relates,It is addressing readers that disagress with s4,contrasts with it,mentions others' view without granting it,yes
+8,s5,Is this the writer's stance?,Rejected,Reported,mentions others' view without granting it,yes
+8,s6,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+8,s6,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+8,s7,Segment it relates to,s6,s8,paragraph-opening announcement (rule 3),yes
+8,s7,How it relates,It supports s6,sets the scene,paragraph-opening announcement (rule 3),yes
+8,s7,What is the segment doing?,Reason,Other,paragraph-opening announcement (rule 3),yes
+8,s8,Segment it relates to,s7,s6,main point attaches to the position,yes
+8,s8,How it relates,Main Point 1,backs it up,main point attaches to the position,yes
+8,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+8,s9,How it relates,It elaborates on s8,adds detail,Reason recoded by rule 1,yes
+8,s10,Segment it relates to,s9,s8,parallel support for point 1,yes
+8,s10,How it relates,It elaborates on s9,backs it up,parallel support for point 1,yes
+8,s10,What is the segment doing?,Reason,Evidence,parallel support for point 1,yes
+8,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+8,s11,How it relates,It elaborates on s10,adds detail,Reason recoded by rule 1,yes
+8,s12,Segment it relates to,s11,s8,parallel support for point 1,yes
+8,s12,How it relates,It elaborates on s11,backs it up,parallel support for point 1,yes
+8,s12,What is the segment doing?,Reason,Evidence,parallel support for point 1,yes
+8,s13,Segment it relates to,s6,s14,paragraph-opening announcement (rule 3),yes
+8,s13,How it relates,It leads into the next point ,sets the scene,paragraph-opening announcement (rule 3),yes
+8,s13,What is the segment doing?,Lead,Other,paragraph-opening announcement (rule 3),yes
+8,s14,How it relates,Main point 2,backs it up,free-text relation mapped,yes
+8,s15,How it relates,It supports s14,backs it up,free-text relation mapped,yes
+8,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+8,s16,How it relates,It supports s15,adds detail,Reason recoded by rule 1,yes
+8,s17,Segment it relates to,s16,s14,second support for point 2,yes
+8,s17,How it relates,It supports s16,backs it up,second support for point 2,yes
+8,s17,What is the segment doing?,Reason,Evidence,second support for point 2,yes
+8,s18,How it relates,Main point 3,backs it up,merged s19 per author note,yes
+8,s20,Segment it relates to,s6,s21,opens the conclusion by copying the thesis,yes
+8,s20,How it relates,Counterargument ,contrasts with it,opens the conclusion by copying the thesis,yes
+8,s20,What is the segment doing?,Counterclaim,Conclusion,opens the conclusion by copying the thesis,yes
+8,s20,Is this the writer's stance?,Rejected,Reported,opens the conclusion by copying the thesis,yes
+8,s21,Segment it relates to,s20,s6,"writer's own position restated, not a counterclaim",yes
+8,s21,How it relates,It elaborates on s20,restates it,"writer's own position restated, not a counterclaim",yes
+8,s21,What is the segment doing?,Counterclaim,Conclusion,"writer's own position restated, not a counterclaim",yes
+8,s21,Is this the writer's stance?,Rejected,Endorsed,"writer's own position restated, not a counterclaim",yes
+8,s22,How it relates,Reinstating the main stance and the reasons ,restates it,free-text relation mapped,yes
+8,s23,Segment it relates to,s6,s22,lists reasons inside the conclusion,yes
+8,s23,How it relates,Reinstating the main stance and the reasons ,adds detail,lists reasons inside the conclusion,yes
+8,s24,Segment it relates to,s6,s22,lists reasons inside the conclusion,yes
+8,s24,How it relates,Reinstating the main stance and the reasons ,adds detail,lists reasons inside the conclusion,yes
+8,s25,How it relates,Reinstating the main stance and the reasons ,restates it,free-text relation mapped,yes
+9,s31,segment,"while they are out of school,",merged into s30,merged s31-s32 per author note,yes
+9,s32,segment,there would be a burden lifted off their backs.,merged into s30,merged s31-s32 per author note,yes
+9,s1,Segment it relates to,,s14,writer's own observation; intro block needs a parent,yes
+9,s1,How it relates,,sets the scene,writer's own observation; intro block needs a parent,yes
+9,s1,What is the segment doing?,Evidence,Lead,writer's own observation; intro block needs a parent,yes
+9,s1,Is this the writer's stance?,Reported,Endorsed,writer's own observation; intro block needs a parent,yes
+9,s2,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s2,How it relates,It supports s1,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s3,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s3,How it relates,It supports s2,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s4,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s4,How it relates,It supports s2,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s5,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s5,How it relates,It supports s2,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s6,What is the segment doing?,Reason,Lead,"writer's own observation before the position: Lead, Endorsed",yes
+9,s6,How it relates,It supports s5,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s7,Segment it relates to,,s8,fronted clause of s8,yes
+9,s7,How it relates,,sets the scene,fronted clause of s8,yes
+9,s7,Is this the writer's stance?,Reported,Endorsed,fronted clause of s8,yes
+9,s8,Segment it relates to,,s14,intro block needs a parent,yes
+9,s8,How it relates,,sets the scene,intro block needs a parent,yes
+9,s8,Is this the writer's stance?,Reported,Endorsed,intro block needs a parent,yes
+9,s9,What is the segment doing?,Reason,Lead,"writer's own observation before the position: Lead, Endorsed",yes
+9,s9,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s9,How it relates,It supports s8,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s10,Segment it relates to,,s14,intro block needs a parent,yes
+9,s10,How it relates,,sets the scene,intro block needs a parent,yes
+9,s10,Is this the writer's stance?,Reported,Endorsed,intro block needs a parent,yes
+9,s11,What is the segment doing?,Evidence,Lead,"writer's own observation before the position: Lead, Endorsed",yes
+9,s11,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s11,How it relates,it elaborates on s10,adds detail,"writer's own observation before the position: Lead, Endorsed",yes
+9,s12,What is the segment doing?,Evidence,Lead,"writer's own observation before the position: Lead, Endorsed",yes
+9,s12,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s12,How it relates,it elaborates on s10,adds detail,"writer's own observation before the position: Lead, Endorsed",yes
+9,s13,What is the segment doing?,Reason,Lead,"writer's own observation before the position: Lead, Endorsed",yes
+9,s13,Is this the writer's stance?,Reported,Endorsed,"writer's own observation before the position: Lead, Endorsed",yes
+9,s13,How it relates,it supports s10,backs it up,"writer's own observation before the position: Lead, Endorsed",yes
+9,s14,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+9,s14,How it relates,Main Stance of the essay,,trailing space; TOP needs no relation,yes
+9,s15,Segment it relates to,s15,s16,paragraph-opening announcement (rule 3); pointed to itself,yes
+9,s15,How it relates,It supports s15,sets the scene,paragraph-opening announcement (rule 3); pointed to itself,yes
+9,s15,What is the segment doing?,Reason,Other,paragraph-opening announcement (rule 3); pointed to itself,yes
+9,s16,Segment it relates to,s15,s14,main point attaches to the position,yes
+9,s16,How it relates,Main Point 1,backs it up,main point attaches to the position,yes
+9,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s17,How it relates,It elaborates on s16,adds detail,Reason recoded by rule 1,yes
+9,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s18,How it relates,It elaborates on s16,adds detail,Reason recoded by rule 1,yes
+9,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s19,How it relates,It elaborates on s18,adds detail,Reason recoded by rule 1,yes
+9,s20,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s20,How it relates,It elaborates on s18,adds detail,Reason recoded by rule 1,yes
+9,s21,Segment it relates to,s20,s22,grants the point before 'other students... find this very difficult',yes
+9,s21,How it relates,It elaborates on s20,contrasts with it,grants the point before 'other students... find this very difficult',yes
+9,s21,What is the segment doing?,Reason,Evidence,grants the point before 'other students... find this very difficult',yes
+9,s21,Is this the writer's stance?,Endorsed,Conceded,grants the point before 'other students... find this very difficult',yes
+9,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s22,How it relates,It elaborates on s20,adds detail,Reason recoded by rule 1,yes
+9,s23,How it relates,It supports s22,backs it up,free-text relation mapped,yes
+9,s24,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s24,How it relates,It elaborates on s17,adds detail,Reason recoded by rule 1,yes
+9,s25,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s25,How it relates,It elaborates on s17,adds detail,Reason recoded by rule 1,yes
+9,s26,Segment it relates to,s15,s14,main point attaches to the position,yes
+9,s26,How it relates,Main Point 2,backs it up,main point attaches to the position,yes
+9,s27,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s27,How it relates,It elaborates on s26,adds detail,Reason recoded by rule 1,yes
+9,s28,Segment it relates to,s26,s29,fronted clause of s29,yes
+9,s28,How it relates,It elaborates on s26,sets the scene,fronted clause of s29,yes
+9,s28,What is the segment doing?,Reason,Evidence,fronted clause of s29,yes
+9,s29,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s29,How it relates,It elaborates on s26,adds detail,Reason recoded by rule 1,yes
+9,s30,What is the segment doing?,Reason,Evidence,merged s31-s32 per author note,yes
+9,s30,How it relates,It elaborates on s29,adds detail,merged s31-s32 per author note,yes
+9,s33,Segment it relates to,s32,s30,parent was merged,yes
+9,s33,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+9,s33,How it relates,It supports s32,backs it up,Reason recoded by rule 1,yes
+9,s34,Segment it relates to,s32,s26,travel is a new sub-point parallel to sickness,yes
+9,s34,How it relates,It supports s32,backs it up,travel is a new sub-point parallel to sickness,yes
+9,s34,What is the segment doing?,Reason,Evidence,travel is a new sub-point parallel to sickness,yes
+9,s35,Segment it relates to,s32,s34,example of travel,yes
+9,s35,How it relates,It supports s32,gives an example,example of travel,yes
+9,s36,Segment it relates to,s32,s34,supports the travel point,yes
+9,s36,How it relates,It supports s32,backs it up,supports the travel point,yes
+9,s36,What is the segment doing?,Reason,Evidence,supports the travel point,yes
+9,s37,Segment it relates to,s32,s36,develops s36,yes
+9,s37,How it relates,It supports s32,adds detail,develops s36,yes
+9,s37,What is the segment doing?,Reason,Evidence,develops s36,yes
+9,s38,Segment it relates to,s2,s14,writer's own point opening paragraph 4; Lead is intro only,yes
+9,s38,How it relates,It supports s2's observation,backs it up,writer's own point opening paragraph 4; Lead is intro only,yes
+9,s38,What is the segment doing?,Lead,Claim,writer's own point opening paragraph 4; Lead is intro only,yes
+9,s38,Is this the writer's stance?,Reported,Endorsed,writer's own point opening paragraph 4; Lead is intro only,yes
+9,s39,Segment it relates to,s38,s44,sports and clubs back the claim that social opportunities remain,yes
+9,s39,How it relates,It elaborates on s38,backs it up,sports and clubs back the claim that social opportunities remain,yes
+9,s39,What is the segment doing?,Lead,Evidence,sports and clubs back the claim that social opportunities remain,yes
+9,s40,Segment it relates to,s39,s14,counterclaim attaches to the position,yes
+9,s40,How it relates,It disagrees with s39,argues against it,counterclaim attaches to the position,yes
+9,s41,How it relates,It disagrees with s40,argues against it,'which is simply not true' is the writer's reply,yes
+9,s41,What is the segment doing?,Counterclaim,Rebuttal,'which is simply not true' is the writer's reply,yes
+9,s41,Is this the writer's stance?,Rejected,Endorsed,'which is simply not true' is the writer's reply,yes
+9,s42,How it relates,It disagrees with s40,argues against it,free-text relation mapped,yes
+9,s43,Segment it relates to,s40,s42,explains s42,yes
+9,s43,How it relates,It disagrees with s40,backs it up,explains s42,yes
+9,s43,What is the segment doing?,Rebuttal,Evidence,explains s42,yes
+9,s44,How it relates,It disagrees with s40,argues against it,free-text relation mapped,yes
+9,s45,Segment it relates to,s15,s14,conclusion restates the position,yes
+9,s45,How it relates,Reinstating the points to support the stance in s15,restates it,conclusion restates the position,yes
+9,s46,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s46,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s47,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s47,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s48,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s48,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s49,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s49,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s50,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s50,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s51,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s51,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s52,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s52,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s53,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s53,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+9,s54,Segment it relates to,s15,s53,explains s53,yes
+9,s54,How it relates,Reinstating the points to support the stance in s15,backs it up,explains s53,yes
+9,s55,Segment it relates to,s15,s45,lists points under the conclusion,yes
+9,s55,How it relates,Reinstating the points to support the stance in s15,adds detail,lists points under the conclusion,yes
+10,s5,segment,so many students would skip school all the time.,merged into s4,merged s5 per author note,yes
+10,s7,segment,because they wouldnt even have to pay attention.,merged into s6,merged s7 per author note; repeats point 1,yes
+10,s1,Segment it relates to,,s3,writer's own context is Endorsed; needs a parent,yes
+10,s1,How it relates,,sets the scene,writer's own context is Endorsed; needs a parent,yes
+10,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed; needs a parent,yes
+10,s2,Segment it relates to,,s1,writer's own context is Endorsed; needs a parent,yes
+10,s2,How it relates,,adds detail,writer's own context is Endorsed; needs a parent,yes
+10,s2,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed; needs a parent,yes
+10,s3,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+10,s3,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+10,s4,How it relates,Main Point 1,backs it up,merged s5 per author note,yes
+10,s6,How it relates,It elaborates on s4,restates it,merged s7 per author note; repeats point 1,yes
+10,s6,What is the segment doing?,Reason,Evidence,merged s7 per author note; repeats point 1,yes
+10,s8,Segment it relates to,s5,s9,sets up the question in s9,yes
+10,s8,How it relates,It elaborates on s5,sets the scene,sets up the question in s9,yes
+10,s8,What is the segment doing?,Reason,Evidence,sets up the question in s9,yes
+10,s9,Segment it relates to,s5,s4,backs point 1; s5 merged into s4,yes
+10,s9,How it relates,It elaborates on s5,backs it up,backs point 1; s5 merged into s4,yes
+10,s9,What is the segment doing?,Reason,Evidence,backs point 1; s5 merged into s4,yes
+10,s10,Segment it relates to,s8,s11,'teachers will... but no one can at home',yes
+10,s10,How it relates,It elaborates on s8,contrasts with it,'teachers will... but no one can at home',yes
+10,s10,What is the segment doing?,Reason,Evidence,'teachers will... but no one can at home',yes
+10,s11,Segment it relates to,s8,s9,backs s9,yes
+10,s11,How it relates,It elaborates on s8,backs it up,backs s9,yes
+10,s11,What is the segment doing?,Reason,Evidence,backs s9,yes
+10,s12,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+10,s13,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+10,s14,How it relates,It supports s13,backs it up,parallel support for point 3,yes
+10,s14,What is the segment doing?,Reason,Evidence,parallel support for point 3,yes
+10,s15,Segment it relates to,s14,s13,parallel support for point 3,yes
+10,s15,How it relates,It supports s14,backs it up,parallel support for point 3,yes
+10,s15,What is the segment doing?,Reason,Evidence,parallel support for point 3,yes
+10,s16,Segment it relates to,s15,s17,sets up s17,yes
+10,s16,How it relates,It explains why s15 is undesirable ,sets the scene,sets up s17,yes
+10,s16,What is the segment doing?,Reason,Evidence,sets up s17,yes
+10,s17,Segment it relates to,s16,s13,support for point 3,yes
+10,s17,How it relates,It elaborates on s16,backs it up,support for point 3,yes
+10,s17,What is the segment doing?,Reason,Evidence,support for point 3,yes
+10,s18,How it relates,Counterargument 1,argues against it,free-text relation mapped,yes
+10,s19,What is the segment doing?,Counterclaim,Evidence,develops the rejected counterclaim,yes
+10,s19,How it relates,It elaborates on s18,backs it up,develops the rejected counterclaim,yes
+10,s20,What is the segment doing?,Reason,Evidence,develops the rejected counterclaim,yes
+10,s20,How it relates,It supports s19,backs it up,develops the rejected counterclaim,yes
+10,s21,Segment it relates to,s19,s18,replies to the counterclaim as a whole,yes
+10,s21,How it relates,It disagrees with s19,argues against it,replies to the counterclaim as a whole,yes
+10,s22,How it relates,It supports s21,backs it up,'and just' moved to s23 ('just because... doesnt mean'),yes
+10,s22,What is the segment doing?,Rebuttal,Evidence,'and just' moved to s23 ('just because... doesnt mean'),yes
+10,s22,segment_text,because it would make it so kids could just skip school whenever they want and just,because it would make it so kids could just skip school whenever they want,'and just' moved to s23 ('just because... doesnt mean'),yes
+10,s23,Segment it relates to,s22,s21,boundary moved; parallel reason for the rebuttal,yes
+10,s23,How it relates,It supports s22,backs it up,boundary moved; parallel reason for the rebuttal,yes
+10,s23,What is the segment doing?,Rebuttal,Evidence,boundary moved; parallel reason for the rebuttal,yes
+10,s23,segment_text,because they have the class on the computer doesnt mean they are actually paying attention.,and just because they have the class on the computer doesnt mean they are actually paying attention.,boundary moved; parallel reason for the rebuttal,yes
+10,s24,Segment it relates to,s23,s3,final one-sentence paragraph,yes
+10,s24,How it relates,It elaborates on s23,adds detail,final one-sentence paragraph,yes
+10,s24,What is the segment doing?,Reason,Conclusion,final one-sentence paragraph,yes
+11,s1,Segment it relates to,,s2,writer's own context is Endorsed; needs a parent,yes
+11,s1,How it relates,,sets the scene,writer's own context is Endorsed; needs a parent,yes
+11,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context is Endorsed; needs a parent,yes
+11,s2,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+11,s2,How it relates,It is the main perspective of the author,,trailing space; TOP needs no relation,yes
+11,s3,How it relates,It is elaborating on the stance that online learning is beneficial. ,backs it up,free-text relation mapped,yes
+11,s4,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+11,s4,How it relates,It elaborates on s3,backs it up,Reason recoded by rule 1,yes
+11,s5,Segment it relates to,s3,s6,fronted clause of s6,yes
+11,s5,How it relates,It elaborates on s3,sets the scene,fronted clause of s6,yes
+11,s5,What is the segment doing?,Reason,Evidence,fronted clause of s6,yes
+11,s6,How it relates,It elaborates on s3,backs it up,Reason recoded by rule 1,yes
+11,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+11,s7,How it relates,It is elaborating on the stance that online learning is not beneficial. ,backs it up,free-text relation mapped,yes
+11,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; restates s7,yes
+11,s8,How it relates,It elaborates on s7,restates it,Reason recoded by rule 1; restates s7,yes
+11,s9,Segment it relates to,s7,s8,reason for s8,yes
+11,s9,How it relates,It elaborates on s7,backs it up,reason for s8,yes
+11,s9,What is the segment doing?,Reason,Evidence,reason for s8,yes
+11,s10,Segment it relates to,s7,s9,illustrates that people learn differently,yes
+11,s10,How it relates,It supports s7,gives an example,illustrates that people learn differently,yes
+11,s11,How it relates,It supports s7,backs it up,free-text relation mapped,yes
+11,s12,Segment it relates to,s7,s11,continues s11,yes
+11,s12,How it relates,It supports s7,adds detail,continues s11,yes
+11,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+11,s13,How it relates,It supports s9,backs it up,Reason recoded by rule 1,yes
+11,s14,How it relates,It reinstates the stance of the essay,restates it,free-text relation mapped,yes
+11,s15,How it relates,It reinstates the stance of the essay,restates it,free-text relation mapped,yes
+12,s8,segment,cause lower grades for them in the long term.,merged into s7,merged s8 (splitter cut 'may even | cause'),yes
+12,s18,segment,though it would negatively affect the student,merged into s17,merged s18 (cut inside 'as | though'); counterclaim attaches to the position,yes
+12,s33,segment,"cause students to finish quicker, and turn in better quality assignments.",merged into s32,merged s33 (splitter cut 'which can | cause'); support for availability,yes
+12,s25,segment,but their well being.,merged into s24,merged s25 per author note; boundary moved,yes
+12,s27,segment,because of the availability.,merged into s26,merged s27 (author note read as s26+s27); main point attaches to the position,yes
+12,s29,segment,"because of many reasons such as the distraction from others in the classroom, or poor teaching style for example can make it almost impossible to work on and finish assignments that are given in school.",merged into s28,merged s29 (one sentence); support for availability,yes
+12,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+12,s1,How it relates,This is the main stance of the essay.,,trailing space; TOP needs no relation,yes
+12,s2,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+12,s3,What is the segment doing?,Reason,Evidence,opens the sports paragraph,yes
+12,s3,How it relates,It supports s2,backs it up,opens the sports paragraph,yes
+12,s4,Segment it relates to,s2,s3,Reason recoded by rule 1,yes
+12,s4,How it relates,It supports s2,adds detail,Reason recoded by rule 1,yes
+12,s4,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s5,Segment it relates to,s4,s6,'Not only... | but...',yes
+12,s5,How it relates,It elaborates on s4,sets the scene,'Not only... | but...',yes
+12,s5,What is the segment doing?,Reason,Evidence,'Not only... | but...',yes
+12,s6,How it relates,It elaborates on s4,backs it up,Reason recoded by rule 1,yes
+12,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s7,Segment it relates to,s4,s6,merged s8 (splitter cut 'may even | cause'),yes
+12,s7,How it relates,It elaborates on s4,adds detail,merged s8 (splitter cut 'may even | cause'),yes
+12,s7,What is the segment doing?,Reason,Evidence,merged s8 (splitter cut 'may even | cause'),yes
+12,s9,Segment it relates to,s3,s2,opens the jobs paragraph,yes
+12,s9,How it relates,It supports s3,backs it up,opens the jobs paragraph,yes
+12,s9,What is the segment doing?,Reason,Evidence,opens the jobs paragraph,yes
+12,s10,How it relates,It supports s9,backs it up,free-text relation mapped,yes
+12,s11,Segment it relates to,s2,s12,fragment that sets up the working-hours example,yes
+12,s11,How it relates,It elaborates on s2,sets the scene,fragment that sets up the working-hours example,yes
+12,s11,What is the segment doing?,Reason,Evidence,fragment that sets up the working-hours example,yes
+12,s12,Segment it relates to,s11,s10,develops s10,yes
+12,s12,How it relates,It elaborates on s11,adds detail,develops s10,yes
+12,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s13,How it relates,It elaborates on s12,adds detail,Reason recoded by rule 1,yes
+12,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s14,How it relates,It elaborates on s12,adds detail,Reason recoded by rule 1,yes
+12,s15,Segment it relates to,s2,s9,repeats s9,yes
+12,s15,How it relates,It elaborates on s2,restates it,repeats s9,yes
+12,s15,What is the segment doing?,Reason,Evidence,repeats s9,yes
+12,s16,How it relates,It elaborates on s15,backs it up,Reason recoded by rule 1,yes
+12,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s17,Segment it relates to,s2,s1,merged s18 (cut inside 'as | though'); counterclaim attaches to the position,yes
+12,s17,How it relates,It disagrees with s2,argues against it,merged s18 (cut inside 'as | though'); counterclaim attaches to the position,yes
+12,s19,Segment it relates to,s18,s17,develops the rejected counterclaim,yes
+12,s19,How it relates,It elaborates on s18,backs it up,develops the rejected counterclaim,yes
+12,s19,What is the segment doing?,Reason,Evidence,develops the rejected counterclaim,yes
+12,s20,Segment it relates to,s18,s17,s18 merged into s17,yes
+12,s20,How it relates,It elaborates on s18,argues against it,s18 merged into s17,yes
+12,s21,Segment it relates to,s2,s1,main point attaches to the position,yes
+12,s21,How it relates,Main Point 2,backs it up,main point attaches to the position,yes
+12,s21,What is the segment doing?,Reason,Claim,main point attaches to the position,yes
+12,s22,How it relates,It elaborates on s21,adds detail,Reason recoded by rule 1,yes
+12,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s23,Segment it relates to,s21,s24,"boundary moved: 'while being in a school environment,' belongs to the fronted clause",yes
+12,s23,How it relates,It elaborates on s21,sets the scene,"boundary moved: 'while being in a school environment,' belongs to the fronted clause",yes
+12,s23,What is the segment doing?,Reason,Evidence,"boundary moved: 'while being in a school environment,' belongs to the fronted clause",yes
+12,s23,segment_text,But in the cases of those who have had bullying be a constant occurrence for them,"But in the cases of those who have had bullying be a constant occurrence for them while being in a school environment,","boundary moved: 'while being in a school environment,' belongs to the fronted clause",yes
+12,s24,Segment it relates to,s23,s21,merged s25 per author note; boundary moved,yes
+12,s24,How it relates,It elaborates on s23,backs it up,merged s25 per author note; boundary moved,yes
+12,s24,What is the segment doing?,Reason,Evidence,merged s25 per author note; boundary moved,yes
+12,s24,segment_text,"while being in a school environment, this lower level of interaction with others through the use of online schooling can be very helpful and can have a positive impact not only their grades but their well being.",this lower level of interaction with others through the use of online schooling can be very helpful and can have a positive impact not only their grades but their well being.,merged s25 per author note; boundary moved,yes
+12,s26,Segment it relates to,s2,s1,merged s27 (author note read as s26+s27); main point attaches to the position,yes
+12,s26,How it relates,Main Point 3,backs it up,merged s27 (author note read as s26+s27); main point attaches to the position,yes
+12,s28,Segment it relates to,s27,s26,merged s29 (one sentence); support for availability,yes
+12,s28,How it relates,It elaborates on s27,backs it up,merged s29 (one sentence); support for availability,yes
+12,s28,What is the segment doing?,Reason,Evidence,merged s29 (one sentence); support for availability,yes
+12,s30,Segment it relates to,s29,s26,support for availability,yes
+12,s30,How it relates,It elaborates on s29,backs it up,support for availability,yes
+12,s30,What is the segment doing?,Reason,Evidence,support for availability,yes
+12,s31,Segment it relates to,s29,s30,Reason recoded by rule 1,yes
+12,s31,How it relates,It elaborates on s29,backs it up,Reason recoded by rule 1,yes
+12,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+12,s32,Segment it relates to,s29,s26,merged s33 (splitter cut 'which can | cause'); support for availability,yes
+12,s32,How it relates,It elaborates on s29,backs it up,merged s33 (splitter cut 'which can | cause'); support for availability,yes
+12,s32,What is the segment doing?,Reason,Evidence,merged s33 (splitter cut 'which can | cause'); support for availability,yes
+12,s34,How it relates,It reinstates the stance of the essay.,restates it,free-text relation mapped,yes
+13,s1,Segment it relates to,,s4,writer's own context; needs a parent,yes
+13,s1,How it relates,,sets the scene,writer's own context; needs a parent,yes
+13,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+13,s2,Segment it relates to,,s4,needs a parent,yes
+13,s2,How it relates,,sets the scene,needs a parent,yes
+13,s3,Segment it relates to,,s4,needs a parent,yes
+13,s3,How it relates,,argues against it,needs a parent,yes
+13,s4,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+13,s4,How it relates,This is the main stance of the essay.,,trailing space; TOP needs no relation,yes
+13,s5,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+13,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s6,How it relates,It elaborates on s5,adds detail,Reason recoded by rule 1,yes
+13,s7,How it relates,It elaborates on s5,gives an example,free-text relation mapped,yes
+13,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s8,How it relates,It supports s5,backs it up,Reason recoded by rule 1,yes
+13,s9,How it relates,Main Point 2,backs it up,author's note calls it point 2,yes
+13,s9,What is the segment doing?,Reason,Claim,author's note calls it point 2,yes
+13,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s10,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+13,s11,How it relates,It elaborates on s9,gives an example,writer's own experience,yes
+13,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s12,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+13,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s13,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+13,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s14,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+13,s15,What is the segment doing?,Reason,Evidence,writer's own experience,yes
+13,s15,How it relates,It elaborates on s9,gives an example,writer's own experience,yes
+13,s16,Segment it relates to,s16,s15,pointed to itself; continues s15,yes
+13,s16,How it relates,It supports s16,adds detail,pointed to itself; continues s15,yes
+13,s16,What is the segment doing?,Reason,Evidence,pointed to itself; continues s15,yes
+13,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s17,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+13,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+13,s18,How it relates,It supports s17,backs it up,Reason recoded by rule 1,yes
+13,s19,What is the segment doing?,Reason,Evidence,writer's own experience,yes
+13,s19,How it relates,It supports s9,gives an example,writer's own experience,yes
+13,s20,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+13,s21,How it relates,It elaborates on s20,backs it up,support for point 3,yes
+13,s21,What is the segment doing?,Reason,Evidence,support for point 3,yes
+13,s22,How it relates,It elaborates on s20,gives an example,writer's own experience,yes
+13,s23,Segment it relates to,s22,s21,develops s21,yes
+13,s23,How it relates,It elaborates on s22,adds detail,develops s21,yes
+13,s23,What is the segment doing?,Reason,Evidence,develops s21,yes
+13,s24,Segment it relates to,s22,s20,separate support for point 3,yes
+13,s24,How it relates,It elaborates on s22,backs it up,separate support for point 3,yes
+13,s24,What is the segment doing?,Reason,Evidence,separate support for point 3,yes
+13,s25,Segment it relates to,s22,s24,writer's own experience,yes
+13,s25,How it relates,It elaborates on s22,gives an example,writer's own experience,yes
+13,s25,What is the segment doing?,Reason,Evidence,writer's own experience,yes
+13,s26,Segment it relates to,s22,s24,restates s24,yes
+13,s26,How it relates,It supports s22,restates it,restates s24,yes
+13,s26,What is the segment doing?,Reason,Evidence,restates s24,yes
+13,s27,Segment it relates to,s4,s28,others' view (as essay 8),yes
+13,s27,How it relates,Reinstating the main stance of the essay. ,contrasts with it,others' view (as essay 8),yes
+13,s27,Is this the writer's stance?,Endorsed,Reported,others' view (as essay 8),yes
+13,s28,How it relates,Reinstating the main stance of the essay. ,restates it,free-text relation mapped,yes
+13,s29,Segment it relates to,s4,s28,writer's own position plus a list of points,yes
+13,s29,How it relates,Counterargument 1. It disagrees with s4's stance.,adds detail,writer's own position plus a list of points,yes
+13,s29,What is the segment doing?,Counterclaim,Conclusion,writer's own position plus a list of points,yes
+13,s29,Is this the writer's stance?,Rejected,Endorsed,writer's own position plus a list of points,yes
+13,s30,Segment it relates to,s29,s4,counterclaim attaches to the position,yes
+13,s30,How it relates,It elaborates on s29,argues against it,counterclaim attaches to the position,yes
+13,s31,Segment it relates to,s29,s30,writer's reply to the counterclaim,yes
+13,s31,How it relates,It elaborates on s29,argues against it,writer's reply to the counterclaim,yes
+13,s31,What is the segment doing?,Counterclaim,Rebuttal,writer's reply to the counterclaim,yes
+13,s31,Is this the writer's stance?,Rejected,Endorsed,writer's reply to the counterclaim,yes
+13,s32,Segment it relates to,s29,s31,writer's own consequence backing the reply,yes
+13,s32,How it relates,It elaborates on s29,backs it up,writer's own consequence backing the reply,yes
+13,s32,What is the segment doing?,Reason,Evidence,writer's own consequence backing the reply,yes
+13,s32,Is this the writer's stance?,Rejected,Endorsed,writer's own consequence backing the reply,yes
+13,s33,Segment it relates to,s29,s31,writer's own consequence backing the reply,yes
+13,s33,How it relates,It elaborates on s29,backs it up,writer's own consequence backing the reply,yes
+13,s33,What is the segment doing?,Reason,Evidence,writer's own consequence backing the reply,yes
+13,s33,Is this the writer's stance?,Rejected,Endorsed,writer's own consequence backing the reply,yes
+13,s34,Segment it relates to,s29,s31,writer's own point backing the reply,yes
+13,s34,How it relates,It elaborates on s29,backs it up,writer's own point backing the reply,yes
+13,s34,What is the segment doing?,Reason,Evidence,writer's own point backing the reply,yes
+13,s34,Is this the writer's stance?,Rejected,Endorsed,writer's own point backing the reply,yes
+13,overall,Overall Essay Comments,"The second person pronoun ""Me"" is used wrongly quite frequently. Awkward phrasing at times that makes it feel like listing rather than writing a coherent essay. There was no reply to the counterclaim stated at the end of the essay.","The second person pronoun ""Me"" is used wrongly quite frequently. Awkward phrasing at times that makes it feel like listing rather than writing a coherent essay. The reply to the counterclaim (s31) is brief and comes after the conclusion.",author asked: s31 is the reply to the counterclaim,yes
+14,s6,segment,because some students have health problems and it is not a benefit,merged into s5,merged s6-s7: one position sentence cut at each 'because'; one TOP only,yes
+14,s7,segment,because students can't learn good like in school.,merged into s5,merged s6-s7: one position sentence cut at each 'because'; one TOP only,yes
+14,s1,Segment it relates to,,s5,writer's own context; needs a parent,yes
+14,s1,How it relates,,sets the scene,writer's own context; needs a parent,yes
+14,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+14,s2,Segment it relates to,,s1,schools' view; needs a parent,yes
+14,s2,How it relates,,adds detail,schools' view; needs a parent,yes
+14,s3,Segment it relates to,,s5,writer's own context; needs a parent,yes
+14,s3,How it relates,,sets the scene,writer's own context; needs a parent,yes
+14,s3,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+14,s4,Segment it relates to,,s3,writer's own context; needs a parent,yes
+14,s4,How it relates,,contrasts with it,writer's own context; needs a parent,yes
+14,s4,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+14,s5,What is the segment doing?,Position ,Position,merged s6-s7: one position sentence cut at each 'because'; one TOP only,yes
+14,s8,Segment it relates to,s7,s5,'can be a benefit' grants the point,yes
+14,s8,How it relates,It is a counterargument to the main stance. ,argues against it,'can be a benefit' grants the point,yes
+14,s8,Is this the writer's stance?,Endorsed,Conceded,'can be a benefit' grants the point,yes
+14,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s9,How it relates,It elaborates on s8,backs it up,Reason recoded by rule 1,yes
+14,s10,Segment it relates to,s7,s5,grants the point,yes
+14,s10,How it relates,It is a counterargument to the main stance. ,argues against it,grants the point,yes
+14,s10,Is this the writer's stance?,Endorsed,Conceded,grants the point,yes
+14,s11,How it relates,It supports s10,gives an example,free-text relation mapped,yes
+14,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s12,How it relates,It elaborates on s11,backs it up,Reason recoded by rule 1,yes
+14,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s13,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1,yes
+14,s14,Segment it relates to,s11,s13,'because' explains s13,yes
+14,s14,How it relates,It elaborates on s11,backs it up,'because' explains s13,yes
+14,s14,What is the segment doing?,Reason,Evidence,'because' explains s13,yes
+14,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s15,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1,yes
+14,s16,Segment it relates to,s11,s15,'because' explains s15,yes
+14,s16,How it relates,It elaborates on s11,backs it up,'because' explains s15,yes
+14,s16,What is the segment doing?,Reason,Evidence,'because' explains s15,yes
+14,s17,Segment it relates to,s7,s5,s7 merged into s5,yes
+14,s17,How it relates,It is a counterargument to the main stance. ,argues against it,s7 merged into s5,yes
+14,s18,How it relates,It elaborates on s17,backs it up,'because' chain,yes
+14,s18,What is the segment doing?,Reason,Evidence,'because' chain,yes
+14,s19,Segment it relates to,s17,s18,'because' chain,yes
+14,s19,How it relates,It elaborates on s17,adds detail,'because' chain,yes
+14,s19,What is the segment doing?,Reason,Evidence,'because' chain,yes
+14,s20,Segment it relates to,s7,s5,s7 merged into s5,yes
+14,s20,How it relates,Main Point 1,backs it up,s7 merged into s5,yes
+14,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s21,How it relates,It elaborates on s20,backs it up,Reason recoded by rule 1,yes
+14,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s22,How it relates,It supports s21,backs it up,Reason recoded by rule 1,yes
+14,s23,Segment it relates to,s21,s20,"second reason for point 1, parallel to s21",yes
+14,s23,How it relates,It supports s21,backs it up,"second reason for point 1, parallel to s21",yes
+14,s23,What is the segment doing?,Reason,Evidence,"second reason for point 1, parallel to s21",yes
+14,s24,Segment it relates to,s21,s23,explains s23,yes
+14,s24,How it relates,It supports s21,backs it up,explains s23,yes
+14,s24,What is the segment doing?,Reason,Evidence,explains s23,yes
+14,s25,Segment it relates to,s7,s5,s7 merged into s5,yes
+14,s25,How it relates,Main Point 2,backs it up,s7 merged into s5,yes
+14,s26,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+14,s26,How it relates,It elaborates on s25,adds detail,Reason recoded by rule 1,yes
+14,s27,Segment it relates to,s26,s25,personal example of point 2,yes
+14,s27,How it relates,It elaborates on s26,gives an example,personal example of point 2,yes
+14,s28,Segment it relates to,s26,s27,'because' chain,yes
+14,s28,How it relates,It elaborates on s26,backs it up,'because' chain,yes
+14,s29,Segment it relates to,s26,s27,'because' chain,yes
+14,s29,How it relates,It elaborates on s26,adds detail,'because' chain,yes
+14,s29,What is the segment doing?,Reason,Evidence,'because' chain,yes
+14,s30,Segment it relates to,s26,s29,'because' chain,yes
+14,s30,How it relates,It elaborates on s26,backs it up,'because' chain,yes
+14,s30,What is the segment doing?,Reason,Evidence,'because' chain,yes
+14,s31,Segment it relates to,s26,s30,'because' chain,yes
+14,s31,How it relates,It elaborates on s26,backs it up,'because' chain,yes
+14,s32,How it relates,It supports s31,adds detail,'because' chain,yes
+14,s33,Segment it relates to,s31,s32,'because' chain,yes
+14,s33,How it relates,It supports s31,backs it up,'because' chain,yes
+14,s34,Segment it relates to,s31,s32,'because' chain,yes
+14,s34,How it relates,It supports s31,backs it up,'because' chain,yes
+14,s34,What is the segment doing?,Reason,Evidence,'because' chain,yes
+14,s35,Segment it relates to,s31,s25,second support for point 2,yes
+14,s35,How it relates,It supports s31,backs it up,second support for point 2,yes
+14,s36,Segment it relates to,s25,s35,explains s35,yes
+14,s36,How it relates,It supports s25,backs it up,explains s35,yes
+14,s36,What is the segment doing?,Reason,Evidence,explains s35,yes
+14,s37,Segment it relates to,s25,s35,explains s35,yes
+14,s37,How it relates,It supports s25,backs it up,explains s35,yes
+14,s37,What is the segment doing?,Reason,Evidence,explains s35,yes
+14,s38,Segment it relates to,s25,s5,opens the conclusion,yes
+14,s38,How it relates,It supports s25,restates it,opens the conclusion,yes
+14,s38,What is the segment doing?,Reason,Conclusion,opens the conclusion,yes
+14,s39,Segment it relates to,s7,s38,develops the conclusion,yes
+14,s39,How it relates,It reinstates s7,adds detail,develops the conclusion,yes
+14,s40,Segment it relates to,s39,s38,develops the conclusion,yes
+14,s40,How it relates,It supports s39,adds detail,develops the conclusion,yes
+14,s41,Segment it relates to,s39,s40,explains s40,yes
+14,s41,How it relates,It supports s39,backs it up,explains s40,yes
+14,s42,Segment it relates to,s7,s5,s7 merged into s5,yes
+14,s42,How it relates,It reinstates s7,restates it,s7 merged into s5,yes
+14,s43,How it relates,It supports s42,backs it up,free-text relation mapped,yes
+14,s44,How it relates,It supports s43,adds detail,free-text relation mapped,yes
+14,s45,How it relates,It supports s43,adds detail,free-text relation mapped,yes
+14,s46,Segment it relates to,s43,s42,personal chain supporting s42,yes
+14,s46,How it relates,It supports s43,backs it up,personal chain supporting s42,yes
+14,s47,Segment it relates to,s43,s46,personal chain,yes
+14,s47,How it relates,It supports s43,adds detail,personal chain,yes
+14,s48,Segment it relates to,s43,s47,personal chain,yes
+14,s48,How it relates,It supports s43,backs it up,personal chain,yes
+14,s49,Segment it relates to,s43,s48,personal chain,yes
+14,s49,How it relates,It supports s43,backs it up,personal chain,yes
+14,s50,Segment it relates to,s43,s48,personal chain,yes
+14,s50,How it relates,It supports s43,backs it up,personal chain,yes
+16,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+16,s1,How it relates,Main stance of the essay.,,trailing space; TOP needs no relation,yes
+16,s2,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+16,s3,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s3,How it relates,It elaborates on s2,adds detail,Reason recoded by rule 1,yes
+16,s4,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; reason for point 1,yes
+16,s4,How it relates,It elaborates on s2,backs it up,Reason recoded by rule 1; reason for point 1,yes
+16,s5,Segment it relates to,s3,s4,illustrates s4,yes
+16,s5,How it relates,It supports s3,gives an example,illustrates s4,yes
+16,s6,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s7,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s8,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s9,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s10,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s11,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s12,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+16,s13,Segment it relates to,s5,s1,opens paragraph 2 with the writer's alternative,yes
+16,s13,How it relates,It elaborates on s5,backs it up,opens paragraph 2 with the writer's alternative,yes
+16,s13,What is the segment doing?,Reason,Claim,opens paragraph 2 with the writer's alternative,yes
+16,s14,Segment it relates to,s5,s13,Reason recoded by rule 1; supports s13,yes
+16,s14,How it relates,It elaborates on s5,backs it up,Reason recoded by rule 1; supports s13,yes
+16,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; supports s13,yes
+16,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s15,How it relates,It elaborates on s2,adds detail,Reason recoded by rule 1,yes
+16,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s16,How it relates,It elaborates on s15,adds detail,Reason recoded by rule 1,yes
+16,s17,Segment it relates to,s16,s2,opens paragraph 3 repeating point 1,yes
+16,s17,How it relates,It elaborates on s16,restates it,opens paragraph 3 repeating point 1,yes
+16,s17,What is the segment doing?,Reason,Evidence,opens paragraph 3 repeating point 1,yes
+16,s18,Segment it relates to,s16,s17,Reason recoded by rule 1,yes
+16,s18,How it relates,It elaborates on s16,adds detail,Reason recoded by rule 1,yes
+16,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s19,Segment it relates to,s18,s17,second accident story illustrates s17,yes
+16,s19,How it relates,It supports s18,gives an example,second accident story illustrates s17,yes
+16,s20,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s21,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s22,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s23,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s24,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s25,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s26,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s27,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+16,s28,How it relates,Disagrees with the stance in s1,argues against it,free-text relation mapped,yes
+16,s29,How it relates,Disagrees with s28,argues against it,free-text relation mapped,yes
+16,s30,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s30,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+16,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s31,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+16,s32,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s32,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+16,s33,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s33,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+16,s34,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+16,s34,How it relates,It elaborates on s29,adds detail,Reason recoded by rule 1,yes
+16,s35,How it relates,It reinstates the main stance of the essay,restates it,free-text relation mapped,yes
+16,s36,Segment it relates to,s1,s35,develops the conclusion,yes
+16,s36,How it relates,It reinstates the main stance of the essay,adds detail,develops the conclusion,yes
+17,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+17,s1,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+17,s2,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+17,s3,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+17,s3,How it relates,It elaborates on s2,adds detail,Reason recoded by rule 1,yes
+17,s4,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+17,s4,How it relates,It elaborates on s2,adds detail,Reason recoded by rule 1,yes
+17,s5,Segment it relates to,s2,s4,Reason recoded by rule 1; explains s4,yes
+17,s5,How it relates,It elaborates on s2,backs it up,Reason recoded by rule 1; explains s4,yes
+17,s5,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; explains s4,yes
+17,s6,How it relates,It supports s2,gives an example,'because for example...',yes
+17,s7,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+17,s7,How it relates,It elaborates on s6,adds detail,Reason recoded by rule 1,yes
+17,s8,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+17,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+17,s9,How it relates,It elaborates on s8,adds detail,Reason recoded by rule 1,yes
+18,s3,segment,because im working and i don't have that much time i would loved to study when ever i could.,merged into s2,merged s3 per author note,yes
+18,s5,segment,"some people that are here in the United States they have to go to school and work after school,",merged into s4,merged s5 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s8,segment,Some of the people don't have someone that can take them to school and the school is far away that the buses can not go all the way to their homes.,merged into s7,merged s8 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s10,segment,"There are some kids that don't go to school, having the school next to them,",merged into s9,merged s10 (same 'For Example:' pattern); parallel 'For Example:' attaches to the single main point,yes
+18,s1,Segment it relates to,Main stance of the essay,TOP,'Main stance' text was in the relation column; needs TOP,yes
+18,s1,What is the segment doing?,Position ,Position,'Main stance' text was in the relation column; needs TOP,yes
+18,s2,How it relates,Main Point 1,backs it up,merged s3 per author note,yes
+18,s4,Segment it relates to,s3,s2,merged s5 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s4,How it relates,it supports s3,gives an example,merged s5 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+18,s6,How it relates,It elaborates on s4,adds detail,Reason recoded by rule 1,yes
+18,s7,Segment it relates to,s3,s2,merged s8 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s7,How it relates,it supports s3,gives an example,merged s8 per author note; parallel 'For Example:' attaches to the single main point,yes
+18,s9,Segment it relates to,s3,s2,merged s10 (same 'For Example:' pattern); parallel 'For Example:' attaches to the single main point,yes
+18,s9,How it relates,it supports s3,gives an example,merged s10 (same 'For Example:' pattern); parallel 'For Example:' attaches to the single main point,yes
+18,s11,Segment it relates to,s10,s9,Reason recoded by rule 1; 'but...',yes
+18,s11,How it relates,It elaborates on s10,contrasts with it,Reason recoded by rule 1; 'but...',yes
+18,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but...',yes
+18,s12,How it relates,It elaborates on s11,contrasts with it,Reason recoded by rule 1; 'but they can't',yes
+18,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but they can't',yes
+18,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+18,s13,How it relates,It elaborates on s12,backs it up,Reason recoded by rule 1,yes
+18,s14,Segment it relates to,s3,s2,parallel 'For Example:' attaches to the single main point,yes
+18,s14,How it relates,it supports s3,gives an example,parallel 'For Example:' attaches to the single main point,yes
+18,s15,How it relates,It elaborates on s14,contrasts with it,'but she can't',yes
+18,s16,How it relates,It elaborates on s15,adds detail,free-text relation mapped,yes
+18,s17,How it relates,It elaborates on s16,adds detail,parallel parts of the schedule,yes
+18,s18,Segment it relates to,s17,s16,parallel parts of the schedule,yes
+18,s18,How it relates,It elaborates on s17,adds detail,parallel parts of the schedule,yes
+18,s19,Segment it relates to,s18,s16,Reason recoded by rule 1; sums up the schedule,yes
+18,s19,How it relates,It elaborates on s18,adds detail,Reason recoded by rule 1; sums up the schedule,yes
+18,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; sums up the schedule,yes
+18,s20,How it relates,It elaborates on s19,contrasts with it,Reason recoded by rule 1; 'but she would love...',yes
+18,s20,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but she would love...',yes
+18,s21,Segment it relates to,s3,s2,parallel 'For Example:' attaches to the single main point,yes
+18,s21,How it relates,it supports s3,gives an example,parallel 'For Example:' attaches to the single main point,yes
+18,s22,How it relates,It elaborates on s21,backs it up,free-text relation mapped,yes
+18,s23,How it relates,It elaborates on s22,adds detail,free-text relation mapped,yes
+18,s24,Segment it relates to,s23,s21,Reason recoded by rule 1; lesson drawn from the dad's example,yes
+18,s24,How it relates,It elaborates on s23,adds detail,Reason recoded by rule 1; lesson drawn from the dad's example,yes
+18,s24,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; lesson drawn from the dad's example,yes
+18,s25,Segment it relates to,s24,s2,parallel 'For Example:' attaches to the single main point; was attached to s24,yes
+18,s25,How it relates,It elaborates on s24,gives an example,parallel 'For Example:' attaches to the single main point; was attached to s24,yes
+18,s26,How it relates,It elaborates on s25,adds detail,free-text relation mapped,yes
+19,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+19,s1,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+19,s2,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; condition on the position,yes
+19,s2,How it relates,Criteria given for author to agree with s1,other: sets a condition,Reason recoded by rule 1; condition on the position,yes
+19,s3,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+19,s3,How it relates,It elaborates on s2,backs it up,Reason recoded by rule 1,yes
+19,s4,How it relates,Main point 1,backs it up,free-text relation mapped,yes
+19,s5,How it relates,Counterargument 1,argues against it,free-text relation mapped,yes
+19,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+19,s6,How it relates,It elaborates on s5,adds detail,Reason recoded by rule 1,yes
+19,s7,Segment it relates to,s6,s1,argues for home learning: the writer's own side,yes
+19,s7,How it relates,It elaborates on s6,backs it up,argues for home learning: the writer's own side,yes
+19,s7,What is the segment doing?,Reason,Claim,argues for home learning: the writer's own side,yes
+19,s7,Is this the writer's stance?,Conceded,Endorsed,argues for home learning: the writer's own side,yes
+19,s8,How it relates,It elaborates on s7,adds detail,writer's own reason,yes
+19,s8,What is the segment doing?,Reason,Evidence,writer's own reason,yes
+19,s8,Is this the writer's stance?,Conceded,Endorsed,writer's own reason,yes
+19,s9,How it relates,It elaborates on s8,backs it up,writer's own reason,yes
+19,s9,What is the segment doing?,Reason,Evidence,writer's own reason,yes
+19,s9,Is this the writer's stance?,Conceded,Endorsed,writer's own reason,yes
+19,s10,How it relates,It elaborates on s9,backs it up,writer's own reason,yes
+19,s10,What is the segment doing?,Reason,Evidence,writer's own reason,yes
+19,s10,Is this the writer's stance?,Conceded,Endorsed,writer's own reason,yes
+19,s11,Segment it relates to,s10,s9,writer's own reason,yes
+19,s11,How it relates,It elaborates on s10,adds detail,writer's own reason,yes
+19,s11,What is the segment doing?,Reason,Evidence,writer's own reason,yes
+19,s11,Is this the writer's stance?,Conceded,Endorsed,writer's own reason,yes
+19,s12,How it relates,It elaborates on s11,contrasts with it,writer's own aside,yes
+19,s12,What is the segment doing?,Reason,Evidence,writer's own aside,yes
+19,s12,Is this the writer's stance?,Conceded,Endorsed,writer's own aside,yes
+19,s13,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+20,s7,segment,so the teacher can explain them.,merged into s6,merged s7: one position sentence; one Position only,yes
+20,s23,segment,teachers can stay after school.,merged into s22,merged s23: point 3 is one sentence,yes
+20,s1,Segment it relates to,,s6,writer's own intro statement; needs a parent,yes
+20,s1,How it relates,,sets the scene,writer's own intro statement; needs a parent,yes
+20,s1,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+20,s2,Segment it relates to,,s3,writer's own intro statement; needs a parent,yes
+20,s2,How it relates,,backs it up,writer's own intro statement; needs a parent,yes
+20,s2,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+20,s3,Segment it relates to,,s1,writer's own intro statement; needs a parent,yes
+20,s3,How it relates,,backs it up,writer's own intro statement; needs a parent,yes
+20,s3,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+20,s4,Segment it relates to,,s3,writer's own intro statement; needs a parent,yes
+20,s4,How it relates,,contrasts with it,writer's own intro statement; needs a parent,yes
+20,s5,Segment it relates to,,s4,writer's own intro statement; needs a parent,yes
+20,s5,How it relates,,adds detail,writer's own intro statement; needs a parent,yes
+20,s6,What is the segment doing?,Position ,Position,merged s7: one position sentence; one Position only,yes
+20,s6,How it relates,Main Stance of the essay,,merged s7: one position sentence; one Position only,yes
+20,s8,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+20,s9,Segment it relates to,s7,s8,Reason recoded by rule 1; relation column was off by one,yes
+20,s9,How it relates,it elaborates on s6,adds detail,Reason recoded by rule 1; relation column was off by one,yes
+20,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; relation column was off by one,yes
+20,s10,Segment it relates to,s8,s9,Reason recoded by rule 1; relation column was off by one,yes
+20,s10,How it relates,it elaborates on s7,adds detail,Reason recoded by rule 1; relation column was off by one,yes
+20,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; relation column was off by one,yes
+20,s11,Segment it relates to,,s6,needs a parent,yes
+20,s11,How it relates,,other: aside,needs a parent,yes
+20,s11,What is the segment doing?,"Others (Eg. Greetings, sign-offs, off-topic)",Other,needs a parent,yes
+20,s12,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+20,s13,How it relates,it elaborates on s12,gives an example,"follows content, not a chain",yes
+20,s14,How it relates,it elaborates on s13,adds detail,Reason recoded by rule 1,yes
+20,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s15,How it relates,it elaborates on s14,contrasts with it,Reason recoded by rule 1; 'but',yes
+20,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but',yes
+20,s16,Segment it relates to,s15,s13,Reason recoded by rule 1,yes
+20,s16,How it relates,it elaborates on s15,adds detail,Reason recoded by rule 1,yes
+20,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s17,Segment it relates to,s16,s15,Reason recoded by rule 1,yes
+20,s17,How it relates,it elaborates on s16,restates it,Reason recoded by rule 1,yes
+20,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s18,Segment it relates to,s17,s12,Reason recoded by rule 1; repeats point 2,yes
+20,s18,How it relates,it elaborates on s17,restates it,Reason recoded by rule 1; repeats point 2,yes
+20,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; repeats point 2,yes
+20,s19,Segment it relates to,s18,s15,Reason recoded by rule 1,yes
+20,s19,How it relates,it elaborates on s18,adds detail,Reason recoded by rule 1,yes
+20,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s20,Segment it relates to,s19,s12,"Reason recoded by rule 1; opens paragraph 3, supports point 2",yes
+20,s20,How it relates,it elaborates on s19,backs it up,"Reason recoded by rule 1; opens paragraph 3, supports point 2",yes
+20,s20,What is the segment doing?,Reason,Evidence,"Reason recoded by rule 1; opens paragraph 3, supports point 2",yes
+20,s21,How it relates,it elaborates on s20,backs it up,Reason recoded by rule 1,yes
+20,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s22,How it relates,Main Point 3,backs it up,merged s23: point 3 is one sentence,yes
+20,s24,Segment it relates to,s23,s22,Reason recoded by rule 1,yes
+20,s24,How it relates,it elaborates on s23,backs it up,Reason recoded by rule 1,yes
+20,s24,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s25,Segment it relates to,s24,s22,Reason recoded by rule 1,yes
+20,s25,How it relates,it elaborates on s24,backs it up,Reason recoded by rule 1,yes
+20,s25,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s26,Segment it relates to,s25,s24,Reason recoded by rule 1,yes
+20,s26,How it relates,it elaborates on s25,adds detail,Reason recoded by rule 1,yes
+20,s26,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s27,How it relates,it elaborates on s26,adds detail,Reason recoded by rule 1,yes
+20,s27,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s28,How it relates,it elaborates on s27,adds detail,Reason recoded by rule 1,yes
+20,s28,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+20,s29,Segment it relates to,s1,s6,qualifies the stance (author note); stance is s6,yes
+20,s29,How it relates,Qualifying the author's stance,other: qualifies it,qualifies the stance (author note); stance is s6,yes
+20,s30,Segment it relates to,,s6,needs a parent,yes
+20,s30,How it relates,,restates it,needs a parent,yes
+20,s31,Segment it relates to,,s30,needs a parent,yes
+20,s31,How it relates,,backs it up,needs a parent,yes
+21,s1,Segment it relates to,,s6,writer's own intro statement; needs a parent,yes
+21,s1,How it relates,,sets the scene,writer's own intro statement; needs a parent,yes
+21,s1,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+21,s2,Segment it relates to,,s1,writer's own intro statement; needs a parent,yes
+21,s2,How it relates,,backs it up,writer's own intro statement; needs a parent,yes
+21,s2,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+21,s3,Segment it relates to,,s6,writer's own intro statement; needs a parent,yes
+21,s3,How it relates,,sets the scene,writer's own intro statement; needs a parent,yes
+21,s3,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+21,s4,Segment it relates to,,s6,writer's own intro statement; needs a parent,yes
+21,s4,How it relates,,sets the scene,writer's own intro statement; needs a parent,yes
+21,s4,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+21,s5,Segment it relates to,,s6,writer's own intro statement; needs a parent,yes
+21,s5,How it relates,,sets the scene,writer's own intro statement; needs a parent,yes
+21,s5,Is this the writer's stance?,Reported,Endorsed,writer's own intro statement; needs a parent,yes
+21,s6,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+21,s6,How it relates,Main Stance of the essay,,trailing space; TOP needs no relation,yes
+21,s7,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+21,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+21,s8,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+21,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+21,s9,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+21,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+21,s10,How it relates,It elaborates on s7,adds detail,Reason recoded by rule 1,yes
+21,s11,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+21,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+21,s12,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1,yes
+21,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+21,s13,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1,yes
+22,s2,segment,"then yes I think this would benefit a lot of student who can't always find a ride to school , wakes up really late, teen mom at home , or is a student who cant be in school",merged into s1,merged s2: the 'if' clause and its answer form one position sentence,yes
+22,s1,What is the segment doing?,Position ,Position,merged s2: the 'if' clause and its answer form one position sentence,yes
+22,s1,How it relates,Main Stance of the essay,,merged s2: the 'if' clause and its answer form one position sentence,yes
+22,s3,Segment it relates to,s2,s1,general reason becomes point 1,yes
+22,s3,How it relates,It elaborates on s2,backs it up,general reason becomes point 1,yes
+22,s3,What is the segment doing?,Reason,Claim,general reason becomes point 1,yes
+22,s4,How it relates,Counterargument 1,argues against it,free-text relation mapped,yes
+22,s5,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+22,s5,How it relates,It elaborates on s4,backs it up,Reason recoded by rule 1,yes
+22,s6,How it relates,It elaborates on s4,adds detail,Reason recoded by rule 1,yes
+22,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+22,s7,Segment it relates to,s6,s4,answers the counterpoint as a whole,yes
+22,s7,How it relates,It elaborates on s6,argues against it,answers the counterpoint as a whole,yes
+22,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+22,s8,How it relates,It elaborates on s7,backs it up,Reason recoded by rule 1,yes
+22,s9,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+22,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+22,s10,How it relates,It elaborates on s9,backs it up,Reason recoded by rule 1,yes
+23,s3,segment,because they can't get transportation from home to class.,merged into s2,merged s3: one claim,yes
+23,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+23,s1,How it relates,Main Stance of the essay,,trailing space; TOP needs no relation,yes
+23,s2,How it relates,Main Point 1,backs it up,merged s3: one claim,yes
+23,s4,Segment it relates to,s3,s1,intro preview reason (less distraction),yes
+23,s4,How it relates,It supports s3,backs it up,intro preview reason (less distraction),yes
+23,s4,What is the segment doing?,Reason,Claim,intro preview reason (less distraction),yes
+23,s5,Segment it relates to,s4,s1,intro preview reason (bullying),yes
+23,s5,How it relates,It supports s4,backs it up,intro preview reason (bullying),yes
+23,s6,Segment it relates to,s5,s2,cousin had no transportation: illustrates point 1,yes
+23,s6,How it relates,It supports s5,gives an example,cousin had no transportation: illustrates point 1,yes
+23,s7,How it relates,It elaborates on s6,backs it up,free-text relation mapped,yes
+23,s8,Segment it relates to,s7,s6,develops the cousin example,yes
+23,s8,How it relates,It elaborates on s7,adds detail,develops the cousin example,yes
+23,s9,How it relates,It elaborates on s8,adds detail,free-text relation mapped,yes
+23,s10,Segment it relates to,s9,s2,Reason recoded by rule 1; supports point 1,yes
+23,s10,How it relates,It elaborates on s9,backs it up,Reason recoded by rule 1; supports point 1,yes
+23,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; supports point 1,yes
+23,s11,How it relates,It elaborates on s10,contrasts with it,Reason recoded by rule 1; 'but they can't',yes
+23,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but they can't',yes
+23,s12,How it relates,It elaborates on s11,backs it up,Reason recoded by rule 1,yes
+23,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+23,s13,Segment it relates to,s2,s1,main point attaches to the position,yes
+23,s13,How it relates,Main Point 2,backs it up,main point attaches to the position,yes
+23,s14,How it relates,It supports s13,gives an example,the cousin again,yes
+23,s15,Segment it relates to,s2,s1,main point attaches to the position,yes
+23,s15,How it relates,Main Point 3,backs it up,main point attaches to the position,yes
+23,s16,How it relates,It elaborates on s15,contrasts with it,Reason recoded by rule 1; 'but',yes
+23,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but',yes
+23,s17,Segment it relates to,s16,s15,Reason recoded by rule 1; supports point 3,yes
+23,s17,How it relates,It supports s16,backs it up,Reason recoded by rule 1; supports point 3,yes
+23,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; supports point 3,yes
+23,s18,How it relates,It elaborates on s17,adds detail,Reason recoded by rule 1,yes
+23,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+23,s19,How it relates,Reinstating the stance,restates it,free-text relation mapped,yes
+23,s20,Segment it relates to,s1,s22,'may benefit some... but... most',yes
+23,s20,How it relates,Reinstating the stance,contrasts with it,'may benefit some... but... most',yes
+23,s21,Segment it relates to,s1,s22,sets up s22,yes
+23,s21,How it relates,Reinstating the stance,sets the scene,sets up s22,yes
+23,s22,How it relates,Reinstating the stance,restates it,the restatement,yes
+23,s23,Segment it relates to,s1,s22,explains s22,yes
+23,s23,How it relates,Reinstating the stance,backs it up,explains s22,yes
+24,s10,segment,while your home is a great thing,merged into s9,merged s10-s12 per author note; 'Main point 1' was in the relation column,yes
+24,s11,segment,because you dont need to go to school to learn it,merged into s9,merged s10-s12 per author note; 'Main point 1' was in the relation column,yes
+24,s12,segment,while you are home.,merged into s9,merged s10-s12 per author note; 'Main point 1' was in the relation column,yes
+24,s25,segment,because it will be almost the same thing as being in a class for others,merged into s24,merged fragment s25 ('My reasons why is | because...'),yes
+24,s1,Segment it relates to,,s3,writer's own hook; needs a parent,yes
+24,s1,How it relates,,sets the scene,writer's own hook; needs a parent,yes
+24,s1,Is this the writer's stance?,Reported,Endorsed,writer's own hook; needs a parent,yes
+24,s2,Segment it relates to,,s3,quoted prompt; needs a parent,yes
+24,s2,How it relates,,sets the scene,quoted prompt; needs a parent,yes
+24,s3,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+24,s3,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+24,s4,What is the segment doing?,Reason,Claim,reason in the thesis sentence (preview rule),yes
+24,s4,How it relates,It elaborates on s3,backs it up,reason in the thesis sentence (preview rule),yes
+24,s5,How it relates,Disagrees with s3,argues against it,free-text relation mapped,yes
+24,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+24,s6,How it relates,It elaborates on s5,backs it up,Reason recoded by rule 1,yes
+24,s7,How it relates,Disagrees with s5,argues against it,free-text relation mapped,yes
+24,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+24,s8,How it relates,It elaborates on s7,backs it up,Reason recoded by rule 1,yes
+24,s9,Segment it relates to,Main point 1,s3,merged s10-s12 per author note; 'Main point 1' was in the relation column,yes
+24,s9,How it relates,Point 1,backs it up,merged s10-s12 per author note; 'Main point 1' was in the relation column,yes
+24,s13,Segment it relates to,s11,s9,s11 merged into s9,yes
+24,s13,How it relates,It supports s11,gives an example,s11 merged into s9,yes
+24,s14,How it relates,It elaborates on s13,adds detail,parallel steps of one example,yes
+24,s15,Segment it relates to,s14,s13,parallel steps of one example,yes
+24,s15,How it relates,It elaborates on s14,adds detail,parallel steps of one example,yes
+24,s16,Segment it relates to,s15,s13,parallel steps of one example,yes
+24,s16,How it relates,It elaborates on s15,adds detail,parallel steps of one example,yes
+24,s17,Segment it relates to,s16,s9,Reason recoded by rule 1; restates point 1,yes
+24,s17,How it relates,It elaborates on s16,restates it,Reason recoded by rule 1; restates point 1,yes
+24,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; restates point 1,yes
+24,s18,How it relates,It elaborates on s17,contrasts with it,Reason recoded by rule 1; 'but',yes
+24,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; 'but',yes
+24,s19,Segment it relates to,,s22,writer's own observation mid-essay; Lead is intro only,yes
+24,s19,How it relates,,sets the scene,writer's own observation mid-essay; Lead is intro only,yes
+24,s19,What is the segment doing?,Lead,Evidence,writer's own observation mid-essay; Lead is intro only,yes
+24,s19,Is this the writer's stance?,Reported,Endorsed,writer's own observation mid-essay; Lead is intro only,yes
+24,s20,How it relates,It elaborates on s19,adds detail,writer's own observation,yes
+24,s20,What is the segment doing?,Lead,Evidence,writer's own observation,yes
+24,s20,Is this the writer's stance?,Reported,Endorsed,writer's own observation,yes
+24,s21,How it relates,It elaborates on s20,contrasts with it,writer's own observation; 'but',yes
+24,s21,What is the segment doing?,Lead,Evidence,writer's own observation; 'but',yes
+24,s21,Is this the writer's stance?,Reported,Endorsed,writer's own observation; 'but',yes
+24,s22,How it relates,Main point 2,backs it up,free-text relation mapped,yes
+24,s23,What is the segment doing?,Position ,Conclusion,only one Position; restatement,yes
+24,s23,How it relates,Reinstating s3,restates it,only one Position; restatement,yes
+24,s24,How it relates,It supports s3,backs it up,merged fragment s25 ('My reasons why is | because...'),yes
+24,s24,What is the segment doing?,Reason,Claim,merged fragment s25 ('My reasons why is | because...'),yes
+24,s26,How it relates,Main point 4,backs it up,free-text relation mapped,yes
+24,s27,How it relates,It elaborates on s26,adds detail,free-text relation mapped,yes
+25,s1,Segment it relates to,,s3,writer's own title; needs a parent,yes
+25,s1,How it relates,,sets the scene,writer's own title; needs a parent,yes
+25,s1,Is this the writer's stance?,Reported,Endorsed,writer's own title; needs a parent,yes
+25,s2,Segment it relates to,,s3,writer's own context; needs a parent,yes
+25,s2,How it relates,,sets the scene,writer's own context; needs a parent,yes
+25,s2,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+25,s3,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+25,s3,How it relates,Main Stance of the essay,,trailing space; TOP needs no relation,yes
+25,s4,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+25,s5,How it relates,It supports s4,gives an example,free-text relation mapped,yes
+25,s6,How it relates,It elaborates on s5,adds detail,free-text relation mapped,yes
+25,s7,Segment it relates to,s6,s5,parallel steps of the cousin story,yes
+25,s7,How it relates,It elaborates on s6,adds detail,parallel steps of the cousin story,yes
+25,s8,How it relates,It elaborates on s7,backs it up,free-text relation mapped,yes
+25,s9,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+25,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+25,s10,How it relates,It elaborates on s9,adds detail,Reason recoded by rule 1,yes
+25,s11,How it relates,Counterargument 1,argues against it,free-text relation mapped,yes
+25,s12,What is the segment doing?,Counterclaim,Evidence,develops the parents' view,yes
+25,s12,How it relates,It elaborates on s11,backs it up,develops the parents' view,yes
+25,s13,Segment it relates to,s12,s11,replies to the counterclaim as a whole,yes
+25,s13,How it relates,It disagrees with s12,argues against it,replies to the counterclaim as a whole,yes
+25,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+25,s14,How it relates,It elaborates on s13,adds detail,Reason recoded by rule 1,yes
+25,s15,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+25,s16,How it relates,It supports s15,gives an example,free-text relation mapped,yes
+25,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+25,s17,How it relates,It elaborates on s16,backs it up,Reason recoded by rule 1,yes
+25,s18,Segment it relates to,s3,s19,last paragraph is the writer's own view,yes
+25,s18,How it relates,Counterargument 2,backs it up,last paragraph is the writer's own view,yes
+25,s18,What is the segment doing?,Counterclaim,Conclusion,last paragraph is the writer's own view,yes
+25,s18,Is this the writer's stance?,Conceded,Endorsed,last paragraph is the writer's own view,yes
+25,s19,Segment it relates to,s18,s3,last paragraph restates the position,yes
+25,s19,How it relates,It supports s18,restates it,last paragraph restates the position,yes
+25,s19,What is the segment doing?,Counterclaim,Conclusion,last paragraph restates the position,yes
+25,s19,Is this the writer's stance?,Conceded,Endorsed,last paragraph restates the position,yes
+25,s20,Segment it relates to,s1,s19,writer's own closing question,yes
+25,s20,How it relates,It poses a question to the topic in s1,other: asks the reader,writer's own closing question,yes
+25,s20,Is this the writer's stance?,Reported,Endorsed,writer's own closing question,yes
+26,s24,segment,while sick helps.,merged into s23,merged s24 ('...| while sick helps.'); last paragraph lists reasons again,yes
+26,s1,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+26,s1,How it relates,Main Stance of the essay,,trailing space; TOP needs no relation,yes
+26,s2,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+26,s3,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s3,How it relates,It elaborates on s2,backs it up,Reason recoded by rule 1,yes
+26,s4,How it relates,It elaborates on s3,gives an example,car problems illustrate transport,yes
+26,s4,What is the segment doing?,Reason,Evidence,car problems illustrate transport,yes
+26,s5,How it relates,It elaborates on s4,adds detail,result of s4,yes
+26,s5,What is the segment doing?,Reason,Evidence,result of s4,yes
+26,s6,Segment it relates to,s5,s4,result of s4,yes
+26,s6,How it relates,It elaborates on s5,adds detail,result of s4,yes
+26,s6,What is the segment doing?,Reason,Evidence,result of s4,yes
+26,s7,Segment it relates to,s6,s3,comments on the whole transport point,yes
+26,s7,How it relates,It elaborates on s6,adds detail,comments on the whole transport point,yes
+26,s7,What is the segment doing?,Reason,Evidence,comments on the whole transport point,yes
+26,s8,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+26,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s9,How it relates,It elaborates on s8,backs it up,Reason recoded by rule 1,yes
+26,s10,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+26,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s11,How it relates,It elaborates on s10,backs it up,Reason recoded by rule 1,yes
+26,s12,Segment it relates to,s11,s10,example of the sickness point,yes
+26,s12,How it relates,It elaborates on s11,gives an example,example of the sickness point,yes
+26,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s13,How it relates,It elaborates on s12,adds detail,Reason recoded by rule 1,yes
+26,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s14,How it relates,It elaborates on s13,adds detail,Reason recoded by rule 1,yes
+26,s15,Segment it relates to,s14,s10,second example of the sickness point,yes
+26,s15,How it relates,It elaborates on s14,gives an example,second example of the sickness point,yes
+26,s15,What is the segment doing?,Reason,Evidence,second example of the sickness point,yes
+26,s16,How it relates,It elaborates on s15,other: answers the question,answers the question in s15,yes
+26,s16,What is the segment doing?,Reason,Evidence,answers the question in s15,yes
+26,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s17,How it relates,It elaborates on s16,adds detail,Reason recoded by rule 1,yes
+26,s18,How it relates,Main Point 4,backs it up,free-text relation mapped,yes
+26,s19,What is the segment doing?,Claim,Evidence,supports point 4 rather than a new point,yes
+26,s19,How it relates,It elaborates on s18,backs it up,supports point 4 rather than a new point,yes
+26,s20,Segment it relates to,s19,s18,kind of student who needs teacher contact,yes
+26,s20,How it relates,It elaborates on s19,adds detail,kind of student who needs teacher contact,yes
+26,s20,What is the segment doing?,Reason,Evidence,kind of student who needs teacher contact,yes
+26,s21,How it relates,It elaborates on s20,adds detail,Reason recoded by rule 1,yes
+26,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+26,s22,Segment it relates to,s21,s18,kind of student who needs teacher contact,yes
+26,s22,How it relates,It elaborates on s21,adds detail,kind of student who needs teacher contact,yes
+26,s22,What is the segment doing?,Reason,Evidence,kind of student who needs teacher contact,yes
+26,s23,Segment it relates to,s22,s28,merged s24 ('...| while sick helps.'); last paragraph lists reasons again,yes
+26,s23,How it relates,It elaborates on s22,adds detail,merged s24 ('...| while sick helps.'); last paragraph lists reasons again,yes
+26,s23,What is the segment doing?,Reason,Conclusion,merged s24 ('...| while sick helps.'); last paragraph lists reasons again,yes
+26,s25,Segment it relates to,s24,s28,last paragraph lists reasons again,yes
+26,s25,How it relates,It elaborates on s24,adds detail,last paragraph lists reasons again,yes
+26,s25,What is the segment doing?,Reason,Conclusion,last paragraph lists reasons again,yes
+26,s26,How it relates,It elaborates on s25,adds detail,last paragraph,yes
+26,s26,What is the segment doing?,Reason,Conclusion,last paragraph,yes
+26,s27,Segment it relates to,s26,s28,last paragraph,yes
+26,s27,How it relates,It elaborates on s26,adds detail,last paragraph,yes
+26,s27,What is the segment doing?,Reason,Conclusion,last paragraph,yes
+26,s28,How it relates,Reinstates the stance of the essay,restates it,free-text relation mapped,yes
+27,s19,segment,and many other things.,merged into s18,merged s19 ('| and many other things.'),yes
+27,s36,segment,"cause of teen depression, not school.",merged into s35,merged s36 (splitter cut 'number one | cause'),yes
+27,s39,segment,because of anxiety.,merged into s38,merged s39 ('| because of anxiety.'); support for the rebuttal,yes
+27,s1,Segment it relates to,,s5,writer's own intro; needs a parent,yes
+27,s1,How it relates,,sets the scene,writer's own intro; needs a parent,yes
+27,s1,Is this the writer's stance?,Reported,Endorsed,writer's own intro; needs a parent,yes
+27,s2,Segment it relates to,,s1,writer's own intro; needs a parent,yes
+27,s2,How it relates,,adds detail,writer's own intro; needs a parent,yes
+27,s2,Is this the writer's stance?,Reported,Endorsed,writer's own intro; needs a parent,yes
+27,s3,Segment it relates to,,s2,writer's own intro; needs a parent,yes
+27,s3,How it relates,,backs it up,writer's own intro; needs a parent,yes
+27,s3,Is this the writer's stance?,Reported,Endorsed,writer's own intro; needs a parent,yes
+27,s4,Segment it relates to,,s2,writer's own intro; needs a parent,yes
+27,s4,How it relates,,adds detail,writer's own intro; needs a parent,yes
+27,s4,Is this the writer's stance?,Reported,Endorsed,writer's own intro; needs a parent,yes
+27,s5,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+27,s5,How it relates,Main stance of the essay,,trailing space; TOP needs no relation,yes
+27,s6,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+27,s7,How it relates,It elaborates on s6,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s7,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s8,Segment it relates to,s7,s6,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s8,How it relates,It elaborates on s7,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s9,How it relates,It elaborates on s8,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s10,How it relates,It elaborates on s9,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s11,Segment it relates to,s10,s9,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s11,How it relates,It elaborates on s10,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s12,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s13,Segment it relates to,s12,s11,personal example,yes
+27,s13,How it relates,It elaborates on s12,gives an example,personal example,yes
+27,s14,How it relates,It elaborates on s13,contrasts with it,'but also the best things',yes
+27,s15,How it relates,It elaborates on s14,backs it up,explains s14,yes
+27,s16,Segment it relates to,s15,s14,example of the best things,yes
+27,s16,How it relates,It elaborates on s15,gives an example,example of the best things,yes
+27,s17,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+27,s18,How it relates,It elaborates on s17,backs it up,merged s19 ('| and many other things.'),yes
+27,s20,Segment it relates to,s19,s18,Miami Heat illustrates the sports list,yes
+27,s20,How it relates,It elaborates on s19,gives an example,Miami Heat illustrates the sports list,yes
+27,s21,How it relates,It elaborates on s20,adds detail,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s22,Segment it relates to,s21,s17,brings it back to point 2,yes
+27,s22,How it relates,It elaborates on s21,restates it,brings it back to point 2,yes
+27,s22,What is the segment doing?,Reason,Evidence,brings it back to point 2,yes
+27,s23,How it relates,It elaborates on s22,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s23,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s24,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+27,s25,How it relates,It elaborates on s24,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s25,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s26,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s26,How it relates,It elaborates on s25,adds detail,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s27,Segment it relates to,s24 ,s24,stray space in 's24 ',yes
+27,s27,How it relates,It elaborates on s24,backs it up,stray space in 's24 ',yes
+27,s27,What is the segment doing?,Reason,Evidence,stray space in 's24 ',yes
+27,s28,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s28,How it relates,It elaborates on s27,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s29,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+27,s30,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s30,How it relates,It elaborates on s29,backs it up,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s31,Segment it relates to,s30,s29,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s31,How it relates,It elaborates on s30,adds detail,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; re-attached to the right parent,yes
+27,s32,How it relates,Counterargument 3,argues against it,free-text relation mapped,yes
+27,s33,What is the segment doing?,Reason,Evidence,develops the opposing view,yes
+27,s33,How it relates,It elaborates on s32,backs it up,develops the opposing view,yes
+27,s34,Segment it relates to,s33,s32,replies to the counterclaim,yes
+27,s34,How it relates,It elaborates on s33,argues against it,replies to the counterclaim,yes
+27,s35,How it relates,It elaborates on s34,backs it up,merged s36 (splitter cut 'number one | cause'),yes
+27,s35,What is the segment doing?,Reason,Evidence,merged s36 (splitter cut 'number one | cause'),yes
+27,s37,Segment it relates to,s36,s35,Reason recoded by rule 1,yes
+27,s37,How it relates,It elaborates on s36,adds detail,Reason recoded by rule 1,yes
+27,s37,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+27,s38,Segment it relates to,s37,s34,merged s39 ('| because of anxiety.'); support for the rebuttal,yes
+27,s38,How it relates,It elaborates on s37,backs it up,merged s39 ('| because of anxiety.'); support for the rebuttal,yes
+27,s38,What is the segment doing?,Reason,Evidence,merged s39 ('| because of anxiety.'); support for the rebuttal,yes
+27,s40,Segment it relates to,s39,s41,fronted 'If...' of s41,yes
+27,s40,How it relates,It elaborates on s39,sets the scene,fronted 'If...' of s41,yes
+27,s40,What is the segment doing?,Reason,Evidence,fronted 'If...' of s41,yes
+27,s41,Segment it relates to,s40,s34,support for the rebuttal,yes
+27,s41,How it relates,It elaborates on s40,backs it up,support for the rebuttal,yes
+27,s41,What is the segment doing?,Reason,Evidence,support for the rebuttal,yes
+27,s42,How it relates,Reinstating stance ,restates it,free-text relation mapped,yes
+27,s43,Segment it relates to,s5,s42,reflective conclusion structure,yes
+27,s43,How it relates,Reinstating stance ,backs it up,reflective conclusion structure,yes
+27,s44,Segment it relates to,s5,s45,fronted 'If...' of s45,yes
+27,s44,How it relates,Reflective conclusion ,sets the scene,fronted 'If...' of s45,yes
+27,s45,Segment it relates to,s5,s42,reflective conclusion structure,yes
+27,s45,How it relates,Reflective conclusion ,backs it up,reflective conclusion structure,yes
+27,s46,Segment it relates to,s5,s47,'not so exquisite days | but...',yes
+27,s46,How it relates,Reflective conclusion ,contrasts with it,'not so exquisite days | but...',yes
+27,s47,Segment it relates to,s5,s45,reflective conclusion structure,yes
+27,s47,How it relates,Reflective conclusion ,adds detail,reflective conclusion structure,yes
+27,s48,Segment it relates to,s5,s45,reflective conclusion structure,yes
+27,s48,How it relates,Reflective conclusion ,adds detail,reflective conclusion structure,yes
+27,s49,Segment it relates to,s5,s48,explains s48,yes
+27,s49,How it relates,Reflective conclusion ,backs it up,explains s48,yes
+27,s50,How it relates,Reflective conclusion ,restates it,restates the position,yes
+28,s12,segment,while do their school work can help them out a lot.,merged into s11,merged s12 (one clause),yes
+28,s1,Segment it relates to,,s2,writer's own context; needs a parent,yes
+28,s1,How it relates,,sets the scene,writer's own context; needs a parent,yes
+28,s1,Is this the writer's stance?,Reported,Endorsed,writer's own context; needs a parent,yes
+28,s2,What is the segment doing?,Position ,Position,,yes
+28,s2,How it relates,Main stance of the essay,,,yes
+28,s3,Segment it relates to,s3,s4,pointed to itself; problem that point 1 answers,yes
+28,s3,How it relates,It supports s3,sets the scene,pointed to itself; problem that point 1 answers,yes
+28,s3,What is the segment doing?,Claim,Evidence,pointed to itself; problem that point 1 answers,yes
+28,s4,How it relates,Main Point 1,backs it up,,yes
+28,s5,Segment it relates to,s4,s2,"intro previews one-on-one contact, developed in paragraph 3",yes
+28,s5,How it relates,It elaborates on s4,backs it up,"intro previews one-on-one contact, developed in paragraph 3",yes
+28,s5,What is the segment doing?,Reason,Claim,"intro previews one-on-one contact, developed in paragraph 3",yes
+28,s6,Segment it relates to,s5,s8,Reason recoded by rule 1,yes
+28,s6,How it relates,It elaborates on s5,sets the scene,Reason recoded by rule 1,yes
+28,s6,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s7,How it relates,It elaborates on s6,adds detail,Reason recoded by rule 1,yes
+28,s7,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s8,Segment it relates to,s7,s4,Reason recoded by rule 1,yes
+28,s8,How it relates,It elaborates on s7,backs it up,Reason recoded by rule 1,yes
+28,s8,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s9,Segment it relates to,s8,s4,Reason recoded by rule 1,yes
+28,s9,How it relates,It elaborates on s8,restates it,Reason recoded by rule 1,yes
+28,s9,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s10,Segment it relates to,s9,s4,Reason recoded by rule 1,yes
+28,s10,How it relates,It elaborates on s9,backs it up,Reason recoded by rule 1,yes
+28,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s11,Segment it relates to,s10,s4,merged s12 (one clause),yes
+28,s11,How it relates,It elaborates on s10,backs it up,merged s12 (one clause),yes
+28,s11,What is the segment doing?,Reason,Evidence,merged s12 (one clause),yes
+28,s13,How it relates,Main Point 2,backs it up,,yes
+28,s14,Segment it relates to,s13,s5,paragraph 3 develops s5,yes
+28,s14,How it relates,It supports s13,backs it up,paragraph 3 develops s5,yes
+28,s14,What is the segment doing?,Reason,Evidence,paragraph 3 develops s5,yes
+28,s15,Segment it relates to,s14,s16,Reason recoded by rule 1,yes
+28,s15,How it relates,It elaborates on s14,sets the scene,Reason recoded by rule 1,yes
+28,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s16,Segment it relates to,s15,s14,Reason recoded by rule 1,yes
+28,s16,How it relates,It elaborates on s15,backs it up,Reason recoded by rule 1,yes
+28,s16,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s17,How it relates,It elaborates on s16,backs it up,Reason recoded by rule 1,yes
+28,s17,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s18,Segment it relates to,s17,s14,Reason recoded by rule 1,yes
+28,s18,How it relates,It elaborates on s17,backs it up,Reason recoded by rule 1,yes
+28,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s19,How it relates,It elaborates on s18,adds detail,Reason recoded by rule 1,yes
+28,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s20,Segment it relates to,s19,s18,Reason recoded by rule 1,yes
+28,s20,How it relates,It elaborates on s19,adds detail,Reason recoded by rule 1,yes
+28,s20,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s21,Segment it relates to,s20,s22,Reason recoded by rule 1,yes
+28,s21,How it relates,It elaborates on s20,sets the scene,Reason recoded by rule 1,yes
+28,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s22,Segment it relates to,s21,s18,Reason recoded by rule 1,yes
+28,s22,How it relates,It elaborates on s21,adds detail,Reason recoded by rule 1,yes
+28,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s23,How it relates,Counterargument 1,argues against it,,yes
+28,s24,How it relates,It conceds with the point made by s23,adds detail,,yes
+28,s25,How it relates,It disagrees with s23,backs it up,"'One example on this side': opposing side's points, granted in s37 (author: your call accepted)",yes
+28,s25,What is the segment doing?,Rebuttal,Evidence,"'One example on this side': opposing side's points, granted in s37 (author: your call accepted)",yes
+28,s25,Is this the writer's stance?,Endorsed,Conceded,"'One example on this side': opposing side's points, granted in s37 (author: your call accepted)",yes
+28,s26,How it relates,It elaborates on s25,backs it up,Reason recoded by rule 1,yes
+28,s26,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s26,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s27,How it relates,It elaborates on s26,gives an example,Reason recoded by rule 1,yes
+28,s27,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s27,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s28,How it relates,It elaborates on s27,adds detail,Reason recoded by rule 1,yes
+28,s28,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s28,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s29,Segment it relates to,s28,s25,Reason recoded by rule 1,yes
+28,s29,How it relates,It elaborates on s28,adds detail,Reason recoded by rule 1,yes
+28,s29,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s29,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s30,Segment it relates to,s29,s23,"opposing side's point, granted in s37",yes
+28,s30,How it relates,It elaborates on s29,backs it up,"opposing side's point, granted in s37",yes
+28,s30,Is this the writer's stance?,Endorsed,Conceded,"opposing side's point, granted in s37",yes
+28,s30,What is the segment doing?,Reason,Evidence,"opposing side's point, granted in s37",yes
+28,s31,Segment it relates to,s30,s32,Reason recoded by rule 1,yes
+28,s31,How it relates,It elaborates on s30,sets the scene,Reason recoded by rule 1,yes
+28,s31,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s32,Segment it relates to,s31,s30,Reason recoded by rule 1,yes
+28,s32,How it relates,It elaborates on s31,backs it up,Reason recoded by rule 1,yes
+28,s32,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s32,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s33,Segment it relates to,s32,s30,Reason recoded by rule 1,yes
+28,s33,How it relates,It elaborates on s32,adds detail,Reason recoded by rule 1,yes
+28,s33,Is this the writer's stance?,Endorsed,Conceded,Reason recoded by rule 1,yes
+28,s33,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+28,s34,How it relates,Reinstating the main stance,restates it,conclusion structure,yes
+28,s35,Segment it relates to,s2,s34,conclusion structure,yes
+28,s35,How it relates,Reinstating the main stance,adds detail,conclusion structure,yes
+28,s36,Segment it relates to,s2,s35,conclusion structure,yes
+28,s36,How it relates,Reinstating the main stance,adds detail,conclusion structure,yes
+28,s37,Segment it relates to,s2,s34,conclusion structure,yes
+28,s37,How it relates,Reinstating the main stance,adds detail,conclusion structure,yes
+28,s38,Segment it relates to,s2,s34,conclusion structure,yes
+28,s38,How it relates,Reinstating the main stance,adds detail,conclusion structure,yes
+29,s6,segment,learning from home.,merged into s5,merged s6 ('a unique option: | learning from home.'),yes
+29,s10,segment,"student discipline, teacher connection, and test regulation.",merged into s9,merged s10: the three-point preview (author's 'Blueprint' note),yes
+29,s24,segment,"but also in productivity,",merged into s23,merged s24 ('not only... | but also...'); returns to discipline,yes
+29,s53,segment,so does the motivation to excel.,merged into s52,merged s53 (one clause),yes
+29,s56,segment,but also the value of hard work and its upward path to accomplishment in life.,merged into s55,merged s56 ('not only... | but also...'),yes
+29,s1,Is this the writer's stance?,Reported,Endorsed,writer's own historical context; needs a parent,yes
+29,s1,Segment it relates to,,s8,writer's own historical context; needs a parent,yes
+29,s1,How it relates,,sets the scene,writer's own historical context; needs a parent,yes
+29,s2,Is this the writer's stance?,Reported,Endorsed,writer's own historical context,yes
+29,s2,Segment it relates to,,s1,writer's own historical context,yes
+29,s2,How it relates,,adds detail,writer's own historical context,yes
+29,s3,Is this the writer's stance?,Reported,Endorsed,writer's own historical context,yes
+29,s3,Segment it relates to,,s2,writer's own historical context,yes
+29,s3,How it relates,,adds detail,writer's own historical context,yes
+29,s4,Is this the writer's stance?,Reported,Endorsed,writer's own historical context,yes
+29,s4,Segment it relates to,,s1,writer's own historical context,yes
+29,s4,How it relates,,adds detail,writer's own historical context,yes
+29,s5,Is this the writer's stance?,Reported,Endorsed,merged s6 ('a unique option: | learning from home.'),yes
+29,s5,Segment it relates to,,s4,merged s6 ('a unique option: | learning from home.'),yes
+29,s5,How it relates,,adds detail,merged s6 ('a unique option: | learning from home.'),yes
+29,s7,Is this the writer's stance?,Reported,Endorsed,writer's own historical context,yes
+29,s7,Segment it relates to,,s5,writer's own historical context,yes
+29,s7,How it relates,,adds detail,writer's own historical context,yes
+29,s8,What is the segment doing?,Position ,Position,,yes
+29,s8,How it relates,Main stance of the essay,,,yes
+29,s9,How it relates,It elaborates on s8,backs it up,merged s10: the three-point preview (author's 'Blueprint' note),yes
+29,s9,What is the segment doing?,Reason,Claim,merged s10: the three-point preview (author's 'Blueprint' note),yes
+29,s11,How it relates,Main Point 1,backs it up,,yes
+29,s12,How it relates,It elaborates on s11,backs it up,Reason recoded by rule 1,yes
+29,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s13,How it relates,It supports s12,gives an example,,yes
+29,s14,How it relates,It elaborates on s13,adds detail,point 1 structure,yes
+29,s15,How it relates,It elaborates on s14,adds detail,free-text relation mapped,yes
+29,s16,Segment it relates to,s15,s14,'The year before... Now...',yes
+29,s16,How it relates,It elaborates on s15,contrasts with it,'The year before... Now...',yes
+29,s17,How it relates,It elaborates on s16,backs it up,,yes
+29,s18,Segment it relates to,s17,s19,"'While he may get more sleep,' grants a point",yes
+29,s18,How it relates,It elaborates on s17,contrasts with it,"'While he may get more sleep,' grants a point",yes
+29,s18,Is this the writer's stance?,Endorsed,Conceded,"'While he may get more sleep,' grants a point",yes
+29,s19,Segment it relates to,s18,s13,point 1 structure,yes
+29,s19,How it relates,It elaborates on s18,adds detail,point 1 structure,yes
+29,s20,How it relates,It elaborates on s19,adds detail,free-text relation mapped,yes
+29,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s21,How it relates,It elaborates on s20,adds detail,Reason recoded by rule 1,yes
+29,s22,How it relates,It elaborates on s21,backs it up,Reason recoded by rule 1,yes
+29,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s23,Segment it relates to,s22,s11,merged s24 ('not only... | but also...'); returns to discipline,yes
+29,s23,How it relates,It elaborates on s22,backs it up,merged s24 ('not only... | but also...'); returns to discipline,yes
+29,s23,What is the segment doing?,Reason,Evidence,merged s24 ('not only... | but also...'); returns to discipline,yes
+29,s25,Segment it relates to,s24,s23,Reason recoded by rule 1,yes
+29,s25,How it relates,It elaborates on s24,adds detail,Reason recoded by rule 1,yes
+29,s25,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s26,Segment it relates to,s25,s23,Reason recoded by rule 1,yes
+29,s26,How it relates,It elaborates on s25,adds detail,Reason recoded by rule 1,yes
+29,s26,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s27,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s27,How it relates,It elaborates on s26,adds detail,Reason recoded by rule 1,yes
+29,s28,How it relates,Main Point 2,backs it up,,yes
+29,s29,How it relates,It elaborates on s28,restates it,Reason recoded by rule 1,yes
+29,s29,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s30,Segment it relates to,s29,s31,"'Although the software might include messaging,' grants a point",yes
+29,s30,How it relates,It elaborates on s29,contrasts with it,"'Although the software might include messaging,' grants a point",yes
+29,s30,Is this the writer's stance?,Endorsed,Conceded,"'Although the software might include messaging,' grants a point",yes
+29,s30,What is the segment doing?,Reason,Evidence,"'Although the software might include messaging,' grants a point",yes
+29,s31,Segment it relates to,s30,s28,Reason recoded by rule 1,yes
+29,s31,How it relates,It elaborates on s30,backs it up,Reason recoded by rule 1,yes
+29,s31,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s32,How it relates,It elaborates on s31,gives an example,,yes
+29,s33,How it relates,It elaborates on s32,backs it up,Reason recoded by rule 1,yes
+29,s33,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s34,Segment it relates to,s33,s31,point 2 structure,yes
+29,s34,How it relates,It elaborates on s33,backs it up,point 2 structure,yes
+29,s35,How it relates,It elaborates on s34,contrasts with it,'whereas...',yes
+29,s35,What is the segment doing?,Reason,Evidence,'whereas...',yes
+29,s36,Segment it relates to,s35,s28,Reason recoded by rule 1,yes
+29,s36,How it relates,It elaborates on s35,backs it up,Reason recoded by rule 1,yes
+29,s36,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s37,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s37,How it relates,It elaborates on s36,adds detail,Reason recoded by rule 1,yes
+29,s38,How it relates,Main Point 3,backs it up,,yes
+29,s39,Segment it relates to,s38,s40,Reason recoded by rule 1,yes
+29,s39,How it relates,It elaborates on s38,sets the scene,Reason recoded by rule 1,yes
+29,s39,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s40,Segment it relates to,s39,s42,Reason recoded by rule 1,yes
+29,s40,How it relates,It elaborates on s39,contrasts with it,Reason recoded by rule 1,yes
+29,s40,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s41,Segment it relates to,s40,s42,Reason recoded by rule 1,yes
+29,s41,How it relates,It elaborates on s40,sets the scene,Reason recoded by rule 1,yes
+29,s41,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s42,Segment it relates to,s41,s43,point 3 structure,yes
+29,s42,How it relates,It elaborates on s41,sets the scene,point 3 structure,yes
+29,s43,Segment it relates to,s42,s38,Reason recoded by rule 1,yes
+29,s43,How it relates,It elaborates on s42,backs it up,Reason recoded by rule 1,yes
+29,s43,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s44,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s44,How it relates,It elaborates on s43,adds detail,Reason recoded by rule 1,yes
+29,s45,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s45,How it relates,It elaborates on s44,adds detail,Reason recoded by rule 1,yes
+29,s46,Segment it relates to,s45,s38,Reason recoded by rule 1,yes
+29,s46,How it relates,It elaborates on s45,backs it up,Reason recoded by rule 1,yes
+29,s46,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s47,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+29,s47,How it relates,It elaborates on s46,adds detail,Reason recoded by rule 1,yes
+29,s48,How it relates,It reinstates the stance,restates it,,yes
+29,s49,How it relates,It supports s48,backs it up,,yes
+29,s50,How it relates,It supports s49,backs it up,conclusion structure,yes
+29,s51,How it relates,It supports s50,adds detail,conclusion structure,yes
+29,s52,How it relates,It supports s51,adds detail,merged s53 (one clause),yes
+29,s54,Segment it relates to,s53,s48,conclusion structure,yes
+29,s54,How it relates,It supports s53,restates it,conclusion structure,yes
+29,s55,How it relates,It supports s54,backs it up,merged s56 ('not only... | but also...'),yes
+30,s17,segment,students will also have the opportunity to pause and listen to the lessons provided over and over again until they understand what is being taught.,merged into s16,"merged s17 ('Because of online learning, | students...')",yes
+30,s24,segment,"because of a sickness, a family emergency, or simply a mental health day, students tend to miss a decent among of school when it comes to unforeseen situations.",merged into s23,merged s24 ('Whether it be | because of...'),yes
+30,s26,segment,while they were away.,merged into s25,merged s26 ('...what they missed | while they were away'),yes
+30,s32,segment,while simultaneously getting their schoolwork done as well.,merged into s31,merged s32 ('... | while simultaneously...'),yes
+30,s34,segment,but are not able to,merged into s33,merged s34-s35 ('...wish to learn | but are not able to | because of life problems'),yes
+30,s35,segment,because of life problems.,merged into s33,merged s34-s35 ('...wish to learn | but are not able to | because of life problems'),yes
+30,s39,segment,cause them to become lazy.,merged into s38,merged s39 (splitter cut 'and | cause'); 'Some may argue' is the opposing view,yes
+30,s49,segment,therefore would not benefit students.,merged into s48,merged s49 (s49 pointed to itself),yes
+30,s55,segment,and they are able to gain more independence all thanks to online classes.,merged into s54,merged s55 (one list),yes
+30,s1,Segment it relates to,,s7,needs a parent,yes
+30,s1,How it relates,,sets the scene,needs a parent,yes
+30,s2,How it relates,It elaborates on s1,adds detail,free-text relation mapped,yes
+30,s3,How it relates,It elaborates on s1,adds detail,free-text relation mapped,yes
+30,s4,How it relates,A consequence of s1,adds detail,free-text relation mapped,yes
+30,s5,How it relates,A question that s1 implicitly asks ,other: raises the question,free-text relation mapped,yes
+30,s6,How it relates,It answers s5,other: answers the question,before the position: introduction,yes
+30,s6,What is the segment doing?,Claim,Lead,before the position: introduction,yes
+30,s7,What is the segment doing?,Position ,Position,,yes
+30,s7,How it relates,Main stance of the essay,,,yes
+30,s8,How it relates,Main Point 1,backs it up,,yes
+30,s9,Segment it relates to,s8 ,s8,stray space in 's8 ',yes
+30,s9,How it relates,It supports s8,backs it up,stray space in 's8 ',yes
+30,s9,What is the segment doing?,Reason,Evidence,stray space in 's8 ',yes
+30,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s10,How it relates,It supports s9,backs it up,Reason recoded by rule 1,yes
+30,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s11,How it relates,It elaborates on s10,adds detail,Reason recoded by rule 1,yes
+30,s12,Segment it relates to,s11,s9,Reason recoded by rule 1,yes
+30,s12,How it relates,It elaborates on s11,adds detail,Reason recoded by rule 1,yes
+30,s12,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s13,How it relates,It elaborates on s12,backs it up,Reason recoded by rule 1,yes
+30,s13,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s14,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s14,How it relates,It elaborates on s13,adds detail,Reason recoded by rule 1,yes
+30,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s15,How it relates,It elaborates on s14,adds detail,Reason recoded by rule 1,yes
+30,s16,Segment it relates to,s15,s9,"merged s17 ('Because of online learning, | students...')",yes
+30,s16,How it relates,It elaborates on s15,backs it up,"merged s17 ('Because of online learning, | students...')",yes
+30,s16,What is the segment doing?,Reason,Evidence,"merged s17 ('Because of online learning, | students...')",yes
+30,s18,Segment it relates to,s17,s16,Reason recoded by rule 1,yes
+30,s18,How it relates,It elaborates on s17,adds detail,Reason recoded by rule 1,yes
+30,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s19,Segment it relates to,s18,s16,Reason recoded by rule 1,yes
+30,s19,How it relates,It elaborates on s18,backs it up,Reason recoded by rule 1,yes
+30,s19,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s20,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s20,How it relates,It elaborates on s19,adds detail,Reason recoded by rule 1,yes
+30,s21,Segment it relates to,s20,s8,Reason recoded by rule 1,yes
+30,s21,How it relates,It elaborates on s20,backs it up,Reason recoded by rule 1,yes
+30,s21,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s22,Segment it relates to,s21,s23,Reason recoded by rule 1,yes
+30,s22,How it relates,It elaborates on s21,sets the scene,Reason recoded by rule 1,yes
+30,s22,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s23,Segment it relates to,s22,s21,merged s24 ('Whether it be | because of...'),yes
+30,s23,How it relates,It elaborates on s22,backs it up,merged s24 ('Whether it be | because of...'),yes
+30,s23,What is the segment doing?,Reason,Evidence,merged s24 ('Whether it be | because of...'),yes
+30,s25,Segment it relates to,s24,s23,merged s26 ('...what they missed | while they were away'),yes
+30,s25,How it relates,It elaborates on s24,contrasts with it,merged s26 ('...what they missed | while they were away'),yes
+30,s25,What is the segment doing?,Reason,Evidence,merged s26 ('...what they missed | while they were away'),yes
+30,s27,How it relates,Main Point 2,backs it up,,yes
+30,s28,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s28,How it relates,It elaborates on s27,adds detail,Reason recoded by rule 1,yes
+30,s29,Segment it relates to,s28,s30,Reason recoded by rule 1,yes
+30,s29,How it relates,It elaborates on s28,sets the scene,Reason recoded by rule 1,yes
+30,s29,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s30,Segment it relates to,s29,s27,Reason recoded by rule 1,yes
+30,s30,How it relates,It elaborates on s29,gives an example,Reason recoded by rule 1,yes
+30,s30,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s31,Segment it relates to,s30,s27,merged s32 ('... | while simultaneously...'),yes
+30,s31,How it relates,It elaborates on s30,backs it up,merged s32 ('... | while simultaneously...'),yes
+30,s31,What is the segment doing?,Reason,Evidence,merged s32 ('... | while simultaneously...'),yes
+30,s33,Segment it relates to,s32,s27,merged s34-s35 ('...wish to learn | but are not able to | because of life problems'),yes
+30,s33,How it relates,It elaborates on s32,backs it up,merged s34-s35 ('...wish to learn | but are not able to | because of life problems'),yes
+30,s33,What is the segment doing?,Reason,Evidence,merged s34-s35 ('...wish to learn | but are not able to | because of life problems'),yes
+30,s36,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+30,s37,How it relates,It elaborates on s36,adds detail,free-text relation mapped,yes
+30,s38,Segment it relates to,s37,s7,merged s39 (splitter cut 'and | cause'); 'Some may argue' is the opposing view,yes
+30,s38,How it relates,It elaborates on s37,argues against it,merged s39 (splitter cut 'and | cause'); 'Some may argue' is the opposing view,yes
+30,s38,What is the segment doing?,Reason,Counterclaim,merged s39 (splitter cut 'and | cause'); 'Some may argue' is the opposing view,yes
+30,s38,Is this the writer's stance?,Endorsed,Rejected,merged s39 (splitter cut 'and | cause'); 'Some may argue' is the opposing view,yes
+30,s40,Segment it relates to,s7,s38,answers s38 directly (author: your call accepted),yes
+30,s40,How it relates,Main Point 4,argues against it,answers s38 directly (author: your call accepted),yes
+30,s40,What is the segment doing?,Claim,Rebuttal,answers s38 directly (author: your call accepted),yes
+30,s41,How it relates,It elaborates on s40,backs it up,Reason recoded by rule 1,yes
+30,s41,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s42,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s42,How it relates,It elaborates on s41,adds detail,Reason recoded by rule 1,yes
+30,s43,Segment it relates to,s42,s40,Reason recoded by rule 1,yes
+30,s43,How it relates,It elaborates on s42,backs it up,Reason recoded by rule 1,yes
+30,s43,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s44,Segment it relates to,s43,s40,Reason recoded by rule 1,yes
+30,s44,How it relates,It elaborates on s43,backs it up,Reason recoded by rule 1,yes
+30,s44,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s45,Segment it relates to,s44,s46,Reason recoded by rule 1,yes
+30,s45,How it relates,It elaborates on s44,sets the scene,Reason recoded by rule 1,yes
+30,s45,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s46,Segment it relates to,s45,s44,Reason recoded by rule 1,yes
+30,s46,How it relates,It elaborates on s45,backs it up,Reason recoded by rule 1,yes
+30,s46,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s47,Segment it relates to,s46,s44,Reason recoded by rule 1,yes
+30,s47,How it relates,It elaborates on s46,adds detail,Reason recoded by rule 1,yes
+30,s47,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s48,How it relates,It disagrees with s7,argues against it,merged s49 (s49 pointed to itself),yes
+30,s50,How it relates,It disagrees with s48,argues against it,,yes
+30,s51,How it relates,It elaborates on s50,backs it up,Reason recoded by rule 1,yes
+30,s51,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s52,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+30,s52,How it relates,It elaborates on s51,adds detail,Reason recoded by rule 1,yes
+30,s53,How it relates,It reinstates stance,restates it,,yes
+30,s54,How it relates,It elaborates on s53,adds detail,merged s55 (one list),yes
+30,s56,Segment it relates to,s55,s53,conclusion structure,yes
+30,s56,How it relates,It elaborates on s55,adds detail,conclusion structure,yes
+30,s57,Segment it relates to,s56,s53,conclusion structure,yes
+30,s57,How it relates,It elaborates on s56,restates it,conclusion structure,yes
+15,s29,segment,but to also have a social life.,merged into s28,merged s29; author confirmed paragraph 4 is a concession,yes
+15,s1,Segment it relates to,,s8,experts' view; needs a parent,yes
+15,s1,How it relates,,sets the scene,experts' view; needs a parent,yes
+15,s2,Segment it relates to,,s1,writer's own statement,yes
+15,s2,How it relates,,adds detail,writer's own statement,yes
+15,s2,Is this the writer's stance?,Reported,Endorsed,writer's own statement,yes
+15,s3,Segment it relates to,,s2,writer's own statement,yes
+15,s3,How it relates,,adds detail,writer's own statement,yes
+15,s3,Is this the writer's stance?,Reported,Endorsed,writer's own statement,yes
+15,s4,Segment it relates to,,s3,writer's own statement,yes
+15,s4,How it relates,,adds detail,writer's own statement,yes
+15,s4,Is this the writer's stance?,Reported,Endorsed,writer's own statement,yes
+15,s5,Segment it relates to,,s8,writer's own statement,yes
+15,s5,How it relates,,sets the scene,writer's own statement,yes
+15,s5,Is this the writer's stance?,Reported,Endorsed,writer's own statement,yes
+15,s6,Segment it relates to,,s5,writer's own statement,yes
+15,s6,How it relates,,adds detail,writer's own statement,yes
+15,s6,Is this the writer's stance?,Reported,Endorsed,writer's own statement,yes
+15,s7,Segment it relates to,,s8,"'Although... conventional way,' grants the point",yes
+15,s7,How it relates,,contrasts with it,"'Although... conventional way,' grants the point",yes
+15,s7,Is this the writer's stance?,Reported,Conceded,"'Although... conventional way,' grants the point",yes
+15,s8,What is the segment doing?,Position ,Position,trailing space; TOP needs no relation,yes
+15,s8,How it relates,The main stance of the essay. ,,trailing space; TOP needs no relation,yes
+15,s9,How it relates,It disagrees with s8,argues against it,free-text relation mapped,yes
+15,s10,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1; conceded point linked to the reply that argues past it (s13),yes
+15,s10,Segment it relates to,s9,s13,Reason recoded by rule 1; conceded point linked to the reply that argues past it (s13),yes
+15,s10,How it relates,It conceds with a point made in s9,contrasts with it,Reason recoded by rule 1; conceded point linked to the reply that argues past it (s13),yes
+15,s11,Segment it relates to,s9,s10,Reason recoded by rule 1,yes
+15,s11,How it relates,It conceds with a point made in s9,backs it up,Reason recoded by rule 1,yes
+15,s11,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s12,Segment it relates to,s9,s13,'Although... | we cannot deny',yes
+15,s12,How it relates,It conceds with a point made in s9,contrasts with it,'Although... | we cannot deny',yes
+15,s12,What is the segment doing?,Reason,Evidence,'Although... | we cannot deny',yes
+15,s13,Segment it relates to,s12,s9,replies to the teachers' counterclaim,yes
+15,s13,How it relates,It disagrees with s12,argues against it,replies to the teachers' counterclaim,yes
+15,s14,How it relates,It elaborates on s13,gives an example,free-text relation mapped,yes
+15,s15,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s15,How it relates,It elaborates on s14,adds detail,Reason recoded by rule 1,yes
+15,s16,Segment it relates to,s15,s13,generalises back to the rebuttal,yes
+15,s16,How it relates,It supports s15,backs it up,generalises back to the rebuttal,yes
+15,s16,What is the segment doing?,Reason,Evidence,generalises back to the rebuttal,yes
+15,s17,Segment it relates to,s15,s13,generalises back to the rebuttal,yes
+15,s17,How it relates,It supports s15,backs it up,generalises back to the rebuttal,yes
+15,s17,What is the segment doing?,Reason,Evidence,generalises back to the rebuttal,yes
+15,s18,Segment it relates to,s15,s17,Reason recoded by rule 1,yes
+15,s18,How it relates,It supports s15,adds detail,Reason recoded by rule 1,yes
+15,s18,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s19,How it relates,Main Point 1,backs it up,free-text relation mapped,yes
+15,s20,Segment it relates to,s19,s22,"opens paragraph 3, builds up to point 2",yes
+15,s20,How it relates,It elaborates on s19,sets the scene,"opens paragraph 3, builds up to point 2",yes
+15,s20,What is the segment doing?,Reason,Evidence,"opens paragraph 3, builds up to point 2",yes
+15,s21,Segment it relates to,s19,s22,example for point 2,yes
+15,s21,How it relates,It elaborates on s19,gives an example,example for point 2,yes
+15,s22,How it relates,Main Point 2,backs it up,free-text relation mapped,yes
+15,s23,How it relates,It elaborates on s22,backs it up,Reason recoded by rule 1,yes
+15,s23,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s24,How it relates,It elaborates on s23,adds detail,Reason recoded by rule 1,yes
+15,s24,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s25,Segment it relates to,s23,s24,Reason recoded by rule 1,yes
+15,s25,How it relates,It elaborates on s23,backs it up,Reason recoded by rule 1,yes
+15,s25,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s26,Segment it relates to,s23,s27,'Once... | then...',yes
+15,s26,How it relates,It elaborates on s23,sets the scene,'Once... | then...',yes
+15,s26,What is the segment doing?,Reason,Evidence,'Once... | then...',yes
+15,s27,How it relates,It elaborates on s23,backs it up,Reason recoded by rule 1,yes
+15,s27,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s28,Segment it relates to,s23,s8,merged s29; author confirmed paragraph 4 is a concession,yes
+15,s28,How it relates,It elaborates on s23,argues against it,merged s29; author confirmed paragraph 4 is a concession,yes
+15,s28,What is the segment doing?,Claim,Counterclaim,merged s29; author confirmed paragraph 4 is a concession,yes
+15,s28,Is this the writer's stance?,Endorsed,Conceded,merged s29; author confirmed paragraph 4 is a concession,yes
+15,s30,Segment it relates to,s22,s28,develops the conceded point,yes
+15,s30,How it relates,It supports s22,backs it up,develops the conceded point,yes
+15,s30,Is this the writer's stance?,Endorsed,Conceded,develops the conceded point,yes
+15,s31,Segment it relates to,s30,s28,develops the conceded point,yes
+15,s31,How it relates,It elaborates on s30,backs it up,develops the conceded point,yes
+15,s31,What is the segment doing?,Reason,Evidence,develops the conceded point,yes
+15,s31,Is this the writer's stance?,Endorsed,Conceded,develops the conceded point,yes
+15,s32,Segment it relates to,s30,s31,develops the conceded point,yes
+15,s32,How it relates,It elaborates on s30,adds detail,develops the conceded point,yes
+15,s32,What is the segment doing?,Reason,Evidence,develops the conceded point,yes
+15,s32,Is this the writer's stance?,Endorsed,Conceded,develops the conceded point,yes
+15,s33,Segment it relates to,s30,s32,develops the conceded point,yes
+15,s33,How it relates,It elaborates on s30,backs it up,develops the conceded point,yes
+15,s33,What is the segment doing?,Reason,Evidence,develops the conceded point,yes
+15,s33,Is this the writer's stance?,Endorsed,Conceded,develops the conceded point,yes
+15,s34,How it relates,Main Point 3,backs it up,free-text relation mapped,yes
+15,s35,How it relates,It elaborates on s34,backs it up,Reason recoded by rule 1,yes
+15,s35,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s36,Segment it relates to,s35,s34,Reason recoded by rule 1,yes
+15,s36,How it relates,It elaborates on s35,backs it up,Reason recoded by rule 1,yes
+15,s36,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s37,Segment it relates to,s35,s36,Reason recoded by rule 1,yes
+15,s37,How it relates,It elaborates on s35,adds detail,Reason recoded by rule 1,yes
+15,s37,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s38,Segment it relates to,s35,s39,"'Although school should be a safe space,' grants the point",yes
+15,s38,How it relates,It elaborates on s35,contrasts with it,"'Although school should be a safe space,' grants the point",yes
+15,s38,What is the segment doing?,Reason,Evidence,"'Although school should be a safe space,' grants the point",yes
+15,s38,Is this the writer's stance?,Endorsed,Conceded,"'Although school should be a safe space,' grants the point",yes
+15,s39,How it relates,It elaborates on s35,adds detail,Reason recoded by rule 1,yes
+15,s39,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s40,How it relates,It supports s34,backs it up,Reason recoded by rule 1,yes
+15,s40,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s41,Segment it relates to,s34,s40,Reason recoded by rule 1,yes
+15,s41,How it relates,It supports s34,adds detail,Reason recoded by rule 1,yes
+15,s41,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s42,How it relates,It disagrees with s8,argues against it,free-text relation mapped,yes
+15,s43,How it relates,It qualifies the shortcomings of the claim made in s42,argues against it,free-text relation mapped,yes
+15,s44,What is the segment doing?,Reason,Evidence,Reason recoded by rule 1,yes
+15,s44,How it relates,It elaborates on s43,backs it up,Reason recoded by rule 1,yes

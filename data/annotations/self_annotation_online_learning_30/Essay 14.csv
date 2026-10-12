@@ -1,0 +1,52 @@
+essay_no,example_id,segment_no,unit_id,segment_text,What is the segment doing?,Is this the writer's stance?,Segment it relates to,How it relates,Notes
+14,2EB94A444839,1,u1,Some schools offer an option for students to attend classes from home by way of online or video conferencing.,Lead,Endorsed,s5,sets the scene,Gives some context to the essay. 
+14,2EB94A444839,2,u2,"Schools think that it is a benefit that help students who don't want to go school or if they have diseases, they can't go schools.",Lead,Reported,s1,adds detail,Gives some context to the essay. 
+14,2EB94A444839,3,u3,Taking classes in home or schools have some similar benefits,Lead,Endorsed,s5,sets the scene,Gives some context to the essay. 
+14,2EB94A444839,4,u4,but not overall benefits.,Lead,Endorsed,s3,contrasts with it,Gives some context to the essay. 
+14,2EB94A444839,5,u5,"Although, I think taking classes from home have benefits and not because some students have health problems and it is not a benefit because students can't learn good like in school.",Position,Endorsed,TOP,,Very awkwardy phrased and unclear what author means.
+14,2EB94A444839,8,u8,"At first, taking classes from home can be a benefit",Counterclaim,Conceded,s5,argues against it,Counterpoint 1
+14,2EB94A444839,9,u9,because it helps students who have health problems like students that have problems to walk or different disease.,Evidence,Conceded,s8,backs it up,
+14,2EB94A444839,10,u10,"Also, for students that their parents don't let them to go for problems.",Counterclaim,Conceded,s5,argues against it,Counterpoint 2
+14,2EB94A444839,11,u11,"For example, if students who have arthritis, they can't go to schools",Evidence,Conceded,s10,gives an example,
+14,2EB94A444839,12,u12,because they can't walk.,Evidence,Conceded,s11,backs it up,
+14,2EB94A444839,13,u13,It would be better for they,Evidence,Conceded,s11,adds detail,
+14,2EB94A444839,14,u14,because taking classes by online or they can make a video conferencing with a tutor.,Evidence,Conceded,s13,backs it up,
+14,2EB94A444839,15,u15,They can learn about all classes they want to know and it would be a benefit for their future,Evidence,Conceded,s11,adds detail,
+14,2EB94A444839,16,u16,because they will get a diploma that will be help for them.,Evidence,Conceded,s15,backs it up,
+14,2EB94A444839,17,u17,"Also, it can be a benefit for students that had problems in schools like fight with others students.",Counterclaim,Conceded,s5,argues against it,Counterpoint 3
+14,2EB94A444839,18,u18,Those students can take classes in home with help of someone or by online.,Evidence,Conceded,s17,backs it up,
+14,2EB94A444839,19,u19,"In this way, they can get help and learn things without go school.",Evidence,Conceded,s18,adds detail,
+14,2EB94A444839,20,u20,"Moreover, I think it is not a benefit for students who don't want to go schools",Claim,Endorsed,s5,backs it up,Point 1
+14,2EB94A444839,21,u21,"because if they don't like the schools, they will be doing whatever they want",Evidence,Endorsed,s20,backs it up,
+14,2EB94A444839,22,u22,because there won't be a teacher who tell them what to do;,Evidence,Endorsed,s21,backs it up,
+14,2EB94A444839,23,u23,and they can't learn good,Evidence,Endorsed,s20,backs it up,
+14,2EB94A444839,24,u24,because there are no one who explain them the class.,Evidence,Endorsed,s23,backs it up,
+14,2EB94A444839,25,u25,There are many students who don't speak English and they don't want to go school,Claim,Endorsed,s5,backs it up,Point 2
+14,2EB94A444839,26,u26,but they want to learn.,Evidence,Endorsed,s25,adds detail,
+14,2EB94A444839,27,u27,"For example, I can't speak English so good",Evidence,Endorsed,s25,gives an example,
+14,2EB94A444839,28,u28,"because I am not a native American,",Evidence,Endorsed,s27,backs it up,
+14,2EB94A444839,29,u29,"so if I don't want to go school and want to learn the language, taking classes from home would be hard for me",Evidence,Endorsed,s27,adds detail,
+14,2EB94A444839,30,u30,because in home I will learn slower than schools,Evidence,Endorsed,s29,backs it up,
+14,2EB94A444839,31,u31,because in schools are many people speaking English and in home I just hear one time at day.,Evidence,Endorsed,s30,backs it up,
+14,2EB94A444839,32,u32,It better if I hear English the most of the time,Evidence,Endorsed,s31,adds detail,
+14,2EB94A444839,33,u33,because I can learn so fast,Evidence,Endorsed,s32,backs it up,
+14,2EB94A444839,34,u34,because I will make friends to help me.,Evidence,Endorsed,s32,backs it up,
+14,2EB94A444839,35,u35,"For me, taking class in schools is better than home",Evidence,Endorsed,s25,backs it up,
+14,2EB94A444839,36,u36,because now I go to school and it is hard even if I go to school.,Evidence,Endorsed,s35,backs it up,
+14,2EB94A444839,37,u37,I am improving the language with help of teacher and friends.,Evidence,Endorsed,s35,backs it up,
+14,2EB94A444839,38,u38,"In conclusion, taking classes from home is not a hundred percent a benefit.",Conclusion,Endorsed,s5,restates it,
+14,2EB94A444839,39,u39,It just have some benefits for some students.,Conclusion,Endorsed,s38,adds detail,Reinstating past points
+14,2EB94A444839,40,u40,For some students taking classes from home is hard,Conclusion,Endorsed,s38,adds detail,Reinstating past points
+14,2EB94A444839,41,u41,because they don't learn too much.,Conclusion,Endorsed,s40,backs it up,Reinstating past points
+14,2EB94A444839,42,u42,"Overall, if I take classes in home or school, it is something relevant",Conclusion,Endorsed,s5,restates it,Reinstating past points
+14,2EB94A444839,43,u43,"because even if I am in one or anther place, I am learning something.",Conclusion,Endorsed,s42,backs it up,Reinstating past points
+14,2EB94A444839,44,u44,It is not a thing of other world.,Conclusion,Endorsed,s43,adds detail,Reinstating past points
+14,2EB94A444839,45,u45,It is just for students that have the purpose to learn and be someone in life.,Conclusion,Endorsed,s43,adds detail,Reinstating past points
+14,2EB94A444839,46,u46,Going to school help me to improve my life each day.,Conclusion,Endorsed,s42,backs it up,Reinstating past points
+14,2EB94A444839,47,u47,"Each day, I can learn something new and now my language is improving",Conclusion,Endorsed,s46,adds detail,Reinstating past points
+14,2EB94A444839,48,u48,because I have people who want to teach me and I am a stronger person,Conclusion,Endorsed,s47,backs it up,Reinstating past points
+14,2EB94A444839,49,u49,because no one can laughing of me,Conclusion,Endorsed,s48,backs it up,Reinstating past points
+14,2EB94A444839,50,u50,because I am learning.,Conclusion,Endorsed,s48,backs it up,Reinstating past points
+,,,,,,,,,
+,Overall Essay Comments:,,,,,,,,
+,The expression of the points is a bit clumsy and sometimes makes logical jumps. The evidence seems very specific to the author. There seesm to be more counter points than supporting points.,,,,,,,,
